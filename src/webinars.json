@@ -1,68 +1,201 @@
 {
   "webinars": [
     {
-      "id": "labroots-2025-cgt",
-      "title": "Cell & Gene Therapy 2025 Virtual Event",
-      "provider": "Labroots",
+      "id": "xtalks-advancing-masld-mash-clinical-trials-the-role-of-non-invasive-diagnostics",
+      "title": "Advancing MASLD/MASH Clinical Trials: The Role of Non-Invasive Diagnostics",
+      "provider": "Xtalks",
       "topics": [
-        "cell-therapy",
-        "regulatory",
-        "gene-therapy"
+        "clinical-trials",
+        "diagnostic"
       ],
       "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "Auto-issued after quiz completion",
-      "date_added": "2025-01-15",
-      "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-2025",
-      "description": "Comprehensive overview of latest developments in cell and gene therapy, including regulatory considerations and clinical applications."
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-30",
+      "url": "https://xtalks.com/webinars/advancing-masld-mash-clinical-trials-the-role-of-non-invasive-diagnostics/",
+      "description": "Xtalks on-demand webinar: Advancing MASLD/MASH Clinical Trials: The Role of Non-Invasive Diagnostics"
     },
     {
-      "id": "fda-cder-drug-topics-2025",
-      "title": "FDA Drug Topics: Quality Management Systems",
-      "provider": "FDA CDER",
+      "id": "xtalks-strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials",
+      "title": "Strategies That Drive Effective Signal Detection in Preclinical Alzheimer\u2019s Disease Clinical Trials",
+      "provider": "Xtalks",
       "topics": [
-        "regulatory",
-        "quality-assurance",
-        "compliance"
+        "clinical-trials"
       ],
       "format": "on-demand",
-      "duration_min": 90,
-      "certificate_available": true,
-      "certificate_process": "Certificate available after post-test and survey completion",
-      "date_added": "2025-01-15",
-      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-drug-topics-quality-management-systems",
-      "description": "FDA guidance on implementing effective quality management systems in pharmaceutical manufacturing."
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-30",
+      "url": "https://xtalks.com/webinars/strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials/",
+      "description": "Xtalks on-demand webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer\u2019s Disease Clinical Trials"
     },
     {
-      "id": "asgct-insight-series-2025",
-      "title": "ASGCT Insight Series: Advanced Cell Therapy Manufacturing",
-      "provider": "ASGCT",
+      "id": "xtalks-the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t",
+      "title": "The Next Biomanufacturing Revolution: Stable Cell Lines for CAR-T",
+      "provider": "Xtalks",
       "topics": [
-        "cell-therapy",
-        "manufacturing",
-        "bioprocess"
+        "manufacturing"
       ],
       "format": "on-demand",
-      "duration_min": 75,
-      "certificate_available": true,
-      "certificate_process": "Certificate provided to registered attendees",
-      "date_added": "2025-01-15",
-      "url": "https://asgct.org/education/insight-series",
-      "description": "Expert insights into advanced manufacturing techniques for cell therapy products."
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-30",
+      "url": "https://xtalks.com/webinars/the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t/",
+      "description": "Xtalks on-demand webinar: The Next Biomanufacturing Revolution: Stable Cell Lines for CAR-T"
+    },
+    {
+      "id": "xtalks-integrating-patient-centric-sample-collection-into-clinical-trials",
+      "title": "Integrating Patient-Centric Sample Collection into Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-26",
+      "url": "https://xtalks.com/webinars/integrating-patient-centric-sample-collection-into-clinical-trials/",
+      "description": "Xtalks on-demand webinar: Integrating Patient-Centric Sample Collection into Clinical Trials"
+    },
+    {
+      "id": "xtalks-advancing-clinical-performance-with-ai-powered-conversational-intelligence-in-healthcare",
+      "title": "Advancing Clinical Performance with AI-Powered Conversational Intelligence in Healthcare",
+      "provider": "Xtalks",
+      "topics": [
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-25",
+      "url": "https://xtalks.com/webinars/advancing-clinical-performance-with-ai-powered-conversational-intelligence-in-healthcare/",
+      "description": "Xtalks on-demand webinar: Advancing Clinical Performance with AI-Powered Conversational Intelligence in Healthcare"
+    },
+    {
+      "id": "xtalks-oncology-clinical-development-optimizing-value-through-implementation-of-a-patient-centric-holistic-endpoint-strategy",
+      "title": "Oncology Clinical Development: Optimizing Value Through Implementation of a Patient-Centric, Holistic Endpoint Strategy",
+      "provider": "Xtalks",
+      "topics": [
+        "development",
+        "oncology",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-25",
+      "url": "https://xtalks.com/webinars/oncology-clinical-development-optimizing-value-through-implementation-of-a-patient-centric-holistic-endpoint-strategy/",
+      "description": "Xtalks on-demand webinar: Oncology Clinical Development: Optimizing Value Through Implementation of a Patient-Centric, Holistic Endpoint Strategy"
+    },
+    {
+      "id": "xtalks-pregnancy-safety-studies-driving-quality-and-efficiency-with-real-world-evidence",
+      "title": "Pregnancy Safety Studies: Driving Quality and Efficiency with Real-World Evidence",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-25",
+      "url": "https://xtalks.com/webinars/pregnancy-safety-studies-driving-quality-and-efficiency-with-real-world-evidence/",
+      "description": "Xtalks on-demand webinar: Pregnancy Safety Studies: Driving Quality and Efficiency with Real-World Evidence"
+    },
+    {
+      "id": "xtalks-leveraging-iso-idmp-for-smarter-regulatory-processes-in-the-eu",
+      "title": "Leveraging ISO IDMP for Smarter Regulatory Processes in the EU",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-24",
+      "url": "https://xtalks.com/webinars/leveraging-iso-idmp-for-smarter-regulatory-processes-in-the-eu/",
+      "description": "Xtalks on-demand webinar: Leveraging ISO IDMP for Smarter Regulatory Processes in the EU"
+    },
+    {
+      "id": "xtalks-peptide-aggregation-in-manufacturing-mechanisms-challenges-and-case-studies",
+      "title": "Peptide Aggregation in Manufacturing: Mechanisms, Challenges and Case Studies",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-18",
+      "url": "https://xtalks.com/webinars/peptide-aggregation-in-manufacturing-mechanisms-challenges-and-case-studies/",
+      "description": "Xtalks on-demand webinar: Peptide Aggregation in Manufacturing: Mechanisms, Challenges and Case Studies"
+    },
+    {
+      "id": "xtalks-real-world-clinical-data-strengths-challenges-and-use-cases",
+      "title": "Real-World Clinical Data: Strengths, Challenges and Use Cases",
+      "provider": "Xtalks",
+      "topics": [
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-17",
+      "url": "https://xtalks.com/webinars/real-world-clinical-data-strengths-challenges-and-use-cases/",
+      "description": "Xtalks on-demand webinar: Real-World Clinical Data: Strengths, Challenges and Use Cases"
+    },
+    {
+      "id": "xtalks-get-ready-for-a-new-wave-of-clinical-trials-in-schizophrenia-how-sites-and-sponsors-can-avoid-conceptual-mistakes",
+      "title": "Get ready for a new wave of clinical trials in Schizophrenia: how Sites and Sponsors can avoid conceptual mistakes",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-16",
+      "url": "https://xtalks.com/webinars/get-ready-for-a-new-wave-of-clinical-trials-in-schizophrenia-how-sites-and-sponsors-can-avoid-conceptual-mistakes/",
+      "description": "Xtalks on-demand webinar: Get ready for a new wave of clinical trials in Schizophrenia: how Sites and Sponsors can avoid conceptual mistakes"
     },
     {
       "id": "xtalks-progressing-beyond-exploratory-endpoints-the-value-of-digital-biomarkers-in-neuroscience-clinical-studies",
       "title": "Progressing Beyond Exploratory Endpoints: The Value of Digital Biomarkers in Neuroscience Clinical Studies",
       "provider": "Xtalks",
-      "topics": [],
+      "topics": [
+        "neuroscience",
+        "biomarker"
+      ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
+      "webinar_date": "2025-07-15",
       "url": "https://xtalks.com/webinars/progressing-beyond-exploratory-endpoints-the-value-of-digital-biomarkers-in-neuroscience-clinical-studies/",
-      "description": "Xtalks webinar: Progressing Beyond Exploratory Endpoints: The Value of Digital Biomarkers in Neuroscience Clinical Studies"
+      "description": "Xtalks on-demand webinar: Progressing Beyond Exploratory Endpoints: The Value of Digital Biomarkers in Neuroscience Clinical Studies"
     },
     {
       "id": "xtalks-obesity-clinical-trials-beyond-bmi",
@@ -72,40 +205,617 @@
         "clinical-trials"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
+      "webinar_date": "2025-07-23",
       "url": "https://xtalks.com/webinars/obesity-clinical-trials-beyond-bmi/",
-      "description": "Xtalks webinar: Obesity Clinical Trials: Beyond BMI"
+      "description": "Xtalks on-demand webinar: Obesity Clinical Trials: Beyond BMI"
     },
     {
       "id": "xtalks-accelerated-clinical-trials-through-quality-by-design-principles",
       "title": "Accelerated Clinical Trials Through Quality by Design Principles",
       "provider": "Xtalks",
       "topics": [
-        "clinical-trials"
+        "clinical-trials",
+        "quality-assurance"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
+      "webinar_date": "2025-07-29",
       "url": "https://xtalks.com/webinars/accelerated-clinical-trials-through-quality-by-design-principles/",
-      "description": "Xtalks webinar: Accelerated Clinical Trials Through Quality by Design Principles"
+      "description": "Xtalks on-demand webinar: Accelerated Clinical Trials Through Quality by Design Principles"
     },
     {
       "id": "xtalks-accelerating-clinical-research-with-master-protocols-challenges-and-benefits-to-complex-trial-designs",
       "title": "Accelerating Clinical Research with Master Protocols: Challenges and Benefits to Complex Trial Designs",
       "provider": "Xtalks",
-      "topics": [],
+      "topics": [
+        "clinical-research",
+        "research"
+      ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
+      "webinar_date": "2025-08-13",
       "url": "https://xtalks.com/webinars/accelerating-clinical-research-with-master-protocols-challenges-and-benefits-to-complex-trial-designs/",
-      "description": "Xtalks webinar: Accelerating Clinical Research with Master Protocols: Challenges and Benefits to Complex Trial Designs"
+      "description": "Xtalks on-demand webinar: Accelerating Clinical Research with Master Protocols: Challenges and Benefits to Complex Trial Designs"
+    },
+    {
+      "id": "xtalks-ensuring-data-integrity-in-manufacturing-a-customer-perspective-on-analytical-instruments-and-osmometers",
+      "title": "Ensuring Data Integrity in Manufacturing: A Customer Perspective on Analytical Instruments and Osmometers",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-10",
+      "url": "https://xtalks.com/webinars/ensuring-data-integrity-in-manufacturing-a-customer-perspective-on-analytical-instruments-and-osmometers/",
+      "description": "Xtalks on-demand webinar: Ensuring Data Integrity in Manufacturing: A Customer Perspective on Analytical Instruments and Osmometers"
+    },
+    {
+      "id": "xtalks-future-proofing-gxp-strategic-investments-and-validation-best-practices-for-cdmos-amid-emerging-health-authority-regulations",
+      "title": "Future-Proofing GxP: Strategic Investments and Validation Best Practices for CDMOs Amid Emerging Health Authority Regulations",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-10",
+      "url": "https://xtalks.com/webinars/future-proofing-gxp-strategic-investments-and-validation-best-practices-for-cdmos-amid-emerging-health-authority-regulations/",
+      "description": "Xtalks on-demand webinar: Future-Proofing GxP: Strategic Investments and Validation Best Practices for CDMOs Amid Emerging Health Authority Regulations"
+    },
+    {
+      "id": "xtalks-efficient-ecoa-implementation-in-clinical-trials",
+      "title": "Efficient eCOA Implementation in Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-10",
+      "url": "https://xtalks.com/webinars/efficient-ecoa-implementation-in-clinical-trials/",
+      "description": "Xtalks on-demand webinar: Efficient eCOA Implementation in Clinical Trials"
+    },
+    {
+      "id": "xtalks-beyond-spreadsheets-how-real-time-dashboards-are-transforming-transparency-in-clinical-research",
+      "title": "Beyond Spreadsheets: How Real-Time Dashboards are Transforming Transparency in Clinical Research",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-research",
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-06",
+      "url": "https://xtalks.com/webinars/beyond-spreadsheets-how-real-time-dashboards-are-transforming-transparency-in-clinical-research/",
+      "description": "Xtalks on-demand webinar: Beyond Spreadsheets: How Real-Time Dashboards are Transforming Transparency in Clinical Research"
+    },
+    {
+      "id": "xtalks-from-bench-to-scale-scaling-biodegradable-mrna-lipid-nanoparticle-for-clinical-success",
+      "title": "From Bench to Scale: Scaling Biodegradable mRNA Lipid Nanoparticle for Clinical Success",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-03",
+      "url": "https://xtalks.com/webinars/from-bench-to-scale-scaling-biodegradable-mrna-lipid-nanoparticle-for-clinical-success/",
+      "description": "Xtalks on-demand webinar: From Bench to Scale: Scaling Biodegradable mRNA Lipid Nanoparticle for Clinical Success"
+    },
+    {
+      "id": "xtalks-building-breakthroughs-how-research-ready-data-transforms-clinical-development",
+      "title": "Building Breakthroughs: How Research-Ready Data Transforms Clinical Development",
+      "provider": "Xtalks",
+      "topics": [
+        "research",
+        "development",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-03",
+      "url": "https://xtalks.com/webinars/building-breakthroughs-how-research-ready-data-transforms-clinical-development/",
+      "description": "Xtalks on-demand webinar: Building Breakthroughs: How Research-Ready Data Transforms Clinical Development"
+    },
+    {
+      "id": "xtalks-leveraging-ai-in-clinical-development-to-innovate-with-greater-confidence",
+      "title": "Leveraging AI in Clinical Development to Innovate with Greater Confidence",
+      "provider": "Xtalks",
+      "topics": [
+        "development",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-06-03",
+      "url": "https://xtalks.com/webinars/leveraging-ai-in-clinical-development-to-innovate-with-greater-confidence/",
+      "description": "Xtalks on-demand webinar: Leveraging AI in Clinical Development to Innovate with Greater Confidence"
+    },
+    {
+      "id": "xtalks-the-potential-of-microfluidics-technology-in-cell-and-gene-therapy",
+      "title": "The Potential of Microfluidics Technology in Cell and Gene Therapy",
+      "provider": "Xtalks",
+      "topics": [
+        "gene-therapy"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-29",
+      "url": "https://xtalks.com/webinars/the-potential-of-microfluidics-technology-in-cell-and-gene-therapy/",
+      "description": "Xtalks on-demand webinar: The Potential of Microfluidics Technology in Cell and Gene Therapy"
+    },
+    {
+      "id": "xtalks-future-of-biomanufacturing-ai-driven-cell-line-development-and-bioprocess-design",
+      "title": "Future of Biomanufacturing: AI-Driven Cell Line Development and Bioprocess Design",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing",
+        "bioprocess",
+        "development",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-28",
+      "url": "https://xtalks.com/webinars/future-of-biomanufacturing-ai-driven-cell-line-development-and-bioprocess-design/",
+      "description": "Xtalks on-demand webinar: Future of Biomanufacturing: AI-Driven Cell Line Development and Bioprocess Design"
+    },
+    {
+      "id": "xtalks-advances-in-hpapi-development-and-regulatory-strategy",
+      "title": "Advances in HPAPI Development and Regulatory Strategy",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-28",
+      "url": "https://xtalks.com/webinars/adavances-in-hpapi-development-and-regulatory-stragtegy/",
+      "description": "Xtalks on-demand webinar: Advances in HPAPI Development and Regulatory Strategy"
+    },
+    {
+      "id": "xtalks-enabling-efficient-biomanufacturing-through-process-intensification",
+      "title": "Enabling Efficient Biomanufacturing Through Process Intensification",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-27",
+      "url": "https://xtalks.com/webinars/enabling-efficient-biomanufacturing-through-process-intensification/",
+      "description": "Xtalks on-demand webinar: Enabling Efficient Biomanufacturing Through Process Intensification"
+    },
+    {
+      "id": "xtalks-driving-efficiency-and-quality-in-clinical-trials-through-ai-innovation",
+      "title": "Driving Efficiency and Quality in Clinical Trials Through AI & Innovation",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "quality-assurance",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-27",
+      "url": "https://xtalks.com/webinars/driving-efficiency-and-quality-in-clinical-trials-through-ai-innovation/",
+      "description": "Xtalks on-demand webinar: Driving Efficiency and Quality in Clinical Trials Through AI & Innovation"
+    },
+    {
+      "id": "xtalks-keys-to-success-in-clinical-trials-a-strategic-guide-for-biotechs-and-startups",
+      "title": "Keys to Success in Clinical Trials: A Strategic Guide for Biotechs and Startups",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-22",
+      "url": "https://xtalks.com/webinars/keys-to-success-in-clinical-trials-a-strategic-guide-for-biotechs-and-startups/",
+      "description": "Xtalks on-demand webinar: Keys to Success in Clinical Trials: A Strategic Guide for Biotechs and Startups"
+    },
+    {
+      "id": "xtalks-implementing-clinical-outcome-assessments-in-a-patient-centered-endpoint-strategy",
+      "title": "Implementing clinical outcome assessments in a patient-centered endpoint strategy",
+      "provider": "Xtalks",
+      "topics": [
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-20",
+      "url": "https://xtalks.com/webinars/implementing-clinical-outcome-assessments-in-a-patient-centered-endpoint-strategy/",
+      "description": "Xtalks on-demand webinar: Implementing clinical outcome assessments in a patient-centered endpoint strategy"
+    },
+    {
+      "id": "xtalks-driving-acceleration-in-oncology-drug-development-and-clinical-trials",
+      "title": "Driving Acceleration in Oncology Drug Development and Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "drug-development",
+        "development",
+        "oncology"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-15",
+      "url": "https://xtalks.com/webinars/driving-acceleration-in-oncology-drug-development-and-clinical-trials/",
+      "description": "Xtalks on-demand webinar: Driving Acceleration in Oncology Drug Development and Clinical Trials"
+    },
+    {
+      "id": "xtalks-mastering-gene-therapy-and-companion-diagnostics-trials-the-eu-regulatory-playbook",
+      "title": "Mastering Gene Therapy and Companion Diagnostics Trials: The EU Regulatory Playbook",
+      "provider": "Xtalks",
+      "topics": [
+        "gene-therapy",
+        "regulatory",
+        "diagnostic"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-14",
+      "url": "https://xtalks.com/webinars/mastering-gene-therapy-and-companion-diagnostics-trials-the-eu-regulatory-playbook/",
+      "description": "Xtalks on-demand webinar: Mastering Gene Therapy and Companion Diagnostics Trials: The EU Regulatory Playbook"
+    },
+    {
+      "id": "xtalks-innovations-in-rave-edc-enhancing-the-clinical-trial-data-experience-for-sites-sponsors-and-cros",
+      "title": "Innovations in Rave EDC: Enhancing the Clinical Trial Data Experience for Sites, Sponsors and CROs",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-13",
+      "url": "https://xtalks.com/webinars/innovations-in-rave-edc-enhancing-the-clinical-trial-data-experience-for-sites-sponsors-and-cros/",
+      "description": "Xtalks on-demand webinar: Innovations in Rave EDC: Enhancing the Clinical Trial Data Experience for Sites, Sponsors and CROs"
+    },
+    {
+      "id": "xtalks-streamlining-clinical-trial-start-ups-a-data-driven-approach",
+      "title": "Streamlining Clinical Trial Start-Ups: A Data-Driven Approach",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-12",
+      "url": "https://xtalks.com/webinars/streamlining-clinical-trial-start-ups-a-data-driven-approach/",
+      "description": "Xtalks on-demand webinar: Streamlining Clinical Trial Start-Ups: A Data-Driven Approach"
+    },
+    {
+      "id": "xtalks-optimizing-patient-adherence-in-clinical-trials-the-science-of-risk-identification-and-personalized-digital-interventions",
+      "title": "Optimizing Patient Adherence in Clinical Trials: The Science of Risk Identification and Personalized Digital Interventions",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-09",
+      "url": "https://xtalks.com/webinars/optimizing-patient-adherence-in-clinical-trials-the-science-of-risk-identification-and-personalized-digital-interventions/",
+      "description": "Xtalks on-demand webinar: Optimizing Patient Adherence in Clinical Trials: The Science of Risk Identification and Personalized Digital Interventions"
+    },
+    {
+      "id": "xtalks-unlocking-the-future-of-gene-editing-key-concepts-and-breakthroughs-in-crispr",
+      "title": "Unlocking the Future of Gene Editing: Key Concepts and Breakthroughs in CRISPR",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-09",
+      "url": "https://xtalks.com/webinars/unlocking-the-future-of-gene-editing-key-concepts-and-breakthroughs-in-crispr/",
+      "description": "Xtalks on-demand webinar: Unlocking the Future of Gene Editing: Key Concepts and Breakthroughs in CRISPR"
+    },
+    {
+      "id": "xtalks-unlocking-efficiency-how-digitalization-and-ai-are-redefining-biopharmaceutical-process-development",
+      "title": "Unlocking Efficiency: How Digitalization and AI are Redefining Biopharmaceutical Process Development",
+      "provider": "Xtalks",
+      "topics": [
+        "pharmaceutical",
+        "development",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-08",
+      "url": "https://xtalks.com/webinars/unlocking-efficiency-how-digitalization-and-ai-are-redefining-biopharmaceutical-process-development/",
+      "description": "Xtalks on-demand webinar: Unlocking Efficiency: How Digitalization and AI are Redefining Biopharmaceutical Process Development"
+    },
+    {
+      "id": "xtalks-the-future-of-ai-analytics-on-chronic-pain-and-neurological-dhts-in-clinical-research",
+      "title": "The Future of AI Analytics on Chronic Pain and Neurological DHTs in Clinical Research",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-research",
+        "research",
+        "data-management",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-07",
+      "url": "https://xtalks.com/webinars/the-future-of-ai-analytics-on-chronic-pain-and-neurological-dhts-in-clinical-research/",
+      "description": "Xtalks on-demand webinar: The Future of AI Analytics on Chronic Pain and Neurological DHTs in Clinical Research"
+    },
+    {
+      "id": "xtalks-overcoming-challenges-in-psychiatry-clinical-research-innovations-in-patient-retention-and-collaborative-care",
+      "title": "Overcoming Challenges in Psychiatry Clinical Research: Innovations in Patient Retention and Collaborative Care",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-research",
+        "laboratory-management",
+        "research",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-06",
+      "url": "https://xtalks.com/webinars/overcoming-challenges-in-psychiatry-clinical-research-innovations-in-patient-retention-and-collaborative-care/",
+      "description": "Xtalks on-demand webinar: Overcoming Challenges in Psychiatry Clinical Research: Innovations in Patient Retention and Collaborative Care"
+    },
+    {
+      "id": "xtalks-harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum",
+      "title": "Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development \u2013 Post-Marketing Continuum",
+      "provider": "Xtalks",
+      "topics": [
+        "development",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-05",
+      "url": "https://xtalks.com/webinars/harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum/",
+      "description": "Xtalks on-demand webinar: Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development \u2013 Post-Marketing Continuum"
+    },
+    {
+      "id": "xtalks-adaptive-by-design-how-rtsm-powers-early-phase-clinical-trial-success",
+      "title": "Adaptive by Design: How RTSM Powers Early-Phase Clinical Trial Success",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-05-01",
+      "url": "https://xtalks.com/webinars/adaptive-by-design-how-rtsm-powers-early-phase-clinical-trial-success/",
+      "description": "Xtalks on-demand webinar: Adaptive by Design: How RTSM Powers Early-Phase Clinical Trial Success"
+    },
+    {
+      "id": "xtalks-risk-based-quality-management-rbqm-the-connective-tissue-for-clinical-data-quality",
+      "title": "Risk-Based Quality Management (RBQM): The Connective Tissue for Clinical Data Quality",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-04-30",
+      "url": "https://xtalks.com/webinars/risk-based-quality-management-rbqm-the-connective-tissue-for-clinical-data-quality/",
+      "description": "Xtalks on-demand webinar: Risk-Based Quality Management (RBQM): The Connective Tissue for Clinical Data Quality"
+    },
+    {
+      "id": "xtalks-prioritizing-safety-in-clinical-trials-the-impact-of-culture-on-operational-success",
+      "title": "Prioritizing Safety in Clinical Trials: The Impact of Culture on Operational Success",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-04-23",
+      "url": "https://xtalks.com/webinars/prioritizing-safety-in-clinical-trials-the-impact-of-culture-on-operational-success/",
+      "description": "Xtalks on-demand webinar: Prioritizing Safety in Clinical Trials: The Impact of Culture on Operational Success"
+    },
+    {
+      "id": "xtalks-advanced-drug-delivery-to-the-central-nervous-system-in-nonhuman-primates",
+      "title": "Advanced Drug Delivery to the Central Nervous System in Nonhuman Primates",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-04-16",
+      "url": "https://xtalks.com/webinars/advanced-drug-delivery-to-the-central-nervous-system-in-nonhuman-primates/",
+      "description": "Xtalks on-demand webinar: Advanced Drug Delivery to the Central Nervous System in Nonhuman Primates"
+    },
+    {
+      "id": "xtalks-revolutionizing-spinal-cord-injury-treatment-insights-from-a-world-first-clinical-trial-conducted-in-gold-coast-australia",
+      "title": "Revolutionizing Spinal Cord Injury Treatment: Insights from a World-First Clinical Trial Conducted in Gold Coast, Australia",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-04-16",
+      "url": "https://xtalks.com/webinars/revolutionizing-spinal-cord-injury-treatment-insights-from-a-world-first-clinical-trial-conducted-in-melbourne-australia/",
+      "description": "Xtalks on-demand webinar: Revolutionizing Spinal Cord Injury Treatment: Insights from a World-First Clinical Trial Conducted in Gold Coast, Australia"
+    },
+    {
+      "id": "xtalks-redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials",
+      "title": "Redefining Women\u2019s Cancer Care: Delivering Smarter, Safer Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "oncology"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-04-10",
+      "url": "https://xtalks.com/webinars/redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials/",
+      "description": "Xtalks on-demand webinar: Redefining Women\u2019s Cancer Care: Delivering Smarter, Safer Clinical Trials"
+    },
+    {
+      "id": "xtalks-the-future-of-clinical-research-leveraging-ich-e6-r3-updates-and-technology-innovation-for-success",
+      "title": "The Future of Clinical Research: Leveraging ICH E6(R3) Updates and Technology Innovation for Success",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-research",
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-04-08",
+      "url": "https://xtalks.com/webinars/the-future-of-clinical-research-leveraging-ich-e6-updates-and-technology/",
+      "description": "Xtalks on-demand webinar: The Future of Clinical Research: Leveraging ICH E6(R3) Updates and Technology Innovation for Success"
+    },
+    {
+      "id": "xtalks-achieving-optimal-clinical-trial-performance-with-strategic-site-collaboration",
+      "title": "Achieving Optimal Clinical Trial Performance with Strategic Site Collaboration",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "laboratory-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-04-01",
+      "url": "https://xtalks.com/webinars/achieving-optimal-clinical-trial-performance-with-strategic-site-collaboration/",
+      "description": "Xtalks on-demand webinar: Achieving Optimal Clinical Trial Performance with Strategic Site Collaboration"
+    },
+    {
+      "id": "xtalks-gcp-ich-e6-r3-unveiled-navigating-the-evolving-roles-of-sponsors-and-cros",
+      "title": "GCP ICH E6 R3 Unveiled: Navigating the Evolving Roles of Sponsors and CROs",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-03-28",
+      "url": "https://xtalks.com/webinars/gcp-ich-e6-r3-unveiled-navigating-the-evolving-roles-of-sponsors-and-cros/",
+      "description": "Xtalks on-demand webinar: GCP ICH E6 R3 Unveiled: Navigating the Evolving Roles of Sponsors and CROs"
+    },
+    {
+      "id": "xtalks-innovation-labs-accelerating-innovation-at-the-intersection-of-pharmaceutical-research-and-digital-health",
+      "title": "Innovation Labs: Accelerating Innovation at the Intersection of Pharmaceutical Research and Digital Health",
+      "provider": "Xtalks",
+      "topics": [
+        "pharmaceutical",
+        "laboratory-management",
+        "research",
+        "digital-health"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-03-26",
+      "url": "https://xtalks.com/webinars/innovation-labs-accelerating-innovation-at-the-intersection-of-pharmaceutical-research-and-digital-health/",
+      "description": "Xtalks on-demand webinar: Innovation Labs: Accelerating Innovation at the Intersection of Pharmaceutical Research and Digital Health"
     },
     {
       "id": "ispe-webinars",
@@ -123,6 +833,40 @@
       "date_added": "2025-07-01",
       "url": "https://ispe.org/webinars",
       "description": "ISPE webinar: Webinars"
+    },
+    {
+      "id": "ispe-live",
+      "title": "Live",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://ispe.org/webinars",
+      "description": "ISPE webinar: Live"
+    },
+    {
+      "id": "ispe-sterilizing-grade-filter-validation",
+      "title": "Sterilizing-grade Filter Validation",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://ispe.org/webinars/conferences/sterilizing-grade-filter-validation",
+      "description": "ISPE webinar: Sterilizing-grade Filter Validation"
     },
     {
       "id": "ispe-ispe-clinical-supply-business-continuity-survey-results-and-discussion",
@@ -244,6 +988,108 @@
       "description": "Technology Networks webinar: WebinarEpisode 4: T Cell Therapy Development With the Seahorse XF Pro SolutionOn-DemandThis webinar presents an optimized assay workflow using the Agilent Seahorse XF Pro Analyzer to profile T cell energy metabolism, enhancing the design and manufacturing of CAR-T cell therapies."
     },
     {
+      "id": "technology-networks-next",
+      "title": "Next",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/2",
+      "description": "Technology Networks webinar: Next"
+    },
+    {
+      "id": "technology-networks-2",
+      "title": "2",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/2",
+      "description": "Technology Networks webinar: 2"
+    },
+    {
+      "id": "technology-networks-3",
+      "title": "3",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/3",
+      "description": "Technology Networks webinar: 3"
+    },
+    {
+      "id": "technology-networks-4",
+      "title": "4",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/4",
+      "description": "Technology Networks webinar: 4"
+    },
+    {
+      "id": "technology-networks-5",
+      "title": "5",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/5",
+      "description": "Technology Networks webinar: 5"
+    },
+    {
+      "id": "technology-networks-last",
+      "title": "Last",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/9",
+      "description": "Technology Networks webinar: Last"
+    },
+    {
       "id": "socra-live-virtual-webinars",
       "title": "Live Virtual Webinars",
       "provider": "SOCRA",
@@ -261,6 +1107,91 @@
       "description": "SOCRA webinar: Live Virtual Webinars"
     },
     {
+      "id": "socra-learn-more",
+      "title": "Learn More",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/",
+      "description": "SOCRA webinar: Learn More"
+    },
+    {
+      "id": "socra-certification-prep-gcp-review",
+      "title": "Certification Prep + GCP Review",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/clinical-research-professional-certification-preparation-and-gcp-virtual-review-course/",
+      "description": "SOCRA webinar: Certification Prep + GCP Review"
+    },
+    {
+      "id": "socra-finance-productivity",
+      "title": "Finance & Productivity",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/advanced-site-management-finance-and-productivity-virtual-workshop/program-information/",
+      "description": "SOCRA webinar: Finance & Productivity"
+    },
+    {
+      "id": "socra-monitoring-gcp",
+      "title": "Monitoring + GCP",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/clinical-research-monitoring-and-gcp-virtual-workshop/",
+      "description": "SOCRA webinar: Monitoring + GCP"
+    },
+    {
+      "id": "socra-project-program-management",
+      "title": "Project / Program Management",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/clinical-research-project-program-management-virtual-conference/",
+      "description": "SOCRA webinar: Project / Program Management"
+    },
+    {
       "id": "socra-quality-management",
       "title": "Quality Management",
       "provider": "SOCRA",
@@ -276,6 +1207,23 @@
       "date_added": "2025-07-01",
       "url": "https://www.socra.org/conferences-and-education/live-webinars/quality-management-virtual-program/program-description/",
       "description": "SOCRA webinar: Quality Management"
+    },
+    {
+      "id": "socra-site",
+      "title": "Site",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/site-coordinator-manager-and-gcp-virtual-workshop/",
+      "description": "SOCRA webinar: Site"
     },
     {
       "id": "socra-coordinator-manager-workshop",
@@ -312,6 +1260,74 @@
       "description": "SOCRA webinar: FDA Clinical Trial Requirements"
     },
     {
+      "id": "socra-fda-sponsor-investigator",
+      "title": "FDA Sponsor-Investigator",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/fda/",
+      "description": "SOCRA webinar: FDA Sponsor-Investigator"
+    },
+    {
+      "id": "socra-finance-and-productivity",
+      "title": "Finance and Productivity",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/advanced-site-management-finance-and-productivity-virtual-workshop/",
+      "description": "SOCRA webinar: Finance and Productivity"
+    },
+    {
+      "id": "socra-monitoring-and-gcp",
+      "title": "Monitoring and GCP",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/clinical-research-monitoring-and-gcp-virtual-workshop/",
+      "description": "SOCRA webinar: Monitoring and GCP"
+    },
+    {
+      "id": "socra-site-coordinator-manager",
+      "title": "Site Coordinator / Manager",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/site-coordinator-manager-and-gcp-virtual-workshop/",
+      "description": "SOCRA webinar: Site Coordinator / Manager"
+    },
+    {
       "id": "pmi-webinars",
       "title": "Webinars",
       "provider": "PMI",
@@ -343,7 +1359,7 @@
     },
     {
       "id": "pmi-webinars-opens-in-a-new-tab",
-      "title": "Webinars﻿– opens in a new tab",
+      "title": "Webinars\ufeff\u2013\u00a0opens in a new tab",
       "provider": "PMI",
       "topics": [
         "project-management"
@@ -354,748 +1370,281 @@
       "certificate_process": "Certificate available upon completion",
       "date_added": "2025-07-01",
       "url": "https://www.projectmanagement.com/Webinars/webinarMainOnDemand.cfm#_=_",
-      "description": "PMI webinar: Webinars﻿– opens in a new tab"
+      "description": "PMI webinar: Webinars\ufeff\u2013\u00a0opens in a new tab"
     },
     {
-      "id": "xtalks-advancing-masld-mash-clinical-trials-the-role-of-non-invasive-diagnostics",
-      "title": "Advancing MASLD/MASH Clinical Trials: The Role of Non-Invasive Diagnostics",
-      "provider": "Xtalks",
+      "id": "labroots-drug-discovery-development",
+      "title": "Drug Discovery & Development",
+      "provider": "Labroots",
       "topics": [
-        "clinical-trials",
-        "diagnostic"
+        "research"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-09-03",
+      "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
+      "description": "Labroots event: Drug Discovery & Development"
+    },
+    {
+      "id": "labroots-cancer-research-oncology-virtual-event-series-2025",
+      "title": "Cancer Research & Oncology Virtual Event Series 2025",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-10-01",
+      "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-week-2025",
+      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2025"
+    },
+    {
+      "id": "labroots-cell-gene-therapy-virtual-event-series-2025",
+      "title": "Cell & Gene Therapy Virtual Event Series 2025",
+      "provider": "Labroots",
+      "topics": [
+        "gene-therapy"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-10-15",
+      "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-2025",
+      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2025"
+    },
+    {
+      "id": "labroots-clinical-diagnostics-research-virtual-event-series-2025",
+      "title": "Clinical Diagnostics & Research Virtual Event Series 2025",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2025-11-12",
+      "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-2025",
+      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2025"
+    },
+    {
+      "id": "labroots-drug-discovery-development-virtual-event-series-2026",
+      "title": "Drug Discovery & Development Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2026-02-18",
+      "url": "https://www.labroots.com/virtual-event/drug-discovery-development-2026",
+      "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2026"
+    },
+    {
+      "id": "labroots-laboratory-automation-virtual-event-series-2026",
+      "title": "Laboratory Automation Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "laboratory"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2026-03-18",
+      "url": "https://www.labroots.com/virtual-event/laboratory-automation-2026",
+      "description": "Labroots event: Laboratory Automation Virtual Event Series 2026"
+    },
+    {
+      "id": "labroots-bioprocessing-virtual-event-series-2026",
+      "title": "Bioprocessing Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "bioprocess"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2026-04-01",
+      "url": "https://www.labroots.com/virtual-event/bioprocessing-2026",
+      "description": "Labroots event: Bioprocessing Virtual Event Series 2026"
+    },
+    {
+      "id": "labroots-cancer-research-oncology-virtual-event-series-2026",
+      "title": "Cancer Research & Oncology Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2026-09-30",
+      "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-virtual-event-series-2026",
+      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2026"
+    },
+    {
+      "id": "labroots-cell-gene-therapy-virtual-event-series-2026",
+      "title": "Cell & Gene Therapy Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "gene-therapy"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2026-10-14",
+      "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-virtual-event-series-2026",
+      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2026"
+    },
+    {
+      "id": "labroots-clinical-diagnostics-research-virtual-event-series-2026",
+      "title": "Clinical Diagnostics & Research Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "scheduled",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "webinar_date": "2026-11-11",
+      "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-virtual-event-series-2026",
+      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2026"
+    },
+    {
+      "id": "labroots-bioprocessing-virtual-event-series-2025",
+      "title": "Bioprocessing Virtual Event Series 2025",
+      "provider": "Labroots",
+      "topics": [
+        "bioprocess"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/advancing-masld-mash-clinical-trials-the-role-of-non-invasive-diagnostics/",
-      "description": "Xtalks on-demand webinar: Advancing MASLD/MASH Clinical Trials: The Role of Non-Invasive Diagnostics"
+      "webinar_date": "2025-04-02",
+      "url": "https://www.labroots.com/virtual-event/bioprocessing-2025",
+      "description": "Labroots event: Bioprocessing Virtual Event Series 2025"
     },
     {
-      "id": "xtalks-strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials",
-      "title": "Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials",
-      "provider": "Xtalks",
+      "id": "labroots-laboratory-automation-virtual-event-series-2025",
+      "title": "Laboratory Automation Virtual Event Series 2025",
+      "provider": "Labroots",
       "topics": [
-        "clinical-trials"
+        "laboratory"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials/",
-      "description": "Xtalks on-demand webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials"
+      "webinar_date": "2025-03-19",
+      "url": "https://www.labroots.com/virtual-event/laboratory-automation-informatics-2025",
+      "description": "Labroots event: Laboratory Automation Virtual Event Series 2025"
     },
     {
-      "id": "xtalks-the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t",
-      "title": "The Next Biomanufacturing Revolution: Stable Cell Lines for CAR-T",
-      "provider": "Xtalks",
+      "id": "labroots-the-simple-way-to-protein-research",
+      "title": "The Simple Way to Protein Research",
+      "provider": "Labroots",
       "topics": [
-        "manufacturing"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t/",
-      "description": "Xtalks on-demand webinar: The Next Biomanufacturing Revolution: Stable Cell Lines for CAR-T"
-    },
-    {
-      "id": "xtalks-integrating-patient-centric-sample-collection-into-clinical-trials",
-      "title": "Integrating Patient-Centric Sample Collection into Clinical Trials",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "patient-care"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/integrating-patient-centric-sample-collection-into-clinical-trials/",
-      "description": "Xtalks on-demand webinar: Integrating Patient-Centric Sample Collection into Clinical Trials"
-    },
-    {
-      "id": "xtalks-advancing-clinical-performance-with-ai-powered-conversational-intelligence-in-healthcare",
-      "title": "Advancing Clinical Performance with AI-Powered Conversational Intelligence in Healthcare",
-      "provider": "Xtalks",
-      "topics": [
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/advancing-clinical-performance-with-ai-powered-conversational-intelligence-in-healthcare/",
-      "description": "Xtalks on-demand webinar: Advancing Clinical Performance with AI-Powered Conversational Intelligence in Healthcare"
-    },
-    {
-      "id": "xtalks-oncology-clinical-development-optimizing-value-through-implementation-of-a-patient-centric-holistic-endpoint-strategy",
-      "title": "Oncology Clinical Development: Optimizing Value Through Implementation of a Patient-Centric, Holistic Endpoint Strategy",
-      "provider": "Xtalks",
-      "topics": [
-        "development",
-        "oncology",
-        "patient-care"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/oncology-clinical-development-optimizing-value-through-implementation-of-a-patient-centric-holistic-endpoint-strategy/",
-      "description": "Xtalks on-demand webinar: Oncology Clinical Development: Optimizing Value Through Implementation of a Patient-Centric, Holistic Endpoint Strategy"
-    },
-    {
-      "id": "xtalks-pregnancy-safety-studies-driving-quality-and-efficiency-with-real-world-evidence",
-      "title": "Pregnancy Safety Studies: Driving Quality and Efficiency with Real-World Evidence",
-      "provider": "Xtalks",
-      "topics": [
-        "quality-assurance"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/pregnancy-safety-studies-driving-quality-and-efficiency-with-real-world-evidence/",
-      "description": "Xtalks on-demand webinar: Pregnancy Safety Studies: Driving Quality and Efficiency with Real-World Evidence"
-    },
-    {
-      "id": "xtalks-leveraging-iso-idmp-for-smarter-regulatory-processes-in-the-eu",
-      "title": "Leveraging ISO IDMP for Smarter Regulatory Processes in the EU",
-      "provider": "Xtalks",
-      "topics": [
-        "regulatory"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/leveraging-iso-idmp-for-smarter-regulatory-processes-in-the-eu/",
-      "description": "Xtalks on-demand webinar: Leveraging ISO IDMP for Smarter Regulatory Processes in the EU"
-    },
-    {
-      "id": "xtalks-peptide-aggregation-in-manufacturing-mechanisms-challenges-and-case-studies",
-      "title": "Peptide Aggregation in Manufacturing: Mechanisms, Challenges and Case Studies",
-      "provider": "Xtalks",
-      "topics": [
-        "manufacturing"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/peptide-aggregation-in-manufacturing-mechanisms-challenges-and-case-studies/",
-      "description": "Xtalks on-demand webinar: Peptide Aggregation in Manufacturing: Mechanisms, Challenges and Case Studies"
-    },
-    {
-      "id": "xtalks-real-world-clinical-data-strengths-challenges-and-use-cases",
-      "title": "Real-World Clinical Data: Strengths, Challenges and Use Cases",
-      "provider": "Xtalks",
-      "topics": [
-        "data-management"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/real-world-clinical-data-strengths-challenges-and-use-cases/",
-      "description": "Xtalks on-demand webinar: Real-World Clinical Data: Strengths, Challenges and Use Cases"
-    },
-    {
-      "id": "xtalks-get-ready-for-a-new-wave-of-clinical-trials-in-schizophrenia-how-sites-and-sponsors-can-avoid-conceptual-mistakes",
-      "title": "Get ready for a new wave of clinical trials in Schizophrenia: how Sites and Sponsors can avoid conceptual mistakes",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinars/get-ready-for-a-new-wave-of-clinical-trials-in-schizophrenia-how-sites-and-sponsors-can-avoid-conceptual-mistakes/",
-      "description": "Xtalks on-demand webinar: Get ready for a new wave of clinical trials in Schizophrenia: how Sites and Sponsors can avoid conceptual mistakes"
-    },
-    {
-      "id": "xtalks-ensuring-data-integrity-in-manufacturing-a-customer-perspective-on-analytical-instruments-and-osmometers",
-      "title": "Ensuring Data Integrity in Manufacturing: A Customer Perspective on Analytical Instruments and Osmometers",
-      "provider": "Xtalks",
-      "topics": [
-        "manufacturing",
-        "data-management"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-06-10",
-      "url": "https://xtalks.com/webinars/ensuring-data-integrity-in-manufacturing-a-customer-perspective-on-analytical-instruments-and-osmometers/",
-      "description": "Xtalks on-demand webinar: Ensuring Data Integrity in Manufacturing: A Customer Perspective on Analytical Instruments and Osmometers"
-    },
-    {
-      "id": "xtalks-future-proofing-gxp-strategic-investments-and-validation-best-practices-for-cdmos-amid-emerging-health-authority-regulations",
-      "title": "Future-Proofing GxP: Strategic Investments and Validation Best Practices for CDMOs Amid Emerging Health Authority Regulations",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-06-10",
-      "url": "https://xtalks.com/webinars/future-proofing-gxp-strategic-investments-and-validation-best-practices-for-cdmos-amid-emerging-health-authority-regulations/",
-      "description": "Xtalks on-demand webinar: Future-Proofing GxP: Strategic Investments and Validation Best Practices for CDMOs Amid Emerging Health Authority Regulations"
-    },
-    {
-      "id": "xtalks-efficient-ecoa-implementation-in-clinical-trials",
-      "title": "Efficient eCOA Implementation in Clinical Trials",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-06-10",
-      "url": "https://xtalks.com/webinars/efficient-ecoa-implementation-in-clinical-trials/",
-      "description": "Xtalks on-demand webinar: Efficient eCOA Implementation in Clinical Trials"
-    },
-    {
-      "id": "xtalks-beyond-spreadsheets-how-real-time-dashboards-are-transforming-transparency-in-clinical-research",
-      "title": "Beyond Spreadsheets: How Real-Time Dashboards are Transforming Transparency in Clinical Research",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-research",
         "research"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
-      "webinar_date": "2025-06-06",
-      "url": "https://xtalks.com/webinars/beyond-spreadsheets-how-real-time-dashboards-are-transforming-transparency-in-clinical-research/",
-      "description": "Xtalks on-demand webinar: Beyond Spreadsheets: How Real-Time Dashboards are Transforming Transparency in Clinical Research"
+      "webinar_date": "2025-11-12",
+      "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
+      "description": "Labroots event: The Simple Way to Protein Research"
     },
     {
-      "id": "xtalks-from-bench-to-scale-scaling-biodegradable-mrna-lipid-nanoparticle-for-clinical-success",
-      "title": "From Bench to Scale: Scaling Biodegradable mRNA Lipid Nanoparticle for Clinical Success",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-06-03",
-      "url": "https://xtalks.com/webinars/from-bench-to-scale-scaling-biodegradable-mrna-lipid-nanoparticle-for-clinical-success/",
-      "description": "Xtalks on-demand webinar: From Bench to Scale: Scaling Biodegradable mRNA Lipid Nanoparticle for Clinical Success"
-    },
-    {
-      "id": "xtalks-building-breakthroughs-how-research-ready-data-transforms-clinical-development",
-      "title": "Building Breakthroughs: How Research-Ready Data Transforms Clinical Development",
-      "provider": "Xtalks",
+      "id": "labroots-drug-discovery-development-virtual-event-series-2025",
+      "title": "Drug Discovery & Development Virtual Event Series 2025",
+      "provider": "Labroots",
       "topics": [
-        "research",
-        "development",
-        "data-management"
+        "research"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
-      "webinar_date": "2025-06-03",
-      "url": "https://xtalks.com/webinars/building-breakthroughs-how-research-ready-data-transforms-clinical-development/",
-      "description": "Xtalks on-demand webinar: Building Breakthroughs: How Research-Ready Data Transforms Clinical Development"
+      "webinar_date": "2025-02-19",
+      "url": "https://www.labroots.com/virtual-event/drug-discovery-development-2025",
+      "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2025"
     },
     {
-      "id": "xtalks-leveraging-ai-in-clinical-development-to-innovate-with-greater-confidence",
-      "title": "Leveraging AI in Clinical Development to Innovate with Greater Confidence",
-      "provider": "Xtalks",
+      "id": "labroots-clinical-diagnostics-research-virtual-event-series-2024",
+      "title": "Clinical Diagnostics & Research Virtual Event Series 2024",
+      "provider": "Labroots",
       "topics": [
-        "development",
-        "artificial-intelligence"
+        "research"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
-      "webinar_date": "2025-06-03",
-      "url": "https://xtalks.com/webinars/leveraging-ai-in-clinical-development-to-innovate-with-greater-confidence/",
-      "description": "Xtalks on-demand webinar: Leveraging AI in Clinical Development to Innovate with Greater Confidence"
+      "webinar_date": "2024-11-13",
+      "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-2024",
+      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2024"
     },
     {
-      "id": "xtalks-the-potential-of-microfluidics-technology-in-cell-and-gene-therapy",
-      "title": "The Potential of Microfluidics Technology in Cell and Gene Therapy",
-      "provider": "Xtalks",
+      "id": "labroots-cell-gene-therapy-virtual-event-series-2024",
+      "title": "Cell & Gene Therapy Virtual Event Series 2024",
+      "provider": "Labroots",
       "topics": [
         "gene-therapy"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
-      "webinar_date": "2025-05-29",
-      "url": "https://xtalks.com/webinars/the-potential-of-microfluidics-technology-in-cell-and-gene-therapy/",
-      "description": "Xtalks on-demand webinar: The Potential of Microfluidics Technology in Cell and Gene Therapy"
+      "webinar_date": "2024-10-16",
+      "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-2024",
+      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2024"
     },
     {
-      "id": "xtalks-future-of-biomanufacturing-ai-driven-cell-line-development-and-bioprocess-design",
-      "title": "Future of Biomanufacturing: AI-Driven Cell Line Development and Bioprocess Design",
-      "provider": "Xtalks",
+      "id": "labroots-cancer-research-oncology-virtual-event-series-2024",
+      "title": "Cancer Research & Oncology Virtual Event Series 2024",
+      "provider": "Labroots",
       "topics": [
-        "manufacturing",
-        "bioprocess",
-        "development",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-28",
-      "url": "https://xtalks.com/webinars/future-of-biomanufacturing-ai-driven-cell-line-development-and-bioprocess-design/",
-      "description": "Xtalks on-demand webinar: Future of Biomanufacturing: AI-Driven Cell Line Development and Bioprocess Design"
-    },
-    {
-      "id": "xtalks-advances-in-hpapi-development-and-regulatory-strategy",
-      "title": "Advances in HPAPI Development and Regulatory Strategy",
-      "provider": "Xtalks",
-      "topics": [
-        "regulatory",
-        "development"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-28",
-      "url": "https://xtalks.com/webinars/adavances-in-hpapi-development-and-regulatory-stragtegy/",
-      "description": "Xtalks on-demand webinar: Advances in HPAPI Development and Regulatory Strategy"
-    },
-    {
-      "id": "xtalks-enabling-efficient-biomanufacturing-through-process-intensification",
-      "title": "Enabling Efficient Biomanufacturing Through Process Intensification",
-      "provider": "Xtalks",
-      "topics": [
-        "manufacturing"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-27",
-      "url": "https://xtalks.com/webinars/enabling-efficient-biomanufacturing-through-process-intensification/",
-      "description": "Xtalks on-demand webinar: Enabling Efficient Biomanufacturing Through Process Intensification"
-    },
-    {
-      "id": "xtalks-driving-efficiency-and-quality-in-clinical-trials-through-ai-innovation",
-      "title": "Driving Efficiency and Quality in Clinical Trials Through AI & Innovation",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "quality-assurance",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-27",
-      "url": "https://xtalks.com/webinars/driving-efficiency-and-quality-in-clinical-trials-through-ai-innovation/",
-      "description": "Xtalks on-demand webinar: Driving Efficiency and Quality in Clinical Trials Through AI & Innovation"
-    },
-    {
-      "id": "xtalks-keys-to-success-in-clinical-trials-a-strategic-guide-for-biotechs-and-startups",
-      "title": "Keys to Success in Clinical Trials: A Strategic Guide for Biotechs and Startups",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-22",
-      "url": "https://xtalks.com/webinars/keys-to-success-in-clinical-trials-a-strategic-guide-for-biotechs-and-startups/",
-      "description": "Xtalks on-demand webinar: Keys to Success in Clinical Trials: A Strategic Guide for Biotechs and Startups"
-    },
-    {
-      "id": "xtalks-implementing-clinical-outcome-assessments-in-a-patient-centered-endpoint-strategy",
-      "title": "Implementing clinical outcome assessments in a patient-centered endpoint strategy",
-      "provider": "Xtalks",
-      "topics": [
-        "patient-care"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-20",
-      "url": "https://xtalks.com/webinars/implementing-clinical-outcome-assessments-in-a-patient-centered-endpoint-strategy/",
-      "description": "Xtalks on-demand webinar: Implementing clinical outcome assessments in a patient-centered endpoint strategy"
-    },
-    {
-      "id": "xtalks-driving-acceleration-in-oncology-drug-development-and-clinical-trials",
-      "title": "Driving Acceleration in Oncology Drug Development and Clinical Trials",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "drug-development",
-        "development",
-        "oncology"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-15",
-      "url": "https://xtalks.com/webinars/driving-acceleration-in-oncology-drug-development-and-clinical-trials/",
-      "description": "Xtalks on-demand webinar: Driving Acceleration in Oncology Drug Development and Clinical Trials"
-    },
-    {
-      "id": "xtalks-mastering-gene-therapy-and-companion-diagnostics-trials-the-eu-regulatory-playbook",
-      "title": "Mastering Gene Therapy and Companion Diagnostics Trials: The EU Regulatory Playbook",
-      "provider": "Xtalks",
-      "topics": [
-        "gene-therapy",
-        "regulatory",
-        "diagnostic"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-14",
-      "url": "https://xtalks.com/webinars/mastering-gene-therapy-and-companion-diagnostics-trials-the-eu-regulatory-playbook/",
-      "description": "Xtalks on-demand webinar: Mastering Gene Therapy and Companion Diagnostics Trials: The EU Regulatory Playbook"
-    },
-    {
-      "id": "xtalks-innovations-in-rave-edc-enhancing-the-clinical-trial-data-experience-for-sites-sponsors-and-cros",
-      "title": "Innovations in Rave EDC: Enhancing the Clinical Trial Data Experience for Sites, Sponsors and CROs",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "data-management"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-13",
-      "url": "https://xtalks.com/webinars/innovations-in-rave-edc-enhancing-the-clinical-trial-data-experience-for-sites-sponsors-and-cros/",
-      "description": "Xtalks on-demand webinar: Innovations in Rave EDC: Enhancing the Clinical Trial Data Experience for Sites, Sponsors and CROs"
-    },
-    {
-      "id": "xtalks-streamlining-clinical-trial-start-ups-a-data-driven-approach",
-      "title": "Streamlining Clinical Trial Start-Ups: A Data-Driven Approach",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "data-management"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-12",
-      "url": "https://xtalks.com/webinars/streamlining-clinical-trial-start-ups-a-data-driven-approach/",
-      "description": "Xtalks on-demand webinar: Streamlining Clinical Trial Start-Ups: A Data-Driven Approach"
-    },
-    {
-      "id": "xtalks-optimizing-patient-adherence-in-clinical-trials-the-science-of-risk-identification-and-personalized-digital-interventions",
-      "title": "Optimizing Patient Adherence in Clinical Trials: The Science of Risk Identification and Personalized Digital Interventions",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "patient-care"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-09",
-      "url": "https://xtalks.com/webinars/optimizing-patient-adherence-in-clinical-trials-the-science-of-risk-identification-and-personalized-digital-interventions/",
-      "description": "Xtalks on-demand webinar: Optimizing Patient Adherence in Clinical Trials: The Science of Risk Identification and Personalized Digital Interventions"
-    },
-    {
-      "id": "xtalks-unlocking-the-future-of-gene-editing-key-concepts-and-breakthroughs-in-crispr",
-      "title": "Unlocking the Future of Gene Editing: Key Concepts and Breakthroughs in CRISPR",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-09",
-      "url": "https://xtalks.com/webinars/unlocking-the-future-of-gene-editing-key-concepts-and-breakthroughs-in-crispr/",
-      "description": "Xtalks on-demand webinar: Unlocking the Future of Gene Editing: Key Concepts and Breakthroughs in CRISPR"
-    },
-    {
-      "id": "xtalks-unlocking-efficiency-how-digitalization-and-ai-are-redefining-biopharmaceutical-process-development",
-      "title": "Unlocking Efficiency: How Digitalization and AI are Redefining Biopharmaceutical Process Development",
-      "provider": "Xtalks",
-      "topics": [
-        "pharmaceutical",
-        "development",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-08",
-      "url": "https://xtalks.com/webinars/unlocking-efficiency-how-digitalization-and-ai-are-redefining-biopharmaceutical-process-development/",
-      "description": "Xtalks on-demand webinar: Unlocking Efficiency: How Digitalization and AI are Redefining Biopharmaceutical Process Development"
-    },
-    {
-      "id": "xtalks-the-future-of-ai-analytics-on-chronic-pain-and-neurological-dhts-in-clinical-research",
-      "title": "The Future of AI Analytics on Chronic Pain and Neurological DHTs in Clinical Research",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-research",
-        "research",
-        "data-management",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-07",
-      "url": "https://xtalks.com/webinars/the-future-of-ai-analytics-on-chronic-pain-and-neurological-dhts-in-clinical-research/",
-      "description": "Xtalks on-demand webinar: The Future of AI Analytics on Chronic Pain and Neurological DHTs in Clinical Research"
-    },
-    {
-      "id": "xtalks-overcoming-challenges-in-psychiatry-clinical-research-innovations-in-patient-retention-and-collaborative-care",
-      "title": "Overcoming Challenges in Psychiatry Clinical Research: Innovations in Patient Retention and Collaborative Care",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-research",
-        "laboratory-management",
-        "research",
-        "patient-care"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-06",
-      "url": "https://xtalks.com/webinars/overcoming-challenges-in-psychiatry-clinical-research-innovations-in-patient-retention-and-collaborative-care/",
-      "description": "Xtalks on-demand webinar: Overcoming Challenges in Psychiatry Clinical Research: Innovations in Patient Retention and Collaborative Care"
-    },
-    {
-      "id": "xtalks-harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum",
-      "title": "Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development – Post-Marketing Continuum",
-      "provider": "Xtalks",
-      "topics": [
-        "development",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-05",
-      "url": "https://xtalks.com/webinars/harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum/",
-      "description": "Xtalks on-demand webinar: Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development – Post-Marketing Continuum"
-    },
-    {
-      "id": "xtalks-adaptive-by-design-how-rtsm-powers-early-phase-clinical-trial-success",
-      "title": "Adaptive by Design: How RTSM Powers Early-Phase Clinical Trial Success",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-05-01",
-      "url": "https://xtalks.com/webinars/adaptive-by-design-how-rtsm-powers-early-phase-clinical-trial-success/",
-      "description": "Xtalks on-demand webinar: Adaptive by Design: How RTSM Powers Early-Phase Clinical Trial Success"
-    },
-    {
-      "id": "xtalks-risk-based-quality-management-rbqm-the-connective-tissue-for-clinical-data-quality",
-      "title": "Risk-Based Quality Management (RBQM): The Connective Tissue for Clinical Data Quality",
-      "provider": "Xtalks",
-      "topics": [
-        "quality-assurance",
-        "data-management"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-04-30",
-      "url": "https://xtalks.com/webinars/risk-based-quality-management-rbqm-the-connective-tissue-for-clinical-data-quality/",
-      "description": "Xtalks on-demand webinar: Risk-Based Quality Management (RBQM): The Connective Tissue for Clinical Data Quality"
-    },
-    {
-      "id": "xtalks-prioritizing-safety-in-clinical-trials-the-impact-of-culture-on-operational-success",
-      "title": "Prioritizing Safety in Clinical Trials: The Impact of Culture on Operational Success",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-04-23",
-      "url": "https://xtalks.com/webinars/prioritizing-safety-in-clinical-trials-the-impact-of-culture-on-operational-success/",
-      "description": "Xtalks on-demand webinar: Prioritizing Safety in Clinical Trials: The Impact of Culture on Operational Success"
-    },
-    {
-      "id": "xtalks-advanced-drug-delivery-to-the-central-nervous-system-in-nonhuman-primates",
-      "title": "Advanced Drug Delivery to the Central Nervous System in Nonhuman Primates",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-04-16",
-      "url": "https://xtalks.com/webinars/advanced-drug-delivery-to-the-central-nervous-system-in-nonhuman-primates/",
-      "description": "Xtalks on-demand webinar: Advanced Drug Delivery to the Central Nervous System in Nonhuman Primates"
-    },
-    {
-      "id": "xtalks-revolutionizing-spinal-cord-injury-treatment-insights-from-a-world-first-clinical-trial-conducted-in-gold-coast-australia",
-      "title": "Revolutionizing Spinal Cord Injury Treatment: Insights from a World-First Clinical Trial Conducted in Gold Coast, Australia",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-04-16",
-      "url": "https://xtalks.com/webinars/revolutionizing-spinal-cord-injury-treatment-insights-from-a-world-first-clinical-trial-conducted-in-melbourne-australia/",
-      "description": "Xtalks on-demand webinar: Revolutionizing Spinal Cord Injury Treatment: Insights from a World-First Clinical Trial Conducted in Gold Coast, Australia"
-    },
-    {
-      "id": "xtalks-redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials",
-      "title": "Redefining Women’s Cancer Care: Delivering Smarter, Safer Clinical Trials",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "oncology"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-04-10",
-      "url": "https://xtalks.com/webinars/redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials/",
-      "description": "Xtalks on-demand webinar: Redefining Women’s Cancer Care: Delivering Smarter, Safer Clinical Trials"
-    },
-    {
-      "id": "xtalks-the-future-of-clinical-research-leveraging-ich-e6-r3-updates-and-technology-innovation-for-success",
-      "title": "The Future of Clinical Research: Leveraging ICH E6(R3) Updates and Technology Innovation for Success",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-research",
         "research"
       ],
       "format": "on-demand",
-      "duration_min": 60,
+      "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-01",
-      "webinar_date": "2025-04-08",
-      "url": "https://xtalks.com/webinars/the-future-of-clinical-research-leveraging-ich-e6-updates-and-technology/",
-      "description": "Xtalks on-demand webinar: The Future of Clinical Research: Leveraging ICH E6(R3) Updates and Technology Innovation for Success"
-    },
-    {
-      "id": "xtalks-achieving-optimal-clinical-trial-performance-with-strategic-site-collaboration",
-      "title": "Achieving Optimal Clinical Trial Performance with Strategic Site Collaboration",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "laboratory-management"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-04-01",
-      "url": "https://xtalks.com/webinars/achieving-optimal-clinical-trial-performance-with-strategic-site-collaboration/",
-      "description": "Xtalks on-demand webinar: Achieving Optimal Clinical Trial Performance with Strategic Site Collaboration"
-    },
-    {
-      "id": "xtalks-gcp-ich-e6-r3-unveiled-navigating-the-evolving-roles-of-sponsors-and-cros",
-      "title": "GCP ICH E6 R3 Unveiled: Navigating the Evolving Roles of Sponsors and CROs",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-03-28",
-      "url": "https://xtalks.com/webinars/gcp-ich-e6-r3-unveiled-navigating-the-evolving-roles-of-sponsors-and-cros/",
-      "description": "Xtalks on-demand webinar: GCP ICH E6 R3 Unveiled: Navigating the Evolving Roles of Sponsors and CROs"
-    },
-    {
-      "id": "xtalks-innovation-labs-accelerating-innovation-at-the-intersection-of-pharmaceutical-research-and-digital-health",
-      "title": "Innovation Labs: Accelerating Innovation at the Intersection of Pharmaceutical Research and Digital Health",
-      "provider": "Xtalks",
-      "topics": [
-        "pharmaceutical",
-        "laboratory-management",
-        "research",
-        "digital-health"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "webinar_date": "2025-03-26",
-      "url": "https://xtalks.com/webinars/innovation-labs-accelerating-innovation-at-the-intersection-of-pharmaceutical-research-and-digital-health/",
-      "description": "Xtalks on-demand webinar: Innovation Labs: Accelerating Innovation at the Intersection of Pharmaceutical Research and Digital Health"
+      "webinar_date": "2024-10-02",
+      "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-week-2024",
+      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2024"
     }
   ],
-  "last_updated": "2025-07-01T15:10:29.307554",
-  "total_count": 67
+  "last_updated": "2025-07-01T15:53:05.295225",
+  "total_count": 99
 }

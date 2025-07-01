@@ -13,7 +13,7 @@ def run_all_scrapers():
     
     # Load existing data
     try:
-        with open("../src/webinars.json", 'r') as f:
+        with open("src/webinars.json", 'r') as f:
             data = json.load(f)
             existing_webinars = data.get('webinars', [])
     except FileNotFoundError:
@@ -63,7 +63,7 @@ def run_all_scrapers():
         "total_count": len(all_webinars)
     }
     
-    with open("../src/webinars.json", 'w') as f:
+    with open("src/webinars.json", 'w') as f:
         json.dump(final_data, f, indent=2)
     
     print(f"\nFinal result: {len(all_webinars)} total webinars")
