@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPE Webinar Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-graduation-cap"></i> CPE Webinar Directory</h1>
+            <p>Find continuing education webinars for QA, regulatory, bioprocess, biotech, and life sciences professionals</p>
+            <div style="margin-top: 15px;">
+                <a href="admin.html" style="color: #ffd700; text-decoration: none; font-weight: 600;">
+                    <i class="fas fa-plus"></i> Add New Webinar
+                </a>
+            </div>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search webinars by title, topics, or description...">
+                <button id="clearSearch" class="clear-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="filters-section">
+            <div class="filter-group">
+                <label for="providerFilter">Provider:</label>
+                <select id="providerFilter">
+                    <option value="">All Providers</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="topicFilter">Topic:</label>
+                <select id="topicFilter">
+                    <option value="">All Topics</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="formatFilter">Format:</label>
+                <select id="formatFilter">
+                    <option value="">All Formats</option>
+                    <option value="on-demand">On-Demand</option>
+                    <option value="live">Live</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="durationFilter">Duration:</label>
+                <select id="durationFilter">
+                    <option value="">Any Duration</option>
+                    <option value="0-30">0-30 minutes</option>
+                    <option value="31-60">31-60 minutes</option>
+                    <option value="61-90">61-90 minutes</option>
+                    <option value="91+">91+ minutes</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="certificateFilter">Certificate:</label>
+                <select id="certificateFilter">
+                    <option value="">All</option>
+                    <option value="true">Available</option>
+                    <option value="false">Not Available</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="results-info">
+            <span id="resultsCount">Loading...</span>
+            <button id="resetFilters" class="reset-btn">
+                <i class="fas fa-undo"></i> Reset Filters
+            </button>
+        </div>
+
+        <div class="table-container">
+            <table id="webinarsTable">
+                <thead>
+                    <tr>
+                        <th data-sort="title">Title <i class="fas fa-sort"></i></th>
+                        <th data-sort="provider">Provider <i class="fas fa-sort"></i></th>
+                        <th data-sort="topics">Topics</th>
+                        <th data-sort="format">Format <i class="fas fa-sort"></i></th>
+                        <th data-sort="duration_min">Duration <i class="fas fa-sort"></i></th>
+                        <th data-sort="certificate_available">Certificate <i class="fas fa-sort"></i></th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="webinarsTableBody">
+                    <!-- Data will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            <i class="fas fa-search"></i>
+            <h3>No webinars found</h3>
+            <p>Try adjusting your search terms or filters</p>
+        </div>
+
+        <footer>
+            <p>Last updated: <span id="lastUpdated">Loading...</span></p>
+            <p>Total webinars: <span id="totalCount">Loading...</span></p>
+        </footer>
+    </div>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Certificate Information</h3>
+            <div id="certificateDetails"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

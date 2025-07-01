@@ -1,0 +1,429 @@
+{
+  "webinars": [
+    {
+      "id": "labroots-2025-cgt",
+      "title": "Cell & Gene Therapy 2025 Virtual Event",
+      "provider": "Labroots",
+      "topics": [
+        "cell-therapy",
+        "regulatory",
+        "gene-therapy"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": true,
+      "certificate_process": "Auto-issued after quiz completion",
+      "date_added": "2025-01-15",
+      "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-2025",
+      "description": "Comprehensive overview of latest developments in cell and gene therapy, including regulatory considerations and clinical applications."
+    },
+    {
+      "id": "fda-cder-drug-topics-2025",
+      "title": "FDA Drug Topics: Quality Management Systems",
+      "provider": "FDA CDER",
+      "topics": [
+        "regulatory",
+        "quality-assurance",
+        "compliance"
+      ],
+      "format": "on-demand",
+      "duration_min": 90,
+      "certificate_available": true,
+      "certificate_process": "Certificate available after post-test and survey completion",
+      "date_added": "2025-01-15",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-drug-topics-quality-management-systems",
+      "description": "FDA guidance on implementing effective quality management systems in pharmaceutical manufacturing."
+    },
+    {
+      "id": "asgct-insight-series-2025",
+      "title": "ASGCT Insight Series: Advanced Cell Therapy Manufacturing",
+      "provider": "ASGCT",
+      "topics": [
+        "cell-therapy",
+        "manufacturing",
+        "bioprocess"
+      ],
+      "format": "on-demand",
+      "duration_min": 75,
+      "certificate_available": true,
+      "certificate_process": "Certificate provided to registered attendees",
+      "date_added": "2025-01-15",
+      "url": "https://asgct.org/education/insight-series",
+      "description": "Expert insights into advanced manufacturing techniques for cell therapy products."
+    },
+    {
+      "id": "xtalks-why-host-a-webinar",
+      "title": "Why Host a Webinar?",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/why-host-a-webinar/",
+      "description": "Xtalks webinar: Why Host a Webinar?"
+    },
+    {
+      "id": "xtalks-cell-and-gene-therapy",
+      "title": "Cell and Gene Therapy",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinar-topics/cell-and-gene-therapy/",
+      "description": "Xtalks webinar: Cell and Gene Therapy"
+    },
+    {
+      "id": "xtalks-pharma-manufacturing-supply-chain",
+      "title": "Pharma Manufacturing & Supply Chain",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinar-topics/pharma-manufacturing-and-supply-chain/",
+      "description": "Xtalks webinar: Pharma Manufacturing & Supply Chain"
+    },
+    {
+      "id": "xtalks-clinical-trials",
+      "title": "Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinar-topics/clinical-trials-webinars/",
+      "description": "Xtalks webinar: Clinical Trials"
+    },
+    {
+      "id": "xtalks-progressing-beyond-exploratory-endpoints-the-value-of-digital-biomarkers-in-neuroscience-clinical-studies",
+      "title": "Progressing Beyond Exploratory Endpoints: The Value of Digital Biomarkers in Neuroscience Clinical Studies",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/progressing-beyond-exploratory-endpoints-the-value-of-digital-biomarkers-in-neuroscience-clinical-studies/",
+      "description": "Xtalks webinar: Progressing Beyond Exploratory Endpoints: The Value of Digital Biomarkers in Neuroscience Clinical Studies"
+    },
+    {
+      "id": "xtalks-obesity-clinical-trials-beyond-bmi",
+      "title": "Obesity Clinical Trials: Beyond BMI",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/obesity-clinical-trials-beyond-bmi/",
+      "description": "Xtalks webinar: Obesity Clinical Trials: Beyond BMI"
+    },
+    {
+      "id": "xtalks-accelerated-clinical-trials-through-quality-by-design-principles",
+      "title": "Accelerated Clinical Trials Through Quality by Design Principles",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/accelerated-clinical-trials-through-quality-by-design-principles/",
+      "description": "Xtalks webinar: Accelerated Clinical Trials Through Quality by Design Principles"
+    },
+    {
+      "id": "xtalks-accelerating-clinical-research-with-master-protocols-challenges-and-benefits-to-complex-trial-designs",
+      "title": "Accelerating Clinical Research with Master Protocols: Challenges and Benefits to Complex Trial Designs",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/accelerating-clinical-research-with-master-protocols-challenges-and-benefits-to-complex-trial-designs/",
+      "description": "Xtalks webinar: Accelerating Clinical Research with Master Protocols: Challenges and Benefits to Complex Trial Designs"
+    },
+    {
+      "id": "xtalks-host-a-webinar",
+      "title": "Host a Webinar",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/host-a-webinar/",
+      "description": "Xtalks webinar: Host a Webinar"
+    },
+    {
+      "id": "ispe-webinars",
+      "title": "Webinars",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://ispe.org/webinars",
+      "description": "ISPE webinar: Webinars"
+    },
+    {
+      "id": "ispe-ispe-clinical-supply-business-continuity-survey-results-and-discussion",
+      "title": "ISPE Clinical Supply Business Continuity Survey Results and Discussion",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://ispe.org/webinars/ispe-clinical-supply-business-continuity-survey-results-and-discussion",
+      "description": "ISPE webinar: ISPE Clinical Supply Business Continuity Survey Results and Discussion"
+    },
+    {
+      "id": "ispe-critical-quality-attributes-validation-of-a-parts-washer-and-autoclave",
+      "title": "Critical Quality Attributes - Validation of a Parts Washer and Autoclave",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://ispe.org/webinars/critical-quality-attributes-validation-parts-washer-and-autoclave",
+      "description": "ISPE webinar: Critical Quality Attributes - Validation of a Parts Washer and Autoclave"
+    },
+    {
+      "id": "technology-networks-webinars-online-events",
+      "title": "Webinars & Online Events",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/webinars-online-events",
+      "description": "Technology Networks webinar: Webinars & Online Events"
+    },
+    {
+      "id": "technology-networks-webinarbest-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-developmentin-this-webinar-our-expert-speaker-will-share-insights-on-optimizing-pcr-performance-for-applications-within-cell-and-gene-therapy-development-including-biodistribution-transgene-expression-viral-shedding-and-cellular-kinetics",
+      "title": "WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics.",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/webinars/best-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-development-400895",
+      "description": "Technology Networks webinar: WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics."
+    },
+    {
+      "id": "technology-networks-webinaradvanced-strategies-for-effective-mrna-transfection-in-t-cellson-demandthis-session-will-delve-into-the-latest-strategies-and-technologies-that-maximize-transfection-efficiency-cell-proliferation-and-cytotoxic-activity-against-cancer-cells",
+      "title": "WebinarAdvanced Strategies for Effective mRNA Transfection in T CellsOn-DemandThis session will delve into the latest strategies and technologies that maximize transfection efficiency, cell proliferation and cytotoxic activity against cancer cells.",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/webinars/advanced-strategies-for-effective-mrna-transfection-in-t-cells-398626",
+      "description": "Technology Networks webinar: WebinarAdvanced Strategies for Effective mRNA Transfection in T CellsOn-DemandThis session will delve into the latest strategies and technologies that maximize transfection efficiency, cell proliferation and cytotoxic activity against cancer cells."
+    },
+    {
+      "id": "technology-networks-webinarenhancing-gene-therapy-with-precise-aav-capsid-analysison-demandin-this-webinar-dr-chelsea-pratt-will-explore-the-field-of-gene-therapy-highlighting-key-challenges-and-the-predominant-current-techniques",
+      "title": "WebinarEnhancing Gene Therapy With Precise AAV Capsid AnalysisOn-DemandIn this webinar, Dr. Chelsea Pratt will explore the field of gene therapy, highlighting key challenges and the predominant current techniques.",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/webinars/enhancing-gene-therapy-with-precise-aav-capsid-analysis-396907",
+      "description": "Technology Networks webinar: WebinarEnhancing Gene Therapy With Precise AAV Capsid AnalysisOn-DemandIn this webinar, Dr. Chelsea Pratt will explore the field of gene therapy, highlighting key challenges and the predominant current techniques."
+    },
+    {
+      "id": "technology-networks-webinarepisode-4-t-cell-therapy-development-with-the-seahorse-xf-pro-solutionon-demandthis-webinar-presents-an-optimized-assay-workflow-using-the-agilent-seahorse-xf-pro-analyzer-to-profile-t-cell-energy-metabolism-enhancing-the-design-and-manufacturing-of-car-t-cell-therapies",
+      "title": "WebinarEpisode 4: T Cell Therapy Development With the Seahorse XF Pro SolutionOn-DemandThis webinar presents an optimized assay workflow using the Agilent Seahorse XF Pro Analyzer to profile T cell energy metabolism, enhancing the design and manufacturing of CAR-T cell therapies.",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.technologynetworks.com/tn/webinars/episode-4-t-cell-therapy-development-with-the-seahorse-xf-pro-solution-395230",
+      "description": "Technology Networks webinar: WebinarEpisode 4: T Cell Therapy Development With the Seahorse XF Pro SolutionOn-DemandThis webinar presents an optimized assay workflow using the Agilent Seahorse XF Pro Analyzer to profile T cell energy metabolism, enhancing the design and manufacturing of CAR-T cell therapies."
+    },
+    {
+      "id": "socra-live-virtual-webinars",
+      "title": "Live Virtual Webinars",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/",
+      "description": "SOCRA webinar: Live Virtual Webinars"
+    },
+    {
+      "id": "socra-quality-management",
+      "title": "Quality Management",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/quality-management-virtual-program/program-description/",
+      "description": "SOCRA webinar: Quality Management"
+    },
+    {
+      "id": "socra-coordinator-manager-workshop",
+      "title": "Coordinator/Manager Workshop",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/site-coordinator-manager-and-gcp-virtual-workshop/",
+      "description": "SOCRA webinar: Coordinator/Manager Workshop"
+    },
+    {
+      "id": "socra-fda-clinical-trial-requirements",
+      "title": "FDA Clinical Trial Requirements",
+      "provider": "SOCRA",
+      "topics": [
+        "clinical-research",
+        "monitoring",
+        "project-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://www.socra.org/conferences-and-education/live-webinars/fda-clinical-trial-requirements-regulations-compliance-and-gcp-conference/",
+      "description": "SOCRA webinar: FDA Clinical Trial Requirements"
+    },
+    {
+      "id": "pmi-webinars",
+      "title": "Webinars",
+      "provider": "PMI",
+      "topics": [
+        "project-management"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": true,
+      "certificate_process": "Certificate available upon completion",
+      "date_added": "2025-07-01",
+      "url": "https://www.pmi.org/learning/webinars",
+      "description": "PMI webinar: Webinars"
+    },
+    {
+      "id": "pmi-view-all-webinars-opens-in-a-new-tab",
+      "title": "View All Webinars- opens in a new tab",
+      "provider": "PMI",
+      "topics": [
+        "project-management"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": true,
+      "certificate_process": "Certificate available upon completion",
+      "date_added": "2025-07-01",
+      "url": "http://www.projectmanagement.com/Webinars/webinarMainOnDemand.cfm?sessionGUID=d928c63a-6a05-94ec-6bad-c90b4bc7c5d0&amp;sessionGUID=d928c63a-6a05-94ec-6bad-c90b4bc7c5d0&amp;sessionGUID=54c91978-b1bc-)bce7-bdb0-74167376228b&amp;sessionGUID=86cdd475-6d42-3a6d-90e9-7a415d52cd6a&amp;webSyncID=e8a2aed7-9d4b-2b5c-0301-21878c14324b&amp;sessionGUID=668b35e0-01b3-129a-81e9-da20d7a34d09",
+      "description": "PMI webinar: View All Webinars- opens in a new tab"
+    },
+    {
+      "id": "pmi-webinars-opens-in-a-new-tab",
+      "title": "Webinars\ufeff\u2013\u00a0opens in a new tab",
+      "provider": "PMI",
+      "topics": [
+        "project-management"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": true,
+      "certificate_process": "Certificate available upon completion",
+      "date_added": "2025-07-01",
+      "url": "https://www.projectmanagement.com/Webinars/webinarMainOnDemand.cfm#_=_",
+      "description": "PMI webinar: Webinars\ufeff\u2013\u00a0opens in a new tab"
+    }
+  ],
+  "last_updated": "2025-07-01T11:47:57.830361",
+  "total_count": 27
+}

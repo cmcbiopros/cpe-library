@@ -1,0 +1,82 @@
+name: Update Webinar Directory
+
+on:
+  schedule:
+    # Run every day at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    paths:
+      - 'scrapers/**'
+      - 'data/webinars.json'
+
+jobs:
+  scrape-webinars:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run scrapers
+      run: |
+        cd scrapers
+        python base_scraper.py
+        
+    - name: Copy data to src directory
+      run: |
+        cp data/webinars.json src/webinars.json
+        
+    - name: Check for changes
+      id: changes
+      run: |
+        if git diff --quiet src/webinars.json; then
+          echo "no_changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "no_changes=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push changes
+      if: steps.changes.outputs.no_changes == 'false'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add src/webinars.json
+        git commit -m "Update webinar directory [skip ci]"
+        git push
+        
+    - name: Create issue for failures
+      if: failure()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { data: issues } = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'open',
+            labels: ['scraper-failure']
+          });
+          
+          const existingIssue = issues.find(issue => 
+            issue.title.includes('Webinar scraper failure')
+          );
+          
+          if (!existingIssue) {
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Webinar scraper failure',
+              body: `The automated webinar scraper failed on ${new Date().toISOString()}. Please check the logs and fix any issues.`,
+              labels: ['scraper-failure', 'bug']
+            });
+          } 

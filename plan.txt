@@ -1,0 +1,98 @@
+1 Define the data model & acceptance rules (½ day)
+Field	Why it matters	Example value
+id (slug)	unique anchor for links	labroots-2025-cgt
+title	shows in the UI & search	Cell & Gene Therapy 2025 Virtual Event
+provider	credibility & grouping	Labroots
+topic_tags	filtering	["cell-therapy","regulatory"]
+format	live / on-demand	recording
+duration_min	CE requirement	60
+certificate_available	must be TRUE	true
+certificate_process	quick instructions	“Auto-issued after quiz”
+date_first_offered	sort & freshness	2025-03-14
+url	deep-link	https://…
+
+Certificate rule: only include webinars whose webpage explicitly mentions a certificate of completion, CE credit, or an email that includes the attendee’s name and duration.
+
+2 Collect & curate webinar data (3–4 days initial build, then automated)
+2.1 Seed list of reliable providers
+Provider	Coverage	Certificate note	Source
+Labroots	broad life-science catalogue	CE certificate after post-test	
+labroots.com
+FDA Drug Topics / CDER	regulatory & QA	certificate after post-test & survey	
+fda.gov
+fda.gov
+ASGCT Insight Series	Cell & gene therapy science	on-demand replays for members/registrants	
+asgct.org
+PELOBIOTECH	stem-cell & biotech methods	free live webinars (ask for cert. email)	
+pelobiotech.com
+
+(Add ISPE, BioProcess Int’l, AABB, USP, PDA, etc., once verified.)
+
+2.2 Scraping pipeline (Python + GitHub Actions)
+text
+Copy
+Edit
+scrapers/
+├─ labroots.py       # uses Labroots JSON API
+├─ fda_cder.py       # BeautifulSoup; paginated archive
+├─ asgct.py          # Selenium login → “Watch on-demand” list
+data/
+└─ webinars.json     # master file written by each scraper
+Each scraper normalises output to the data model above.
+
+Run nightly via a GitHub Actions workflow; push changes to webinars.json in the repo.
+
+Flag records missing certificate_available = true for manual review (simple pytest).
+
+2.3 Manual QA pass (1 hour/week)
+Click newest rows, confirm cert language exists.
+
+Add / edit certificate_process text if needed.
+
+Close issues in GitHub opened automatically for failures.
+
+3 Build the static site (2 days)
+Generator: use Eleventy (11ty), Hugo, or Jekyll – they read JSON natively and deploy to GitHub Pages/Netlify for free.
+
+Front-end filtering: a 2 KB library like List.js or Fuse.js provides instant client-side search & tag filters without a database.
+
+UI pieces:
+
+Faceted sidebar for topic_tags, provider, format.
+
+Badge/tooltip that shows “Certificate: Yes – auto-email after quiz”.
+
+“Copy link” button pre-filled with ?id= anchor for easy sharing.
+
+Accessibility & responsive design: plain HTML5 + Tailwind CSS (optional).
+
+4 Keep it fresh & useful (ongoing, ≤1 day/month)
+Task	How	Frequency
+Webhook → Slack / Teams when new records land	GitHub Action → incoming webhook	nightly
+Broken-link checker	GitHub Action + lychee	weekly
+Newsletter export	Tiny cron job that converts the newest 10 records to Markdown email	monthly
+User feedback form	Netlify Forms → GitHub issues	always
+
+Optional extras (future)
+Airtable CMS as the backend – Airtable’s REST API can replace webinars.json and gives non-tech colleagues a GUI.
+
+Zapier / Make scenario that logs your actual attendance emails into Airtable, so the tool can auto-mark which webinars each user completed.
+
+Schema.org Course micro-data in your HTML to improve Google visibility.
+
+Rough timeline
+Week	Milestone
+1	Finalise data model & seed providers; build Labroots + FDA scrapers
+2	Complete scrapers, GitHub Actions workflow, manual QA checklist
+3	Ship first version of static site with filtering & CI pipeline
+4	Soft-launch to colleagues, gather feedback; add two more providers
+
+What success looks like
+< 1 minute for a user to filter to a relevant webinar and click “Go to webinar”.
+
+Every listed webinar guarantees a certificate so staff never chase organisers.
+
+Adding a new provider requires only a new scraper file – the website updates itself.
+
+Zero hosting costs (GitHub Pages / Netlify free tier).
+
