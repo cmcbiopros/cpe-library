@@ -224,19 +224,9 @@ class BaseScraper:
         if has_generic_url and not self._looks_like_specific_webinar(title):
             return False
         
-        # Must have some indication it's educational content
-        educational_keywords = [
-            'webinar', 'presentation', 'lecture', 'training', 'education',
-            'workshop', 'seminar', 'conference', 'session', 'talk',
-            'overview', 'introduction', 'advanced', 'fundamentals',
-            'best practices', 'guidelines', 'standards', 'regulations',
-            'manufacturing', 'quality', 'regulatory', 'clinical',
-            'biotechnology', 'pharmaceutical', 'cell therapy', 'gene therapy'
-        ]
-        
-        has_educational_content = any(keyword in title_lower for keyword in educational_keywords)
-        
-        return has_educational_content
+        # For Xtalks specifically, if it's from the on-demand page, it's likely valid
+        # Remove the educational keywords requirement since Xtalks content is curated
+        return True
     
     def _looks_like_specific_webinar(self, title: str) -> bool:
         """Check if title looks like a specific webinar rather than a general page"""
@@ -532,31 +522,56 @@ class XtalksScraper(BaseScraper):
         """Scrape Xtalks on-demand webinars"""
         try:
             print("Scraping Xtalks on-demand webinars...")
-            response = self.make_request(self.on_demand_url)
             
-            if not response:
-                print("Failed to access Xtalks on-demand webinars page")
-                return
+            # Try multiple URLs to get more comprehensive results
+            urls_to_scrape = [
+                self.on_demand_url,  # Original URL
+                "https://xtalks.com/?post_type=webinars&type=recorded-webinars",
+                "https://xtalks.com/webinars/?type=recorded-webinars",
+                "https://xtalks.com/webinars/"
+            ]
             
-            soup = BeautifulSoup(response.content, 'html.parser')
+            # Add pagination for the original URL
+            for page in range(2, 6):  # Try pages 2-5
+                urls_to_scrape.append(f"https://xtalks.com/?post_type=webinars&webinar-topics=&type=recorded-webinars&s=&paged={page}")
             
-            # Look for webinar date elements - these indicate individual webinar entries
-            webinar_dates = soup.find_all(class_='webinar-date')
-            print(f"Found {len(webinar_dates)} webinar date elements on Xtalks")
+            total_webinars_found = 0
             
-            for date_elem in webinar_dates:
-                webinar_data = self._parse_webinar_from_date(date_elem)
-                if webinar_data:
-                    self.add_webinar(webinar_data)
+            for url in urls_to_scrape:
+                print(f"Scraping: {url}")
+                response = self.make_request(url)
+                
+                if not response:
+                    print(f"Failed to access: {url}")
+                    continue
+                
+                soup = BeautifulSoup(response.content, 'html.parser')
+                
+                # Look for webinar date elements - these indicate individual webinar entries
+                webinar_dates = soup.find_all(class_='webinar-date')
+                print(f"Found {len(webinar_dates)} webinar date elements on this page")
+                
+                page_webinars = 0
+                for date_elem in webinar_dates:
+                    webinar_data = self._parse_webinar_from_date(date_elem)
+                    if webinar_data:
+                        self.add_webinar(webinar_data)
+                        page_webinars += 1
+                
+                total_webinars_found += page_webinars
+                print(f"Added {page_webinars} webinars from this page")
+                
+                # Also try to find direct webinar links as fallback
+                webinar_links = soup.find_all('a', href=re.compile(r'/webinars/'))
+                if webinar_links:
+                    print(f"Found {len(webinar_links)} direct webinar links on this page")
+                    
+                    for link in webinar_links:
+                        webinar_data = self._parse_webinar_link(link)
+                        if webinar_data:
+                            self.add_webinar(webinar_data)
             
-            # Also try to find direct webinar links as fallback
-            webinar_links = soup.find_all('a', href=re.compile(r'/webinars/'))
-            print(f"Found {len(webinar_links)} direct webinar links on Xtalks")
-            
-            for link in webinar_links:
-                webinar_data = self._parse_webinar_link(link)
-                if webinar_data:
-                    self.add_webinar(webinar_data)
+            print(f"Total webinars found across all pages: {total_webinars_found}")
                     
         except Exception as e:
             print(f"Error scraping Xtalks: {e}")
@@ -599,6 +614,24 @@ class XtalksScraper(BaseScraper):
     def _parse_webinar_from_date(self, date_elem) -> Optional[Dict]:
         """Parse webinar information from a date element"""
         try:
+            # Get the date from the date element
+            date_text = date_elem.get_text(strip=True)
+            
+            # Parse the date (format: "June 30, 2025")
+            try:
+                from datetime import datetime
+                parsed_date = datetime.strptime(date_text, "%B %d, %Y")
+                
+                # Check if webinar is within last 6 months
+                from datetime import timedelta
+                six_months_ago = datetime.now() - timedelta(days=180)
+                if parsed_date < six_months_ago:
+                    return None  # Skip webinars older than 6 months
+                    
+            except ValueError:
+                # If date parsing fails, skip this webinar
+                return None
+            
             # Find the parent element that contains both date and title
             parent = date_elem.parent
             
@@ -639,6 +672,7 @@ class XtalksScraper(BaseScraper):
                 'certificate_available': has_cert,
                 'certificate_process': process if has_cert else 'No certificate information available',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
+                'webinar_date': parsed_date.strftime('%Y-%m-%d'),  # Add the actual webinar date
                 'url': url,
                 'description': description
             }
@@ -663,8 +697,8 @@ class XtalksScraper(BaseScraper):
             if not self._is_valid_webinar(title, url) or self._is_topic_page(title):
                 return None
             
-            # Check for certificate availability
-            has_cert, process = self.check_certificate_availability(title)
+            # For direct links, we don't have date info, so we'll include them
+            # but mark them as needing date verification
             webinar_data = {
                 'id': self.generate_id(title, 'Xtalks'),
                 'title': title,
@@ -672,9 +706,10 @@ class XtalksScraper(BaseScraper):
                 'topics': self._extract_topics_from_title(title),
                 'format': 'on-demand',
                 'duration_min': 60,
-                'certificate_available': has_cert,
-                'certificate_process': process if has_cert else 'No certificate information available',
+                'certificate_available': False,  # Default for direct links
+                'certificate_process': 'No certificate information available',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
+                'webinar_date': 'Unknown',  # Mark as unknown for direct links
                 'url': url,
                 'description': f"Xtalks webinar: {title}"
             }
