@@ -52,60 +52,6 @@
       "description": "Expert insights into advanced manufacturing techniques for cell therapy products."
     },
     {
-      "id": "xtalks-why-host-a-webinar",
-      "title": "Why Host a Webinar?",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/why-host-a-webinar/",
-      "description": "Xtalks webinar: Why Host a Webinar?"
-    },
-    {
-      "id": "xtalks-cell-and-gene-therapy",
-      "title": "Cell and Gene Therapy",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinar-topics/cell-and-gene-therapy/",
-      "description": "Xtalks webinar: Cell and Gene Therapy"
-    },
-    {
-      "id": "xtalks-pharma-manufacturing-supply-chain",
-      "title": "Pharma Manufacturing & Supply Chain",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinar-topics/pharma-manufacturing-and-supply-chain/",
-      "description": "Xtalks webinar: Pharma Manufacturing & Supply Chain"
-    },
-    {
-      "id": "xtalks-clinical-trials",
-      "title": "Clinical Trials",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/webinar-topics/clinical-trials-webinars/",
-      "description": "Xtalks webinar: Clinical Trials"
-    },
-    {
       "id": "xtalks-progressing-beyond-exploratory-endpoints-the-value-of-digital-biomarkers-in-neuroscience-clinical-studies",
       "title": "Progressing Beyond Exploratory Endpoints: The Value of Digital Biomarkers in Neuroscience Clinical Studies",
       "provider": "Xtalks",
@@ -160,19 +106,6 @@
       "date_added": "2025-07-01",
       "url": "https://xtalks.com/webinars/accelerating-clinical-research-with-master-protocols-challenges-and-benefits-to-complex-trial-designs/",
       "description": "Xtalks webinar: Accelerating Clinical Research with Master Protocols: Challenges and Benefits to Complex Trial Designs"
-    },
-    {
-      "id": "xtalks-host-a-webinar",
-      "title": "Host a Webinar",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://xtalks.com/host-a-webinar/",
-      "description": "Xtalks webinar: Host a Webinar"
     },
     {
       "id": "ispe-webinars",
@@ -410,7 +343,7 @@
     },
     {
       "id": "pmi-webinars-opens-in-a-new-tab",
-      "title": "Webinars\ufeff\u2013\u00a0opens in a new tab",
+      "title": "Webinars﻿– opens in a new tab",
       "provider": "PMI",
       "topics": [
         "project-management"
@@ -421,9 +354,178 @@
       "certificate_process": "Certificate available upon completion",
       "date_added": "2025-07-01",
       "url": "https://www.projectmanagement.com/Webinars/webinarMainOnDemand.cfm#_=_",
-      "description": "PMI webinar: Webinars\ufeff\u2013\u00a0opens in a new tab"
+      "description": "PMI webinar: Webinars﻿– opens in a new tab"
+    },
+    {
+      "id": "xtalks-advancing-masld-mash-clinical-trials-the-role-of-non-invasive-diagnostics",
+      "title": "Advancing MASLD/MASH Clinical Trials: The Role of Non-Invasive Diagnostics",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "diagnostic"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/advancing-masld-mash-clinical-trials-the-role-of-non-invasive-diagnostics/",
+      "description": "Xtalks on-demand webinar: Advancing MASLD/MASH Clinical Trials: The Role of Non-Invasive Diagnostics"
+    },
+    {
+      "id": "xtalks-strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials",
+      "title": "Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials/",
+      "description": "Xtalks on-demand webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials"
+    },
+    {
+      "id": "xtalks-the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t",
+      "title": "The Next Biomanufacturing Revolution: Stable Cell Lines for CAR-T",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t/",
+      "description": "Xtalks on-demand webinar: The Next Biomanufacturing Revolution: Stable Cell Lines for CAR-T"
+    },
+    {
+      "id": "xtalks-integrating-patient-centric-sample-collection-into-clinical-trials",
+      "title": "Integrating Patient-Centric Sample Collection into Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/integrating-patient-centric-sample-collection-into-clinical-trials/",
+      "description": "Xtalks on-demand webinar: Integrating Patient-Centric Sample Collection into Clinical Trials"
+    },
+    {
+      "id": "xtalks-advancing-clinical-performance-with-ai-powered-conversational-intelligence-in-healthcare",
+      "title": "Advancing Clinical Performance with AI-Powered Conversational Intelligence in Healthcare",
+      "provider": "Xtalks",
+      "topics": [
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/advancing-clinical-performance-with-ai-powered-conversational-intelligence-in-healthcare/",
+      "description": "Xtalks on-demand webinar: Advancing Clinical Performance with AI-Powered Conversational Intelligence in Healthcare"
+    },
+    {
+      "id": "xtalks-oncology-clinical-development-optimizing-value-through-implementation-of-a-patient-centric-holistic-endpoint-strategy",
+      "title": "Oncology Clinical Development: Optimizing Value Through Implementation of a Patient-Centric, Holistic Endpoint Strategy",
+      "provider": "Xtalks",
+      "topics": [
+        "development",
+        "oncology",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/oncology-clinical-development-optimizing-value-through-implementation-of-a-patient-centric-holistic-endpoint-strategy/",
+      "description": "Xtalks on-demand webinar: Oncology Clinical Development: Optimizing Value Through Implementation of a Patient-Centric, Holistic Endpoint Strategy"
+    },
+    {
+      "id": "xtalks-pregnancy-safety-studies-driving-quality-and-efficiency-with-real-world-evidence",
+      "title": "Pregnancy Safety Studies: Driving Quality and Efficiency with Real-World Evidence",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/pregnancy-safety-studies-driving-quality-and-efficiency-with-real-world-evidence/",
+      "description": "Xtalks on-demand webinar: Pregnancy Safety Studies: Driving Quality and Efficiency with Real-World Evidence"
+    },
+    {
+      "id": "xtalks-leveraging-iso-idmp-for-smarter-regulatory-processes-in-the-eu",
+      "title": "Leveraging ISO IDMP for Smarter Regulatory Processes in the EU",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/leveraging-iso-idmp-for-smarter-regulatory-processes-in-the-eu/",
+      "description": "Xtalks on-demand webinar: Leveraging ISO IDMP for Smarter Regulatory Processes in the EU"
+    },
+    {
+      "id": "xtalks-peptide-aggregation-in-manufacturing-mechanisms-challenges-and-case-studies",
+      "title": "Peptide Aggregation in Manufacturing: Mechanisms, Challenges and Case Studies",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/peptide-aggregation-in-manufacturing-mechanisms-challenges-and-case-studies/",
+      "description": "Xtalks on-demand webinar: Peptide Aggregation in Manufacturing: Mechanisms, Challenges and Case Studies"
+    },
+    {
+      "id": "xtalks-real-world-clinical-data-strengths-challenges-and-use-cases",
+      "title": "Real-World Clinical Data: Strengths, Challenges and Use Cases",
+      "provider": "Xtalks",
+      "topics": [
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/real-world-clinical-data-strengths-challenges-and-use-cases/",
+      "description": "Xtalks on-demand webinar: Real-World Clinical Data: Strengths, Challenges and Use Cases"
+    },
+    {
+      "id": "xtalks-get-ready-for-a-new-wave-of-clinical-trials-in-schizophrenia-how-sites-and-sponsors-can-avoid-conceptual-mistakes",
+      "title": "Get ready for a new wave of clinical trials in Schizophrenia: how Sites and Sponsors can avoid conceptual mistakes",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-01",
+      "url": "https://xtalks.com/webinars/get-ready-for-a-new-wave-of-clinical-trials-in-schizophrenia-how-sites-and-sponsors-can-avoid-conceptual-mistakes/",
+      "description": "Xtalks on-demand webinar: Get ready for a new wave of clinical trials in Schizophrenia: how Sites and Sponsors can avoid conceptual mistakes"
     }
   ],
-  "last_updated": "2025-07-01T11:47:57.830361",
-  "total_count": 27
+  "last_updated": "2025-07-01T14:40:25.428094",
+  "total_count": 33
 }

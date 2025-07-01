@@ -205,7 +205,7 @@ class BaseScraper:
         
         # Skip URLs that are clearly not individual webinars
         skip_url_patterns = [
-            '/webinar/', '/webinars/', '/events/', '/education/',
+            '/events/', '/education/',
             '/learning/', '/training/', '/resources/', '/library/',
             '/archive/', '/catalog/', '/browse/', '/search/',
             '/submit/', '/proposal/', '/application/', '/registration/',
@@ -213,7 +213,13 @@ class BaseScraper:
             '/faq/', '/terms/', '/privacy/'
         ]
         
-        # If URL contains these patterns but title doesn't look like a specific webinar, skip
+        # Special handling for webinar URLs - only skip if they're clearly topic pages
+        if '/webinar/' in url_lower or '/webinars/' in url_lower:
+            # If it's a webinar URL but title doesn't look like a specific webinar, skip
+            if not self._looks_like_specific_webinar(title):
+                return False
+        
+        # If URL contains other generic patterns but title doesn't look like a specific webinar, skip
         has_generic_url = any(pattern in url_lower for pattern in skip_url_patterns)
         if has_generic_url and not self._looks_like_specific_webinar(title):
             return False
@@ -503,41 +509,49 @@ class XtalksScraper(BaseScraper):
     """Scraper for Xtalks webinars"""
     
     def __init__(self):
-        super().__init__()
+        super().__init__(data_file="src/webinars.json")
         self.base_url = "https://xtalks.com"
-        self.webinar_urls = [
-            "https://xtalks.com/webinar-topics/life-science/",
-            "https://xtalks.com/webinar-topics/biotech/",
-            "https://xtalks.com/webinar-topics/clinical-trials-webinars/",
-            "https://xtalks.com/webinar-topics/pharmaceutical/"
+        self.on_demand_url = "https://xtalks.com/?post_type=webinars&webinar-topics=&type=recorded-webinars&s="
+        
+        # Topic page keywords for filtering
+        self.topic_page_keywords = [
+            'host a webinar',
+            'why host',
+            'webinar topics',
+            'webinar series',
+            'webinar library',
+            'webinar archive',
+            'webinar catalog',
+            'all webinars',
+            'browse webinars',
+            'find webinars',
+            'search webinars'
         ]
     
     def scrape(self):
-        """Scrape Xtalks webinars"""
+        """Scrape Xtalks on-demand webinars"""
         try:
-            # Try the main webinars page instead of specific topic pages
-            main_url = "https://xtalks.com/webinars"
-            response = self.make_request(main_url)
+            print("Scraping Xtalks on-demand webinars...")
+            response = self.make_request(self.on_demand_url)
             
             if not response:
-                print("Failed to access Xtalks main webinars page")
+                print("Failed to access Xtalks on-demand webinars page")
                 return
             
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            # Look for webinar links - try different patterns
-            webinar_links = soup.find_all('a', href=re.compile(r'/webinar/'))
+            # Look for webinar date elements - these indicate individual webinar entries
+            webinar_dates = soup.find_all(class_='webinar-date')
+            print(f"Found {len(webinar_dates)} webinar date elements on Xtalks")
             
-            # If no webinar links found, try broader search
-            if not webinar_links:
-                webinar_links = soup.find_all('a', href=re.compile(r'webinar'))
+            for date_elem in webinar_dates:
+                webinar_data = self._parse_webinar_from_date(date_elem)
+                if webinar_data:
+                    self.add_webinar(webinar_data)
             
-            # If still no links, try looking for any links with relevant text
-            if not webinar_links:
-                all_links = soup.find_all('a')
-                webinar_links = [link for link in all_links if 'webinar' in link.get_text(strip=True).lower()]
-            
-            print(f"Found {len(webinar_links)} potential webinar links on Xtalks")
+            # Also try to find direct webinar links as fallback
+            webinar_links = soup.find_all('a', href=re.compile(r'/webinars/'))
+            print(f"Found {len(webinar_links)} direct webinar links on Xtalks")
             
             for link in webinar_links:
                 webinar_data = self._parse_webinar_link(link)
@@ -547,35 +561,106 @@ class XtalksScraper(BaseScraper):
         except Exception as e:
             print(f"Error scraping Xtalks: {e}")
     
+    def _build_url(self, href: str) -> str:
+        """Build full URL from href"""
+        if href.startswith('http'):
+            return href
+        elif href.startswith('/'):
+            return 'https://xtalks.com' + href
+        else:
+            return 'https://xtalks.com/' + href
+    
+    def _clean_title(self, title: str) -> str:
+        """Clean up webinar title"""
+        if title.startswith('Webinar'):
+            title = title[7:].strip()
+        if 'On-Demand' in title:
+            title = title.split('On-Demand')[0].strip()
+        if 'This session' in title:
+            title = title.split('This session')[0].strip()
+        if 'In this webinar' in title:
+            title = title.split('In this webinar')[0].strip()
+        return title
+    
+    def _is_topic_page(self, title: str) -> bool:
+        """Check if title represents a topic page"""
+        title_lower = title.lower()
+        
+        # Check for topic page keywords
+        if any(keyword in title_lower for keyword in self.topic_page_keywords):
+            return True
+        
+        # Check for very short or generic titles
+        if len(title) < 15 or title_lower in ['clinical trials', 'cell and gene therapy', 'pharma manufacturing']:
+            return True
+        
+        return False
+    
+    def _parse_webinar_from_date(self, date_elem) -> Optional[Dict]:
+        """Parse webinar information from a date element"""
+        try:
+            # Find the parent element that contains both date and title
+            parent = date_elem.parent
+            
+            # Look for the webinar title link
+            title_link = parent.find('a')
+            if not title_link:
+                return None
+            
+            title = title_link.get_text(strip=True)
+            href = title_link.get('href', '')
+            
+            # Build URL and clean title
+            url = self._build_url(href)
+            title = self._clean_title(title)
+            
+            # Apply filtering
+            if not self._is_valid_webinar(title, url) or self._is_topic_page(title):
+                return None
+            
+            # Only include actual individual webinars
+            if not href or '/webinars/' not in href:
+                return None
+            
+            # Extract description if available
+            desc_elem = parent.find(['p', 'div'], class_=re.compile(r'description|summary|excerpt'))
+            description = desc_elem.get_text(strip=True) if desc_elem else f"Xtalks on-demand webinar: {title}"
+            
+            # Check for certificate availability
+            has_cert, process = self.check_certificate_availability(description)
+            
+            webinar_data = {
+                'id': self.generate_id(title, 'Xtalks'),
+                'title': title,
+                'provider': 'Xtalks',
+                'topics': self._extract_topics_from_title(title),
+                'format': 'on-demand',
+                'duration_min': 60,
+                'certificate_available': has_cert,
+                'certificate_process': process if has_cert else 'No certificate information available',
+                'date_added': datetime.now().strftime('%Y-%m-%d'),
+                'url': url,
+                'description': description
+            }
+            
+            return webinar_data
+        
+        except Exception as e:
+            print(f"Error parsing webinar from date: {e}")
+            return None
+    
     def _parse_webinar_link(self, link) -> Optional[Dict]:
         """Parse individual webinar link"""
         try:
             title = link.get_text(strip=True)
             href = link.get('href', '')
-            # Fix URL construction
-            if href.startswith('http'):
-                url = href
-            elif href.startswith('/'):
-                url = 'https://xtalks.com' + href
-            else:
-                url = 'https://xtalks.com/' + href
             
-            # Clean up Xtalks titles (they often have "Webinar" prefix and "On-Demand" suffix)
-            if title.startswith('Webinar'):
-                title = title[7:]  # Remove "Webinar" prefix
-            if 'On-Demand' in title:
-                title = title.split('On-Demand')[0].strip()
-            if 'This session' in title:
-                title = title.split('This session')[0].strip()
-            if 'In this webinar' in title:
-                title = title.split('In this webinar')[0].strip()
+            # Build URL and clean title
+            url = self._build_url(href)
+            title = self._clean_title(title)
             
-            # Skip if title is too short or generic
-            if len(title) < 10 or title.lower() in ['webinars', 'live virtual webinars', 'view all webinars']:
-                return None
-            
-            # Skip non-webinar content
-            if not self._is_valid_webinar(title, url):
+            # Apply filtering
+            if not self._is_valid_webinar(title, url) or self._is_topic_page(title):
                 return None
             
             # Check for certificate availability
@@ -584,7 +669,7 @@ class XtalksScraper(BaseScraper):
                 'id': self.generate_id(title, 'Xtalks'),
                 'title': title,
                 'provider': 'Xtalks',
-                'topics': self._extract_topics_from_url(href),
+                'topics': self._extract_topics_from_title(title),
                 'format': 'on-demand',
                 'duration_min': 60,
                 'certificate_available': has_cert,
@@ -600,18 +685,66 @@ class XtalksScraper(BaseScraper):
             print(f"Error parsing webinar link: {e}")
             return None
     
-    def _extract_topics_from_url(self, url: str) -> List[str]:
-        """Extract topics from URL path"""
+    def _extract_topics_from_title(self, title: str) -> List[str]:
+        """Extract topics from webinar title"""
         topics = []
-        if 'life-science' in url:
-            topics.append('life-sciences')
-        if 'biotech' in url:
-            topics.append('biotech')
-        if 'clinical-trials' in url:
-            topics.append('clinical-trials')
-        if 'pharmaceutical' in url:
-            topics.append('pharmaceutical')
+        title_lower = title.lower()
+        
+        # Topic keywords mapping
+        topic_keywords = {
+            'clinical trial': 'clinical-trials',
+            'clinical trials': 'clinical-trials',
+            'clinical research': 'clinical-research',
+            'drug discovery': 'drug-discovery',
+            'drug development': 'drug-development',
+            'pharmaceutical': 'pharmaceutical',
+            'biotech': 'biotech',
+            'biotechnology': 'biotech',
+            'cell therapy': 'cell-therapy',
+            'gene therapy': 'gene-therapy',
+            'manufacturing': 'manufacturing',
+            'quality': 'quality-assurance',
+            'regulatory': 'regulatory',
+            'fda': 'regulatory',
+            'ema': 'regulatory',
+            'compliance': 'compliance',
+            'bioprocessing': 'bioprocess',
+            'bioprocess': 'bioprocess',
+            'laboratory': 'laboratory-management',
+            'lab': 'laboratory-management',
+            'research': 'research',
+            'development': 'development',
+            'life science': 'life-sciences',
+            'life sciences': 'life-sciences',
+            'oncology': 'oncology',
+            'cancer': 'oncology',
+            'cardiovascular': 'cardiovascular',
+            'neuroscience': 'neuroscience',
+            'rare disease': 'rare-disease',
+            'rare diseases': 'rare-disease',
+            'patient': 'patient-care',
+            'diagnostic': 'diagnostic',
+            'diagnostics': 'diagnostic',
+            'biomarker': 'biomarker',
+            'biomarkers': 'biomarker',
+            'data': 'data-management',
+            'analytics': 'data-management',
+            'ai': 'artificial-intelligence',
+            'artificial intelligence': 'artificial-intelligence',
+            'machine learning': 'artificial-intelligence',
+            'digital health': 'digital-health',
+            'telemedicine': 'digital-health',
+            'medical device': 'medical-device',
+            'medical devices': 'medical-device'
+        }
+        
+        for keyword, topic in topic_keywords.items():
+            if keyword in title_lower and topic not in topics:
+                topics.append(topic)
+        
         return topics
+    
+
 
 
 class ISPEScraper(BaseScraper):
