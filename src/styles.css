@@ -367,6 +367,35 @@ footer {
     padding: 20px;
     color: #666;
     font-size: 14px;
+    position: relative;
+}
+
+.admin-link {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e1e5e9;
+}
+
+.admin-link a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: rgba(255, 215, 0, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.admin-link a:hover {
+    opacity: 1;
+    background: rgba(255, 215, 0, 0.2);
+    border-color: rgba(255, 215, 0, 0.5);
+}
+
+.admin-link i {
+    margin-right: 5px;
 }
 
 /* Modal */
@@ -383,13 +412,15 @@ footer {
 
 .modal-content {
     background-color: white;
-    margin: 15% auto;
+    margin: 5% auto;
     padding: 30px;
     border-radius: 10px;
     width: 90%;
-    max-width: 500px;
+    max-width: 800px;
+    max-height: 85vh;
     position: relative;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
 }
 
 .close {
@@ -456,8 +487,9 @@ footer {
     }
     
     .modal-content {
-        margin: 10px;
+        margin: 5px;
         padding: 15px;
+        max-height: 90vh;
     }
 }
 
