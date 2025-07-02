@@ -68,6 +68,15 @@
                     <option value="false">Not Available</option>
                 </select>
             </div>
+            <div class="filter-group">
+                <label for="dateFilter">Date:</label>
+                <select id="dateFilter">
+                    <option value="">All Dates</option>
+                    <option value="live">Live Events</option>
+                    <option value="on-demand">On-Demand</option>
+                    <option value="upcoming">Upcoming (Next 30 days)</option>
+                </select>
+            </div>
         </div>
 
         <div class="results-info">
@@ -85,6 +94,7 @@
                         <th data-sort="provider">Provider <i class="fas fa-sort"></i></th>
                         <th data-sort="topics">Topics</th>
                         <th data-sort="format">Format <i class="fas fa-sort"></i></th>
+                        <th data-sort="live_date">Date <i class="fas fa-sort"></i></th>
                         <th data-sort="duration_min">Duration <i class="fas fa-sort"></i></th>
                         <th data-sort="certificate_available">Certificate <i class="fas fa-sort"></i></th>
                         <th>Actions</th>

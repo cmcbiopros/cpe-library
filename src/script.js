@@ -9,7 +9,8 @@ class WebinarDirectory {
             topic: '',
             format: '',
             duration: '',
-            certificate: ''
+            certificate: '',
+            date: ''
         };
         
         this.init();
@@ -73,7 +74,7 @@ class WebinarDirectory {
         });
 
         // Filter dropdowns
-        const filterSelects = ['providerFilter', 'topicFilter', 'formatFilter', 'durationFilter', 'certificateFilter'];
+        const filterSelects = ['providerFilter', 'topicFilter', 'formatFilter', 'durationFilter', 'certificateFilter', 'dateFilter'];
         filterSelects.forEach(id => {
             document.getElementById(id).addEventListener('change', (e) => {
                 this.filters[id.replace('Filter', '')] = e.target.value;
@@ -153,6 +154,22 @@ class WebinarDirectory {
             // Certificate filter
             if (this.filters.certificate && webinar.certificate_available.toString() !== this.filters.certificate) return false;
 
+            // Date filter
+            if (this.filters.date) {
+                if (this.filters.date === 'live') {
+                    if (webinar.format !== 'live') return false;
+                } else if (this.filters.date === 'on-demand') {
+                    if (webinar.format !== 'on-demand') return false;
+                } else if (this.filters.date === 'upcoming') {
+                    if (webinar.format !== 'live') return false;
+                    if (!webinar.live_date || webinar.live_date === 'on-demand' || webinar.live_date === 'Unknown') return false;
+                    const now = new Date();
+                    const date = new Date(webinar.live_date);
+                    const diffDays = (date - now) / (1000 * 60 * 60 * 24);
+                    if (isNaN(date.getTime()) || diffDays < 0 || diffDays > 30) return false;
+                }
+            }
+
             return true;
         });
 
@@ -168,7 +185,8 @@ class WebinarDirectory {
             topic: '',
             format: '',
             duration: '',
-            certificate: ''
+            certificate: '',
+            date: ''
         };
 
         // Reset UI
@@ -178,6 +196,7 @@ class WebinarDirectory {
         document.getElementById('formatFilter').value = '';
         document.getElementById('durationFilter').value = '';
         document.getElementById('certificateFilter').value = '';
+        document.getElementById('dateFilter').value = '';
 
         // Reset data
         this.filteredWebinars = [...this.webinars];
@@ -199,7 +218,20 @@ class WebinarDirectory {
                 bVal = bVal.join(', ');
             }
 
-            if (typeof aVal === 'string') {
+            // Handle live_date sorting
+            if (field === 'live_date') {
+                // Convert dates to comparable values
+                const getDateValue = (val) => {
+                    if (!val || val === 'on-demand' || val === 'Unknown') return 0;
+                    try {
+                        return new Date(val).getTime();
+                    } catch (e) {
+                        return 0;
+                    }
+                };
+                aVal = getDateValue(aVal);
+                bVal = getDateValue(bVal);
+            } else if (typeof aVal === 'string') {
                 aVal = aVal.toLowerCase();
                 bVal = bVal.toLowerCase();
             }
@@ -251,6 +283,23 @@ class WebinarDirectory {
                  <i class="fas fa-times-circle"></i> Not Available
                </span>`;
 
+        // Format the date for display
+        let dateDisplay = 'On-Demand';
+        if (webinar.live_date && webinar.live_date !== 'on-demand' && webinar.live_date !== 'Unknown') {
+            try {
+                const date = new Date(webinar.live_date);
+                if (!isNaN(date.getTime())) {
+                    dateDisplay = date.toLocaleDateString('en-US', { 
+                        year: 'numeric', 
+                        month: 'short', 
+                        day: 'numeric' 
+                    });
+                }
+            } catch (e) {
+                dateDisplay = webinar.live_date;
+            }
+        }
+
         return `
             <tr>
                 <td>
@@ -262,6 +311,7 @@ class WebinarDirectory {
                 <td>${webinar.provider}</td>
                 <td><div class="topic-tags">${topics}</div></td>
                 <td>${webinar.format.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
+                <td>${dateDisplay}</td>
                 <td>${webinar.duration_min} min</td>
                 <td>${certificateBadge}</td>
                 <td>

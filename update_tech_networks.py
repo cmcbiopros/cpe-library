@@ -75,7 +75,7 @@ def extract_date_and_format_from_page(url: str) -> tuple[Optional[str], str]:
                     try:
                         dt = datetime.strptime(date_str, fmt)
                         if dt > now:
-                            return dt.strftime('%Y-%m-%d'), 'scheduled'
+                            return dt.strftime('%Y-%m-%d'), 'live'
                     except ValueError:
                         continue
         
@@ -83,8 +83,8 @@ def extract_date_and_format_from_page(url: str) -> tuple[Optional[str], str]:
         page_text_lower = page_text.lower()
         if 'on-demand' in page_text_lower or 'on demand' in page_text_lower:
             return None, 'on-demand'
-        elif re.search(r'\b(live|scheduled|upcoming|register)\b', page_text_lower):
-            return None, 'scheduled'
+        elif re.search(r'\b(live|upcoming|register)\b', page_text_lower):
+            return None, 'live'
         else:
             return None, 'on-demand'
             
@@ -122,8 +122,12 @@ def update_technology_networks_entries():
         entry['format'] = format_type
         if webinar_date:
             entry['webinar_date'] = webinar_date
+            entry['live_date'] = webinar_date if format_type == 'live' else 'on-demand'
         elif 'webinar_date' in entry:
             del entry['webinar_date']  # Remove if no date found
+            entry['live_date'] = 'on-demand'
+        else:
+            entry['live_date'] = 'on-demand'
         
         updated_count += 1
     

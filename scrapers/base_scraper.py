@@ -311,6 +311,13 @@ class BaseScraper:
         if 'duration_min' not in webinar_data:
             webinar_data['duration_min'] = 60
         
+        # Add live_date field - either the actual date for live webinars or "on-demand"
+        if 'live_date' not in webinar_data:
+            if webinar_data.get('format') == 'live' and webinar_data.get('webinar_date'):
+                webinar_data['live_date'] = webinar_data['webinar_date']
+            else:
+                webinar_data['live_date'] = 'on-demand'
+        
         self.webinars.append(webinar_data)
         return True
     
@@ -349,7 +356,7 @@ class LabrootsScraper(BaseScraper):
         try:
             # Scrape both upcoming and on-demand events
             urls_to_scrape = [
-                ("https://www.labroots.com/virtual-events/all/filter/upcoming/page", "scheduled"),
+                ("https://www.labroots.com/virtual-events/all/filter/upcoming/page", "live"),
                 ("https://www.labroots.com/virtual-events/all/filter/ondemand/page", "on-demand")
             ]
             
@@ -423,6 +430,7 @@ class LabrootsScraper(BaseScraper):
                 'certificate_process': process if has_cert else 'No certificate information available',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
                 'webinar_date': webinar_date,
+                'live_date': webinar_date if format_type == 'live' and webinar_date else 'on-demand',
                 'url': url,
                 'description': f"Labroots event: {title}"
             }
@@ -743,6 +751,7 @@ class XtalksScraper(BaseScraper):
                 'certificate_process': process if has_cert else 'No certificate information available',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
                 'webinar_date': parsed_date.strftime('%Y-%m-%d'),  # Add the actual webinar date
+                'live_date': 'on-demand',  # Xtalks webinars are on-demand
                 'url': url,
                 'description': description
             }
@@ -780,6 +789,7 @@ class XtalksScraper(BaseScraper):
                 'certificate_process': 'No certificate information available',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
                 'webinar_date': 'Unknown',  # Mark as unknown for direct links
+                'live_date': 'on-demand',  # Xtalks webinars are on-demand
                 'url': url,
                 'description': f"Xtalks webinar: {title}"
             }
@@ -862,7 +872,7 @@ class ISPEScraper(BaseScraper):
     def scrape(self):
         """Scrape ISPE webinars from both upcoming and past pages"""
         try:
-            # Scrape upcoming (scheduled) webinars
+            # Scrape upcoming (live) webinars
             print("Scraping ISPE upcoming webinars...")
             self._scrape_upcoming_webinars()
             
@@ -962,12 +972,13 @@ class ISPEScraper(BaseScraper):
                 'title': title,
                 'provider': 'ISPE',
                 'topics': self._extract_topics_from_title(title),
-                'format': 'scheduled',
+                'format': 'live',
                 'duration_min': 60,
                 'certificate_available': has_cert,
                 'certificate_process': process if has_cert else 'No certificate information available',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
                 'webinar_date': webinar_date,
+                'live_date': webinar_date if webinar_date and webinar_date != "Unknown" else 'on-demand',
                 'url': url,
                 'description': f"ISPE upcoming webinar: {title}"
             }
@@ -1012,6 +1023,7 @@ class ISPEScraper(BaseScraper):
                 'certificate_process': process if has_cert else 'No certificate information available',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
                 'webinar_date': webinar_date,
+                'live_date': 'on-demand',  # ISPE past webinars are on-demand
                 'url': url,
                 'description': f"ISPE past webinar: {title}"
             }
@@ -1184,7 +1196,7 @@ class TechnologyNetworksScraper(BaseScraper):
                                 try:
                                     dt = datetime.strptime(date_str, fmt)
                                     if dt > now:
-                                        format_type = 'scheduled'
+                                        format_type = 'live'
                                         webinar_date = dt
                                         break
                                 except ValueError:
@@ -1197,8 +1209,8 @@ class TechnologyNetworksScraper(BaseScraper):
                         page_text_lower = page_text.lower()
                         if 'on-demand' in page_text_lower or 'on demand' in page_text_lower:
                             format_type = 'on-demand'
-                        elif re.search(r'\b(live|scheduled|upcoming|register)\b', page_text_lower):
-                            format_type = 'scheduled'
+                        elif re.search(r'\b(live|upcoming|register)\b', page_text_lower):
+                            format_type = 'live'
                         else:
                             format_type = 'on-demand'
                             
@@ -1207,8 +1219,8 @@ class TechnologyNetworksScraper(BaseScraper):
                 # Fallback to title-based logic
                 if 'on-demand' in title_lower or 'on demand' in title_lower:
                     format_type = 'on-demand'
-                elif re.search(r'\b(live|scheduled|upcoming|register)\b', title_lower):
-                    format_type = 'scheduled'
+                elif re.search(r'\b(live|upcoming|register)\b', title_lower):
+                    format_type = 'live'
                 else:
                     format_type = 'on-demand'
 
@@ -1229,6 +1241,9 @@ class TechnologyNetworksScraper(BaseScraper):
             }
             if webinar_date:
                 webinar_data['webinar_date'] = webinar_date.strftime('%Y-%m-%d')
+                webinar_data['live_date'] = webinar_date.strftime('%Y-%m-%d') if format_type == 'live' else 'on-demand'
+            else:
+                webinar_data['live_date'] = 'on-demand'
             return webinar_data
         except Exception as e:
             print(f"Error parsing webinar link: {e}")
@@ -1336,6 +1351,7 @@ class FDACDERScraper(BaseScraper):
                 'certificate_process': f'CE credits available: {credits} credits' if has_ce else 'No CE credits available',
                 'ce_credits': credits if has_ce else 0,
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
+                'live_date': 'on-demand' if format_type == 'on-demand' else 'Unknown',  # Set based on format
                 'url': url,
                 'description': f"FDA CDER training: {title}. Topics: {topics_text}"
             }
@@ -1403,7 +1419,7 @@ class FDACDERScraper(BaseScraper):
         url_lower = url.lower()
         
         if any(keyword in title_lower for keyword in ['webinar', 'live', 'virtual']):
-            return 'scheduled'
+            return 'live'
         elif any(keyword in url_lower for keyword in ['youtube', 'video']):
             return 'on-demand'
         elif any(keyword in title_lower for keyword in ['course', 'training', 'seminar']):
@@ -1447,6 +1463,7 @@ class PMIScraper(BaseScraper):
                 'certificate_available': True,
                 'certificate_process': 'PDUs available upon completion',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
+                'live_date': 'on-demand',  # PMI webinars are on-demand
                 'url': 'https://www.projectmanagement.com/webinars/webinarmainondemand.cfm',
                 'description': 'Access to PMI on-demand webinars. Free webinars available within the last 6 months. PDUs available upon completion.'
             }
@@ -1541,6 +1558,7 @@ class PMIScraper(BaseScraper):
                 'certificate_process': process if has_cert else 'PDUs available upon completion',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
                 'webinar_date': webinar_date,
+                'live_date': 'on-demand',  # PMI webinars are on-demand
                 'url': url,
                 'description': f"PMI on-demand webinar: {title}"
             }
