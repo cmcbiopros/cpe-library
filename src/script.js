@@ -10,7 +10,8 @@ class WebinarDirectory {
             format: '',
             duration: '',
             certificate: '',
-            date: ''
+            date: '',
+            liked: ''
         };
         this.dataModified = false;
         
@@ -23,6 +24,7 @@ class WebinarDirectory {
         this.populateFilters();
         this.renderTable();
         this.updateResultsInfo();
+        this.updateFooterInfo();
     }
 
     async loadData() {
@@ -55,10 +57,8 @@ class WebinarDirectory {
             
             this.filteredWebinars = [...this.webinars];
             
-            // Update footer info
-            document.getElementById('lastUpdated').textContent = 
-                new Date(lastUpdated).toLocaleDateString();
-            document.getElementById('totalCount').textContent = data.total_count || this.webinars.length;
+            // Update footer info with current data
+            this.updateFooterInfo();
         } catch (error) {
             console.error('Error loading webinar data:', error);
             // Fallback to sample data for development
@@ -78,6 +78,7 @@ class WebinarDirectory {
                 }
             ];
             this.filteredWebinars = [...this.webinars];
+            this.updateFooterInfo();
         }
     }
 
@@ -92,6 +93,9 @@ class WebinarDirectory {
             
             // Clear pending webinars from localStorage
             localStorage.removeItem('pendingWebinars');
+            
+            // Update footer with new data
+            this.updateFooterInfo();
             
             // Show notification
             this.showToast(`${pendingWebinars.length} new webinar(s) added!`, 'success');
@@ -115,7 +119,7 @@ class WebinarDirectory {
         });
 
         // Filter dropdowns
-        const filterSelects = ['providerFilter', 'topicFilter', 'formatFilter', 'durationFilter', 'certificateFilter', 'dateFilter'];
+        const filterSelects = ['providerFilter', 'topicFilter', 'formatFilter', 'durationFilter', 'certificateFilter', 'dateFilter', 'likedFilter'];
         filterSelects.forEach(id => {
             document.getElementById(id).addEventListener('change', (e) => {
                 this.filters[id.replace('Filter', '')] = e.target.value;
@@ -211,6 +215,11 @@ class WebinarDirectory {
                 }
             }
 
+            // Liked filter
+            if (this.filters.liked === 'liked') {
+                if (!this.isWebinarLiked(webinar.id)) return false;
+            }
+
             return true;
         });
 
@@ -227,7 +236,8 @@ class WebinarDirectory {
             format: '',
             duration: '',
             certificate: '',
-            date: ''
+            date: '',
+            liked: ''
         };
 
         // Reset UI
@@ -238,6 +248,7 @@ class WebinarDirectory {
         document.getElementById('durationFilter').value = '';
         document.getElementById('certificateFilter').value = '';
         document.getElementById('dateFilter').value = '';
+        document.getElementById('likedFilter').value = '';
 
         // Reset data
         this.filteredWebinars = [...this.webinars];
@@ -257,6 +268,10 @@ class WebinarDirectory {
             if (field === 'topics') {
                 aVal = aVal.join(', ');
                 bVal = bVal.join(', ');
+            } else if (field === 'likes') {
+                // Handle likes sorting
+                aVal = this.getLikeCount(a.id);
+                bVal = this.getLikeCount(b.id);
             }
 
             // Handle live_date sorting
@@ -352,6 +367,10 @@ class WebinarDirectory {
             }
         }
 
+        // Get like count for this webinar
+        const likeCount = this.getLikeCount(webinar.id);
+        const isLiked = this.isWebinarLiked(webinar.id);
+
         return `
             <tr>
                 <td>
@@ -367,18 +386,20 @@ class WebinarDirectory {
                 <td>${webinar.duration_min} min</td>
                 <td>${certificateBadge}</td>
                 <td>
+                    <div class="likes-column">
+                        <span class="like-count-display">${likeCount}</span>
+                        <button class="btn btn-like ${isLiked ? 'liked' : ''}" onclick="webinarDirectory.toggleLike('${webinar.id}')" title="${isLiked ? 'Unlike' : 'Like'} this webinar">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                </td>
+                <td>
                     <div class="action-buttons">
                         <a href="${webinar.url}" target="_blank" class="btn btn-primary">
                             <i class="fas fa-external-link-alt"></i> View
                         </a>
                         <button class="btn btn-secondary" onclick="webinarDirectory.copyLink('${webinar.id}')">
                             <i class="fas fa-link"></i> Copy Link
-                        </button>
-                        <button class="btn btn-warning" onclick="webinarDirectory.editWebinar('${webinar.id}')" title="Edit">
-                            <i class="fas fa-edit"></i>
-                        </button>
-                        <button class="btn btn-danger" onclick="webinarDirectory.deleteWebinar('${webinar.id}')" title="Delete">
-                            <i class="fas fa-trash"></i>
                         </button>
                     </div>
                 </td>
@@ -777,6 +798,7 @@ class WebinarDirectory {
             this.renderTable();
             this.populateFilters();
             this.updateResultsInfo();
+            this.updateFooterInfo();
             
             this.showToast('Webinar updated successfully!', 'success');
             this.closeEditModal();
@@ -810,6 +832,7 @@ class WebinarDirectory {
             this.renderTable();
             this.populateFilters();
             this.updateResultsInfo();
+            this.updateFooterInfo();
             
             this.showToast('Webinar deleted successfully!', 'success');
             
@@ -839,6 +862,63 @@ class WebinarDirectory {
         link.click();
         
         this.showToast('Updated data exported! Replace webinars.json with this file.', 'success');
+    }
+
+    updateFooterInfo() {
+        // Find the latest date_added from all webinars
+        const latestDate = this.webinars.reduce((latest, webinar) => {
+            const webinarDate = webinar.date_added;
+            if (!webinarDate) return latest;
+            
+            if (!latest || webinarDate > latest) {
+                return webinarDate;
+            }
+            return latest;
+        }, null);
+        
+        // Use the latest webinar date, or current date if no webinars
+        const displayDate = latestDate || new Date().toISOString().split('T')[0];
+        
+        document.getElementById('lastUpdated').textContent = 
+            new Date(displayDate).toLocaleDateString();
+        
+        // Update total count with current webinar count
+        document.getElementById('totalCount').textContent = this.webinars.length;
+    }
+
+    // Like functionality methods
+    getLikeCount(webinarId) {
+        const likes = JSON.parse(localStorage.getItem('webinar_likes') || '{}');
+        return likes[webinarId] || 0;
+    }
+
+    isWebinarLiked(webinarId) {
+        const userLikes = JSON.parse(localStorage.getItem('user_webinar_likes') || '{}');
+        return userLikes[webinarId] || false;
+    }
+
+    toggleLike(webinarId) {
+        const likes = JSON.parse(localStorage.getItem('webinar_likes') || '{}');
+        const userLikes = JSON.parse(localStorage.getItem('user_webinar_likes') || '{}');
+        
+        if (userLikes[webinarId]) {
+            // Unlike: decrement count and remove from user likes
+            likes[webinarId] = Math.max(0, (likes[webinarId] || 0) - 1);
+            delete userLikes[webinarId];
+            this.showToast('Removed from liked webinars', 'info');
+        } else {
+            // Like: increment count and add to user likes
+            likes[webinarId] = (likes[webinarId] || 0) + 1;
+            userLikes[webinarId] = true;
+            this.showToast('Added to liked webinars', 'success');
+        }
+        
+        // Save to localStorage
+        localStorage.setItem('webinar_likes', JSON.stringify(likes));
+        localStorage.setItem('user_webinar_likes', JSON.stringify(userLikes));
+        
+        // Re-render the table to update like counts
+        this.renderTable();
     }
 }
 

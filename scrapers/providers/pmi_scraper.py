@@ -19,6 +19,10 @@ class PMIScraper(BaseScraper):
             print("Adding PMI on-demand webinars link...")
             
             # Add a single entry linking to the PMI on-demand webinars page
+            # Check if PMI entry already exists to preserve original date_added
+            existing_pmi = next((w for w in self.webinars if w['id'] == 'pmi-on-demand-webinars'), None)
+            date_added = existing_pmi['date_added'] if existing_pmi else datetime.now().strftime('%Y-%m-%d')
+            
             webinar_data = {
                 'id': 'pmi-on-demand-webinars',
                 'title': 'PMI On-Demand Webinars',
@@ -28,7 +32,7 @@ class PMIScraper(BaseScraper):
                 'duration_min': 'variable',
                 'certificate_available': True,
                 'certificate_process': 'PDUs available upon completion',
-                'date_added': datetime.now().strftime('%Y-%m-%d'),
+                'date_added': date_added,
                 'live_date': 'on-demand',  # PMI webinars are on-demand
                 'url': 'https://www.projectmanagement.com/webinars/webinarmainondemand.cfm',
                 'description': 'Access to PMI on-demand webinars. Free webinars available within the last 6 months. PDUs available upon completion.'

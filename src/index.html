@@ -77,6 +77,13 @@
                     <option value="upcoming">Upcoming (Next 30 days)</option>
                 </select>
             </div>
+            <div class="filter-group">
+                <label for="likedFilter">Liked:</label>
+                <select id="likedFilter">
+                    <option value="">All Webinars</option>
+                    <option value="liked">Liked Only</option>
+                </select>
+            </div>
         </div>
 
         <div class="results-info">
@@ -97,6 +104,7 @@
                         <th data-sort="live_date">Date <i class="fas fa-sort"></i></th>
                         <th data-sort="duration_min">Duration <i class="fas fa-sort"></i></th>
                         <th data-sort="certificate_available">Certificate <i class="fas fa-sort"></i></th>
+                        <th data-sort="likes">Likes <i class="fas fa-sort"></i></th>
                         <th>Actions</th>
                     </tr>
                 </thead>

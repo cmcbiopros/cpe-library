@@ -5,40 +5,36 @@ This guide explains how to use the admin functionality to manage webinars in the
 ## Overview
 
 The admin functionality allows you to:
+- **Add** new webinars
 - **Edit** existing webinars
 - **Delete** webinars
-- **Add** new webinars
 - **Export** updated data
 - **View** comprehensive statistics
 
 ## Accessing Admin Features
 
 ### 1. Main Directory Page (`index.html`)
-- **Edit/Delete**: Each webinar row has edit (pencil) and delete (trash) buttons
-- **Admin Panel**: Click "Admin Panel" link for comprehensive management
+- **Clean Interface**: Focused on browsing and viewing webinars
+- **View Links**: Each webinar has "View" and "Copy Link" buttons
+- **Admin Access**: Discreet "Admin" link in the top-right corner
 
 ### 2. Admin Panel (`admin-panel.html`)
+- **Add New Webinar**: Modal form for adding new webinars
 - **Statistics**: View counts of total, live, on-demand, and certificate webinars
 - **Search & Filter**: Find specific webinars by title, provider, format, or certificate status
 - **Bulk Management**: Edit, delete, or view details for any webinar
 - **Export Changes**: Download only modified data (highlighted when changes are made)
 - **Export All Data**: Download the complete dataset
-- **Add New Webinar**: Link to the add webinar form
 - **Refresh Data**: Reload from the original JSON file
 - **Clear Changes**: Reset to original data
-
-### 3. Add New Webinar (`admin.html`)
-- Fill out the form to add a new webinar
-- All required fields are marked with *
-- New webinars are automatically integrated when you return to the main page
 
 ## How to Update the JSON File
 
 Since this is a static frontend, here's the workflow to update the `webinars.json` file:
 
 ### Option 1: Using Export Changes (Recommended)
-1. Go to the Admin Panel
-2. Make your changes (edit, delete, add webinars)
+1. Go to the Admin Panel (click "Admin" in top-right corner)
+2. Make your changes (add, edit, delete webinars)
 3. The "Export Changes" button will become active (green) when changes are detected
 4. Click "Export Changes" to download the updated data
 5. Replace the existing `src/webinars.json` with the downloaded file
@@ -49,12 +45,6 @@ Since this is a static frontend, here's the workflow to update the `webinars.jso
 2. Click "Export All Data" to download the complete dataset
 3. Replace the existing `src/webinars.json` with the downloaded file
 4. Commit and push the changes
-
-### Option 3: Manual Integration
-1. Add new webinars through the admin form
-2. They are stored in browser localStorage
-3. Export the data to get the updated JSON
-4. Replace the original file
 
 ## Data Structure
 
@@ -84,6 +74,7 @@ Each webinar has the following structure:
 4. **Consistent IDs**: Use consistent ID generation (provider-title format)
 5. **Topics**: Use kebab-case for topics (e.g., "cell-therapy", "drug-development")
 6. **Use Admin Panel**: All admin functions are centralized in the admin panel for better organization
+7. **Clean Interface**: Main directory page is kept clean for browsing, admin functions are separate
 
 ## Troubleshooting
 

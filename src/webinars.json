@@ -870,22 +870,6 @@
       "description": "ISPE upcoming webinar: How Standardized Documentation Drives Compliance, Audit and AI Readiness"
     },
     {
-      "id": "pmi-on-demand-webinars",
-      "title": "PMI On-Demand Webinars",
-      "provider": "PMI",
-      "topics": [
-        "project-management"
-      ],
-      "format": "on-demand",
-      "duration_min": "variable",
-      "certificate_available": true,
-      "certificate_process": "PDUs available upon completion",
-      "date_added": "2025-07-02",
-      "live_date": "on-demand",
-      "url": "https://www.projectmanagement.com/webinars/webinarmainondemand.cfm",
-      "description": "Access to PMI on-demand webinars. Free webinars available within the last 6 months. PDUs available upon completion."
-    },
-    {
       "id": "usp-trainings",
       "title": "USP Training Programs",
       "provider": "USP",

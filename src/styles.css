@@ -84,7 +84,7 @@ header p {
 
 .clear-btn {
     position: absolute;
-    right: 15px;
+    right: 30px;
     top: 50%;
     transform: translateY(-50%);
     background: none;
@@ -296,6 +296,51 @@ td {
 
 .btn-secondary:hover {
     background: #5a6268;
+}
+
+/* Like button styles */
+.btn-like {
+    background: #f8f9fa;
+    color: #6c757d;
+    border: 1px solid #dee2e6;
+    position: relative;
+    min-width: 40px;
+}
+
+.btn-like:hover {
+    background: #e9ecef;
+    color: #495057;
+}
+
+.btn-like.liked {
+    background: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+.btn-like.liked:hover {
+    background: #c82333;
+    border-color: #c82333;
+}
+
+.btn-like .like-count {
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+/* Likes column styles */
+.likes-column {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.like-count-display {
+    font-weight: 600;
+    color: #495057;
+    min-width: 20px;
+    text-align: center;
 }
 
 /* No results */

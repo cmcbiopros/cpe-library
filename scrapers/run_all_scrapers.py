@@ -56,12 +56,20 @@ def run_all_scrapers():
             # Update all_webinars to include all unique webinars from this scraper
             existing_ids = {w['id'] for w in all_webinars}
             added_count = 0
+            updated_count = 0
+            
             for w in scraper.webinars:
                 if w['id'] not in existing_ids:
                     all_webinars.append(w)
                     existing_ids.add(w['id'])
                     added_count += 1
-            print(f"Added {added_count} new webinars from {scraper.__class__.__name__}")
+                else:
+                    # Update existing entry
+                    idx = next(i for i, existing in enumerate(all_webinars) if existing['id'] == w['id'])
+                    all_webinars[idx] = w
+                    updated_count += 1
+            
+            print(f"Added {added_count} new webinars, updated {updated_count} existing webinars from {scraper.__class__.__name__}")
             
         except Exception as e:
             print(f"Error running {scraper.__class__.__name__}: {e}")

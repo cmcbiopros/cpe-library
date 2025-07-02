@@ -285,8 +285,14 @@ class BaseScraper:
         # Check if webinar already exists
         existing_ids = [w['id'] for w in self.webinars]
         if webinar_data['id'] in existing_ids:
-            # Replace the old entry with the new one
+            # Update the existing entry, but preserve the original date_added
             idx = existing_ids.index(webinar_data['id'])
+            existing_webinar = self.webinars[idx]
+            
+            # Preserve the original date_added unless it's missing
+            if 'date_added' in existing_webinar and existing_webinar['date_added']:
+                webinar_data['date_added'] = existing_webinar['date_added']
+            
             self.webinars[idx] = webinar_data
             return True
         

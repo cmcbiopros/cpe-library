@@ -134,9 +134,6 @@
                 <a href="index.html" style="color: #ffd700; text-decoration: none; margin-right: 20px;">
                     <i class="fas fa-home"></i> Back to Directory
                 </a>
-                <a href="admin.html" style="color: #ffd700; text-decoration: none;">
-                    <i class="fas fa-plus"></i> Add New Webinar
-                </a>
             </div>
         </div>
 
@@ -160,6 +157,9 @@
         </div>
 
         <div class="admin-actions">
+            <button id="addWebinar" class="btn btn-success" style="background: #28a745;">
+                <i class="fas fa-plus"></i> Add New Webinar
+            </button>
             <button id="exportChanges" class="btn btn-success" style="background: #28a745;" disabled>
                 <i class="fas fa-download"></i> Export Changes
             </button>
@@ -211,6 +211,104 @@
         </div>
     </div>
 
+    <!-- Add Webinar Modal -->
+    <div id="addWebinarModal" class="modal">
+        <div class="modal-content" style="max-width: 800px; max-height: 90vh; overflow-y: auto;">
+            <span class="close">&times;</span>
+            <h3><i class="fas fa-plus-circle"></i> Add New Webinar</h3>
+            <p>Add a new webinar to the CPE directory. All fields marked with * are required.</p>
+            
+            <form id="addWebinarForm">
+                <div class="form-group">
+                    <label for="addTitle">Title *</label>
+                    <input type="text" id="addTitle" name="title" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="addProvider">Provider *</label>
+                        <select id="addProvider" name="provider" required>
+                            <option value="">Select Provider</option>
+                            <option value="Labroots">Labroots</option>
+                            <option value="FDA CDER">FDA CDER</option>
+                            <option value="ASGCT">ASGCT</option>
+                            <option value="PELOBIOTECH">PELOBIOTECH</option>
+                            <option value="ISPE">ISPE</option>
+                            <option value="BioProcess International">BioProcess International</option>
+                            <option value="AABB">AABB</option>
+                            <option value="USP">USP</option>
+                            <option value="PDA">PDA</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="addFormat">Format *</label>
+                        <select id="addFormat" name="format" required>
+                            <option value="">Select Format</option>
+                            <option value="on-demand">On-Demand</option>
+                            <option value="live">Live</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="addDuration">Duration (minutes) *</label>
+                        <input type="number" id="addDuration" name="duration" min="1" max="480" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="addCertificate">Certificate Available *</label>
+                        <select id="addCertificate" name="certificate" required>
+                            <option value="">Select</option>
+                            <option value="true">Yes</option>
+                            <option value="false">No</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="addCertificateProcess">Certificate Process</label>
+                    <textarea id="addCertificateProcess" name="certificateProcess" rows="3" 
+                              placeholder="e.g., Auto-issued after quiz completion"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="addUrl">URL *</label>
+                    <input type="url" id="addUrl" name="url" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="addTopics">Topics</label>
+                    <div class="topics-input" id="addTopicsContainer">
+                        <input type="text" id="addTopicInput" placeholder="Type a topic and press Enter">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="addDescription">Description</label>
+                    <textarea id="addDescription" name="description" rows="4" 
+                              placeholder="Brief description of the webinar content"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="addLiveDate">Live Date</label>
+                    <input type="date" id="addLiveDate" name="liveDate">
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i> Add Webinar
+                    </button>
+                    <button type="button" class="btn btn-secondary" onclick="adminPanel.closeAddModal()">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script>
         class AdminPanel {
             constructor() {
@@ -252,6 +350,8 @@
                     this.dataModified = true;
                     localStorage.removeItem('pendingWebinars');
                     this.updateExportButton();
+                    this.updateStats();
+                    this.renderTable();
                 }
             }
 
@@ -287,6 +387,10 @@
                 });
 
                 // Action buttons
+                document.getElementById('addWebinar').addEventListener('click', () => {
+                    this.showAddModal();
+                });
+
                 document.getElementById('exportChanges').addEventListener('click', () => {
                     this.exportChanges();
                 });
@@ -418,8 +522,8 @@ Live Date: ${webinar.live_date || 'N/A'}
                     this.filteredWebinars = this.filteredWebinars.filter(w => w.id !== webinarId);
                     this.dataModified = true;
                     this.updateExportButton();
-                    this.renderTable();
                     this.updateStats();
+                    this.renderTable();
                 }
             }
 
@@ -480,6 +584,107 @@ Live Date: ${webinar.live_date || 'N/A'}
                 link.click();
                 
                 alert('Updated data exported! Replace webinars.json with this file.');
+            }
+
+            showAddModal() {
+                const modal = document.getElementById('addWebinarModal');
+                const closeBtn = modal.querySelector('.close');
+                
+                // Setup modal close functionality
+                closeBtn.onclick = () => this.closeAddModal();
+                window.onclick = (event) => {
+                    if (event.target === modal) this.closeAddModal();
+                };
+                
+                // Setup form submission
+                const form = document.getElementById('addWebinarForm');
+                form.onsubmit = (e) => {
+                    e.preventDefault();
+                    this.submitAddForm();
+                };
+                
+                // Setup topics input
+                this.setupAddTopicsInput();
+                
+                modal.style.display = 'block';
+            }
+
+            setupAddTopicsInput() {
+                const input = document.getElementById('addTopicInput');
+                const container = document.getElementById('addTopicsContainer');
+                
+                input.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        const topic = input.value.trim();
+                        if (topic) {
+                            const tag = document.createElement('span');
+                            tag.className = 'topic-tag';
+                            tag.innerHTML = `${topic} <span class="remove" onclick="this.parentElement.remove()">&times;</span>`;
+                            container.appendChild(tag);
+                            input.value = '';
+                        }
+                    }
+                });
+            }
+
+            submitAddForm() {
+                const form = document.getElementById('addWebinarForm');
+                const formData = new FormData(form);
+                
+                // Get topics from tags
+                const topicTags = document.querySelectorAll('#addTopicsContainer .topic-tag');
+                const topics = Array.from(topicTags).map(tag => tag.textContent.replace('×', '').trim());
+                
+                // Validate required fields
+                if (formData.get('certificate') === 'false') {
+                    alert('Only webinars with certificates are allowed in this directory.');
+                    return;
+                }
+                
+                const webinarData = {
+                    id: this.generateId(formData.get('title'), formData.get('provider')),
+                    title: formData.get('title'),
+                    provider: formData.get('provider'),
+                    topics: topics,
+                    format: formData.get('format'),
+                    duration_min: parseInt(formData.get('duration')),
+                    certificate_available: formData.get('certificate') === 'true',
+                    certificate_process: formData.get('certificateProcess') || 'Certificate available upon completion',
+                    date_added: new Date().toISOString().split('T')[0],
+                    url: formData.get('url'),
+                    description: formData.get('description') || '',
+                    live_date: formData.get('liveDate') || 'on-demand'
+                };
+                
+                // Add to webinars array
+                this.webinars.push(webinarData);
+                this.filteredWebinars = [...this.webinars];
+                this.dataModified = true;
+                
+                // Update UI
+                this.updateExportButton();
+                this.updateStats();
+                this.renderTable();
+                
+                // Close modal and reset form
+                this.closeAddModal();
+                form.reset();
+                
+                // Clear topics
+                document.getElementById('addTopicsContainer').innerHTML = 
+                    '<input type="text" id="addTopicInput" placeholder="Type a topic and press Enter">';
+                
+                alert('Webinar added successfully!');
+            }
+
+            generateId(title, provider) {
+                return `${provider.toLowerCase().replace(/\s+/g, '-')}-${title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`;
+            }
+
+            closeAddModal() {
+                const modal = document.getElementById('addWebinarModal');
+                modal.style.display = 'none';
             }
         }
 
