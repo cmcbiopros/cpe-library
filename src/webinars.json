@@ -886,7 +886,8 @@
       "date_added": "2025-07-02",
       "live_date": "on-demand",
       "url": "https://uspharmacopeia.csod.com/catalog/CustomPage.aspx?id=221000396&tab_page_id=221000396",
-      "description": "Access to USP training programs and courses. Registration/login required to access training content. USP provides training on pharmaceutical standards, quality assurance, and regulatory compliance."
+      "description": "Access to USP training programs and courses. Registration/login required to access training content. USP provides training on pharmaceutical standards, quality assurance, and regulatory compliance.",
+      "source": "manual"
     },
     {
       "id": "labroots-drug-discovery-development",

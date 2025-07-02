@@ -289,9 +289,18 @@ class BaseScraper:
             idx = existing_ids.index(webinar_data['id'])
             existing_webinar = self.webinars[idx]
             
+            # PROTECTION: If existing webinar was manually added, don't overwrite it
+            if existing_webinar.get('source') == 'manual':
+                print(f"  Skipping update of manually added webinar: {webinar_data['title']}")
+                return False
+            
             # Preserve the original date_added unless it's missing
             if 'date_added' in existing_webinar and existing_webinar['date_added']:
                 webinar_data['date_added'] = existing_webinar['date_added']
+            
+            # Preserve the original source if it exists
+            if 'source' in existing_webinar:
+                webinar_data['source'] = existing_webinar['source']
             
             self.webinars[idx] = webinar_data
             return True
@@ -326,6 +335,10 @@ class BaseScraper:
                 webinar_data['live_date'] = webinar_data['webinar_date']
             else:
                 webinar_data['live_date'] = 'on-demand'
+        
+        # Set source field for new webinars (scraped by default)
+        if 'source' not in webinar_data:
+            webinar_data['source'] = 'scraped'
         
         self.webinars.append(webinar_data)
         return True

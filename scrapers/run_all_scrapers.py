@@ -27,7 +27,22 @@ def run_all_scrapers():
     except FileNotFoundError:
         existing_webinars = []
     
+    # Ensure all existing webinars have a source field
+    manual_count = 0
+    scraped_count = 0
+    for webinar in existing_webinars:
+        if 'source' not in webinar:
+            # Legacy entries without source field - assume they were scraped
+            webinar['source'] = 'scraped'
+            scraped_count += 1
+        elif webinar['source'] == 'manual':
+            manual_count += 1
+        else:
+            scraped_count += 1
+    
     print(f"Starting with {len(existing_webinars)} existing webinars")
+    print(f"  - {manual_count} manually added")
+    print(f"  - {scraped_count} scraped (including {scraped_count - len([w for w in existing_webinars if 'source' not in w])} legacy entries)")
     
     # List of scrapers to run
     scrapers = [

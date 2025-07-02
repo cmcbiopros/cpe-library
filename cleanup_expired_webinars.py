@@ -51,10 +51,15 @@ def cleanup_expired_webinars(data_file: str = "src/webinars.json",
     removed_old_on_demand = []
     removed_invalid_dates = []
     kept_webinars = []
+    protected_manual = 0
+    removed_manual = 0
     
     for webinar in data['webinars']:
         should_remove = False
         removal_reason = ""
+        
+        # Check if this is a manually added webinar
+        is_manual = webinar.get('source') == 'manual'
         
         # Check live_date field
         live_date = webinar.get('live_date', 'on-demand')
@@ -66,27 +71,46 @@ def cleanup_expired_webinars(data_file: str = "src/webinars.json",
                 try:
                     added_date = datetime.strptime(date_added, '%Y-%m-%d')
                     if added_date < max_age_cutoff:
+                        # For manually added webinars, be more conservative
+                        if is_manual:
+                            print(f"  PROTECTED: Manually added webinar '{webinar.get('title', 'Unknown')}' is old but will be kept")
+                            kept_webinars.append(webinar)
+                            protected_manual += 1
+                            continue
+                        else:
+                            should_remove = True
+                            removal_reason = f"On-demand webinar older than {max_age_days} days (added: {date_added})"
+                            removed_old_on_demand.append({
+                                'id': webinar.get('id', 'Unknown'),
+                                'title': webinar.get('title', 'Unknown'),
+                                'provider': webinar.get('provider', 'Unknown'),
+                                'reason': removal_reason
+                            })
+                            removed_manual += 1
+                except ValueError:
+                    # Invalid date format
+                    if is_manual:
+                        print(f"  PROTECTED: Manually added webinar '{webinar.get('title', 'Unknown')}' has invalid date but will be kept")
+                        kept_webinars.append(webinar)
+                        protected_manual += 1
+                        continue
+                    else:
                         should_remove = True
-                        removal_reason = f"On-demand webinar older than {max_age_days} days (added: {date_added})"
-                        removed_old_on_demand.append({
+                        removal_reason = f"Invalid date_added format: {date_added}"
+                        removed_invalid_dates.append({
                             'id': webinar.get('id', 'Unknown'),
                             'title': webinar.get('title', 'Unknown'),
                             'provider': webinar.get('provider', 'Unknown'),
                             'reason': removal_reason
                         })
-                except ValueError:
-                    # Invalid date format
-                    should_remove = True
-                    removal_reason = f"Invalid date_added format: {date_added}"
-                    removed_invalid_dates.append({
-                        'id': webinar.get('id', 'Unknown'),
-                        'title': webinar.get('title', 'Unknown'),
-                        'provider': webinar.get('provider', 'Unknown'),
-                        'reason': removal_reason
-                    })
+                        removed_manual += 1
             else:
                 # No date_added, keep it (could be legacy data)
-                pass
+                if is_manual:
+                    print(f"  PROTECTED: Manually added webinar '{webinar.get('title', 'Unknown')}' has no date but will be kept")
+                kept_webinars.append(webinar)
+                protected_manual += 1
+                continue
                 
         elif live_date in ['Unknown', 'unknown']:
             # Unknown live date, check date_added as fallback
@@ -95,26 +119,46 @@ def cleanup_expired_webinars(data_file: str = "src/webinars.json",
                 try:
                     added_date = datetime.strptime(date_added, '%Y-%m-%d')
                     if added_date < max_age_cutoff:
-                        should_remove = True
-                        removal_reason = f"Webinar with unknown live date older than {max_age_days} days (added: {date_added})"
-                        removed_old_on_demand.append({
-                            'id': webinar.get('id', 'Unknown'),
-                            'title': webinar.get('title', 'Unknown'),
-                            'provider': webinar.get('provider', 'Unknown'),
-                            'reason': removal_reason
-                        })
+                        # For manually added webinars, be more conservative
+                        if is_manual:
+                            print(f"  PROTECTED: Manually added webinar '{webinar.get('title', 'Unknown')}' has unknown live date but will be kept")
+                            kept_webinars.append(webinar)
+                            protected_manual += 1
+                            continue
+                        else:
+                            should_remove = True
+                            removal_reason = f"Webinar with unknown live date older than {max_age_days} days (added: {date_added})"
+                            removed_old_on_demand.append({
+                                'id': webinar.get('id', 'Unknown'),
+                                'title': webinar.get('title', 'Unknown'),
+                                'provider': webinar.get('provider', 'Unknown'),
+                                'reason': removal_reason
+                            })
+                            removed_manual += 1
                 except ValueError:
                     # Invalid date format, keep it
-                    pass
+                    if is_manual:
+                        print(f"  PROTECTED: Manually added webinar '{webinar.get('title', 'Unknown')}' has invalid date but will be kept")
+                    kept_webinars.append(webinar)
+                    protected_manual += 1
+                    continue
             else:
                 # No date information, keep it
-                pass
+                if is_manual:
+                    print(f"  PROTECTED: Manually added webinar '{webinar.get('title', 'Unknown')}' has no date info but will be kept")
+                kept_webinars.append(webinar)
+                protected_manual += 1
+                continue
                 
         else:
             # Has a specific live date, check if it's in the past
             try:
                 live_datetime = datetime.strptime(live_date, '%Y-%m-%d')
                 if live_datetime < today:
+                    # For manually added webinars with past live dates, still remove them
+                    # but log it clearly
+                    if is_manual:
+                        print(f"  Removing manually added webinar with past live date: {webinar.get('title', 'Unknown')} (live_date: {live_date})")
                     should_remove = True
                     removal_reason = f"Past live date: {live_date}"
                     removed_past_live.append({
@@ -122,15 +166,22 @@ def cleanup_expired_webinars(data_file: str = "src/webinars.json",
                         'title': webinar.get('title', 'Unknown'),
                         'provider': webinar.get('provider', 'Unknown'),
                         'live_date': live_date,
-                        'reason': removal_reason
+                        'reason': removal_reason,
+                        'was_manual': is_manual
                     })
+                    removed_manual += 1
             except ValueError:
                 # Invalid date format, keep it
-                pass
+                if is_manual:
+                    print(f"  PROTECTED: Manually added webinar '{webinar.get('title', 'Unknown')}' has invalid live date format but will be kept")
+                kept_webinars.append(webinar)
+                protected_manual += 1
+                continue
         
         if should_remove:
             if not dry_run:
-                print(f"  Removing: {webinar.get('title', 'Unknown')} ({removal_reason})")
+                source_info = " (MANUALLY ADDED)" if is_manual else ""
+                print(f"  Removing: {webinar.get('title', 'Unknown')}{source_info} ({removal_reason})")
         else:
             kept_webinars.append(webinar)
     
@@ -155,6 +206,8 @@ def cleanup_expired_webinars(data_file: str = "src/webinars.json",
         "removed_past_live": len(removed_past_live),
         "removed_old_on_demand": len(removed_old_on_demand),
         "removed_invalid_dates": len(removed_invalid_dates),
+        "protected_manual": protected_manual,
+        "removed_manual": removed_manual,
         "dry_run": dry_run
     }
     
@@ -166,6 +219,9 @@ def cleanup_expired_webinars(data_file: str = "src/webinars.json",
     print(f"  - Past live dates: {len(removed_past_live)}")
     print(f"  - Old on-demand: {len(removed_old_on_demand)}")
     print(f"  - Invalid dates: {len(removed_invalid_dates)}")
+    print(f"  Manually added webinars:")
+    print(f"    - Protected: {protected_manual}")
+    print(f"    - Removed (past live dates): {removed_manual}")
     
     if dry_run and total_removed > 0:
         print(f"\nWould remove {total_removed} webinars. Run without --dry-run to actually remove them.")
