@@ -12,6 +12,7 @@ class WebinarDirectory {
             certificate: '',
             date: ''
         };
+        this.dataModified = false;
         
         this.init();
     }
@@ -49,6 +50,9 @@ class WebinarDirectory {
                 this.webinars = data.webinars || [];
             }
             
+            // Integrate pending webinars from localStorage
+            this.integratePendingWebinars();
+            
             this.filteredWebinars = [...this.webinars];
             
             // Update footer info
@@ -74,6 +78,23 @@ class WebinarDirectory {
                 }
             ];
             this.filteredWebinars = [...this.webinars];
+        }
+    }
+
+    integratePendingWebinars() {
+        const pendingWebinars = JSON.parse(localStorage.getItem('pendingWebinars') || '[]');
+        if (pendingWebinars.length > 0) {
+            // Add pending webinars to the main array
+            this.webinars = [...this.webinars, ...pendingWebinars];
+            
+            // Mark data as modified
+            this.dataModified = true;
+            
+            // Clear pending webinars from localStorage
+            localStorage.removeItem('pendingWebinars');
+            
+            // Show notification
+            this.showToast(`${pendingWebinars.length} new webinar(s) added!`, 'success');
         }
     }
 
@@ -353,6 +374,12 @@ class WebinarDirectory {
                         <button class="btn btn-secondary" onclick="webinarDirectory.copyLink('${webinar.id}')">
                             <i class="fas fa-link"></i> Copy Link
                         </button>
+                        <button class="btn btn-warning" onclick="webinarDirectory.editWebinar('${webinar.id}')" title="Edit">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="btn btn-danger" onclick="webinarDirectory.deleteWebinar('${webinar.id}')" title="Delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
                     </div>
                 </td>
             </tr>
@@ -535,6 +562,283 @@ class WebinarDirectory {
             button.innerHTML = originalText;
             button.style.background = '';
         }, 2000);
+    }
+
+    editWebinar(webinarId) {
+        const webinar = this.webinars.find(w => w.id === webinarId);
+        if (!webinar) {
+            this.showToast('Webinar not found', 'error');
+            return;
+        }
+
+        // Store the webinar being edited
+        this.editingWebinar = webinar;
+        
+        // Show edit modal
+        this.showEditModal(webinar);
+    }
+
+    showEditModal(webinar) {
+        // Create modal if it doesn't exist
+        let modal = document.getElementById('editModal');
+        if (!modal) {
+            modal = document.createElement('div');
+            modal.id = 'editModal';
+            modal.className = 'modal';
+            modal.innerHTML = `
+                <div class="modal-content" style="max-width: 800px; max-height: 90vh; overflow-y: auto;">
+                    <span class="close">&times;</span>
+                    <h3><i class="fas fa-edit"></i> Edit Webinar</h3>
+                    <form id="editForm">
+                        <div class="form-group">
+                            <label for="editTitle">Title *</label>
+                            <input type="text" id="editTitle" name="title" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="editProvider">Provider *</label>
+                                <select id="editProvider" name="provider" required>
+                                    <option value="">Select Provider</option>
+                                    <option value="Labroots">Labroots</option>
+                                    <option value="FDA CDER">FDA CDER</option>
+                                    <option value="ASGCT">ASGCT</option>
+                                    <option value="PELOBIOTECH">PELOBIOTECH</option>
+                                    <option value="ISPE">ISPE</option>
+                                    <option value="BioProcess International">BioProcess International</option>
+                                    <option value="AABB">AABB</option>
+                                    <option value="USP">USP</option>
+                                    <option value="PDA">PDA</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="editFormat">Format *</label>
+                                <select id="editFormat" name="format" required>
+                                    <option value="">Select Format</option>
+                                    <option value="on-demand">On-Demand</option>
+                                    <option value="live">Live</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="editDuration">Duration (minutes) *</label>
+                                <input type="number" id="editDuration" name="duration" min="1" max="480" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="editCertificate">Certificate Available *</label>
+                                <select id="editCertificate" name="certificate" required>
+                                    <option value="">Select</option>
+                                    <option value="true">Yes</option>
+                                    <option value="false">No</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="editCertificateProcess">Certificate Process</label>
+                            <textarea id="editCertificateProcess" name="certificateProcess" rows="3"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="editUrl">URL *</label>
+                            <input type="url" id="editUrl" name="url" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="editTopics">Topics</label>
+                            <div class="topics-input" id="editTopicsContainer">
+                                <input type="text" id="editTopicInput" placeholder="Type a topic and press Enter">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="editDescription">Description</label>
+                            <textarea id="editDescription" name="description" rows="4"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="editLiveDate">Live Date</label>
+                            <input type="date" id="editLiveDate" name="liveDate">
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i> Save Changes
+                            </button>
+                            <button type="button" class="btn btn-secondary" onclick="webinarDirectory.closeEditModal()">
+                                Cancel
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            `;
+            document.body.appendChild(modal);
+            
+            // Setup modal close functionality
+            const closeBtn = modal.querySelector('.close');
+            closeBtn.onclick = () => this.closeEditModal();
+            window.onclick = (event) => {
+                if (event.target === modal) this.closeEditModal();
+            };
+            
+            // Setup form submission
+            const form = modal.querySelector('#editForm');
+            form.onsubmit = (e) => {
+                e.preventDefault();
+                this.saveWebinarChanges();
+            };
+            
+            // Setup topics input
+            this.setupTopicsInput('editTopicInput', 'editTopicsContainer');
+        }
+        
+        // Populate form with current data
+        document.getElementById('editTitle').value = webinar.title;
+        document.getElementById('editProvider').value = webinar.provider;
+        document.getElementById('editFormat').value = webinar.format;
+        document.getElementById('editDuration').value = webinar.duration_min;
+        document.getElementById('editCertificate').value = webinar.certificate_available.toString();
+        document.getElementById('editCertificateProcess').value = webinar.certificate_process || '';
+        document.getElementById('editUrl').value = webinar.url;
+        document.getElementById('editDescription').value = webinar.description || '';
+        
+        // Handle live date
+        if (webinar.live_date && webinar.live_date !== 'on-demand' && webinar.live_date !== 'Unknown') {
+            document.getElementById('editLiveDate').value = webinar.live_date;
+        } else {
+            document.getElementById('editLiveDate').value = '';
+        }
+        
+        // Populate topics
+        const topicsContainer = document.getElementById('editTopicsContainer');
+        topicsContainer.innerHTML = '<input type="text" id="editTopicInput" placeholder="Type a topic and press Enter">';
+        webinar.topics.forEach(topic => {
+            const tag = document.createElement('span');
+            tag.className = 'topic-tag';
+            tag.innerHTML = `${topic} <span class="remove" onclick="this.parentElement.remove()">&times;</span>`;
+            topicsContainer.appendChild(tag);
+        });
+        
+        modal.style.display = 'block';
+    }
+
+    setupTopicsInput(inputId, containerId) {
+        const input = document.getElementById(inputId);
+        const container = document.getElementById(containerId);
+        
+        input.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                const topic = input.value.trim();
+                if (topic) {
+                    const tag = document.createElement('span');
+                    tag.className = 'topic-tag';
+                    tag.innerHTML = `${topic} <span class="remove" onclick="this.parentElement.remove()">&times;</span>`;
+                    container.appendChild(tag);
+                    input.value = '';
+                }
+            }
+        });
+    }
+
+    saveWebinarChanges() {
+        const form = document.getElementById('editForm');
+        const formData = new FormData(form);
+        
+        // Get topics from tags
+        const topicTags = document.querySelectorAll('#editTopicsContainer .topic-tag');
+        const topics = Array.from(topicTags).map(tag => tag.textContent.replace('×', '').trim());
+        
+        // Update the webinar object
+        const updatedWebinar = {
+            ...this.editingWebinar,
+            title: formData.get('title'),
+            provider: formData.get('provider'),
+            format: formData.get('format'),
+            duration_min: parseInt(formData.get('duration')),
+            certificate_available: formData.get('certificate') === 'true',
+            certificate_process: formData.get('certificateProcess'),
+            url: formData.get('url'),
+            description: formData.get('description'),
+            topics: topics,
+            live_date: formData.get('liveDate') || 'on-demand'
+        };
+        
+        // Update the webinar in the array
+        const index = this.webinars.findIndex(w => w.id === this.editingWebinar.id);
+        if (index !== -1) {
+            this.webinars[index] = updatedWebinar;
+            this.filteredWebinars = [...this.webinars];
+            this.renderTable();
+            this.populateFilters();
+            this.updateResultsInfo();
+            
+            this.showToast('Webinar updated successfully!', 'success');
+            this.closeEditModal();
+            
+            // Mark data as modified
+            this.dataModified = true;
+        }
+    }
+
+    closeEditModal() {
+        const modal = document.getElementById('editModal');
+        if (modal) {
+            modal.style.display = 'none';
+        }
+        this.editingWebinar = null;
+    }
+
+    deleteWebinar(webinarId) {
+        const webinar = this.webinars.find(w => w.id === webinarId);
+        if (!webinar) {
+            this.showToast('Webinar not found', 'error');
+            return;
+        }
+
+        if (confirm(`Are you sure you want to delete "${webinar.title}"? This action cannot be undone.`)) {
+            // Remove from arrays
+            this.webinars = this.webinars.filter(w => w.id !== webinarId);
+            this.filteredWebinars = this.filteredWebinars.filter(w => w.id !== webinarId);
+            
+            // Re-render
+            this.renderTable();
+            this.populateFilters();
+            this.updateResultsInfo();
+            
+            this.showToast('Webinar deleted successfully!', 'success');
+            
+            // Mark data as modified
+            this.dataModified = true;
+        }
+    }
+
+    exportUpdatedData() {
+        if (!this.dataModified) {
+            this.showToast('No changes to export', 'info');
+            return;
+        }
+
+        const exportData = {
+            webinars: this.webinars,
+            last_updated: new Date().toISOString().split('T')[0],
+            total_count: this.webinars.length
+        };
+
+        const dataStr = JSON.stringify(exportData, null, 2);
+        const dataBlob = new Blob([dataStr], { type: 'application/json' });
+        
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(dataBlob);
+        link.download = 'webinars_updated.json';
+        link.click();
+        
+        this.showToast('Updated data exported! Replace webinars.json with this file.', 'success');
     }
 }
 

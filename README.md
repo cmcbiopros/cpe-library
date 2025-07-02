@@ -28,19 +28,24 @@ Each webinar includes:
 ## Project Structure
 
 ```
-├── data/
-│   └── webinars.json          # Master webinar database
-├── scrapers/
-│   ├── labroots.py           # Labroots scraper
-│   ├── fda_cder.py           # FDA CDER scraper
-│   └── base_scraper.py       # Common scraper utilities
 ├── src/
+│   ├── webinars.json         # Master webinar database
 │   ├── index.html            # Main interface
 │   ├── styles.css            # Styling
 │   └── script.js             # Search & filter logic
-├── .github/
-│   └── workflows/
-│       └── update-webinars.yml # Automated scraping
+├── scrapers/
+│   ├── run_all_scrapers.py   # Main scraper runner
+│   ├── base_scraper.py       # Common scraper utilities
+│   └── providers/            # Individual provider scrapers
+│       ├── labroots_scraper.py
+│       ├── fda_cder_scraper.py
+│       ├── xtalks_scraper.py
+│       ├── ispe_scraper.py
+│       ├── technology_networks_scraper.py
+│       ├── pmi_scraper.py
+│       └── usp_scraper.py
+├── cleanup_expired_webinars.py # Data cleanup utility
+├── run_cleanup.py            # Simple cleanup runner
 └── requirements.txt          # Python dependencies
 ```
 
@@ -60,9 +65,12 @@ Only include webinars that explicitly mention:
 ## Providers
 
 - **Labroots**: Broad life-science catalog
-- **FDA CDER**: Regulatory & QA topics
-- **ASGCT**: Cell & gene therapy
-- **PELOBIOTECH**: Stem-cell & biotech methods
+- **FDA CDER**: Regulatory & QA topics  
+- **Xtalks**: Life sciences webinars
+- **ISPE**: Pharmaceutical engineering
+- **Technology Networks**: Cell & gene therapy
+- **PMI**: Project management
+- **USP**: Pharmaceutical standards
 
 ## Development
 
@@ -71,13 +79,44 @@ Only include webinars that explicitly mention:
 pip install -r requirements.txt
 
 # Run scrapers locally
-python scrapers/labroots.py
-python scrapers/fda_cder.py
+python scrapers/run_all_scrapers.py
+
+# Run cleanup to remove expired webinars
+python cleanup_expired_webinars.py --dry-run  # Preview what would be removed
+python cleanup_expired_webinars.py            # Actually remove expired webinars
 
 # Test locally
 python -m http.server 8000
 # Open http://localhost:8000/src/
 ```
+
+## Data Cleanup
+
+The system includes automatic cleanup functionality to keep the database lean:
+
+### Automatic Cleanup
+- Runs automatically after each scraping session
+- Removes webinars with past live dates
+- Removes on-demand webinars older than 1 year (365 days)
+- Removes entries with invalid date formats
+
+### Manual Cleanup
+```bash
+# Preview what would be removed (dry run)
+python cleanup_expired_webinars.py --dry-run
+
+# Remove expired webinars with custom age threshold
+python cleanup_expired_webinars.py --max-age-days 90
+
+# Clean up specific file
+python cleanup_expired_webinars.py --data-file path/to/webinars.json
+```
+
+### Cleanup Criteria
+- **Past Live Dates**: Any webinar with a `live_date` in the past
+- **Old On-Demand**: On-demand webinars older than specified days (default: 365 days / 1 year)
+- **Invalid Dates**: Entries with malformed date formats
+- **Unknown Dates**: Webinars with unknown live dates older than threshold
 
 ## Deployment
 

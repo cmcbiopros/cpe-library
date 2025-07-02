@@ -118,6 +118,13 @@
             <h1><i class="fas fa-plus-circle"></i> Add New Webinar</h1>
             <p>Add a new webinar to the CPE directory. All fields marked with * are required.</p>
             
+            <div style="margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 5px; border-left: 4px solid #667eea;">
+                <strong>Admin Options:</strong>
+                <a href="admin-panel.html" style="color: #667eea; text-decoration: none; margin-left: 15px;">
+                    <i class="fas fa-cog"></i> Manage All Webinars
+                </a>
+            </div>
+            
             <form id="webinarForm">
                 <div class="form-group">
                     <label for="title">Title *</label>
@@ -192,9 +199,19 @@
                               placeholder="Brief description of the webinar content"></textarea>
                 </div>
                 
-                <button type="submit" class="submit-btn">
-                    <i class="fas fa-save"></i> Add Webinar
-                </button>
+                <div class="form-group">
+                    <label for="liveDate">Live Date</label>
+                    <input type="date" id="liveDate" name="liveDate">
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-save"></i> Add Webinar
+                    </button>
+                    <button type="button" class="btn btn-secondary" onclick="window.location.href='index.html'">
+                        Cancel
+                    </button>
+                </div>
             </form>
         </div>
     </div>
@@ -279,7 +296,8 @@
                     certificate_process: formData.get('certificateProcess') || 'Certificate available upon completion',
                     date_added: new Date().toISOString().split('T')[0],
                     url: formData.get('url'),
-                    description: formData.get('description') || ''
+                    description: formData.get('description') || '',
+                    live_date: formData.get('liveDate') || 'on-demand'
                 };
                 
                 // Validate required fields
@@ -288,10 +306,10 @@
                     return;
                 }
                 
-                // Save to local storage for now (in a real app, this would go to a database)
+                // Save to localStorage for integration with main page
                 this.saveWebinar(webinarData);
                 
-                alert('Webinar added successfully! You can now view it in the main directory.');
+                alert('Webinar added successfully! You can now view it in the main directory and export the updated data.');
                 window.location.href = 'index.html';
             }
             
@@ -300,8 +318,7 @@
             }
             
             saveWebinar(webinarData) {
-                // In a real implementation, this would save to the JSON file
-                // For now, we'll just store in localStorage as a demo
+                // Store in localStorage for integration with main page
                 const existing = JSON.parse(localStorage.getItem('pendingWebinars') || '[]');
                 existing.push(webinarData);
                 localStorage.setItem('pendingWebinars', JSON.stringify(existing));

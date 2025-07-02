@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - CPE Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .admin-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .admin-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .admin-actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .admin-table {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .admin-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .admin-table th {
+            background: #f8f9fa;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid #dee2e6;
+        }
+        
+        .admin-table td {
+            padding: 12px;
+            border-bottom: 1px solid #dee2e6;
+            vertical-align: top;
+        }
+        
+        .admin-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .compact-title {
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .compact-description {
+            max-width: 150px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .btn-sm {
+            padding: 4px 8px;
+            font-size: 12px;
+        }
+        
+        .search-filter {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .search-filter input,
+        .search-filter select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .search-filter input {
+            min-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="admin-header">
+            <h1><i class="fas fa-cog"></i> Admin Panel</h1>
+            <p>Manage all webinars in the CPE directory</p>
+            <div style="margin-top: 15px;">
+                <a href="index.html" style="color: #ffd700; text-decoration: none; margin-right: 20px;">
+                    <i class="fas fa-home"></i> Back to Directory
+                </a>
+                <a href="admin.html" style="color: #ffd700; text-decoration: none;">
+                    <i class="fas fa-plus"></i> Add New Webinar
+                </a>
+            </div>
+        </div>
+
+        <div class="admin-stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalWebinars">-</div>
+                <div class="stat-label">Total Webinars</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="liveWebinars">-</div>
+                <div class="stat-label">Live Events</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="onDemandWebinars">-</div>
+                <div class="stat-label">On-Demand</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="certificateWebinars">-</div>
+                <div class="stat-label">With Certificates</div>
+            </div>
+        </div>
+
+        <div class="admin-actions">
+            <button id="exportChanges" class="btn btn-success" style="background: #28a745;" disabled>
+                <i class="fas fa-download"></i> Export Changes
+            </button>
+            <button id="exportData" class="btn btn-primary">
+                <i class="fas fa-download"></i> Export All Data
+            </button>
+            <button id="refreshData" class="btn btn-secondary">
+                <i class="fas fa-sync"></i> Refresh Data
+            </button>
+            <button id="clearChanges" class="btn btn-warning">
+                <i class="fas fa-undo"></i> Clear Changes
+            </button>
+        </div>
+
+        <div class="search-filter">
+            <input type="text" id="searchInput" placeholder="Search webinars...">
+            <select id="providerFilter">
+                <option value="">All Providers</option>
+            </select>
+            <select id="formatFilter">
+                <option value="">All Formats</option>
+                <option value="live">Live</option>
+                <option value="on-demand">On-Demand</option>
+            </select>
+            <select id="certificateFilter">
+                <option value="">All</option>
+                <option value="true">With Certificate</option>
+                <option value="false">Without Certificate</option>
+            </select>
+        </div>
+
+        <div class="admin-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Provider</th>
+                        <th>Format</th>
+                        <th>Duration</th>
+                        <th>Certificate</th>
+                        <th>Date Added</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="adminTableBody">
+                    <!-- Data will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        class AdminPanel {
+            constructor() {
+                this.webinars = [];
+                this.filteredWebinars = [];
+                this.dataModified = false;
+                this.init();
+            }
+
+            async init() {
+                await this.loadData();
+                this.setupEventListeners();
+                this.updateStats();
+                this.renderTable();
+                this.updateExportButton();
+            }
+
+            async loadData() {
+                try {
+                    const response = await fetch('webinars.json');
+                    const data = await response.json();
+                    this.webinars = data.webinars || [];
+                    
+                    // Integrate pending webinars
+                    this.integratePendingWebinars();
+                    
+                    this.filteredWebinars = [...this.webinars];
+                } catch (error) {
+                    console.error('Error loading data:', error);
+                    this.webinars = [];
+                    this.filteredWebinars = [];
+                }
+            }
+
+            integratePendingWebinars() {
+                const pendingWebinars = JSON.parse(localStorage.getItem('pendingWebinars') || '[]');
+                if (pendingWebinars.length > 0) {
+                    this.webinars = [...this.webinars, ...pendingWebinars];
+                    this.dataModified = true;
+                    localStorage.removeItem('pendingWebinars');
+                    this.updateExportButton();
+                }
+            }
+
+            updateExportButton() {
+                const exportBtn = document.getElementById('exportChanges');
+                if (this.dataModified) {
+                    exportBtn.disabled = false;
+                    exportBtn.innerHTML = '<i class="fas fa-download"></i> Export Changes';
+                    exportBtn.style.background = '#28a745';
+                } else {
+                    exportBtn.disabled = true;
+                    exportBtn.innerHTML = '<i class="fas fa-download"></i> No Changes';
+                    exportBtn.style.background = '#6c757d';
+                }
+            }
+
+            setupEventListeners() {
+                // Search and filters
+                document.getElementById('searchInput').addEventListener('input', (e) => {
+                    this.applyFilters();
+                });
+
+                document.getElementById('providerFilter').addEventListener('change', () => {
+                    this.applyFilters();
+                });
+
+                document.getElementById('formatFilter').addEventListener('change', () => {
+                    this.applyFilters();
+                });
+
+                document.getElementById('certificateFilter').addEventListener('change', () => {
+                    this.applyFilters();
+                });
+
+                // Action buttons
+                document.getElementById('exportChanges').addEventListener('click', () => {
+                    this.exportChanges();
+                });
+
+                document.getElementById('exportData').addEventListener('click', () => {
+                    this.exportData();
+                });
+
+                document.getElementById('refreshData').addEventListener('click', () => {
+                    this.refreshData();
+                });
+
+                document.getElementById('clearChanges').addEventListener('click', () => {
+                    this.clearChanges();
+                });
+            }
+
+            applyFilters() {
+                const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+                const provider = document.getElementById('providerFilter').value;
+                const format = document.getElementById('formatFilter').value;
+                const certificate = document.getElementById('certificateFilter').value;
+
+                this.filteredWebinars = this.webinars.filter(webinar => {
+                    if (searchTerm && !webinar.title.toLowerCase().includes(searchTerm)) return false;
+                    if (provider && webinar.provider !== provider) return false;
+                    if (format && webinar.format !== format) return false;
+                    if (certificate && webinar.certificate_available.toString() !== certificate) return false;
+                    return true;
+                });
+
+                this.renderTable();
+                this.updateStats();
+            }
+
+            updateStats() {
+                const total = this.webinars.length;
+                const live = this.webinars.filter(w => w.format === 'live').length;
+                const onDemand = this.webinars.filter(w => w.format === 'on-demand').length;
+                const withCert = this.webinars.filter(w => w.certificate_available).length;
+
+                document.getElementById('totalWebinars').textContent = total;
+                document.getElementById('liveWebinars').textContent = live;
+                document.getElementById('onDemandWebinars').textContent = onDemand;
+                document.getElementById('certificateWebinars').textContent = withCert;
+
+                // Populate provider filter
+                const providers = [...new Set(this.webinars.map(w => w.provider))].sort();
+                const providerFilter = document.getElementById('providerFilter');
+                providerFilter.innerHTML = '<option value="">All Providers</option>';
+                providers.forEach(provider => {
+                    const option = document.createElement('option');
+                    option.value = provider;
+                    option.textContent = provider;
+                    providerFilter.appendChild(option);
+                });
+            }
+
+            renderTable() {
+                const tbody = document.getElementById('adminTableBody');
+                tbody.innerHTML = this.filteredWebinars.map(webinar => this.createTableRow(webinar)).join('');
+            }
+
+            createTableRow(webinar) {
+                const certificateBadge = webinar.certificate_available 
+                    ? '<span style="color: #28a745;"><i class="fas fa-certificate"></i> Yes</span>'
+                    : '<span style="color: #dc3545;"><i class="fas fa-times-circle"></i> No</span>';
+
+                return `
+                    <tr>
+                        <td>
+                            <div class="compact-title" title="${webinar.title}">${webinar.title}</div>
+                            <div class="compact-description" title="${webinar.description || ''}">${webinar.description || ''}</div>
+                        </td>
+                        <td>${webinar.provider}</td>
+                        <td>${webinar.format.replace('-', ' ')}</td>
+                        <td>${webinar.duration_min} min</td>
+                        <td>${certificateBadge}</td>
+                        <td>${webinar.date_added}</td>
+                        <td>
+                            <div class="action-buttons">
+                                <button class="btn btn-primary btn-sm" onclick="adminPanel.viewWebinar('${webinar.id}')" title="View">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <button class="btn btn-warning btn-sm" onclick="adminPanel.editWebinar('${webinar.id}')" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </button>
+                                <button class="btn btn-danger btn-sm" onclick="adminPanel.deleteWebinar('${webinar.id}')" title="Delete">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            }
+
+            viewWebinar(webinarId) {
+                const webinar = this.webinars.find(w => w.id === webinarId);
+                if (!webinar) return;
+
+                const details = `
+Title: ${webinar.title}
+Provider: ${webinar.provider}
+Format: ${webinar.format}
+Duration: ${webinar.duration_min} minutes
+Certificate: ${webinar.certificate_available ? 'Yes' : 'No'}
+Certificate Process: ${webinar.certificate_process || 'N/A'}
+URL: ${webinar.url}
+Description: ${webinar.description || 'N/A'}
+Topics: ${webinar.topics.join(', ')}
+Date Added: ${webinar.date_added}
+Live Date: ${webinar.live_date || 'N/A'}
+                `;
+
+                alert(details);
+            }
+
+            editWebinar(webinarId) {
+                // Redirect to main page with edit functionality
+                window.location.href = `index.html?edit=${webinarId}`;
+            }
+
+            deleteWebinar(webinarId) {
+                const webinar = this.webinars.find(w => w.id === webinarId);
+                if (!webinar) return;
+
+                if (confirm(`Are you sure you want to delete "${webinar.title}"?`)) {
+                    this.webinars = this.webinars.filter(w => w.id !== webinarId);
+                    this.filteredWebinars = this.filteredWebinars.filter(w => w.id !== webinarId);
+                    this.dataModified = true;
+                    this.updateExportButton();
+                    this.renderTable();
+                    this.updateStats();
+                }
+            }
+
+            exportData() {
+                const exportData = {
+                    webinars: this.webinars,
+                    last_updated: new Date().toISOString().split('T')[0],
+                    total_count: this.webinars.length
+                };
+
+                const dataStr = JSON.stringify(exportData, null, 2);
+                const dataBlob = new Blob([dataStr], { type: 'application/json' });
+                
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(dataBlob);
+                link.download = 'webinars_export.json';
+                link.click();
+            }
+
+            refreshData() {
+                this.loadData().then(() => {
+                    this.updateStats();
+                    this.renderTable();
+                    alert('Data refreshed successfully!');
+                });
+            }
+
+            clearChanges() {
+                if (confirm('Are you sure you want to clear all changes? This will reload the original data.')) {
+                    this.dataModified = false;
+                    this.loadData().then(() => {
+                        this.updateExportButton();
+                        this.updateStats();
+                        this.renderTable();
+                        alert('Changes cleared!');
+                    });
+                }
+            }
+
+            exportChanges() {
+                if (!this.dataModified) {
+                    alert('No changes to export. Make some changes first!');
+                    return;
+                }
+
+                const exportData = {
+                    webinars: this.webinars,
+                    last_updated: new Date().toISOString().split('T')[0],
+                    total_count: this.webinars.length
+                };
+
+                const dataStr = JSON.stringify(exportData, null, 2);
+                const dataBlob = new Blob([dataStr], { type: 'application/json' });
+                
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(dataBlob);
+                link.download = 'webinars_updated.json';
+                link.click();
+                
+                alert('Updated data exported! Replace webinars.json with this file.');
+            }
+        }
+
+        // Initialize admin panel
+        let adminPanel;
+        document.addEventListener('DOMContentLoaded', () => {
+            adminPanel = new AdminPanel();
+        });
+    </script>
+</body>
+</html> 

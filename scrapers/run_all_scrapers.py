@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import json
+import sys
+import os
 from datetime import datetime
 from providers.labroots_scraper import LabrootsScraper
 from providers.xtalks_scraper import XtalksScraper
@@ -9,6 +11,10 @@ from providers.technology_networks_scraper import TechnologyNetworksScraper
 from providers.fda_cder_scraper import FDACDERScraper
 from providers.pmi_scraper import PMIScraper
 from providers.usp_scraper import USPScraper
+
+# Add parent directory to path to import cleanup function
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cleanup_expired_webinars import cleanup_expired_webinars
 
 def run_all_scrapers():
     """Run all scrapers and accumulate results"""
@@ -72,6 +78,19 @@ def run_all_scrapers():
     
     print(f"\nFinal result: {len(all_webinars)} total webinars")
     print(f"Added {len(all_webinars) - len(existing_webinars)} new webinars")
+    
+    # Run cleanup to remove expired webinars
+    print(f"\nRunning cleanup to remove expired webinars...")
+    cleanup_stats = cleanup_expired_webinars(
+        data_file="../src/webinars.json",
+        max_age_days=365,  # Remove on-demand webinars older than 1 year
+        dry_run=False
+    )
+    
+    if "error" not in cleanup_stats:
+        print(f"Cleanup completed: {cleanup_stats['total_removed']} expired webinars removed")
+    else:
+        print(f"Cleanup failed: {cleanup_stats['error']}")
 
 if __name__ == "__main__":
     run_all_scrapers() 
