@@ -19,10 +19,13 @@ def test_ispe_scraper():
     
     print(f"Final webinar count: {len(scraper.webinars)}")
     
-    # Show some of the webinars
-    for i, webinar in enumerate(scraper.webinars[-5:], 1):
+    # Show all ISPE webinars
+    ispe_webinars = [w for w in scraper.webinars if w.get('provider') == 'ISPE']
+    print(f"\nFound {len(ispe_webinars)} ISPE webinars:")
+    for i, webinar in enumerate(ispe_webinars, 1):
         print(f"{i}. {webinar['title']} ({webinar['provider']})")
-        print(f"   Certificate: {webinar['certificate_available']}")
+        print(f"   live_date: {webinar.get('live_date', 'N/A')}")
+        print(f"   url: {webinar.get('url', 'N/A')}")
         print()
 
 if __name__ == "__main__":

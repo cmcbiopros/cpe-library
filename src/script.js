@@ -26,14 +26,34 @@ class WebinarDirectory {
 
     async loadData() {
         try {
+            // Smart caching: use last_updated timestamp for cache busting
+            // This way we only bypass cache when data actually changes
             const response = await fetch('webinars.json');
             const data = await response.json();
-            this.webinars = data.webinars || [];
+            
+            // Check if we need to bypass cache (if last_updated changed)
+            const lastUpdated = data.last_updated;
+            const cachedLastUpdated = localStorage.getItem('webinar_last_updated');
+            
+            if (cachedLastUpdated !== lastUpdated) {
+                // Data has changed, reload with cache busting
+                const timestamp = new Date().getTime();
+                const freshResponse = await fetch(`webinars.json?t=${timestamp}`, {
+                    cache: 'no-cache'
+                });
+                const freshData = await freshResponse.json();
+                this.webinars = freshData.webinars || [];
+                localStorage.setItem('webinar_last_updated', lastUpdated);
+            } else {
+                // Use cached data
+                this.webinars = data.webinars || [];
+            }
+            
             this.filteredWebinars = [...this.webinars];
             
             // Update footer info
             document.getElementById('lastUpdated').textContent = 
-                new Date(data.last_updated).toLocaleDateString();
+                new Date(lastUpdated).toLocaleDateString();
             document.getElementById('totalCount').textContent = data.total_count || this.webinars.length;
         } catch (error) {
             console.error('Error loading webinar data:', error);
@@ -283,17 +303,28 @@ class WebinarDirectory {
                  <i class="fas fa-times-circle"></i> Not Available
                </span>`;
 
-        // Format the date for display
+        // Format the date for display - fix timezone issues by parsing date manually
         let dateDisplay = 'On-Demand';
         if (webinar.live_date && webinar.live_date !== 'on-demand' && webinar.live_date !== 'Unknown') {
             try {
-                const date = new Date(webinar.live_date);
-                if (!isNaN(date.getTime())) {
-                    dateDisplay = date.toLocaleDateString('en-US', { 
-                        year: 'numeric', 
-                        month: 'short', 
-                        day: 'numeric' 
-                    });
+                // Parse date manually to avoid timezone issues
+                const dateParts = webinar.live_date.split('-');
+                if (dateParts.length === 3) {
+                    const year = parseInt(dateParts[0]);
+                    const month = parseInt(dateParts[1]) - 1; // Month is 0-indexed
+                    const day = parseInt(dateParts[2]);
+                    
+                    // Create date in local timezone to avoid conversion issues
+                    const date = new Date(year, month, day);
+                    if (!isNaN(date.getTime())) {
+                        dateDisplay = date.toLocaleDateString('en-US', { 
+                            year: 'numeric', 
+                            month: 'short', 
+                            day: 'numeric' 
+                        });
+                    }
+                } else {
+                    dateDisplay = webinar.live_date;
                 }
             } catch (e) {
                 dateDisplay = webinar.live_date;

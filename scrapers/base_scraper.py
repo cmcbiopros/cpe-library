@@ -281,11 +281,14 @@ class BaseScraper:
             return None
     
     def add_webinar(self, webinar_data: Dict[str, Any]) -> bool:
-        """Add a webinar to the database if it doesn't exist"""
+        """Add or update a webinar in the database by id"""
         # Check if webinar already exists
         existing_ids = [w['id'] for w in self.webinars]
         if webinar_data['id'] in existing_ids:
-            return False
+            # Replace the old entry with the new one
+            idx = existing_ids.index(webinar_data['id'])
+            self.webinars[idx] = webinar_data
+            return True
         
         # Validate required fields
         required_fields = ['id', 'title', 'provider', 'url']
@@ -952,11 +955,14 @@ class ISPEScraper(BaseScraper):
             if any(skip in title.lower() for skip in ['webinar library', 'visit', 'call for proposals', 'submit']):
                 return None
             
-            # Extract date from paragraph after the title
+            # Extract date from paragraph after the title - improved method
             date_text = ""
-            date_elem = block.find('p', text=re.compile(r'\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}\b'))
-            if date_elem:
-                date_text = date_elem.get_text(strip=True)
+            p_elements = block.find_all('p')
+            for p_elem in p_elements:
+                p_text = p_elem.get_text(strip=True)
+                if re.search(r'\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4}\b', p_text):
+                    date_text = p_text
+                    break
             
             # Build URL
             url = self.base_url + href if href.startswith('/') else href
@@ -1040,18 +1046,28 @@ class ISPEScraper(BaseScraper):
             return "Unknown"
         
         try:
-            # Handle ISPE date format: "Tuesday, 1 July 2025" or "Wednesday, 9 July 2025"
-            date_pattern = r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})'
+            # Handle ISPE date format: "Tuesday, 1 July 2025" or "Wednesday, 9 July 2025" or "Thursday, 4 Sep 2025"
+            # More flexible pattern to handle abbreviated months
+            date_pattern = r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+(\d{1,2})\s+(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+(\d{4})'
             
             match = re.search(date_pattern, date_text)
             if match:
                 day, month, year = match.groups()
                 
-                # Convert month name to number
+                # Convert month name to number (handle both full and abbreviated names)
                 month_map = {
-                    'january': '01', 'february': '02', 'march': '03', 'april': '04',
-                    'may': '05', 'june': '06', 'july': '07', 'august': '08',
-                    'september': '09', 'october': '10', 'november': '11', 'december': '12'
+                    'january': '01', 'jan': '01',
+                    'february': '02', 'feb': '02',
+                    'march': '03', 'mar': '03',
+                    'april': '04', 'apr': '04',
+                    'may': '05',
+                    'june': '06', 'jun': '06',
+                    'july': '07', 'jul': '07',
+                    'august': '08', 'aug': '08',
+                    'september': '09', 'sep': '09',
+                    'october': '10', 'oct': '10',
+                    'november': '11', 'nov': '11',
+                    'december': '12', 'dec': '12'
                 }
                 
                 month_num = month_map.get(month.lower(), '01')
