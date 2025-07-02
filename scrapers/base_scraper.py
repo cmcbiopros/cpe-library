@@ -1173,188 +1173,400 @@ class TechnologyNetworksScraper(BaseScraper):
 
 
 class FDACDERScraper(BaseScraper):
-    """Scraper for FDA CDER Drug Topics webinars"""
+    """Scraper for FDA CDER training courses and webinars"""
     
     def __init__(self):
-        super().__init__()
+        super().__init__(data_file="src/webinars.json")
         self.base_url = "https://www.fda.gov"
-        self.events_url = "https://www.fda.gov/drugs/news-events-human-drugs/fda-drug-topics"
+        self.cderlearn_url = "https://www.fda.gov/training-and-continuing-education/cderlearn"
     
     def scrape(self):
-        """Scrape FDA CDER webinars"""
+        """Scrape FDA CDER training courses and webinars"""
         try:
-            response = requests.get(self.events_url, timeout=30)
-            response.raise_for_status()
+            print("Scraping FDA CDER training courses and webinars...")
+            
+            response = self.make_request(self.cderlearn_url)
+            
+            if not response:
+                print("Failed to access FDA CDER Learn page")
+                return
             
             soup = BeautifulSoup(response.content, 'html.parser')
-            webinar_links = soup.find_all('a', href=re.compile(r'drug-topics.*webinar', re.I))
             
-            for link in webinar_links:
-                webinar_data = self._parse_webinar_link(link)
-                if webinar_data:
-                    self.add_webinar(webinar_data)
+            # Find the table with training courses
+            table = soup.find('table', class_='table')
+            if not table:
+                print("No training table found on FDA CDER Learn page")
+                return
+            
+            # Parse table rows
+            rows = table.find_all('tr')
+            print(f"Found {len(rows)} rows in FDA training table")
+            
+            for row in rows[1:]:  # Skip header row
+                course_data = self._parse_course_row(row)
+                if course_data:
+                    self.add_webinar(course_data)
         
         except Exception as e:
             print(f"Error scraping FDA CDER: {e}")
     
-    def _parse_webinar_link(self, link) -> Optional[Dict]:
-        """Parse individual webinar link"""
+    def _parse_course_row(self, row) -> Optional[Dict]:
+        """Parse a course row from the FDA training table"""
         try:
-            title = link.get_text(strip=True)
-            url = self.base_url + link.get('href', '')
+            cells = row.find_all('td')
+            if len(cells) < 4:
+                return None
             
-            # FDA Drug Topics typically provide certificates
-            webinar_data = {
+            # Extract data from cells
+            title_cell = cells[0]
+            topic_cell = cells[1]
+            ce_cell = cells[2]
+            credits_cell = cells[3]
+            
+            # Extract title and URL
+            title_link = title_cell.find('a')
+            if not title_link:
+                return None
+            
+            title = title_link.get_text(strip=True)
+            href = title_link.get('href', '')
+            
+            # Build full URL
+            if href.startswith('http'):
+                url = href
+            elif href.startswith('/'):
+                url = self.base_url + href
+            else:
+                url = self.base_url + '/' + href
+            
+            # Extract topics
+            topics_text = topic_cell.get_text(strip=True)
+            topics = self._extract_topics_from_text(topics_text)
+            
+            # Check CE availability
+            ce_text = ce_cell.get_text(strip=True).lower()
+            has_ce = ce_text == 'yes'
+            
+            # Extract credits
+            credits_text = credits_cell.get_text(strip=True)
+            try:
+                credits = float(credits_text) if credits_text != '0' else 0
+            except:
+                credits = 0
+            
+            # Determine format based on title and URL
+            format_type = self._determine_format(title, url)
+            
+            # Determine duration based on credits (rough estimate)
+            duration_min = self._estimate_duration(credits)
+            
+            # Create course data
+            course_data = {
                 'id': self.generate_id(title, 'FDA CDER'),
                 'title': title,
                 'provider': 'FDA CDER',
-                'topics': ['regulatory', 'quality-assurance'],
-                'format': 'on-demand',
-                'duration_min': 90,  # FDA webinars are typically 90 minutes
-                'certificate_available': True,
-                'certificate_process': 'Certificate available after post-test and survey completion',
+                'topics': topics,
+                'format': format_type,
+                'duration_min': duration_min,
+                'certificate_available': has_ce,
+                'certificate_process': f'CE credits available: {credits} credits' if has_ce else 'No CE credits available',
+                'ce_credits': credits if has_ce else 0,
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
                 'url': url,
-                'description': f"FDA Drug Topics webinar: {title}"
+                'description': f"FDA CDER training: {title}. Topics: {topics_text}"
             }
             
-            return webinar_data
+            return course_data
         
         except Exception as e:
-            print(f"Error parsing webinar link: {e}")
+            print(f"Error parsing course row: {e}")
             return None
-
-
-class SOCRAScraper(BaseScraper):
-    """Scraper for SOCRA webinars"""
     
-    def __init__(self):
-        super().__init__()
-        self.base_url = "https://www.socra.org"
-        self.webinars_url = "https://www.socra.org/conferences-and-education/live-webinars/"
-    
-    def scrape(self):
-        """Scrape SOCRA webinars"""
-        try:
-            response = self.make_request(self.webinars_url)
-            
-            if not response:
-                print("Failed to access SOCRA webinars page")
-                return
-            
-            soup = BeautifulSoup(response.content, 'html.parser')
-            webinar_links = soup.find_all('a', href=re.compile(r'webinar'))
-            
-            print(f"Found {len(webinar_links)} potential webinar links on SOCRA")
-            
-            for link in webinar_links:
-                webinar_data = self._parse_webinar_link(link)
-                if webinar_data:
-                    self.add_webinar(webinar_data)
-                    
-        except Exception as e:
-            print(f"Error scraping SOCRA: {e}")
-    
-    def _parse_webinar_link(self, link) -> Optional[Dict]:
-        """Parse individual webinar link"""
-        try:
-            title = link.get_text(strip=True)
-            url = self.base_url + link.get('href', '') if link.get('href', '').startswith('/') else link.get('href', '')
-            
-            # Skip non-webinar content
-            if not self._is_valid_webinar(title, url):
-                return None
-            
-            # Check for certificate availability
-            has_cert, process = self.check_certificate_availability(title)
-            webinar_data = {
-                'id': self.generate_id(title, 'SOCRA'),
-                'title': title,
-                'provider': 'SOCRA',
-                'topics': ['clinical-research', 'monitoring', 'project-management'],
-                'format': 'live',
-                'duration_min': 60,
-                'certificate_available': has_cert,
-                'certificate_process': process if has_cert else 'No certificate information available',
-                'date_added': datetime.now().strftime('%Y-%m-%d'),
-                'url': url,
-                'description': f"SOCRA webinar: {title}"
-            }
-            
-            return webinar_data
+    def _extract_topics_from_text(self, topics_text: str) -> List[str]:
+        """Extract topics from the topics cell text"""
+        topics = []
         
-        except Exception as e:
-            print(f"Error parsing webinar link: {e}")
-            return None
+        # Split by semicolon and clean up
+        topic_list = [t.strip() for t in topics_text.split(';')]
+        
+        # Map FDA topics to our topic categories
+        topic_mapping = {
+            'drug development': 'drug-development',
+            'drug regulatory process': 'regulatory',
+            'drug safety': 'drug-safety',
+            'cancer drugs': 'cancer',
+            'biosimilars': 'biosimilars',
+            'generic drugs': 'generic-drugs',
+            'compounding': 'compounding',
+            'covid-19': 'covid-19',
+            'opioids': 'opioids',
+            'women\'s health': 'womens-health',
+            'rare diseases': 'rare-diseases',
+            'artificial intelligence': 'artificial-intelligence',
+            'medwatch': 'medwatch',
+            'ind/expanded access': 'expanded-access',
+            'otc drug regulations': 'otc-drugs',
+            'health fraud': 'health-fraud',
+            'case study': 'case-study',
+            'minority health': 'minority-health',
+            'español': 'spanish',
+            'cannabidiol': 'cannabis',
+            'sunscreen': 'sunscreen',
+            'biotechnology': 'biotechnology',
+            'clinical trials': 'clinical-trials',
+            'pharmacovigilance': 'pharmacovigilance',
+            'quality assurance': 'quality-assurance',
+            'manufacturing': 'manufacturing',
+            'validation': 'validation',
+            'laboratory': 'laboratory'
+        }
+        
+        for topic in topic_list:
+            topic_lower = topic.lower()
+            for fda_topic, our_topic in topic_mapping.items():
+                if fda_topic in topic_lower:
+                    topics.append(our_topic)
+        
+        # Default topics if none found
+        if not topics:
+            topics = ['regulatory', 'drug-development']
+        
+        return topics
+    
+    def _determine_format(self, title: str, url: str) -> str:
+        """Determine the format of the training"""
+        title_lower = title.lower()
+        url_lower = url.lower()
+        
+        if any(keyword in title_lower for keyword in ['webinar', 'live', 'virtual']):
+            return 'scheduled'
+        elif any(keyword in url_lower for keyword in ['youtube', 'video']):
+            return 'on-demand'
+        elif any(keyword in title_lower for keyword in ['course', 'training', 'seminar']):
+            return 'on-demand'
+        else:
+            return 'on-demand'
+    
+    def _estimate_duration(self, credits: float) -> int:
+        """Estimate duration in minutes based on CE credits"""
+        if credits == 0:
+            return 60  # Default for non-CE content
+        else:
+            # Rough estimate: 1 CE credit = 60 minutes
+            return int(credits * 60)
+
+
+
 
 
 class PMIScraper(BaseScraper):
     """Scraper for PMI webinars"""
     
     def __init__(self):
-        super().__init__()
-        self.base_url = "https://www.pmi.org"
-        self.webinars_url = "https://www.pmi.org/learning/webinars"
+        super().__init__(data_file="src/webinars.json")
+        self.base_url = "https://www.projectmanagement.com"
+        self.webinars_url = "https://www.projectmanagement.com/webinars/webinarmainondemand.cfm"
     
     def scrape(self):
-        """Scrape PMI webinars"""
+        """Add PMI on-demand webinars link"""
         try:
-            response = self.make_request(self.webinars_url)
+            print("Adding PMI on-demand webinars link...")
             
-            if not response:
-                print("Failed to access PMI webinars page")
-                return
+            # Add a single entry linking to the PMI on-demand webinars page
+            webinar_data = {
+                'id': 'pmi-on-demand-webinars',
+                'title': 'PMI On-Demand Webinars',
+                'provider': 'PMI',
+                'topics': ['project-management'],
+                'format': 'on-demand',
+                'duration_min': 'variable',
+                'certificate_available': True,
+                'certificate_process': 'PDUs available upon completion',
+                'date_added': datetime.now().strftime('%Y-%m-%d'),
+                'url': 'https://www.projectmanagement.com/webinars/webinarmainondemand.cfm',
+                'description': 'Access to PMI on-demand webinars. Free webinars available within the last 6 months. PDUs available upon completion.'
+            }
             
-            soup = BeautifulSoup(response.content, 'html.parser')
-            
-            # Try different patterns for finding webinar links
-            webinar_links = soup.find_all('a', href=re.compile(r'webinar'))
-            
-            # If no webinar links found, try broader search
-            if not webinar_links:
-                webinar_links = soup.find_all('a', href=re.compile(r'learning'))
-            
-            # If still no links, try looking for any links with relevant text
-            if not webinar_links:
-                all_links = soup.find_all('a')
-                webinar_links = [link for link in all_links if any(keyword in link.get_text(strip=True).lower() 
-                    for keyword in ['webinar', 'learning', 'education', 'training'])]
-            
-            print(f"Found {len(webinar_links)} potential webinar links on PMI")
-            
-            for link in webinar_links:
-                webinar_data = self._parse_webinar_link(link)
-                if webinar_data:
-                    self.add_webinar(webinar_data)
+            self.add_webinar(webinar_data)
+            print("Added PMI on-demand webinars link")
                     
         except Exception as e:
-            print(f"Error scraping PMI: {e}")
+            print(f"Error adding PMI link: {e}")
     
-    def _parse_webinar_link(self, link) -> Optional[Dict]:
-        """Parse individual webinar link"""
+    def _find_webinar_entries(self, soup):
+        """Find webinar entries in the page"""
+        entries = []
+        
+        # Try multiple patterns to find webinar entries
+        # Look for table rows that might contain webinar info
+        table_rows = soup.find_all('tr')
+        for row in table_rows:
+            if self._looks_like_webinar_row(row):
+                entries.append(row)
+        
+        # Look for div containers that might contain webinar info
+        div_containers = soup.find_all('div', class_=re.compile(r'webinar|event|session'))
+        entries.extend(div_containers)
+        
+        # Look for any elements containing webinar-like content
+        all_elements = soup.find_all(['div', 'article', 'section'])
+        for element in all_elements:
+            text = element.get_text()
+            if any(keyword in text.lower() for keyword in ['webinar', 'pdu', 'project management', 'free']):
+                entries.append(element)
+        
+        return entries
+    
+    def _looks_like_webinar_row(self, row):
+        """Check if a table row looks like it contains webinar information"""
+        text = row.get_text().lower()
+        return any(keyword in text for keyword in ['webinar', 'pdu', 'project management', 'free'])
+    
+    def _parse_webinar_entry(self, entry) -> Optional[Dict]:
+        """Parse webinar from an entry element"""
         try:
-            title = link.get_text(strip=True)
-            url = self.base_url + link.get('href', '') if link.get('href', '').startswith('/') else link.get('href', '')
+            # Extract title
+            title_elem = entry.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'a'])
+            if not title_elem:
+                return None
+            
+            title = title_elem.get_text(strip=True)
+            
+            # Skip navigation and non-webinar content
+            if any(skip in title.lower() for skip in ['webinar library', 'view all', 'opens in a new tab', 'navigation']):
+                return None
+            
+            # Extract URL
+            link_elem = entry.find('a', href=True)
+            url = ""
+            if link_elem:
+                href = link_elem.get('href', '')
+                url = self.base_url + href if href.startswith('/') else href
+            
+            # Extract date if available
+            date_text = ""
+            date_elem = entry.find(text=re.compile(r'\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}\b'))
+            if date_elem:
+                date_text = date_elem.strip()
+            
+            # Parse date
+            webinar_date = self._parse_pmi_date(date_text)
+            
+            # Check if it's within last 6 months
+            if webinar_date != "Unknown":
+                try:
+                    from datetime import datetime, timedelta
+                    parsed_date = datetime.strptime(webinar_date, '%Y-%m-%d')
+                    six_months_ago = datetime.now() - timedelta(days=180)
+                    if parsed_date < six_months_ago:
+                        return None  # Skip webinars older than 6 months
+                except:
+                    pass
+            
+            # Check for certificate availability (PMI typically provides PDUs)
+            has_cert, process = self.check_certificate_availability(title)
             
             webinar_data = {
                 'id': self.generate_id(title, 'PMI'),
                 'title': title,
                 'provider': 'PMI',
-                'topics': ['project-management'],
+                'topics': self._extract_topics_from_title(title),
                 'format': 'on-demand',
                 'duration_min': 60,
-                'certificate_available': True,
-                'certificate_process': 'Certificate available upon completion',
+                'certificate_available': has_cert,
+                'certificate_process': process if has_cert else 'PDUs available upon completion',
                 'date_added': datetime.now().strftime('%Y-%m-%d'),
+                'webinar_date': webinar_date,
                 'url': url,
-                'description': f"PMI webinar: {title}"
+                'description': f"PMI on-demand webinar: {title}"
             }
             
             return webinar_data
-        
+            
         except Exception as e:
-            print(f"Error parsing webinar link: {e}")
+            print(f"Error parsing webinar entry: {e}")
             return None
+    
+    def _parse_pmi_date(self, date_text: str) -> str:
+        """Parse PMI date format"""
+        if not date_text:
+            return "Unknown"
+        
+        try:
+            # Handle various PMI date formats
+            date_patterns = [
+                r'(\w+)\s+(\d{1,2}),?\s+(\d{4})',  # "July 1, 2025" or "July 1 2025"
+                r'(\d{1,2})\s+(\w+)\s+(\d{4})',    # "1 July 2025"
+            ]
+            
+            for pattern in date_patterns:
+                match = re.search(pattern, date_text)
+                if match:
+                    if len(match.groups()) == 3:
+                        if match.group(1).isdigit():
+                            # Format: "1 July 2025"
+                            day, month, year = match.groups()
+                        else:
+                            # Format: "July 1, 2025"
+                            month, day, year = match.groups()
+                        
+                        # Convert month name to number
+                        month_map = {
+                            'january': '01', 'february': '02', 'march': '03', 'april': '04',
+                            'may': '05', 'june': '06', 'july': '07', 'august': '08',
+                            'september': '09', 'october': '10', 'november': '11', 'december': '12'
+                        }
+                        
+                        month_num = month_map.get(month.lower(), '01')
+                        day_num = day.zfill(2)
+                        
+                        return f"{year}-{month_num}-{day_num}"
+            
+            return "Unknown"
+            
+        except Exception as e:
+            print(f"Error parsing date '{date_text}': {e}")
+            return "Unknown"
+    
+    def _extract_topics_from_title(self, title: str) -> List[str]:
+        """Extract topics from PMI webinar title"""
+        title_lower = title.lower()
+        topics = []
+        
+        topic_keywords = {
+            'project management': 'project-management',
+            'agile': 'project-management',
+            'scrum': 'project-management',
+            'kanban': 'project-management',
+            'leadership': 'leadership',
+            'team management': 'team-management',
+            'risk management': 'risk-management',
+            'stakeholder': 'stakeholder-management',
+            'communication': 'communication',
+            'planning': 'planning',
+            'scheduling': 'planning',
+            'budget': 'budget-management',
+            'quality': 'quality-management',
+            'procurement': 'procurement',
+            'integration': 'integration',
+            'scope': 'scope-management',
+            'time management': 'time-management',
+            'cost management': 'cost-management',
+            'human resources': 'human-resources',
+            'pmp': 'project-management',
+            'pdu': 'project-management'
+        }
+        
+        for keyword, topic in topic_keywords.items():
+            if keyword in title_lower:
+                topics.append(topic)
+        
+        # Default topic for PMI webinars
+        if not topics:
+            topics = ['project-management']
+        
+        return topics
 
 
 if __name__ == "__main__":
@@ -1365,7 +1577,6 @@ if __name__ == "__main__":
         ISPEScraper(),
         TechnologyNetworksScraper(),
         FDACDERScraper(),
-        SOCRAScraper(),
         PMIScraper()
     ]
     

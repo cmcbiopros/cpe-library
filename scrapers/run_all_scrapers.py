@@ -5,7 +5,7 @@ from datetime import datetime
 from base_scraper import (
     LabrootsScraper, XtalksScraper, ISPEScraper, 
     TechnologyNetworksScraper, FDACDERScraper, 
-    SOCRAScraper, PMIScraper
+    PMIScraper
 )
 
 def run_all_scrapers():
@@ -28,7 +28,6 @@ def run_all_scrapers():
         ISPEScraper(),
         TechnologyNetworksScraper(),
         FDACDERScraper(),
-        SOCRAScraper(),
         PMIScraper()
     ]
     
