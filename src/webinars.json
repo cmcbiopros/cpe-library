@@ -19,7 +19,7 @@
     },
     {
       "id": "xtalks-strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials",
-      "title": "Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials",
+      "title": "Strategies That Drive Effective Signal Detection in Preclinical Alzheimer\u2019s Disease Clinical Trials",
       "provider": "Xtalks",
       "topics": [
         "clinical-trials"
@@ -31,7 +31,7 @@
       "date_added": "2025-07-01",
       "webinar_date": "2025-06-30",
       "url": "https://xtalks.com/webinars/strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials/",
-      "description": "Xtalks on-demand webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials"
+      "description": "Xtalks on-demand webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer\u2019s Disease Clinical Trials"
     },
     {
       "id": "xtalks-the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t",
@@ -639,7 +639,7 @@
     },
     {
       "id": "xtalks-harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum",
-      "title": "Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development – Post-Marketing Continuum",
+      "title": "Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development \u2013 Post-Marketing Continuum",
       "provider": "Xtalks",
       "topics": [
         "development",
@@ -652,7 +652,7 @@
       "date_added": "2025-07-01",
       "webinar_date": "2025-05-05",
       "url": "https://xtalks.com/webinars/harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum/",
-      "description": "Xtalks on-demand webinar: Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development – Post-Marketing Continuum"
+      "description": "Xtalks on-demand webinar: Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development \u2013 Post-Marketing Continuum"
     },
     {
       "id": "xtalks-adaptive-by-design-how-rtsm-powers-early-phase-clinical-trial-success",
@@ -735,7 +735,7 @@
     },
     {
       "id": "xtalks-redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials",
-      "title": "Redefining Women’s Cancer Care: Delivering Smarter, Safer Clinical Trials",
+      "title": "Redefining Women\u2019s Cancer Care: Delivering Smarter, Safer Clinical Trials",
       "provider": "Xtalks",
       "topics": [
         "clinical-trials",
@@ -748,7 +748,7 @@
       "date_added": "2025-07-01",
       "webinar_date": "2025-04-10",
       "url": "https://xtalks.com/webinars/redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials/",
-      "description": "Xtalks on-demand webinar: Redefining Women’s Cancer Care: Delivering Smarter, Safer Clinical Trials"
+      "description": "Xtalks on-demand webinar: Redefining Women\u2019s Cancer Care: Delivering Smarter, Safer Clinical Trials"
     },
     {
       "id": "xtalks-the-future-of-clinical-research-leveraging-ich-e6-r3-updates-and-technology-innovation-for-success",
@@ -872,23 +872,6 @@
       "webinar_date": "2025-07-01"
     },
     {
-      "id": "technology-networks-webinars-online-events",
-      "title": "Webinars & Online Events",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://www.technologynetworks.com/tn/webinars-online-events",
-      "description": "Technology Networks webinar: Webinars & Online Events"
-    },
-    {
       "id": "technology-networks-webinarbest-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-developmentin-this-webinar-our-expert-speaker-will-share-insights-on-optimizing-pcr-performance-for-applications-within-cell-and-gene-therapy-development-including-biodistribution-transgene-expression-viral-shedding-and-cellular-kinetics",
       "title": "WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics.",
       "provider": "Technology Networks",
@@ -897,7 +880,7 @@
         "gene-therapy",
         "biotech"
       ],
-      "format": "on-demand",
+      "format": "scheduled",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
@@ -955,108 +938,6 @@
       "date_added": "2025-07-01",
       "url": "https://www.technologynetworks.com/tn/webinars/episode-4-t-cell-therapy-development-with-the-seahorse-xf-pro-solution-395230",
       "description": "Technology Networks webinar: WebinarEpisode 4: T Cell Therapy Development With the Seahorse XF Pro SolutionOn-DemandThis webinar presents an optimized assay workflow using the Agilent Seahorse XF Pro Analyzer to profile T cell energy metabolism, enhancing the design and manufacturing of CAR-T cell therapies."
-    },
-    {
-      "id": "technology-networks-next",
-      "title": "Next",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/2",
-      "description": "Technology Networks webinar: Next"
-    },
-    {
-      "id": "technology-networks-2",
-      "title": "2",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/2",
-      "description": "Technology Networks webinar: 2"
-    },
-    {
-      "id": "technology-networks-3",
-      "title": "3",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/3",
-      "description": "Technology Networks webinar: 3"
-    },
-    {
-      "id": "technology-networks-4",
-      "title": "4",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/4",
-      "description": "Technology Networks webinar: 4"
-    },
-    {
-      "id": "technology-networks-5",
-      "title": "5",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/5",
-      "description": "Technology Networks webinar: 5"
-    },
-    {
-      "id": "technology-networks-last",
-      "title": "Last",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-01",
-      "url": "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events/9",
-      "description": "Technology Networks webinar: Last"
     },
     {
       "id": "labroots-drug-discovery-development",
@@ -1383,7 +1264,7 @@
     },
     {
       "id": "ispe-qrm-based-integrated-c-q-series-system-boundaries-and-system-classification",
-      "title": "QRM Based Integrated C&Q Series—System Boundaries and System Classification",
+      "title": "QRM Based Integrated C&Q Series\u2014System Boundaries and System Classification",
       "provider": "ISPE",
       "topics": [
         "validation"
@@ -1395,7 +1276,7 @@
       "date_added": "2025-07-01",
       "webinar_date": "2025-07-30",
       "url": "https://ispe.org/webinars/qrm-based-integrated-cq-series-system-boundaries-and-system-classification",
-      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series—System Boundaries and System Classification"
+      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series\u2014System Boundaries and System Classification"
     },
     {
       "id": "ispe-improving-productivity-and-reducing-cogs-in-bioprocesses-using-capacitance-as-a-pat-tool",
@@ -1452,7 +1333,7 @@
     },
     {
       "id": "fda-cder-fdas-regulation-of-dietary-supplements-with-dr-cara-welch",
-      "title": "FDA’s Regulation of Dietary Supplements with Dr. Cara Welch",
+      "title": "FDA\u2019s Regulation of Dietary Supplements with Dr. Cara Welch",
       "provider": "FDA CDER",
       "topics": [
         "health-fraud"
@@ -1464,7 +1345,7 @@
       "ce_credits": 0.5,
       "date_added": "2025-07-01",
       "url": "https://www.fda.gov/drugs/news-events-human-drugs/fdas-regulation-dietary-supplements-dr-cara-welch",
-      "description": "FDA CDER training: FDA’s Regulation of Dietary Supplements with Dr. Cara Welch. Topics: Health Fraud"
+      "description": "FDA CDER training: FDA\u2019s Regulation of Dietary Supplements with Dr. Cara Welch. Topics: Health Fraud"
     },
     {
       "id": "fda-cder-the-role-of-artificial-intelligence-in-clinical-trial-design-and-research-with-dr-elzarrad",
@@ -1644,7 +1525,7 @@
     },
     {
       "id": "fda-cder-cannabis-and-cannabis-derived-products-for-healthcare-practitioners",
-      "title": "Cannabis and Cannabis-Derived Products – For Healthcare Practitioners",
+      "title": "Cannabis and Cannabis-Derived Products \u2013 For Healthcare Practitioners",
       "provider": "FDA CDER",
       "topics": [
         "regulatory",
@@ -1659,7 +1540,7 @@
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/cannabis-and-cannabis-derived-products-healthcare-practitioners",
-      "description": "FDA CDER training: Cannabis and Cannabis-Derived Products – For Healthcare Practitioners. Topics: Drug Regulatory Process; Drug Development; Drug Safety; Cannabidiol"
+      "description": "FDA CDER training: Cannabis and Cannabis-Derived Products \u2013 For Healthcare Practitioners. Topics: Drug Regulatory Process; Drug Development; Drug Safety;\u00a0Cannabidiol"
     },
     {
       "id": "fda-cder-cleanroom-in-person-course",
@@ -2224,7 +2105,7 @@
     },
     {
       "id": "fda-cder-an-overview-of-fdas-project-facilitate-oncology-expanded-access-program",
-      "title": "An Overview of FDA’s Project Facilitate Oncology Expanded Access Program",
+      "title": "An Overview of FDA\u2019s Project Facilitate Oncology Expanded Access Program",
       "provider": "FDA CDER",
       "topics": [
         "cancer",
@@ -2238,7 +2119,7 @@
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/overview-fdas-project-facilitate-oncology-expanded-access-program",
-      "description": "FDA CDER training: An Overview of FDA’s Project Facilitate Oncology Expanded Access Program. Topics: Cancer Drugs; Disease States; Drug Development; Drug Regulatory Process"
+      "description": "FDA CDER training: An Overview of FDA\u2019s Project Facilitate Oncology Expanded Access Program. Topics: Cancer Drugs; Disease States; Drug Development; Drug Regulatory Process"
     },
     {
       "id": "fda-cder-pcos-revisited-diagnosis-management-and-future-needs",
@@ -2356,7 +2237,7 @@
     },
     {
       "id": "fda-cder-q-a-with-fda-podcast",
-      "title": "Q&A with FDA Podcast",
+      "title": "Q&A with FDA\u00a0Podcast",
       "provider": "FDA CDER",
       "topics": [
         "covid-19",
@@ -2372,7 +2253,7 @@
       "ce_credits": 0.5,
       "date_added": "2025-07-01",
       "url": "https://www.fda.gov/drugs/news-events-human-drugs/qa-fda-podcast",
-      "description": "FDA CDER training: Q&A with FDA Podcast. Topics: COVID-19; Drug Regulatory Process; Drug Development; Drug Safety; MedWatch"
+      "description": "FDA CDER training: Q&A with FDA\u00a0Podcast. Topics: COVID-19; Drug Regulatory Process; Drug Development; Drug Safety; MedWatch"
     },
     {
       "id": "fda-cder-quality-management-systems-virtual-course",
@@ -2670,7 +2551,7 @@
     },
     {
       "id": "fda-cder-update-on-fdas-ongoing-evaluation-of-reports-of-suicidal-thoughts-or-actions-in-patients-taking-a-certain-type-of-medicines-approved-for-type-2-diabetes-and-obesity",
-      "title": "Update on FDA’s ongoing evaluation of reports of suicidal thoughts or actions in patients taking a certain type of medicines approved for type 2 diabetes and obesity",
+      "title": "Update on FDA\u2019s ongoing evaluation of reports of suicidal thoughts or actions in patients taking a certain type of medicines approved for type 2 diabetes and obesity",
       "provider": "FDA CDER",
       "topics": [
         "regulatory",
@@ -2684,7 +2565,7 @@
       "ce_credits": 0.5,
       "date_added": "2025-07-01",
       "url": "https://www.fda.gov/drugs/fda-drug-safety-podcasts/update-fdas-ongoing-evaluation-reports-suicidal-thoughts-or-actions-patients-taking-certain-type",
-      "description": "FDA CDER training: Update on FDA’s ongoing evaluation of reports of suicidal thoughts or actions in patients taking a certain type of medicines approved for type 2 diabetes and obesity. Topics: Drug Regulatory Process; Drug Development; Drug Safety"
+      "description": "FDA CDER training: Update on FDA\u2019s ongoing evaluation of reports of suicidal thoughts or actions in patients taking a certain type of medicines approved for type 2 diabetes and obesity. Topics: Drug Regulatory Process; Drug Development; Drug Safety"
     },
     {
       "id": "fda-cder-fda-drug-topics-webinars",
@@ -2714,6 +2595,6 @@
       "description": "FDA CDER training: FDA Drug Topics Webinars. Topics: Biosimilars; Cancer Drugs; Cannabidiol; Compounding; Drug Development; Drug Regulatory Process; Drug Safety; Generic Drugs; Health Fraud; IND/Expanded Access; Opioids; Rare Diseases"
     }
   ],
-  "last_updated": "2025-07-01T20:03:09.169783",
-  "total_count": 153
+  "last_updated": "2025-07-01T20:32:44.689738",
+  "total_count": 146
 }
