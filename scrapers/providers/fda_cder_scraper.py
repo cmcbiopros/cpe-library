@@ -37,7 +37,7 @@ class FDACDERScraper(BaseScraper):
             
             for row in rows[1:]:  # Skip header row
                 course_data = self._parse_course_row(row)
-                if course_data and course_data.get('ce_credits', 0) > 0:
+                if course_data and course_data.get('ce_credits', 0) >= 1:
                     self.add_webinar(course_data)
         
         except Exception as e:
