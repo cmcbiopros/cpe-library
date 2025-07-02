@@ -5,7 +5,7 @@ from datetime import datetime
 from base_scraper import (
     LabrootsScraper, XtalksScraper, ISPEScraper, 
     TechnologyNetworksScraper, FDACDERScraper, 
-    PMIScraper
+    PMIScraper, USPScraper
 )
 
 def run_all_scrapers():
@@ -28,7 +28,8 @@ def run_all_scrapers():
         ISPEScraper(),
         TechnologyNetworksScraper(),
         FDACDERScraper(),
-        PMIScraper()
+        PMIScraper(),
+        USPScraper()
     ]
     
     all_webinars = existing_webinars.copy()
@@ -44,13 +45,15 @@ def run_all_scrapers():
             # Run the scraper
             scraper.scrape()
             
-            # Get new webinars (those not in original list)
-            new_webinars = [w for w in scraper.webinars if w not in all_webinars]
-            
-            print(f"Added {len(new_webinars)} new webinars from {scraper.__class__.__name__}")
-            
-            # Add new webinars to our collection
-            all_webinars.extend(new_webinars)
+            # Update all_webinars to include all unique webinars from this scraper
+            existing_ids = {w['id'] for w in all_webinars}
+            added_count = 0
+            for w in scraper.webinars:
+                if w['id'] not in existing_ids:
+                    all_webinars.append(w)
+                    existing_ids.add(w['id'])
+                    added_count += 1
+            print(f"Added {added_count} new webinars from {scraper.__class__.__name__}")
             
         except Exception as e:
             print(f"Error running {scraper.__class__.__name__}: {e}")

@@ -400,21 +400,141 @@ class WebinarDirectory {
 
         const url = `${window.location.origin}${window.location.pathname}?id=${webinarId}`;
         
-        navigator.clipboard.writeText(url).then(() => {
-            // Show temporary success message
-            const button = event.target.closest('.btn');
-            const originalText = button.innerHTML;
-            button.innerHTML = '<i class="fas fa-check"></i> Copied!';
-            button.style.background = '#28a745';
-            
+        // Get the button that was clicked
+        const button = event.target.closest('.btn');
+        
+        // Try modern clipboard API first
+        if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(url).then(() => {
+                this.showCopySuccess(button);
+            }).catch(err => {
+                console.error('Failed to copy link:', err);
+                this.fallbackCopy(url, button);
+            });
+        } else {
+            // Fallback for non-secure contexts (like localhost)
+            this.fallbackCopy(url, button);
+        }
+    }
+
+    fallbackCopy(text, button) {
+        // Create a temporary textarea element
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'fixed';
+        textarea.style.left = '-999999px';
+        textarea.style.top = '-999999px';
+        document.body.appendChild(textarea);
+        
+        // Select and copy the text
+        textarea.focus();
+        textarea.select();
+        
+        try {
+            const successful = document.execCommand('copy');
+            if (successful) {
+                this.showCopySuccess(button);
+            } else {
+                this.showCopyError(text, button);
+            }
+        } catch (err) {
+            console.error('Fallback copy failed:', err);
+            this.showCopyError(text, button);
+        }
+        
+        // Clean up
+        document.body.removeChild(textarea);
+    }
+
+    showCopySuccess(button) {
+        const originalText = button.innerHTML;
+        button.innerHTML = '<i class="fas fa-check"></i> Copied!';
+        button.style.background = '#28a745';
+        
+        // Show a small toast notification
+        this.showToast('Link copied to clipboard!', 'success');
+        
+        setTimeout(() => {
+            button.innerHTML = originalText;
+            button.style.background = '';
+        }, 2000);
+    }
+
+    showToast(message, type = 'info') {
+        // Remove any existing toast
+        const existingToast = document.querySelector('.toast-notification');
+        if (existingToast) {
+            existingToast.remove();
+        }
+        
+        // Create toast element
+        const toast = document.createElement('div');
+        toast.className = `toast-notification toast-${type}`;
+        toast.innerHTML = `
+            <i class="fas fa-${type === 'success' ? 'check-circle' : 'info-circle'}"></i>
+            <span>${message}</span>
+        `;
+        
+        // Add styles
+        toast.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: ${type === 'success' ? '#28a745' : '#17a2b8'};
+            color: white;
+            padding: 12px 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            animation: slideIn 0.3s ease-out;
+        `;
+        
+        // Add animation styles if not already present
+        if (!document.querySelector('#toast-styles')) {
+            const style = document.createElement('style');
+            style.id = 'toast-styles';
+            style.textContent = `
+                @keyframes slideIn {
+                    from { transform: translateX(100%); opacity: 0; }
+                    to { transform: translateX(0); opacity: 1; }
+                }
+                @keyframes slideOut {
+                    from { transform: translateX(0); opacity: 1; }
+                    to { transform: translateX(100%); opacity: 0; }
+                }
+            `;
+            document.head.appendChild(style);
+        }
+        
+        document.body.appendChild(toast);
+        
+        // Auto-remove after 3 seconds
+        setTimeout(() => {
+            toast.style.animation = 'slideOut 0.3s ease-in';
             setTimeout(() => {
-                button.innerHTML = originalText;
-                button.style.background = '';
-            }, 2000);
-        }).catch(err => {
-            console.error('Failed to copy link:', err);
-            alert('Failed to copy link. Please copy manually: ' + url);
-        });
+                if (toast.parentNode) {
+                    toast.remove();
+                }
+            }, 300);
+        }, 3000);
+    }
+
+    showCopyError(text, button) {
+        const originalText = button.innerHTML;
+        button.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Failed';
+        button.style.background = '#dc3545';
+        
+        // Show the URL in an alert for manual copying
+        alert('Failed to copy link. Please copy manually: ' + text);
+        
+        setTimeout(() => {
+            button.innerHTML = originalText;
+            button.style.background = '';
+        }, 2000);
     }
 }
 
