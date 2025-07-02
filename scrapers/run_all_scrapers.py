@@ -2,18 +2,20 @@
 
 import json
 from datetime import datetime
-from base_scraper import (
-    LabrootsScraper, XtalksScraper, ISPEScraper, 
-    TechnologyNetworksScraper, FDACDERScraper, 
-    PMIScraper, USPScraper
-)
+from providers.labroots_scraper import LabrootsScraper
+from providers.xtalks_scraper import XtalksScraper
+from providers.ispe_scraper import ISPEScraper
+from providers.technology_networks_scraper import TechnologyNetworksScraper
+from providers.fda_cder_scraper import FDACDERScraper
+from providers.pmi_scraper import PMIScraper
+from providers.usp_scraper import USPScraper
 
 def run_all_scrapers():
     """Run all scrapers and accumulate results"""
     
     # Load existing data
     try:
-        with open("src/webinars.json", 'r') as f:
+        with open("../src/webinars.json", 'r') as f:
             data = json.load(f)
             existing_webinars = data.get('webinars', [])
     except FileNotFoundError:
@@ -65,7 +67,7 @@ def run_all_scrapers():
         "total_count": len(all_webinars)
     }
     
-    with open("src/webinars.json", 'w') as f:
+    with open("../src/webinars.json", 'w') as f:
         json.dump(final_data, f, indent=2)
     
     print(f"\nFinal result: {len(all_webinars)} total webinars")
