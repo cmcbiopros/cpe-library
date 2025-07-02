@@ -33,14 +33,14 @@ jobs:
         cd scrapers
         python base_scraper.py
         
-    - name: Copy data to src directory
+    - name: Copy data to root directory
       run: |
-        cp data/webinars.json src/webinars.json
+        cp data/webinars.json webinars.json
         
     - name: Check for changes
       id: changes
       run: |
-        if git diff --quiet src/webinars.json; then
+        if git diff --quiet webinars.json; then
           echo "no_changes=true" >> $GITHUB_OUTPUT
         else
           echo "no_changes=false" >> $GITHUB_OUTPUT
@@ -51,7 +51,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add src/webinars.json
+        git add webinars.json
         git commit -m "Update webinar directory [skip ci]"
         git push
         

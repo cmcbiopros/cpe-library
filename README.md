@@ -28,11 +28,11 @@ Each webinar includes:
 ## Project Structure
 
 ```
-├── src/
-│   ├── webinars.json         # Master webinar database
-│   ├── index.html            # Main interface
-│   ├── styles.css            # Styling
-│   └── script.js             # Search & filter logic
+├── webinars.json             # Master webinar database
+├── index.html                # Main interface
+├── styles.css                # Styling
+├── script.js                 # Search & filter logic
+├── admin-panel.html          # Admin interface
 ├── scrapers/
 │   ├── run_all_scrapers.py   # Main scraper runner
 │   ├── base_scraper.py       # Common scraper utilities
@@ -52,7 +52,7 @@ Each webinar includes:
 ## Quick Start
 
 1. **Manual Entry**: Add webinars to `data/webinars.json`
-2. **View Directory**: Open `src/index.html` in browser
+2. **View Directory**: Open `index.html` in browser
 3. **Automated Updates**: Scrapers run via GitHub Actions
 
 ## Certificate Validation Rules
@@ -87,7 +87,7 @@ python cleanup_expired_webinars.py            # Actually remove expired webinars
 
 # Test locally
 python -m http.server 8000
-# Open http://localhost:8000/src/
+# Open http://localhost:8000/
 ```
 
 ## Data Cleanup
@@ -120,4 +120,4 @@ python cleanup_expired_webinars.py --data-file path/to/webinars.json
 
 ## Deployment
 
-The directory is automatically deployed to GitHub Pages when `data/webinars.json` is updated. 
+The directory is automatically deployed to GitHub Pages when `webinars.json` is updated. 
