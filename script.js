@@ -447,7 +447,7 @@ class WebinarDirectory {
         const webinar = this.webinars.find(w => w.id === webinarId);
         if (!webinar) return;
 
-        const url = `${window.location.origin}${window.location.pathname}?id=${webinarId}`;
+        const url = webinar.url;
         
         // Get the button that was clicked
         const button = event.target.closest('.btn');
