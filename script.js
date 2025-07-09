@@ -25,6 +25,7 @@ class WebinarDirectory {
         this.renderTable();
         this.updateResultsInfo();
         this.updateFooterInfo();
+        this.handleUrlParameters();
     }
 
     async loadData() {
@@ -372,7 +373,7 @@ class WebinarDirectory {
         const isLiked = this.isWebinarLiked(webinar.id);
 
         return `
-            <tr>
+            <tr data-id="${webinar.id}">
                 <td>
                     <div class="webinar-title">
                         <strong>${webinar.title}</strong>
@@ -920,30 +921,41 @@ class WebinarDirectory {
         // Re-render the table to update like counts
         this.renderTable();
     }
+
+    handleUrlParameters() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const webinarId = urlParams.get('id');
+        
+        if (webinarId) {
+            // Find the webinar in the data
+            const webinar = this.webinars.find(w => w.id === webinarId);
+            if (webinar) {
+                // Clear any existing filters to show the webinar
+                this.resetFilters();
+                
+                // Scroll to the specific webinar after a short delay to ensure rendering is complete
+                setTimeout(() => {
+                    const row = document.querySelector(`tr[data-id="${webinarId}"]`);
+                    if (row) {
+                        row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        row.style.backgroundColor = '#fff3cd';
+                        setTimeout(() => {
+                            row.style.backgroundColor = '';
+                        }, 3000);
+                        
+                        // Show a toast notification
+                        this.showToast(`Scrolled to: ${webinar.title}`, 'info');
+                    }
+                }, 500);
+            } else {
+                this.showToast('Webinar not found', 'error');
+            }
+        }
+    }
 }
 
 // Initialize the application
 let webinarDirectory;
 document.addEventListener('DOMContentLoaded', () => {
     webinarDirectory = new WebinarDirectory();
-});
-
-// Handle direct links with webinar ID
-window.addEventListener('load', () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const webinarId = urlParams.get('id');
-    
-    if (webinarId && webinarDirectory) {
-        // Scroll to the specific webinar
-        setTimeout(() => {
-            const row = document.querySelector(`tr[data-id="${webinarId}"]`);
-            if (row) {
-                row.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                row.style.backgroundColor = '#fff3cd';
-                setTimeout(() => {
-                    row.style.backgroundColor = '';
-                }, 3000);
-            }
-        }, 1000);
-    }
 }); 
