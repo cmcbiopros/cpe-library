@@ -398,7 +398,7 @@ class WebinarDirectory {
                         <a href="${webinar.url}" target="_blank" class="btn btn-primary">
                             <i class="fas fa-external-link-alt"></i> View
                         </a>
-                        <button class="btn btn-secondary" onclick="webinarDirectory.copyLink('${webinar.id}')">
+                        <button class="btn btn-secondary" onclick="webinarDirectory.copyLink('${webinar.id}', event)">
                             <i class="fas fa-link"></i> Copy Link
                         </button>
                     </div>
@@ -442,7 +442,7 @@ class WebinarDirectory {
         modal.style.display = 'block';
     }
 
-    copyLink(webinarId) {
+    copyLink(webinarId, event) {
         const webinar = this.webinars.find(w => w.id === webinarId);
         if (!webinar) return;
 
