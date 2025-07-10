@@ -18,6 +18,37 @@ class WebinarDirectory {
         this.init();
     }
 
+    // Security functions
+    sanitizeInput(input) {
+        if (typeof input !== 'string') return '';
+        return input.replace(/[<>]/g, '').trim();
+    }
+
+    validateWebinarData(webinar) {
+        const required = ['id', 'title', 'provider', 'url'];
+        for (const field of required) {
+            if (!webinar[field]) {
+                console.error(`Missing required field: ${field}`);
+                return false;
+            }
+        }
+        
+        // Validate URL format
+        try {
+            new URL(webinar.url);
+        } catch {
+            console.error('Invalid URL format');
+            return false;
+        }
+        
+        return true;
+    }
+
+    logSecurityEvent(event, details) {
+        console.warn(`Security Event: ${event}`, details);
+        // In production, send to monitoring service
+    }
+
     async init() {
         await this.loadData();
         this.setupEventListeners();
@@ -46,11 +77,26 @@ class WebinarDirectory {
                     cache: 'no-cache'
                 });
                 const freshData = await freshResponse.json();
-                this.webinars = freshData.webinars || [];
+                // Validate webinar data
+                const validWebinars = (freshData.webinars || []).filter(webinar => {
+                    if (!this.validateWebinarData(webinar)) {
+                        this.logSecurityEvent('Invalid webinar data', { id: webinar.id, title: webinar.title });
+                        return false;
+                    }
+                    return true;
+                });
+                this.webinars = validWebinars;
                 localStorage.setItem('webinar_last_updated', lastUpdated);
             } else {
                 // Use cached data
-                this.webinars = data.webinars || [];
+                const validWebinars = (data.webinars || []).filter(webinar => {
+                    if (!this.validateWebinarData(webinar)) {
+                        this.logSecurityEvent('Invalid cached webinar data', { id: webinar.id, title: webinar.title });
+                        return false;
+                    }
+                    return true;
+                });
+                this.webinars = validWebinars;
             }
             
             // Integrate pending webinars from localStorage
@@ -109,7 +155,7 @@ class WebinarDirectory {
         const clearSearch = document.getElementById('clearSearch');
         
         searchInput.addEventListener('input', (e) => {
-            this.filters.search = e.target.value;
+            this.filters.search = this.sanitizeInput(e.target.value);
             this.applyFilters();
         });
         

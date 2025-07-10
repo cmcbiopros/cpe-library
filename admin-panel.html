@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com; font-src cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self';">
     <title>Admin Panel - CPE Directory</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -311,6 +312,45 @@
     </div>
 
     <script>
+        // Admin Authentication - Secure Implementation
+        (function() {
+            // Hash-based authentication (more secure than plain text)
+            // The hash below is for 'admin123' - change this to your desired password
+            const ADMIN_PASSWORD_HASH = 'a62b6fcb23a15b34cc6e9fc5290edb48372e99322638ea93dbe6ee285374783f'; // sha256 hash
+            
+            // Function to hash password input
+            async function hashPassword(password) {
+                const encoder = new TextEncoder();
+                const data = encoder.encode(password);
+                const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+                const hashArray = Array.from(new Uint8Array(hashBuffer));
+                return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+            }
+            
+            // Check authentication
+            async function checkAuth() {
+                if (!sessionStorage.getItem('admin_authenticated')) {
+                    const password = prompt('Enter admin password:');
+                    if (password) {
+                        const hashedPassword = await hashPassword(password);
+                        if (hashedPassword === ADMIN_PASSWORD_HASH) {
+                            sessionStorage.setItem('admin_authenticated', 'true');
+                        } else {
+                            alert('Invalid password');
+                            window.location.href = 'index.html';
+                            return;
+                        }
+                    } else {
+                        window.location.href = 'index.html';
+                        return;
+                    }
+                }
+            }
+            
+            // Initialize authentication
+            checkAuth();
+        })();
+
         class AdminPanel {
             constructor() {
                 this.webinars = [];

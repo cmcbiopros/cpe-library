@@ -55,5 +55,8 @@ Thumbs.db
 .env.test.local
 .env.production.local
 
+# Security files (temporary)
+generate_password_hash.html
+
 # Data files (optional - remove if you want to include the data)
 # data/webinars.json 
