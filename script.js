@@ -102,6 +102,9 @@ class WebinarDirectory {
             // Integrate pending webinars from localStorage
             this.integratePendingWebinars();
             
+            // Migrate existing likes from localStorage to webinar data
+            this.migrateLikesFromLocalStorage();
+            
             this.filteredWebinars = [...this.webinars];
             
             // Update footer info with current data
@@ -146,6 +149,30 @@ class WebinarDirectory {
             
             // Show notification
             this.showToast(`${pendingWebinars.length} new webinar(s) added!`, 'success');
+        }
+    }
+
+    migrateLikesFromLocalStorage() {
+        const oldLikes = JSON.parse(localStorage.getItem('webinar_likes') || '{}');
+        let migratedCount = 0;
+        
+        // Migrate old likes to webinar data
+        Object.keys(oldLikes).forEach(webinarId => {
+            const webinar = this.webinars.find(w => w.id === webinarId);
+            if (webinar && oldLikes[webinarId] > 0) {
+                webinar.likes = (webinar.likes || 0) + oldLikes[webinarId];
+                migratedCount += oldLikes[webinarId];
+            }
+        });
+        
+        if (migratedCount > 0) {
+            // Mark data as modified
+            this.dataModified = true;
+            
+            // Clear old likes from localStorage
+            localStorage.removeItem('webinar_likes');
+            
+            console.log(`Migrated ${migratedCount} likes from localStorage to webinar data`);
         }
     }
 
@@ -908,7 +935,7 @@ class WebinarDirectory {
         link.download = 'webinars_updated.json';
         link.click();
         
-        this.showToast('Updated data exported! Replace webinars.json with this file.', 'success');
+        this.showToast('Updated data exported! Replace webinars.json with this file. Likes will be preserved.', 'success');
     }
 
     updateFooterInfo() {
@@ -935,8 +962,8 @@ class WebinarDirectory {
 
     // Like functionality methods
     getLikeCount(webinarId) {
-        const likes = JSON.parse(localStorage.getItem('webinar_likes') || '{}');
-        return likes[webinarId] || 0;
+        const webinar = this.webinars.find(w => w.id === webinarId);
+        return webinar ? (webinar.likes || 0) : 0;
     }
 
     isWebinarLiked(webinarId) {
@@ -945,24 +972,36 @@ class WebinarDirectory {
     }
 
     toggleLike(webinarId) {
-        const likes = JSON.parse(localStorage.getItem('webinar_likes') || '{}');
+        const webinar = this.webinars.find(w => w.id === webinarId);
         const userLikes = JSON.parse(localStorage.getItem('user_webinar_likes') || '{}');
+        
+        if (!webinar) {
+            this.showToast('Webinar not found', 'error');
+            return;
+        }
+        
+        // Initialize likes if not present
+        if (!webinar.likes) {
+            webinar.likes = 0;
+        }
         
         if (userLikes[webinarId]) {
             // Unlike: decrement global count and remove from user likes
-            likes[webinarId] = Math.max(0, (likes[webinarId] || 0) - 1);
+            webinar.likes = Math.max(0, webinar.likes - 1);
             delete userLikes[webinarId];
             this.showToast('Removed from liked webinars', 'info');
         } else {
             // Like: increment global count and add to user likes
-            likes[webinarId] = (likes[webinarId] || 0) + 1;
+            webinar.likes = (webinar.likes || 0) + 1;
             userLikes[webinarId] = true;
             this.showToast('Added to liked webinars', 'success');
         }
         
-        // Save to localStorage
-        localStorage.setItem('webinar_likes', JSON.stringify(likes));
+        // Save user likes to localStorage
         localStorage.setItem('user_webinar_likes', JSON.stringify(userLikes));
+        
+        // Mark data as modified so it can be exported
+        this.dataModified = true;
         
         // Re-render the table to update like counts
         this.renderTable();
