@@ -18,8 +18,7 @@
       "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/advancing-transparency-and-regulatory-science-activities-risk-evaluation-and-mitigation-strategy",
       "description": "FDA CDER training: Advancing Transparency and Regulatory Science Activities on the Risk Evaluation and Mitigation Strategy (REMS). Topics: Drug Regulatory Process; Drug Development; Drug Safety",
-      "source": "scraped",
-      "likes": 5
+      "source": "scraped"
     },
     {
       "id": "fda-cder-airflow",
@@ -40,8 +39,7 @@
       "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1092860/",
       "description": "FDA CDER training: Airflow. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "source": "scraped",
-      "likes": 3
+      "source": "scraped"
     },
     {
       "id": "fda-cder-aseptic-process-simulations-media-fills",
@@ -106,7 +104,7 @@
     },
     {
       "id": "fda-cder-cannabis-and-cannabis-derived-products-for-healthcare-practitioners",
-      "title": "Cannabis and Cannabis-Derived Products \u2013 For Healthcare Practitioners",
+      "title": "Cannabis and Cannabis-Derived Products – For Healthcare Practitioners",
       "provider": "FDA CDER",
       "topics": [
         "regulatory",
@@ -122,7 +120,7 @@
       "date_added": "2025-07-01",
       "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/cannabis-and-cannabis-derived-products-healthcare-practitioners",
-      "description": "FDA CDER training: Cannabis and Cannabis-Derived Products \u2013 For Healthcare Practitioners. Topics: Drug Regulatory Process; Drug Development; Drug Safety;\u00a0Cannabidiol",
+      "description": "FDA CDER training: Cannabis and Cannabis-Derived Products – For Healthcare Practitioners. Topics: Drug Regulatory Process; Drug Development; Drug Safety; Cannabidiol",
       "source": "scraped"
     },
     {
@@ -393,7 +391,7 @@
     },
     {
       "id": "fda-cder-an-overview-of-fdas-project-facilitate-oncology-expanded-access-program",
-      "title": "An Overview of FDA\u2019s Project Facilitate Oncology Expanded Access Program",
+      "title": "An Overview of FDA’s Project Facilitate Oncology Expanded Access Program",
       "provider": "FDA CDER",
       "topics": [
         "cancer",
@@ -408,7 +406,7 @@
       "date_added": "2025-07-01",
       "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/overview-fdas-project-facilitate-oncology-expanded-access-program",
-      "description": "FDA CDER training: An Overview of FDA\u2019s Project Facilitate Oncology Expanded Access Program. Topics: Cancer Drugs; Disease States; Drug Development; Drug Regulatory Process",
+      "description": "FDA CDER training: An Overview of FDA’s Project Facilitate Oncology Expanded Access Program. Topics: Cancer Drugs; Disease States; Drug Development; Drug Regulatory Process",
       "source": "scraped"
     },
     {
@@ -816,7 +814,7 @@
     },
     {
       "id": "ispe-qrm-based-integrated-c-q-series-system-boundaries-and-system-classification",
-      "title": "QRM Based Integrated C&Q Series\u2014System Boundaries and System Classification",
+      "title": "QRM Based Integrated C&Q Series—System Boundaries and System Classification",
       "provider": "ISPE",
       "topics": [
         "validation"
@@ -829,7 +827,7 @@
       "webinar_date": "2025-07-30",
       "live_date": "2025-07-30",
       "url": "https://ispe.org/webinars/qrm-based-integrated-cq-series-system-boundaries-and-system-classification",
-      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series\u2014System Boundaries and System Classification",
+      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series—System Boundaries and System Classification",
       "source": "scraped"
     },
     {
@@ -1242,7 +1240,7 @@
     },
     {
       "id": "xtalks-strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials",
-      "title": "Strategies That Drive Effective Signal Detection in Preclinical Alzheimer\u2019s Disease Clinical Trials",
+      "title": "Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials",
       "provider": "Xtalks",
       "topics": [
         "clinical-trials"
@@ -1255,7 +1253,7 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials/",
-      "description": "Xtalks webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer\u2019s Disease Clinical Trials",
+      "description": "Xtalks webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials",
       "source": "scraped"
     },
     {
@@ -1936,7 +1934,7 @@
     },
     {
       "id": "xtalks-harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum",
-      "title": "Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development \u2013 Post-Marketing Continuum",
+      "title": "Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development – Post-Marketing Continuum",
       "provider": "Xtalks",
       "topics": [
         "development",
@@ -1950,7 +1948,7 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum/",
-      "description": "Xtalks webinar: Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development \u2013 Post-Marketing Continuum",
+      "description": "Xtalks webinar: Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development – Post-Marketing Continuum",
       "source": "scraped"
     },
     {
@@ -2044,7 +2042,7 @@
     },
     {
       "id": "xtalks-redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials",
-      "title": "Redefining Women\u2019s Cancer Care: Delivering Smarter, Safer Clinical Trials",
+      "title": "Redefining Women’s Cancer Care: Delivering Smarter, Safer Clinical Trials",
       "provider": "Xtalks",
       "topics": [
         "clinical-trials",
@@ -2058,7 +2056,7 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials/",
-      "description": "Xtalks webinar: Redefining Women\u2019s Cancer Care: Delivering Smarter, Safer Clinical Trials",
+      "description": "Xtalks webinar: Redefining Women’s Cancer Care: Delivering Smarter, Safer Clinical Trials",
       "source": "scraped"
     },
     {
@@ -2297,7 +2295,7 @@
     },
     {
       "id": "ispe-validation-in-transition-2025s-top-trends-tools-and-takeaways",
-      "title": "Validation in Transition: 2025\u2019s Top Trends, Tools, and Takeaways",
+      "title": "Validation in Transition: 2025’s Top Trends, Tools, and Takeaways",
       "provider": "ISPE",
       "topics": [
         "validation"
@@ -2310,7 +2308,7 @@
       "webinar_date": "2025-08-05",
       "live_date": "2025-08-05",
       "url": "https://ispe.org/webinars/validation-transition-2025s-top-trends-tools-and-takeaways",
-      "description": "ISPE upcoming webinar: Validation in Transition: 2025\u2019s Top Trends, Tools, and Takeaways",
+      "description": "ISPE upcoming webinar: Validation in Transition: 2025’s Top Trends, Tools, and Takeaways",
       "source": "scraped"
     },
     {
@@ -2410,6 +2408,6 @@
       "source": "scraped"
     }
   ],
-  "last_updated": "2025-07-17T21:06:22.990132",
+  "last_updated": "2025-07-17T21:15:34.269209",
   "total_count": 125
 }
