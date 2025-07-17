@@ -229,19 +229,15 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label for="addProvider">Provider *</label>
-                        <select id="addProvider" name="provider" required>
-                            <option value="">Select Provider</option>
-                            <option value="Labroots">Labroots</option>
-                            <option value="FDA CDER">FDA CDER</option>
-                            <option value="ASGCT">ASGCT</option>
-                            <option value="PELOBIOTECH">PELOBIOTECH</option>
-                            <option value="ISPE">ISPE</option>
-                            <option value="BioProcess International">BioProcess International</option>
-                            <option value="AABB">AABB</option>
-                            <option value="USP">USP</option>
-                            <option value="PDA">PDA</option>
-                            <option value="Other">Other</option>
-                        </select>
+                        <div style="display: flex; gap: 10px; align-items: center;">
+                            <select id="addProvider" name="provider" required style="flex: 1;">
+                                <option value="">Select Provider</option>
+                            </select>
+                            <button type="button" id="addNewProvider" class="btn btn-sm" style="background: #17a2b8; color: white; padding: 8px 12px;">
+                                <i class="fas fa-plus"></i> New
+                            </button>
+                        </div>
+                        <input type="text" id="newProviderInput" placeholder="Enter new provider name" style="display: none; margin-top: 5px;">
                     </div>
                     
                     <div class="form-group">
@@ -362,6 +358,7 @@
             async init() {
                 await this.loadData();
                 this.setupEventListeners();
+                this.populateProviderDropdown();
                 this.updateStats();
                 this.renderTable();
                 this.updateExportButton();
@@ -447,6 +444,31 @@
                 document.getElementById('clearChanges').addEventListener('click', () => {
                     this.clearChanges();
                 });
+
+                // Provider dropdown functionality
+                document.getElementById('addNewProvider').addEventListener('click', () => {
+                    this.showNewProviderInput();
+                });
+
+                document.getElementById('newProviderInput').addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        this.addNewProvider();
+                    }
+                });
+
+                // Handle clicking outside the new provider input
+                document.getElementById('newProviderInput').addEventListener('blur', () => {
+                    setTimeout(() => {
+                        const newProviderInput = document.getElementById('newProviderInput');
+                        const addProviderSelect = document.getElementById('addProvider');
+                        if (newProviderInput.style.display === 'block') {
+                            newProviderInput.style.display = 'none';
+                            addProviderSelect.style.display = 'block';
+                            newProviderInput.value = '';
+                        }
+                    }, 150);
+                });
             }
 
             applyFilters() {
@@ -488,6 +510,66 @@
                     option.textContent = provider;
                     providerFilter.appendChild(option);
                 });
+            }
+
+            populateProviderDropdown() {
+                const providers = [...new Set(this.webinars.map(w => w.provider))].sort();
+                const addProviderSelect = document.getElementById('addProvider');
+                
+                // Clear existing options except the first one
+                addProviderSelect.innerHTML = '<option value="">Select Provider</option>';
+                
+                // Add existing providers
+                providers.forEach(provider => {
+                    const option = document.createElement('option');
+                    option.value = provider;
+                    option.textContent = provider;
+                    addProviderSelect.appendChild(option);
+                });
+            }
+
+            showNewProviderInput() {
+                const newProviderInput = document.getElementById('newProviderInput');
+                const addProviderSelect = document.getElementById('addProvider');
+                
+                // Hide the select and show the input
+                addProviderSelect.style.display = 'none';
+                newProviderInput.style.display = 'block';
+                newProviderInput.focus();
+            }
+
+            addNewProvider() {
+                const newProviderInput = document.getElementById('newProviderInput');
+                const addProviderSelect = document.getElementById('addProvider');
+                const newProviderName = newProviderInput.value.trim();
+                
+                if (!newProviderName) {
+                    alert('Please enter a provider name');
+                    return;
+                }
+                
+                // Check if provider already exists
+                const existingProviders = [...new Set(this.webinars.map(w => w.provider))];
+                if (existingProviders.includes(newProviderName)) {
+                    alert('This provider already exists');
+                    return;
+                }
+                
+                // Add the new provider to the dropdown
+                const option = document.createElement('option');
+                option.value = newProviderName;
+                option.textContent = newProviderName;
+                addProviderSelect.appendChild(option);
+                
+                // Select the new provider
+                addProviderSelect.value = newProviderName;
+                
+                // Hide input and show select
+                newProviderInput.style.display = 'none';
+                addProviderSelect.style.display = 'block';
+                newProviderInput.value = '';
+                
+                alert(`Provider "${newProviderName}" added successfully!`);
             }
 
             renderTable() {
@@ -707,6 +789,7 @@ Live Date: ${webinar.live_date || 'N/A'}
                 this.updateExportButton();
                 this.updateStats();
                 this.renderTable();
+                this.populateProviderDropdown();
                 
                 // Close modal and reset form
                 this.closeAddModal();
