@@ -5,10 +5,6 @@ on:
     # Run every Sunday at 2 AM UTC
     - cron: '0 2 * * 0'
   workflow_dispatch:  # Allow manual trigger
-  push:
-    paths:
-      - 'scrapers/**'
-      - 'webinars.json'
 
 jobs:
   scrape-webinars:
@@ -60,7 +56,8 @@ jobs:
         git config --local user.name "GitHub Action"
         git add webinars.json
         git commit -m "Update webinar directory [skip ci]"
-        git push
+        # Use force-with-lease to avoid conflicts while being safe
+        git push --force-with-lease
         
     - name: Create issue for failures
       if: failure()
