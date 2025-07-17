@@ -167,6 +167,8 @@ header p {
     background: #5a6268;
 }
 
+
+
 /* Table styles */
 .table-container {
     background: white;
@@ -600,4 +602,6 @@ footer {
     .form-actions .btn {
         width: 100%;
     }
-} 
+}
+
+ 

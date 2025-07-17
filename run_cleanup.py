@@ -10,7 +10,7 @@ if __name__ == "__main__":
     
     # Run cleanup with default settings
     stats = cleanup_expired_webinars(
-        data_file="src/webinars.json",
+        data_file="webinars.json",
         max_age_days=365,  # Remove on-demand webinars older than 1 year
         dry_run=False
     )

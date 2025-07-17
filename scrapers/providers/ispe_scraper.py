@@ -9,7 +9,7 @@ class ISPEScraper(BaseScraper):
     """Scraper for ISPE webinars"""
     
     def __init__(self):
-        super().__init__(data_file="../src/webinars.json")
+        super().__init__(data_file="../webinars.json")
         self.base_url = "https://ispe.org"
         self.upcoming_url = "https://ispe.org/webinars"
         self.past_url = "https://ispe.org/webinars/past/videos/recordings-past-webinars"

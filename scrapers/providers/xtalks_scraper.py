@@ -9,7 +9,7 @@ class XtalksScraper(BaseScraper):
     """Scraper for Xtalks webinars"""
     
     def __init__(self):
-        super().__init__(data_file="../src/webinars.json")
+        super().__init__(data_file="../webinars.json")
         self.base_url = "https://xtalks.com"
         self.on_demand_url = "https://xtalks.com/?post_type=webinars&webinar-topics=&type=recorded-webinars&s="
         

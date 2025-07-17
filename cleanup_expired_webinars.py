@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from typing import List, Dict, Any
 
 
-def cleanup_expired_webinars(data_file: str = "src/webinars.json", 
+def cleanup_expired_webinars(data_file: str = "webinars.json", 
                            max_age_days: int = 365,
                            dry_run: bool = False) -> Dict[str, int]:
     """
@@ -248,8 +248,8 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description="Clean up expired webinars from webinars.json")
-    parser.add_argument("--data-file", default="src/webinars.json", 
-                       help="Path to webinars.json file (default: src/webinars.json)")
+    parser.add_argument("--data-file", default="webinars.json",
+                        help="Path to webinars.json file (default: webinars.json)")
     parser.add_argument("--max-age-days", type=int, default=365,
                        help="Maximum age in days for on-demand webinars (default: 365)")
     parser.add_argument("--dry-run", action="store_true",

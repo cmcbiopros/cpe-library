@@ -9,7 +9,7 @@ import argparse
 from typing import List, Dict, Any
 
 
-def load_webinars(file_path: str = "src/webinars.json") -> Dict[str, Any]:
+def load_webinars(file_path: str = "webinars.json") -> Dict[str, Any]:
     """Load webinar data from JSON file"""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -22,7 +22,7 @@ def load_webinars(file_path: str = "src/webinars.json") -> Dict[str, Any]:
         return None
 
 
-def save_webinars(data: Dict[str, Any], file_path: str = "src/webinars.json"):
+def save_webinars(data: Dict[str, Any], file_path: str = "webinars.json"):
     """Save webinar data to JSON file"""
     try:
         with open(file_path, 'w', encoding='utf-8') as f:
@@ -133,8 +133,8 @@ def show_statistics(webinars: List[Dict]):
 
 def main():
     parser = argparse.ArgumentParser(description="Mark webinars as manually added")
-    parser.add_argument("--data-file", default="src/webinars.json", 
-                       help="Path to webinars.json file (default: src/webinars.json)")
+    parser.add_argument("--data-file", default="webinars.json",
+                       help="Path to webinars.json file (default: webinars.json)")
     parser.add_argument("--dry-run", action="store_true",
                        help="Show what would be done without making changes")
     parser.add_argument("--list", action="store_true",

@@ -15,9 +15,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/advancing-transparency-and-regulatory-science-activities-risk-evaluation-and-mitigation-strategy",
       "description": "FDA CDER training: Advancing Transparency and Regulatory Science Activities on the Risk Evaluation and Mitigation Strategy (REMS). Topics: Drug Regulatory Process; Drug Development; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-airflow",
@@ -35,9 +36,10 @@
       "certificate_process": "CE credits available: 4.0 credits",
       "ce_credits": 4.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1092860/",
       "description": "FDA CDER training: Airflow. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-aseptic-process-simulations-media-fills",
@@ -55,9 +57,10 @@
       "certificate_process": "CE credits available: 2.0 credits",
       "ce_credits": 2.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/fda/course/1100254/?utm_medium=email&utm_source=govdelivery",
       "description": "FDA CDER training: Aseptic Process Simulations (Media Fills). Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-biosimilars-a-review-of-scientific-regulatory-and-clinical-considerations-for-health-care-providers",
@@ -74,9 +77,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/biosimilars-review-scientific-regulatory-and-clinical-considerations-health-care-providers",
       "description": "FDA CDER training: Biosimilars: A Review of Scientific, Regulatory, and Clinical Considerations for Health Care Providers. Topics: Biosimilars; Drug Regulatory Process; Drug Development",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-bringing-clinical-research-to-patients",
@@ -93,9 +97,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/consumers/womens-health-events/bringing-clinical-research-patients",
       "description": "FDA CDER training: Bringing Clinical Research to Patients. Topics: Drug Regulatory Process; Drug Development; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-cannabis-and-cannabis-derived-products-for-healthcare-practitioners",
@@ -113,9 +118,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/cannabis-and-cannabis-derived-products-healthcare-practitioners",
       "description": "FDA CDER training: Cannabis and Cannabis-Derived Products – For Healthcare Practitioners. Topics: Drug Regulatory Process; Drug Development; Drug Safety; Cannabidiol",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-cleanroom-in-person-course",
@@ -132,9 +138,10 @@
       "certificate_process": "CE credits available: 13.75 credits",
       "ce_credits": 13.75,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/nm/course/1122944/live-event",
       "description": "FDA CDER training: Cleanroom In-person Course. Topics: Compounding; Drug Regulatory Process; Drug Development",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-development-and-u-s-regulation-of-preventative-vaccines",
@@ -150,9 +157,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/development-and-us-regulation-preventative-vaccines",
       "description": "FDA CDER training: Development and U.S. Regulation of Preventative Vaccines. Topics: Drug Regulatory Process; Drug Development",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-drug-shortages-root-causes-and-potential-solutions",
@@ -168,9 +176,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/drug-shortages-root-causes-and-potential-solutions",
       "description": "FDA CDER training: Drug Shortages: Root Causes and Potential Solutions. Topics: Drug Regulatory Process; Drug Development",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-environmental-monitoring-in-person-course",
@@ -187,9 +196,10 @@
       "certificate_process": "CE credits available: 15.25 credits",
       "ce_credits": 15.25,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/nm/course/1122536/live-event",
       "description": "FDA CDER training: Environmental Monitoring In-person Course. Topics: Compounding; Drug Regulatory Process; Drug Development",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-frequently-asked-questions-about-labeling-for-prescription-medicines",
@@ -206,9 +216,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/frequently-asked-questions-about-labeling-prescription-medicines",
       "description": "FDA CDER training: Frequently Asked Questions about Labeling for Prescription Medicines. Topics: Drug Regulatory Process; Drug Development; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-how-fda-and-ismp-utilize-medication-error-reports-to-improve-drug-safety",
@@ -224,9 +235,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/how-fda-and-ismp-utilize-medication-error-reports-improve-drug-safety",
       "description": "FDA CDER training: How FDA and ISMP Utilize Medication Error Reports to Improve Drug Safety. Topics: Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-how-to-avoid-medication-errors-with-pen-injectors",
@@ -242,9 +254,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/how-avoid-medication-errors-pen-injectors",
       "description": "FDA CDER training: How to Avoid Medication Errors with Pen Injectors. Topics: Drug Safety; MedWatch",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-hyperemesis-gravidarum-new-research-and-insights",
@@ -260,9 +273,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/consumers/womens-health-events/hyperemesis-gravidarum-new-research-and-insights",
       "description": "FDA CDER training: Hyperemesis Gravidarum: New Research and Insights. Topics: Women's Health; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-incorporating-biosimilars-into-the-management-of-patients-with-immunological-conditions",
@@ -285,9 +299,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.medscape.org/viewarticle/975295",
       "description": "FDA CDER training: Incorporating Biosimilars Into the Management of Patients With Immunological Conditions. Topics: Biosimilars; Cancer Drugs; Case Study; Drug Regulatory Process; Drug Development; Drug Safety; Generic Drugs; MedWatch; Women's Health",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-insanitary-conditions-and-sterility-assurance",
@@ -305,9 +320,10 @@
       "certificate_process": "CE credits available: 4.0 credits",
       "ce_credits": 4.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1092865/",
       "description": "FDA CDER training: Insanitary Conditions and Sterility Assurance. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-investigations-and-corrective-and-preventive-actions-capa-2023",
@@ -325,9 +341,10 @@
       "certificate_process": "CE credits available: 5.0 credits",
       "ce_credits": 5.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1092489/",
       "description": "FDA CDER training: Investigations and Corrective and Preventive Actions (CAPA) 2023. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-outsourcing-facility-guide",
@@ -345,9 +362,10 @@
       "certificate_process": "CE credits available: 1.75 credits",
       "ce_credits": 1.75,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1091111",
       "description": "FDA CDER training: Outsourcing Facility Guide. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-overview-of-expanded-access-ea-program-and-ea-erequest-site",
@@ -366,9 +384,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/node/400064",
       "description": "FDA CDER training: Overview of Expanded Access (EA) Program and EA eRequest Site. Topics: IND/Expanded Access; Rare Diseases; Drug Regulatory Process; Drug Development; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-an-overview-of-fdas-project-facilitate-oncology-expanded-access-program",
@@ -385,9 +404,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/overview-fdas-project-facilitate-oncology-expanded-access-program",
       "description": "FDA CDER training: An Overview of FDA’s Project Facilitate Oncology Expanded Access Program. Topics: Cancer Drugs; Disease States; Drug Development; Drug Regulatory Process",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-pcos-revisited-diagnosis-management-and-future-needs",
@@ -403,9 +423,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/consumers/womens-health-events/pcos-revisited-diagnosis-management-and-future-needs",
       "description": "FDA CDER training: PCOS Revisited: Diagnosis, Management, and Future Needs. Topics: Women's Health; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-pregnancy-and-lactation-medication-information-for-the-healthcare-provider",
@@ -422,9 +443,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/pregnancy-and-lactation-medication-information-healthcare-provider-05112022",
       "description": "FDA CDER training: Pregnancy and Lactation Medication Information for the Healthcare Provider. Topics: Women's Health; Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-process-validation-virtual-course",
@@ -441,9 +463,10 @@
       "certificate_process": "CE credits available: 15.0 credits",
       "ce_credits": 15.0,
       "date_added": "2025-07-01",
+      "live_date": "Unknown",
       "url": "https://www.train.org/nm/course/1123040/live-event",
       "description": "FDA CDER training: Process Validation Virtual Course. Topics: Compounding; Drug Regulatory Process; Drug Development",
-      "live_date": "Visit Site"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-public-meeting-fda-rare-disease-day-2024",
@@ -460,9 +483,10 @@
       "certificate_process": "CE credits available: 4.75 credits",
       "ce_credits": 4.75,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/public-meeting-fda-rare-disease-day-2024-03012024",
       "description": "FDA CDER training: Public meeting: FDA Rare Disease Day 2024. Topics: Drug Regulatory Process; Drug Safety Rare Diseases",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-quality-management-systems-virtual-course",
@@ -479,9 +503,10 @@
       "certificate_process": "CE credits available: 15.0 credits",
       "ce_credits": 15.0,
       "date_added": "2025-07-01",
+      "live_date": "Unknown",
       "url": "https://www.train.org/main/course/1102115/live-event",
       "description": "FDA CDER training: Quality Management Systems Virtual Course. Topics: Compounding; Drug Regulatory Process; Drug Development",
-      "live_date": "Visit Site"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-rare-diseases-challenges-and-progress-in-drug-development",
@@ -498,9 +523,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/rare-diseases-challenges-and-progress-drug-development",
       "description": "FDA CDER training: Rare Diseases - Challenges and Progress in Drug Development. Topics: Drug Development; Drug Safety; Rare Diseases",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-regulatory-framework-for-human-drug-compounding",
@@ -518,9 +544,10 @@
       "certificate_process": "CE credits available: 1.5 credits",
       "ce_credits": 1.5,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1089314/",
       "description": "FDA CDER training: Regulatory Framework for Human Drug Compounding. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-reporting-and-public-viewing-of-individual-case-safety-reports-icsrs",
@@ -538,9 +565,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/reporting-and-public-viewing-individual-case-safety-reports-icsrs",
       "description": "FDA CDER training: Reporting and Public Viewing of Individual Case Safety Reports (ICSRs). Topics: Drug Regulatory Process; Drug Development; Drug Safety; MedWatch",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-safety-labeling-changes-for-leukotriene-receptor-antagonists-and-decisions-behind-a-boxed-warning",
@@ -558,9 +586,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/node/397296",
       "description": "FDA CDER training: Safety Labeling Changes for Leukotriene Receptor Antagonists and Decisions Behind a Boxed Warning. Topics: Drug Regulatory Process; Drug Development; Drug Safety; MedWatch",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-stability-and-beyond-use-dates",
@@ -581,9 +610,10 @@
       "certificate_process": "CE credits available: 4.0 credits",
       "ce_credits": 4.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1092078/details",
       "description": "FDA CDER training: Stability and Beyond Use Dates. Topics: Case Study; Compounding; Drug Development; Drug Regulatory Process; Drug Safety; MedWatch; Case Study",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-sterile-drug-compounding-in-person-course",
@@ -600,9 +630,10 @@
       "certificate_process": "CE credits available: 16.0 credits",
       "ce_credits": 16.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1116457/live-event",
       "description": "FDA CDER training: Sterile Drug Compounding In-person Course. Topics: Compounding; Drug Regulatory Process; Drug Development",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-supplier-contractor-qualification-and-management",
@@ -620,9 +651,10 @@
       "certificate_process": "CE credits available: 4.0 credits",
       "ce_credits": 4.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1097624/",
       "description": "FDA CDER training: Supplier/Contractor Qualification and Management. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-the-safety-evaluation-and-surveillance-of-generic-drugs",
@@ -640,9 +672,10 @@
       "certificate_process": "CE credits available: 1.5 credits",
       "ce_credits": 1.5,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/safety-evaluation-and-surveillance-generic-drugs",
       "description": "FDA CDER training: The Safety Evaluation and Surveillance of Generic Drugs. Topics: Generic Drugs; Drug Regulatory Process; Drug Development; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-topics-in-public-health",
@@ -670,9 +703,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/training-and-continuing-education/fda-continuing-education-programs/topics-public-health",
       "description": "FDA CDER training: Topics in Public Health. Topics: Biosimilars; Cancer Drugs; Case Study; Compounding; COVID-19; Drug Development; Drug Regulatory Process; Drug Safety; Generic Drugs; IND/Expanded Access; MedWatch; Opioids; OTC Drug Regulations; Women's Health",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-understanding-generic-narrow-therapeutic-index-drugs",
@@ -690,9 +724,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "on-demand",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/understanding-generic-narrow-therapeutic-index-drugs",
       "description": "FDA CDER training: Understanding Generic Narrow Therapeutic Index Drugs. Topics: Generic Drugs; Drug Regulatory Process; Drug Development; Drug Safety",
-      "live_date": "on-demand"
+      "source": "scraped"
     },
     {
       "id": "fda-cder-fda-drug-topics-webinars",
@@ -718,9 +753,10 @@
       "certificate_process": "CE credits available: 1.0 credits",
       "ce_credits": 1.0,
       "date_added": "2025-07-01",
+      "live_date": "Unknown",
       "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/fda-drug-topics-webinars",
       "description": "FDA CDER training: FDA Drug Topics Webinars. Topics: Biosimilars; Cancer Drugs; Cannabidiol; Compounding; Drug Development; Drug Regulatory Process; Drug Safety; Generic Drugs; Health Fraud; IND/Expanded Access; Opioids; Rare Diseases",
-      "live_date": "Visit Site"
+      "source": "scraped"
     },
     {
       "id": "pmi-on-demand-webinars",
@@ -736,26 +772,8 @@
       "date_added": "2025-07-01",
       "live_date": "on-demand",
       "url": "https://www.projectmanagement.com/webinars/webinarmainondemand.cfm",
-      "description": "Access to PMI on-demand webinars. Free webinars available within the last 6 months. PDUs available upon completion."
-    },
-    {
-      "id": "ispe-sterilizing-grade-filter-validation",
-      "title": "Sterilizing-grade Filter Validation",
-      "provider": "ISPE",
-      "topics": [
-        "validation",
-        "manufacturing",
-        "manufacturing"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-02",
-      "webinar_date": "2025-07-09",
-      "live_date": "2025-07-09",
-      "url": "https://ispe.org/webinars/conferences/sterilizing-grade-filter-validation",
-      "description": "ISPE upcoming webinar: Sterilizing-grade Filter Validation"
+      "description": "Access to PMI on-demand webinars. Free webinars available within the last 6 months. PDUs available upon completion.",
+      "source": "scraped"
     },
     {
       "id": "ispe-ispe-clinical-supply-business-continuity-survey-results-and-discussion",
@@ -764,15 +782,16 @@
       "topics": [
         "clinical-trials"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-07-15",
-      "live_date": "2025-07-15",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
       "url": "https://ispe.org/webinars/ispe-clinical-supply-business-continuity-survey-results-and-discussion",
-      "description": "ISPE upcoming webinar: ISPE Clinical Supply Business Continuity Survey Results and Discussion"
+      "description": "ISPE past webinar: ISPE Clinical Supply Business Continuity Survey Results and Discussion",
+      "source": "scraped"
     },
     {
       "id": "ispe-life-cycle-approach-to-process-validation-stage-3-implementation",
@@ -790,7 +809,8 @@
       "webinar_date": "2025-07-22",
       "live_date": "2025-07-22",
       "url": "https://ispe.org/node/288544",
-      "description": "ISPE upcoming webinar: Life Cycle Approach to Process Validation- Stage 3 Implementation"
+      "description": "ISPE upcoming webinar: Life Cycle Approach to Process Validation- Stage 3 Implementation",
+      "source": "scraped"
     },
     {
       "id": "ispe-qrm-based-integrated-c-q-series-system-boundaries-and-system-classification",
@@ -807,11 +827,12 @@
       "webinar_date": "2025-07-30",
       "live_date": "2025-07-30",
       "url": "https://ispe.org/webinars/qrm-based-integrated-cq-series-system-boundaries-and-system-classification",
-      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series—System Boundaries and System Classification"
+      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series—System Boundaries and System Classification",
+      "source": "scraped"
     },
     {
       "id": "ispe-improving-productivity-and-reducing-cogs-in-bioprocesses-using-capacitance-as-a-pat-tool",
-      "title": "Improving Productivity and Reducing Cogs in Bioprocesses Using Capacitance as a PAT Tool",
+      "title": "Improving Productivity and Reducing COGS in Bioprocesses Using Capacitance as a PAT Tool",
       "provider": "ISPE",
       "topics": [
         "bioprocess",
@@ -828,7 +849,8 @@
       "webinar_date": "2025-08-13",
       "live_date": "2025-08-13",
       "url": "https://ispe.org/webinars/improving-productivity-and-reducing-cogs-bioprocesses-using-capacitance-pat-tool",
-      "description": "ISPE upcoming webinar: Improving Productivity and Reducing Cogs in Bioprocesses Using Capacitance as a PAT Tool"
+      "description": "ISPE upcoming webinar: Improving Productivity and Reducing COGS in Bioprocesses Using Capacitance as a PAT Tool",
+      "source": "scraped"
     },
     {
       "id": "ispe-critical-quality-attributes-validation-of-a-parts-washer-and-autoclave",
@@ -848,7 +870,8 @@
       "webinar_date": "2025-08-27",
       "live_date": "2025-08-27",
       "url": "https://ispe.org/webinars/critical-quality-attributes-validation-parts-washer-and-autoclave",
-      "description": "ISPE upcoming webinar: Critical Quality Attributes - Validation of a Parts Washer and Autoclave"
+      "description": "ISPE upcoming webinar: Critical Quality Attributes - Validation of a Parts Washer and Autoclave",
+      "source": "scraped"
     },
     {
       "id": "ispe-how-standardized-documentation-drives-compliance-audit-and-ai-readiness",
@@ -867,7 +890,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://ispe.org/webinars/how-standardized-documentation-drives-compliance-audit-and-ai-readiness",
-      "description": "ISPE upcoming webinar: How Standardized Documentation Drives Compliance, Audit and AI Readiness"
+      "description": "ISPE upcoming webinar: How Standardized Documentation Drives Compliance, Audit and AI Readiness",
+      "source": "scraped"
     },
     {
       "id": "usp-trainings",
@@ -904,7 +928,8 @@
       "webinar_date": "2025-09-03",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
-      "description": "Labroots event: Drug Discovery & Development"
+      "description": "Labroots event: Drug Discovery & Development",
+      "source": "scraped"
     },
     {
       "id": "labroots-cancer-research-oncology-virtual-event-series-2025",
@@ -921,7 +946,8 @@
       "webinar_date": "2025-10-01",
       "live_date": "2025-10-01",
       "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-week-2025",
-      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2025"
+      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2025",
+      "source": "scraped"
     },
     {
       "id": "labroots-cell-gene-therapy-virtual-event-series-2025",
@@ -938,7 +964,8 @@
       "webinar_date": "2025-10-15",
       "live_date": "2025-10-15",
       "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-2025",
-      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2025"
+      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2025",
+      "source": "scraped"
     },
     {
       "id": "labroots-clinical-diagnostics-research-virtual-event-series-2025",
@@ -955,7 +982,8 @@
       "webinar_date": "2025-11-12",
       "live_date": "2025-11-12",
       "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-2025",
-      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2025"
+      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2025",
+      "source": "scraped"
     },
     {
       "id": "labroots-drug-discovery-development-virtual-event-series-2026",
@@ -972,7 +1000,8 @@
       "webinar_date": "2026-02-18",
       "live_date": "2026-02-18",
       "url": "https://www.labroots.com/virtual-event/drug-discovery-development-2026",
-      "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2026"
+      "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2026",
+      "source": "scraped"
     },
     {
       "id": "labroots-laboratory-automation-virtual-event-series-2026",
@@ -989,7 +1018,8 @@
       "webinar_date": "2026-03-18",
       "live_date": "2026-03-18",
       "url": "https://www.labroots.com/virtual-event/laboratory-automation-2026",
-      "description": "Labroots event: Laboratory Automation Virtual Event Series 2026"
+      "description": "Labroots event: Laboratory Automation Virtual Event Series 2026",
+      "source": "scraped"
     },
     {
       "id": "labroots-bioprocessing-virtual-event-series-2026",
@@ -1006,7 +1036,8 @@
       "webinar_date": "2026-04-01",
       "live_date": "2026-04-01",
       "url": "https://www.labroots.com/virtual-event/bioprocessing-2026",
-      "description": "Labroots event: Bioprocessing Virtual Event Series 2026"
+      "description": "Labroots event: Bioprocessing Virtual Event Series 2026",
+      "source": "scraped"
     },
     {
       "id": "labroots-cancer-research-oncology-virtual-event-series-2026",
@@ -1023,7 +1054,8 @@
       "webinar_date": "2026-09-30",
       "live_date": "2026-09-30",
       "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-virtual-event-series-2026",
-      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2026"
+      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2026",
+      "source": "scraped"
     },
     {
       "id": "labroots-cell-gene-therapy-virtual-event-series-2026",
@@ -1040,7 +1072,8 @@
       "webinar_date": "2026-10-14",
       "live_date": "2026-10-14",
       "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-virtual-event-series-2026",
-      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2026"
+      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2026",
+      "source": "scraped"
     },
     {
       "id": "labroots-clinical-diagnostics-research-virtual-event-series-2026",
@@ -1057,7 +1090,8 @@
       "webinar_date": "2026-11-11",
       "live_date": "2026-11-11",
       "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-virtual-event-series-2026",
-      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2026"
+      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2026",
+      "source": "scraped"
     },
     {
       "id": "labroots-bioprocessing-virtual-event-series-2025",
@@ -1074,7 +1108,8 @@
       "webinar_date": "2025-04-02",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/bioprocessing-2025",
-      "description": "Labroots event: Bioprocessing Virtual Event Series 2025"
+      "description": "Labroots event: Bioprocessing Virtual Event Series 2025",
+      "source": "scraped"
     },
     {
       "id": "labroots-laboratory-automation-virtual-event-series-2025",
@@ -1091,7 +1126,8 @@
       "webinar_date": "2025-03-19",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/laboratory-automation-informatics-2025",
-      "description": "Labroots event: Laboratory Automation Virtual Event Series 2025"
+      "description": "Labroots event: Laboratory Automation Virtual Event Series 2025",
+      "source": "scraped"
     },
     {
       "id": "labroots-the-simple-way-to-protein-research",
@@ -1108,7 +1144,8 @@
       "webinar_date": "2025-11-12",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
-      "description": "Labroots event: The Simple Way to Protein Research"
+      "description": "Labroots event: The Simple Way to Protein Research",
+      "source": "scraped"
     },
     {
       "id": "labroots-drug-discovery-development-virtual-event-series-2025",
@@ -1125,7 +1162,8 @@
       "webinar_date": "2025-02-19",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/drug-discovery-development-2025",
-      "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2025"
+      "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2025",
+      "source": "scraped"
     },
     {
       "id": "labroots-clinical-diagnostics-research-virtual-event-series-2024",
@@ -1142,7 +1180,8 @@
       "webinar_date": "2024-11-13",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-2024",
-      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2024"
+      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2024",
+      "source": "scraped"
     },
     {
       "id": "labroots-cell-gene-therapy-virtual-event-series-2024",
@@ -1159,7 +1198,8 @@
       "webinar_date": "2024-10-16",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-2024",
-      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2024"
+      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2024",
+      "source": "scraped"
     },
     {
       "id": "labroots-cancer-research-oncology-virtual-event-series-2024",
@@ -1176,7 +1216,8 @@
       "webinar_date": "2024-10-02",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-week-2024",
-      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2024"
+      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2024",
+      "source": "scraped"
     },
     {
       "id": "xtalks-advancing-masld-mash-clinical-trials-the-role-of-non-invasive-diagnostics",
@@ -1194,7 +1235,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/advancing-masld-mash-clinical-trials-the-role-of-non-invasive-diagnostics/",
-      "description": "Xtalks webinar: Advancing MASLD/MASH Clinical Trials: The Role of Non-Invasive Diagnostics"
+      "description": "Xtalks webinar: Advancing MASLD/MASH Clinical Trials: The Role of Non-Invasive Diagnostics",
+      "source": "scraped"
     },
     {
       "id": "xtalks-strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials",
@@ -1211,7 +1253,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/strategies-that-drive-effective-signal-detection-in-preclinical-alzheimers-disease-clinical-trials/",
-      "description": "Xtalks webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials"
+      "description": "Xtalks webinar: Strategies That Drive Effective Signal Detection in Preclinical Alzheimer’s Disease Clinical Trials",
+      "source": "scraped"
     },
     {
       "id": "xtalks-the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t",
@@ -1228,7 +1271,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/the-next-biomanufacturing-revolution-stable-cell-lines-for-car-t/",
-      "description": "Xtalks webinar: The Next Biomanufacturing Revolution: Stable Cell Lines for CAR-T"
+      "description": "Xtalks webinar: The Next Biomanufacturing Revolution: Stable Cell Lines for CAR-T",
+      "source": "scraped"
     },
     {
       "id": "xtalks-integrating-patient-centric-sample-collection-into-clinical-trials",
@@ -1246,7 +1290,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/integrating-patient-centric-sample-collection-into-clinical-trials/",
-      "description": "Xtalks webinar: Integrating Patient-Centric Sample Collection into Clinical Trials"
+      "description": "Xtalks webinar: Integrating Patient-Centric Sample Collection into Clinical Trials",
+      "source": "scraped"
     },
     {
       "id": "xtalks-advancing-clinical-performance-with-ai-powered-conversational-intelligence-in-healthcare",
@@ -1263,7 +1308,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/advancing-clinical-performance-with-ai-powered-conversational-intelligence-in-healthcare/",
-      "description": "Xtalks webinar: Advancing Clinical Performance with AI-Powered Conversational Intelligence in Healthcare"
+      "description": "Xtalks webinar: Advancing Clinical Performance with AI-Powered Conversational Intelligence in Healthcare",
+      "source": "scraped"
     },
     {
       "id": "xtalks-oncology-clinical-development-optimizing-value-through-implementation-of-a-patient-centric-holistic-endpoint-strategy",
@@ -1282,7 +1328,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/oncology-clinical-development-optimizing-value-through-implementation-of-a-patient-centric-holistic-endpoint-strategy/",
-      "description": "Xtalks webinar: Oncology Clinical Development: Optimizing Value Through Implementation of a Patient-Centric, Holistic Endpoint Strategy"
+      "description": "Xtalks webinar: Oncology Clinical Development: Optimizing Value Through Implementation of a Patient-Centric, Holistic Endpoint Strategy",
+      "source": "scraped"
     },
     {
       "id": "xtalks-pregnancy-safety-studies-driving-quality-and-efficiency-with-real-world-evidence",
@@ -1299,7 +1346,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/pregnancy-safety-studies-driving-quality-and-efficiency-with-real-world-evidence/",
-      "description": "Xtalks webinar: Pregnancy Safety Studies: Driving Quality and Efficiency with Real-World Evidence"
+      "description": "Xtalks webinar: Pregnancy Safety Studies: Driving Quality and Efficiency with Real-World Evidence",
+      "source": "scraped"
     },
     {
       "id": "xtalks-leveraging-iso-idmp-for-smarter-regulatory-processes-in-the-eu",
@@ -1316,7 +1364,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/leveraging-iso-idmp-for-smarter-regulatory-processes-in-the-eu/",
-      "description": "Xtalks webinar: Leveraging ISO IDMP for Smarter Regulatory Processes in the EU"
+      "description": "Xtalks webinar: Leveraging ISO IDMP for Smarter Regulatory Processes in the EU",
+      "source": "scraped"
     },
     {
       "id": "xtalks-peptide-aggregation-in-manufacturing-mechanisms-challenges-and-case-studies",
@@ -1333,7 +1382,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/peptide-aggregation-in-manufacturing-mechanisms-challenges-and-case-studies/",
-      "description": "Xtalks webinar: Peptide Aggregation in Manufacturing: Mechanisms, Challenges and Case Studies"
+      "description": "Xtalks webinar: Peptide Aggregation in Manufacturing: Mechanisms, Challenges and Case Studies",
+      "source": "scraped"
     },
     {
       "id": "xtalks-real-world-clinical-data-strengths-challenges-and-use-cases",
@@ -1350,7 +1400,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/real-world-clinical-data-strengths-challenges-and-use-cases/",
-      "description": "Xtalks webinar: Real-World Clinical Data: Strengths, Challenges and Use Cases"
+      "description": "Xtalks webinar: Real-World Clinical Data: Strengths, Challenges and Use Cases",
+      "source": "scraped"
     },
     {
       "id": "xtalks-get-ready-for-a-new-wave-of-clinical-trials-in-schizophrenia-how-sites-and-sponsors-can-avoid-conceptual-mistakes",
@@ -1367,7 +1418,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/get-ready-for-a-new-wave-of-clinical-trials-in-schizophrenia-how-sites-and-sponsors-can-avoid-conceptual-mistakes/",
-      "description": "Xtalks webinar: Get ready for a new wave of clinical trials in Schizophrenia: how Sites and Sponsors can avoid conceptual mistakes"
+      "description": "Xtalks webinar: Get ready for a new wave of clinical trials in Schizophrenia: how Sites and Sponsors can avoid conceptual mistakes",
+      "source": "scraped"
     },
     {
       "id": "xtalks-progressing-beyond-exploratory-endpoints-the-value-of-digital-biomarkers-in-neuroscience-clinical-studies",
@@ -1385,7 +1437,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/progressing-beyond-exploratory-endpoints-the-value-of-digital-biomarkers-in-neuroscience-clinical-studies/",
-      "description": "Xtalks webinar: Progressing Beyond Exploratory Endpoints: The Value of Digital Biomarkers in Neuroscience Clinical Studies"
+      "description": "Xtalks webinar: Progressing Beyond Exploratory Endpoints: The Value of Digital Biomarkers in Neuroscience Clinical Studies",
+      "source": "scraped"
     },
     {
       "id": "xtalks-obesity-clinical-trials-beyond-bmi",
@@ -1402,7 +1455,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/obesity-clinical-trials-beyond-bmi/",
-      "description": "Xtalks webinar: Obesity Clinical Trials: Beyond BMI"
+      "description": "Xtalks webinar: Obesity Clinical Trials: Beyond BMI",
+      "source": "scraped"
     },
     {
       "id": "xtalks-accelerated-clinical-trials-through-quality-by-design-principles",
@@ -1420,7 +1474,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/accelerated-clinical-trials-through-quality-by-design-principles/",
-      "description": "Xtalks webinar: Accelerated Clinical Trials Through Quality by Design Principles"
+      "description": "Xtalks webinar: Accelerated Clinical Trials Through Quality by Design Principles",
+      "source": "scraped"
     },
     {
       "id": "xtalks-accelerating-clinical-research-with-master-protocols-challenges-and-benefits-to-complex-trial-designs",
@@ -1438,7 +1493,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/accelerating-clinical-research-with-master-protocols-challenges-and-benefits-to-complex-trial-designs/",
-      "description": "Xtalks webinar: Accelerating Clinical Research with Master Protocols: Challenges and Benefits to Complex Trial Designs"
+      "description": "Xtalks webinar: Accelerating Clinical Research with Master Protocols: Challenges and Benefits to Complex Trial Designs",
+      "source": "scraped"
     },
     {
       "id": "xtalks-ensuring-data-integrity-in-manufacturing-a-customer-perspective-on-analytical-instruments-and-osmometers",
@@ -1456,7 +1512,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/ensuring-data-integrity-in-manufacturing-a-customer-perspective-on-analytical-instruments-and-osmometers/",
-      "description": "Xtalks webinar: Ensuring Data Integrity in Manufacturing: A Customer Perspective on Analytical Instruments and Osmometers"
+      "description": "Xtalks webinar: Ensuring Data Integrity in Manufacturing: A Customer Perspective on Analytical Instruments and Osmometers",
+      "source": "scraped"
     },
     {
       "id": "xtalks-future-proofing-gxp-strategic-investments-and-validation-best-practices-for-cdmos-amid-emerging-health-authority-regulations",
@@ -1471,7 +1528,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/future-proofing-gxp-strategic-investments-and-validation-best-practices-for-cdmos-amid-emerging-health-authority-regulations/",
-      "description": "Xtalks webinar: Future-Proofing GxP: Strategic Investments and Validation Best Practices for CDMOs Amid Emerging Health Authority Regulations"
+      "description": "Xtalks webinar: Future-Proofing GxP: Strategic Investments and Validation Best Practices for CDMOs Amid Emerging Health Authority Regulations",
+      "source": "scraped"
     },
     {
       "id": "xtalks-efficient-ecoa-implementation-in-clinical-trials",
@@ -1488,7 +1546,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/efficient-ecoa-implementation-in-clinical-trials/",
-      "description": "Xtalks webinar: Efficient eCOA Implementation in Clinical Trials"
+      "description": "Xtalks webinar: Efficient eCOA Implementation in Clinical Trials",
+      "source": "scraped"
     },
     {
       "id": "xtalks-beyond-spreadsheets-how-real-time-dashboards-are-transforming-transparency-in-clinical-research",
@@ -1506,7 +1565,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/beyond-spreadsheets-how-real-time-dashboards-are-transforming-transparency-in-clinical-research/",
-      "description": "Xtalks webinar: Beyond Spreadsheets: How Real-Time Dashboards are Transforming Transparency in Clinical Research"
+      "description": "Xtalks webinar: Beyond Spreadsheets: How Real-Time Dashboards are Transforming Transparency in Clinical Research",
+      "source": "scraped"
     },
     {
       "id": "xtalks-from-bench-to-scale-scaling-biodegradable-mrna-lipid-nanoparticle-for-clinical-success",
@@ -1521,7 +1581,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/from-bench-to-scale-scaling-biodegradable-mrna-lipid-nanoparticle-for-clinical-success/",
-      "description": "Xtalks webinar: From Bench to Scale: Scaling Biodegradable mRNA Lipid Nanoparticle for Clinical Success"
+      "description": "Xtalks webinar: From Bench to Scale: Scaling Biodegradable mRNA Lipid Nanoparticle for Clinical Success",
+      "source": "scraped"
     },
     {
       "id": "xtalks-building-breakthroughs-how-research-ready-data-transforms-clinical-development",
@@ -1540,7 +1601,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/building-breakthroughs-how-research-ready-data-transforms-clinical-development/",
-      "description": "Xtalks webinar: Building Breakthroughs: How Research-Ready Data Transforms Clinical Development"
+      "description": "Xtalks webinar: Building Breakthroughs: How Research-Ready Data Transforms Clinical Development",
+      "source": "scraped"
     },
     {
       "id": "xtalks-leveraging-ai-in-clinical-development-to-innovate-with-greater-confidence",
@@ -1558,7 +1620,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/leveraging-ai-in-clinical-development-to-innovate-with-greater-confidence/",
-      "description": "Xtalks webinar: Leveraging AI in Clinical Development to Innovate with Greater Confidence"
+      "description": "Xtalks webinar: Leveraging AI in Clinical Development to Innovate with Greater Confidence",
+      "source": "scraped"
     },
     {
       "id": "xtalks-the-potential-of-microfluidics-technology-in-cell-and-gene-therapy",
@@ -1575,7 +1638,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/the-potential-of-microfluidics-technology-in-cell-and-gene-therapy/",
-      "description": "Xtalks webinar: The Potential of Microfluidics Technology in Cell and Gene Therapy"
+      "description": "Xtalks webinar: The Potential of Microfluidics Technology in Cell and Gene Therapy",
+      "source": "scraped"
     },
     {
       "id": "xtalks-future-of-biomanufacturing-ai-driven-cell-line-development-and-bioprocess-design",
@@ -1595,7 +1659,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/future-of-biomanufacturing-ai-driven-cell-line-development-and-bioprocess-design/",
-      "description": "Xtalks webinar: Future of Biomanufacturing: AI-Driven Cell Line Development and Bioprocess Design"
+      "description": "Xtalks webinar: Future of Biomanufacturing: AI-Driven Cell Line Development and Bioprocess Design",
+      "source": "scraped"
     },
     {
       "id": "xtalks-advances-in-hpapi-development-and-regulatory-strategy",
@@ -1613,7 +1678,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/adavances-in-hpapi-development-and-regulatory-stragtegy/",
-      "description": "Xtalks webinar: Advances in HPAPI Development and Regulatory Strategy"
+      "description": "Xtalks webinar: Advances in HPAPI Development and Regulatory Strategy",
+      "source": "scraped"
     },
     {
       "id": "xtalks-enabling-efficient-biomanufacturing-through-process-intensification",
@@ -1630,7 +1696,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/enabling-efficient-biomanufacturing-through-process-intensification/",
-      "description": "Xtalks webinar: Enabling Efficient Biomanufacturing Through Process Intensification"
+      "description": "Xtalks webinar: Enabling Efficient Biomanufacturing Through Process Intensification",
+      "source": "scraped"
     },
     {
       "id": "xtalks-driving-efficiency-and-quality-in-clinical-trials-through-ai-innovation",
@@ -1649,7 +1716,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/driving-efficiency-and-quality-in-clinical-trials-through-ai-innovation/",
-      "description": "Xtalks webinar: Driving Efficiency and Quality in Clinical Trials Through AI & Innovation"
+      "description": "Xtalks webinar: Driving Efficiency and Quality in Clinical Trials Through AI & Innovation",
+      "source": "scraped"
     },
     {
       "id": "xtalks-keys-to-success-in-clinical-trials-a-strategic-guide-for-biotechs-and-startups",
@@ -1667,7 +1735,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/keys-to-success-in-clinical-trials-a-strategic-guide-for-biotechs-and-startups/",
-      "description": "Xtalks webinar: Keys to Success in Clinical Trials: A Strategic Guide for Biotechs and Startups"
+      "description": "Xtalks webinar: Keys to Success in Clinical Trials: A Strategic Guide for Biotechs and Startups",
+      "source": "scraped"
     },
     {
       "id": "xtalks-implementing-clinical-outcome-assessments-in-a-patient-centered-endpoint-strategy",
@@ -1684,7 +1753,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/implementing-clinical-outcome-assessments-in-a-patient-centered-endpoint-strategy/",
-      "description": "Xtalks webinar: Implementing clinical outcome assessments in a patient-centered endpoint strategy"
+      "description": "Xtalks webinar: Implementing clinical outcome assessments in a patient-centered endpoint strategy",
+      "source": "scraped"
     },
     {
       "id": "xtalks-driving-acceleration-in-oncology-drug-development-and-clinical-trials",
@@ -1704,7 +1774,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/driving-acceleration-in-oncology-drug-development-and-clinical-trials/",
-      "description": "Xtalks webinar: Driving Acceleration in Oncology Drug Development and Clinical Trials"
+      "description": "Xtalks webinar: Driving Acceleration in Oncology Drug Development and Clinical Trials",
+      "source": "scraped"
     },
     {
       "id": "xtalks-mastering-gene-therapy-and-companion-diagnostics-trials-the-eu-regulatory-playbook",
@@ -1723,7 +1794,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/mastering-gene-therapy-and-companion-diagnostics-trials-the-eu-regulatory-playbook/",
-      "description": "Xtalks webinar: Mastering Gene Therapy and Companion Diagnostics Trials: The EU Regulatory Playbook"
+      "description": "Xtalks webinar: Mastering Gene Therapy and Companion Diagnostics Trials: The EU Regulatory Playbook",
+      "source": "scraped"
     },
     {
       "id": "xtalks-innovations-in-rave-edc-enhancing-the-clinical-trial-data-experience-for-sites-sponsors-and-cros",
@@ -1741,7 +1813,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/innovations-in-rave-edc-enhancing-the-clinical-trial-data-experience-for-sites-sponsors-and-cros/",
-      "description": "Xtalks webinar: Innovations in Rave EDC: Enhancing the Clinical Trial Data Experience for Sites, Sponsors and CROs"
+      "description": "Xtalks webinar: Innovations in Rave EDC: Enhancing the Clinical Trial Data Experience for Sites, Sponsors and CROs",
+      "source": "scraped"
     },
     {
       "id": "xtalks-streamlining-clinical-trial-start-ups-a-data-driven-approach",
@@ -1759,7 +1832,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/streamlining-clinical-trial-start-ups-a-data-driven-approach/",
-      "description": "Xtalks webinar: Streamlining Clinical Trial Start-Ups: A Data-Driven Approach"
+      "description": "Xtalks webinar: Streamlining Clinical Trial Start-Ups: A Data-Driven Approach",
+      "source": "scraped"
     },
     {
       "id": "xtalks-optimizing-patient-adherence-in-clinical-trials-the-science-of-risk-identification-and-personalized-digital-interventions",
@@ -1777,7 +1851,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/optimizing-patient-adherence-in-clinical-trials-the-science-of-risk-identification-and-personalized-digital-interventions/",
-      "description": "Xtalks webinar: Optimizing Patient Adherence in Clinical Trials: The Science of Risk Identification and Personalized Digital Interventions"
+      "description": "Xtalks webinar: Optimizing Patient Adherence in Clinical Trials: The Science of Risk Identification and Personalized Digital Interventions",
+      "source": "scraped"
     },
     {
       "id": "xtalks-unlocking-the-future-of-gene-editing-key-concepts-and-breakthroughs-in-crispr",
@@ -1792,7 +1867,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/unlocking-the-future-of-gene-editing-key-concepts-and-breakthroughs-in-crispr/",
-      "description": "Xtalks webinar: Unlocking the Future of Gene Editing: Key Concepts and Breakthroughs in CRISPR"
+      "description": "Xtalks webinar: Unlocking the Future of Gene Editing: Key Concepts and Breakthroughs in CRISPR",
+      "source": "scraped"
     },
     {
       "id": "xtalks-unlocking-efficiency-how-digitalization-and-ai-are-redefining-biopharmaceutical-process-development",
@@ -1811,7 +1887,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/unlocking-efficiency-how-digitalization-and-ai-are-redefining-biopharmaceutical-process-development/",
-      "description": "Xtalks webinar: Unlocking Efficiency: How Digitalization and AI are Redefining Biopharmaceutical Process Development"
+      "description": "Xtalks webinar: Unlocking Efficiency: How Digitalization and AI are Redefining Biopharmaceutical Process Development",
+      "source": "scraped"
     },
     {
       "id": "xtalks-the-future-of-ai-analytics-on-chronic-pain-and-neurological-dhts-in-clinical-research",
@@ -1831,7 +1908,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/the-future-of-ai-analytics-on-chronic-pain-and-neurological-dhts-in-clinical-research/",
-      "description": "Xtalks webinar: The Future of AI Analytics on Chronic Pain and Neurological DHTs in Clinical Research"
+      "description": "Xtalks webinar: The Future of AI Analytics on Chronic Pain and Neurological DHTs in Clinical Research",
+      "source": "scraped"
     },
     {
       "id": "xtalks-overcoming-challenges-in-psychiatry-clinical-research-innovations-in-patient-retention-and-collaborative-care",
@@ -1851,7 +1929,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/overcoming-challenges-in-psychiatry-clinical-research-innovations-in-patient-retention-and-collaborative-care/",
-      "description": "Xtalks webinar: Overcoming Challenges in Psychiatry Clinical Research: Innovations in Patient Retention and Collaborative Care"
+      "description": "Xtalks webinar: Overcoming Challenges in Psychiatry Clinical Research: Innovations in Patient Retention and Collaborative Care",
+      "source": "scraped"
     },
     {
       "id": "xtalks-harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum",
@@ -1869,7 +1948,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/harnessing-ai-in-pharmacovigilance-using-technology-as-an-enabler-across-the-clinical-development-post-marketing-continuum/",
-      "description": "Xtalks webinar: Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development – Post-Marketing Continuum"
+      "description": "Xtalks webinar: Harnessing AI in Pharmacovigilance: Using Technology as an Enabler Across the Clinical Development – Post-Marketing Continuum",
+      "source": "scraped"
     },
     {
       "id": "xtalks-adaptive-by-design-how-rtsm-powers-early-phase-clinical-trial-success",
@@ -1886,7 +1966,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/adaptive-by-design-how-rtsm-powers-early-phase-clinical-trial-success/",
-      "description": "Xtalks webinar: Adaptive by Design: How RTSM Powers Early-Phase Clinical Trial Success"
+      "description": "Xtalks webinar: Adaptive by Design: How RTSM Powers Early-Phase Clinical Trial Success",
+      "source": "scraped"
     },
     {
       "id": "xtalks-risk-based-quality-management-rbqm-the-connective-tissue-for-clinical-data-quality",
@@ -1904,7 +1985,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/risk-based-quality-management-rbqm-the-connective-tissue-for-clinical-data-quality/",
-      "description": "Xtalks webinar: Risk-Based Quality Management (RBQM): The Connective Tissue for Clinical Data Quality"
+      "description": "Xtalks webinar: Risk-Based Quality Management (RBQM): The Connective Tissue for Clinical Data Quality",
+      "source": "scraped"
     },
     {
       "id": "xtalks-prioritizing-safety-in-clinical-trials-the-impact-of-culture-on-operational-success",
@@ -1921,7 +2003,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/prioritizing-safety-in-clinical-trials-the-impact-of-culture-on-operational-success/",
-      "description": "Xtalks webinar: Prioritizing Safety in Clinical Trials: The Impact of Culture on Operational Success"
+      "description": "Xtalks webinar: Prioritizing Safety in Clinical Trials: The Impact of Culture on Operational Success",
+      "source": "scraped"
     },
     {
       "id": "xtalks-advanced-drug-delivery-to-the-central-nervous-system-in-nonhuman-primates",
@@ -1936,7 +2019,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/advanced-drug-delivery-to-the-central-nervous-system-in-nonhuman-primates/",
-      "description": "Xtalks webinar: Advanced Drug Delivery to the Central Nervous System in Nonhuman Primates"
+      "description": "Xtalks webinar: Advanced Drug Delivery to the Central Nervous System in Nonhuman Primates",
+      "source": "scraped"
     },
     {
       "id": "xtalks-revolutionizing-spinal-cord-injury-treatment-insights-from-a-world-first-clinical-trial-conducted-in-gold-coast-australia",
@@ -1953,7 +2037,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/revolutionizing-spinal-cord-injury-treatment-insights-from-a-world-first-clinical-trial-conducted-in-melbourne-australia/",
-      "description": "Xtalks webinar: Revolutionizing Spinal Cord Injury Treatment: Insights from a World-First Clinical Trial Conducted in Gold Coast, Australia"
+      "description": "Xtalks webinar: Revolutionizing Spinal Cord Injury Treatment: Insights from a World-First Clinical Trial Conducted in Gold Coast, Australia",
+      "source": "scraped"
     },
     {
       "id": "xtalks-redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials",
@@ -1971,7 +2056,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/redefining-womens-cancer-care-delivering-smarter-safer-clinical-trials/",
-      "description": "Xtalks webinar: Redefining Women’s Cancer Care: Delivering Smarter, Safer Clinical Trials"
+      "description": "Xtalks webinar: Redefining Women’s Cancer Care: Delivering Smarter, Safer Clinical Trials",
+      "source": "scraped"
     },
     {
       "id": "xtalks-the-future-of-clinical-research-leveraging-ich-e6-r3-updates-and-technology-innovation-for-success",
@@ -1989,7 +2075,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/the-future-of-clinical-research-leveraging-ich-e6-updates-and-technology/",
-      "description": "Xtalks webinar: The Future of Clinical Research: Leveraging ICH E6(R3) Updates and Technology Innovation for Success"
+      "description": "Xtalks webinar: The Future of Clinical Research: Leveraging ICH E6(R3) Updates and Technology Innovation for Success",
+      "source": "scraped"
     },
     {
       "id": "xtalks-achieving-optimal-clinical-trial-performance-with-strategic-site-collaboration",
@@ -2007,7 +2094,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/achieving-optimal-clinical-trial-performance-with-strategic-site-collaboration/",
-      "description": "Xtalks webinar: Achieving Optimal Clinical Trial Performance with Strategic Site Collaboration"
+      "description": "Xtalks webinar: Achieving Optimal Clinical Trial Performance with Strategic Site Collaboration",
+      "source": "scraped"
     },
     {
       "id": "xtalks-gcp-ich-e6-r3-unveiled-navigating-the-evolving-roles-of-sponsors-and-cros",
@@ -2022,7 +2110,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/gcp-ich-e6-r3-unveiled-navigating-the-evolving-roles-of-sponsors-and-cros/",
-      "description": "Xtalks webinar: GCP ICH E6 R3 Unveiled: Navigating the Evolving Roles of Sponsors and CROs"
+      "description": "Xtalks webinar: GCP ICH E6 R3 Unveiled: Navigating the Evolving Roles of Sponsors and CROs",
+      "source": "scraped"
     },
     {
       "id": "xtalks-innovation-labs-accelerating-innovation-at-the-intersection-of-pharmaceutical-research-and-digital-health",
@@ -2042,7 +2131,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/innovation-labs-accelerating-innovation-at-the-intersection-of-pharmaceutical-research-and-digital-health/",
-      "description": "Xtalks webinar: Innovation Labs: Accelerating Innovation at the Intersection of Pharmaceutical Research and Digital Health"
+      "description": "Xtalks webinar: Innovation Labs: Accelerating Innovation at the Intersection of Pharmaceutical Research and Digital Health",
+      "source": "scraped"
     },
     {
       "id": "ispe-a-women-in-pharma-webinar-how-to-be-an-ally",
@@ -2060,7 +2150,8 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://ispe.org/webinars/videos/women-pharma-webinar-how-be-ally",
-      "description": "ISPE past webinar: A Women in Pharma Webinar: How to be An Ally"
+      "description": "ISPE past webinar: A Women in Pharma Webinar: How to be An Ally",
+      "source": "scraped"
     },
     {
       "id": "technology-networks-webinarbest-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-developmentin-this-webinar-our-expert-speaker-will-share-insights-on-optimizing-pcr-performance-for-applications-within-cell-and-gene-therapy-development-including-biodistribution-transgene-expression-viral-shedding-and-cellular-kinetics",
@@ -2078,7 +2169,8 @@
       "date_added": "2025-07-02",
       "url": "https://www.technologynetworks.com/tn/webinars/best-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-development-400895",
       "description": "Technology Networks webinar: WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics.",
-      "live_date": "on-demand"
+      "live_date": "on-demand",
+      "source": "scraped"
     },
     {
       "id": "technology-networks-webinaradvanced-strategies-for-effective-mrna-transfection-in-t-cellson-demandthis-session-will-delve-into-the-latest-strategies-and-technologies-that-maximize-transfection-efficiency-cell-proliferation-and-cytotoxic-activity-against-cancer-cells",
@@ -2096,7 +2188,8 @@
       "date_added": "2025-07-02",
       "url": "https://www.technologynetworks.com/tn/webinars/advanced-strategies-for-effective-mrna-transfection-in-t-cells-398626",
       "description": "Technology Networks webinar: WebinarAdvanced Strategies for Effective mRNA Transfection in T CellsOn-DemandThis session will delve into the latest strategies and technologies that maximize transfection efficiency, cell proliferation and cytotoxic activity against cancer cells.",
-      "live_date": "on-demand"
+      "live_date": "on-demand",
+      "source": "scraped"
     },
     {
       "id": "technology-networks-webinarenhancing-gene-therapy-with-precise-aav-capsid-analysison-demandin-this-webinar-dr-chelsea-pratt-will-explore-the-field-of-gene-therapy-highlighting-key-challenges-and-the-predominant-current-techniques",
@@ -2114,7 +2207,8 @@
       "date_added": "2025-07-02",
       "url": "https://www.technologynetworks.com/tn/webinars/enhancing-gene-therapy-with-precise-aav-capsid-analysis-396907",
       "description": "Technology Networks webinar: WebinarEnhancing Gene Therapy With Precise AAV Capsid AnalysisOn-DemandIn this webinar, Dr. Chelsea Pratt will explore the field of gene therapy, highlighting key challenges and the predominant current techniques.",
-      "live_date": "on-demand"
+      "live_date": "on-demand",
+      "source": "scraped"
     },
     {
       "id": "technology-networks-webinarepisode-4-t-cell-therapy-development-with-the-seahorse-xf-pro-solutionon-demandthis-webinar-presents-an-optimized-assay-workflow-using-the-agilent-seahorse-xf-pro-analyzer-to-profile-t-cell-energy-metabolism-enhancing-the-design-and-manufacturing-of-car-t-cell-therapies",
@@ -2132,9 +2226,188 @@
       "date_added": "2025-07-02",
       "url": "https://www.technologynetworks.com/tn/webinars/episode-4-t-cell-therapy-development-with-the-seahorse-xf-pro-solution-395230",
       "description": "Technology Networks webinar: WebinarEpisode 4: T Cell Therapy Development With the Seahorse XF Pro SolutionOn-DemandThis webinar presents an optimized assay workflow using the Agilent Seahorse XF Pro Analyzer to profile T cell energy metabolism, enhancing the design and manufacturing of CAR-T cell therapies.",
-      "live_date": "on-demand"
+      "live_date": "on-demand",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-vaccines-and-clinical-testing-strategic-entry-into-trials-in-europe",
+      "title": "Vaccines and Clinical Testing: Strategic Entry into Trials in Europe",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/vaccines-and-clinical-testing-strategic-entry-into-trials-in-europe/",
+      "description": "Xtalks webinar: Vaccines and Clinical Testing: Strategic Entry into Trials in Europe",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-advancing-psychedelic-compounds-from-preclinical-discovery-to-translational-insight",
+      "title": "Advancing Psychedelic Compounds: From Preclinical Discovery to Translational Insight",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/advancing-psychedelic-compounds-from-preclinical-discovery-to-translational-insight/",
+      "description": "Xtalks webinar: Advancing Psychedelic Compounds: From Preclinical Discovery to Translational Insight",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improving-clinical-tech-adoption-site-centric-approaches",
+      "title": "Improving Clinical Tech Adoption: Site-Centric Approaches",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improving-clinical-tech-adoption-site-centric-insights/",
+      "description": "Xtalks webinar: Improving Clinical Tech Adoption: Site-Centric Approaches",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-radiotracers-and-adc-targeting-scientific-insights-for-in-vivo-validation-and-clinical-transition",
+      "title": "Radiotracers and ADC Targeting: Scientific Insights for In Vivo Validation and Clinical Transition",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/radiotracers-and-adc-targeting-scientific-insights-for-in-vivo-validation-and-clinical-transition/",
+      "description": "Xtalks webinar: Radiotracers and ADC Targeting: Scientific Insights for In Vivo Validation and Clinical Transition",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-validation-in-transition-2025s-top-trends-tools-and-takeaways",
+      "title": "Validation in Transition: 2025’s Top Trends, Tools, and Takeaways",
+      "provider": "ISPE",
+      "topics": [
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "2025-08-05",
+      "live_date": "2025-08-05",
+      "url": "https://ispe.org/webinars/validation-transition-2025s-top-trends-tools-and-takeaways",
+      "description": "ISPE upcoming webinar: Validation in Transition: 2025’s Top Trends, Tools, and Takeaways",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-case-study-pharma-4-0-transformation-office",
+      "title": "Case Study: Pharma 4.0 Transformation Office",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/case-study-pharma-40-transformation-office",
+      "description": "ISPE upcoming webinar: Case Study: Pharma 4.0 Transformation Office",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-transforming-pharmaceutical-supply-planning-a-real-world-implementation-of-mathematical-optimization",
+      "title": "Transforming Pharmaceutical Supply Planning: A Real-World Implementation of Mathematical Optimization",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/transforming-pharmaceutical-supply-planning-real-world-implementation-mathematical",
+      "description": "ISPE upcoming webinar: Transforming Pharmaceutical Supply Planning: A Real-World Implementation of Mathematical Optimization",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-the-use-of-quality-risk-management-to-support-commissioning-qualification-system-risk-assessment",
+      "title": "The Use of Quality Risk Management to Support Commissioning & Qualification - System Risk Assessment",
+      "provider": "ISPE",
+      "topics": [
+        "quality-assurance",
+        "validation",
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/use-quality-risk-management-support-commissioning-qualification-system-risk-assessment",
+      "description": "ISPE upcoming webinar: The Use of Quality Risk Management to Support Commissioning & Qualification - System Risk Assessment",
+      "source": "scraped"
+    },
+    {
+      "id": "technology-networks-webinarmanipulating-human-cell-genetics-for-cellular-therapiesin-this-webinar-dr-theo-roth-will-discuss-how-crispr-all-can-be-used-to-push-human-genetics-beyond-their-evolved-functionality-enabling-researchers-to-engineer-synthetic-cell-states-with-therapeutic-potential",
+      "title": "WebinarManipulating Human Cell Genetics for Cellular TherapiesIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "url": "https://www.technologynetworks.com/tn/webinars/manipulating-human-cell-genetics-for-cellular-therapies-401241",
+      "description": "Technology Networks webinar: WebinarManipulating Human Cell Genetics for Cellular TherapiesIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
+      "live_date": "on-demand",
+      "source": "scraped"
+    },
+    {
+      "id": "technology-networks-webinarbest-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-developmenton-demandin-this-webinar-our-expert-speaker-will-share-insights-on-optimizing-pcr-performance-for-applications-within-cell-and-gene-therapy-development-including-biodistribution-transgene-expression-viral-shedding-and-cellular-kinetics",
+      "title": "WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentOn-DemandIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics.",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "url": "https://www.technologynetworks.com/tn/webinars/best-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-development-400895",
+      "description": "Technology Networks webinar: WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentOn-DemandIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics.",
+      "live_date": "on-demand",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2024-12-19",
-  "total_count": 213
+  "last_updated": "2025-07-17T15:41:12.782579",
+  "total_count": 125
 }

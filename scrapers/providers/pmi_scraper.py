@@ -9,7 +9,7 @@ class PMIScraper(BaseScraper):
     """Scraper for PMI webinars"""
     
     def __init__(self):
-        super().__init__(data_file="../src/webinars.json")
+        super().__init__(data_file="../webinars.json")
         self.base_url = "https://www.projectmanagement.com"
         self.webinars_url = "https://www.projectmanagement.com/webinars/webinarmainondemand.cfm"
     

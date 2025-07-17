@@ -949,12 +949,12 @@ class WebinarDirectory {
         const userLikes = JSON.parse(localStorage.getItem('user_webinar_likes') || '{}');
         
         if (userLikes[webinarId]) {
-            // Unlike: decrement count and remove from user likes
+            // Unlike: decrement global count and remove from user likes
             likes[webinarId] = Math.max(0, (likes[webinarId] || 0) - 1);
             delete userLikes[webinarId];
             this.showToast('Removed from liked webinars', 'info');
         } else {
-            // Like: increment count and add to user likes
+            // Like: increment global count and add to user likes
             likes[webinarId] = (likes[webinarId] || 0) + 1;
             userLikes[webinarId] = true;
             this.showToast('Added to liked webinars', 'success');
@@ -967,6 +967,8 @@ class WebinarDirectory {
         // Re-render the table to update like counts
         this.renderTable();
     }
+
+
 
     handleUrlParameters() {
         const urlParams = new URLSearchParams(window.location.search);

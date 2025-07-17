@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 class BaseScraper:
     """Base class for all webinar scrapers"""
     
-    def __init__(self, data_file: str = "../src/webinars.json"):
+    def __init__(self, data_file: str = "../webinars.json"):
         self.data_file = data_file
         self.webinars = []
         self.load_existing_data()

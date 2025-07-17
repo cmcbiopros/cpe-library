@@ -8,7 +8,7 @@ class FDACDERScraper(BaseScraper):
     """Scraper for FDA CDER training courses and webinars"""
     
     def __init__(self):
-        super().__init__(data_file="../src/webinars.json")
+        super().__init__(data_file="../webinars.json")
         self.base_url = "https://www.fda.gov"
         self.cderlearn_url = "https://www.fda.gov/training-and-continuing-education/cderlearn"
     

@@ -9,7 +9,7 @@ class LabrootsScraper(BaseScraper):
     """Scraper for Labroots webinars"""
     
     def __init__(self):
-        super().__init__(data_file="../src/webinars.json")
+        super().__init__(data_file="../webinars.json")
         self.base_url = "https://www.labroots.com"
         self.api_url = "https://www.labroots.com/api/v1/events"
     

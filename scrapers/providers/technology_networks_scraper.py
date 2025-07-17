@@ -9,7 +9,7 @@ class TechnologyNetworksScraper(BaseScraper):
     """Scraper for Technology Networks webinars"""
     
     def __init__(self):
-        super().__init__(data_file="../src/webinars.json")
+        super().__init__(data_file="../webinars.json")
         self.base_url = "https://www.technologynetworks.com"
         self.webinars_url = "https://www.technologynetworks.com/tn/topic-hub/gene-and-cell-therapy/webinars-and-online-events"
     

@@ -7,7 +7,7 @@ class USPScraper(BaseScraper):
     """Scraper for USP trainings"""
     
     def __init__(self):
-        super().__init__(data_file="../src/webinars.json")
+        super().__init__(data_file="../webinars.json")
         self.base_url = "https://uspharmacopeia.csod.com"
         self.trainings_url = "https://uspharmacopeia.csod.com/catalog/CustomPage.aspx?id=221000396&tab_page_id=221000396"
     

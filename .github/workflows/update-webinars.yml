@@ -8,7 +8,7 @@ on:
   push:
     paths:
       - 'scrapers/**'
-      - 'data/webinars.json'
+      - 'webinars.json'
 
 jobs:
   scrape-webinars:
@@ -35,11 +35,14 @@ jobs:
     - name: Run scrapers
       run: |
         cd scrapers
-        python base_scraper.py
+        python run_all_scrapers.py
         
-    - name: Copy data to root directory
+    - name: Verify data file exists
       run: |
-        cp data/webinars.json webinars.json
+        if [ ! -f webinars.json ]; then
+          echo "Error: webinars.json was not created by the scrapers"
+          exit 1
+        fi
         
     - name: Check for changes
       id: changes
