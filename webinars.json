@@ -2406,8 +2406,26 @@
       "description": "Technology Networks webinar: WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentOn-DemandIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics.",
       "live_date": "on-demand",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-innovations-in-cancer-research-solutions",
+      "title": "Innovations in Cancer Research Solutions",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-20",
+      "webinar_date": "2025-10-01",
+      "live_date": "2025-10-01",
+      "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
+      "description": "Labroots event: Innovations in Cancer Research Solutions",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-07-17T21:15:34.269209",
-  "total_count": 125
+  "last_updated": "2025-07-20T03:44:15.591414",
+  "total_count": 126
 }
