@@ -794,25 +794,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-life-cycle-approach-to-process-validation-stage-3-implementation",
-      "title": "Life Cycle Approach to Process Validation- Stage 3 Implementation",
-      "provider": "ISPE",
-      "topics": [
-        "validation",
-        "validation"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-02",
-      "webinar_date": "2025-07-22",
-      "live_date": "2025-07-22",
-      "url": "https://ispe.org/node/288544",
-      "description": "ISPE upcoming webinar: Life Cycle Approach to Process Validation- Stage 3 Implementation",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-qrm-based-integrated-c-q-series-system-boundaries-and-system-classification",
       "title": "QRM Based Integrated C&Q Series—System Boundaries and System Classification",
       "provider": "ISPE",
@@ -2424,8 +2405,84 @@
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-practice-session-for-integra-it-ai-in-clinical-trials-early-use-cases-and-innovations",
+      "title": "Practice Session for Integra IT – AI in Clinical Trials: Early Use Cases and Innovations",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-27",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/practice-session-for-integra-it-ai-in-clinical-trials-early-use-cases-and-innovations/",
+      "description": "Xtalks webinar: Practice Session for Integra IT – AI in Clinical Trials: Early Use Cases and Innovations",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-ai-in-clinical-trials-early-use-cases-and-innovations",
+      "title": "AI in Clinical Trials: Early Use Cases and Innovations",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-27",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/ai-in-clinical-trials-early-use-cases-and-innovations/",
+      "description": "Xtalks webinar: AI in Clinical Trials: Early Use Cases and Innovations",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-real-world-applications-of-ml-ai-predictive-maintenance-defect-detection-environmental-monitoring-and-capas",
+      "title": "Real-World Applications of ML/AI: Predictive Maintenance, Defect Detection, Environmental Monitoring, and CAPAs",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-27",
+      "webinar_date": "2025-08-20",
+      "live_date": "2025-08-20",
+      "url": "https://ispe.org/webinars/real-world-applications-mlai-predictive-maintenance-defect-detection-environmental",
+      "description": "ISPE upcoming webinar: Real-World Applications of ML/AI: Predictive Maintenance, Defect Detection, Environmental Monitoring, and CAPAs",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-the-future-of-usp-plastics-in-biotech",
+      "title": "The Future of USP Plastics in Biotech",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-27",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/future-usp-plastics-biotech",
+      "description": "ISPE upcoming webinar: The Future of USP Plastics in Biotech",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-07-20T03:44:15.591414",
-  "total_count": 126
+  "last_updated": "2025-07-27T03:45:48.762118",
+  "total_count": 129
 }
