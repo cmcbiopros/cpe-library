@@ -794,24 +794,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-qrm-based-integrated-c-q-series-system-boundaries-and-system-classification",
-      "title": "QRM Based Integrated C&Q Series—System Boundaries and System Classification",
-      "provider": "ISPE",
-      "topics": [
-        "validation"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-02",
-      "webinar_date": "2025-07-30",
-      "live_date": "2025-07-30",
-      "url": "https://ispe.org/webinars/qrm-based-integrated-cq-series-system-boundaries-and-system-classification",
-      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series—System Boundaries and System Classification",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-improving-productivity-and-reducing-cogs-in-bioprocesses-using-capacitance-as-a-pat-tool",
       "title": "Improving Productivity and Reducing COGS in Bioprocesses Using Capacitance as a PAT Tool",
       "provider": "ISPE",
@@ -1117,13 +1099,13 @@
       "topics": [
         "research"
       ],
-      "format": "on-demand",
+      "format": "live",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
       "webinar_date": "2025-11-12",
-      "live_date": "on-demand",
+      "live_date": "2025-11-12",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
       "source": "scraped"
@@ -2481,8 +2463,45 @@
       "url": "https://ispe.org/webinars/future-usp-plastics-biotech",
       "description": "ISPE upcoming webinar: The Future of USP Plastics in Biotech",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-modern-coagulation-laboratory-operations-building-superior-quality",
+      "title": "Modern coagulation laboratory operations: building superior quality",
+      "provider": "Labroots",
+      "topics": [
+        "laboratory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-03",
+      "webinar_date": "2025-08-25",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/modern-coagulation-laboratory-operations-building-superior-quality",
+      "description": "Labroots event: Modern coagulation laboratory operations: building superior quality",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-applying-lca-in-pharma-certified-methods-and-insights-from-a-capsule-case-study",
+      "title": "Applying LCA in Pharma: Certified Methods and Insights from a Capsule Case Study",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-03",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/applying-lca-pharma-certified-methods-and-insights-capsule-case-study",
+      "description": "ISPE upcoming webinar: Applying LCA in Pharma: Certified Methods and Insights from a Capsule Case Study",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-07-27T03:45:48.762118",
-  "total_count": 129
+  "last_updated": "2025-08-03T03:49:09.307589",
+  "total_count": 130
 }
