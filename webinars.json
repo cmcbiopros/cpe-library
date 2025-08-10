@@ -1104,8 +1104,8 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-11-12",
-      "live_date": "2025-11-12",
+      "webinar_date": "2025-08-25",
+      "live_date": "2025-08-25",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
       "source": "scraped"
@@ -2263,15 +2263,15 @@
       "topics": [
         "validation"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-17",
-      "webinar_date": "2025-08-05",
-      "live_date": "2025-08-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
       "url": "https://ispe.org/webinars/validation-transition-2025s-top-trends-tools-and-takeaways",
-      "description": "ISPE upcoming webinar: Validation in Transition: 2025’s Top Trends, Tools, and Takeaways",
+      "description": "ISPE past webinar: Validation in Transition: 2025’s Top Trends, Tools, and Takeaways",
       "source": "scraped"
     },
     {
@@ -2382,8 +2382,8 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-10-01",
-      "live_date": "2025-10-01",
+      "webinar_date": "2025-08-25",
+      "live_date": "2025-08-25",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
       "source": "scraped"
@@ -2500,8 +2500,157 @@
       "url": "https://ispe.org/webinars/applying-lca-pharma-certified-methods-and-insights-capsule-case-study",
       "description": "ISPE upcoming webinar: Applying LCA in Pharma: Certified Methods and Insights from a Capsule Case Study",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-advanced-in-vivo-efficacy-models-for-preclinical-success",
+      "title": "Advanced In Vivo Efficacy Models for Preclinical Success",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/advanced-in-vivo-efficacy-models-for-preclinical-success/",
+      "description": "Xtalks webinar: Advanced In Vivo Efficacy Models for Preclinical Success",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-enhancing-patient-recruitment-in-clinical-research-a-personalized-and-engaged-journey",
+      "title": "Enhancing Patient Recruitment in Clinical Research: A Personalized and Engaged Journey",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-research",
+        "research",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/enchancing-patient-recruitment-in-clinical-research-a-personalized-and-engaged-journey/",
+      "description": "Xtalks webinar: Enhancing Patient Recruitment in Clinical Research: A Personalized and Engaged Journey",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-us-based-biologics-manufacturing-strategy-scalability-and-tech-transfer",
+      "title": "US-Based Biologics Manufacturing: Strategy, Scalability and Tech Transfer",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing",
+        "laboratory-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/us-based-biologics-manufacturing-strategy-scalability-and-tech-transfer/",
+      "description": "Xtalks webinar: US-Based Biologics Manufacturing: Strategy, Scalability and Tech Transfer",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-real-world-trends-in-gxp-including-machine-learning-artificial-intelligence-expert-panel-discussion",
+      "title": "Real-World Trends in GxP including Machine Learning/Artificial Intelligence (Expert Panel Discussion)",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-10",
+      "webinar_date": "2025-08-20",
+      "live_date": "2025-08-20",
+      "url": "https://ispe.org/webinars/real-world-applications-mlai-predictive-maintenance-defect-detection-environmental",
+      "description": "ISPE upcoming webinar: Real-World Trends in GxP including Machine Learning/Artificial Intelligence (Expert Panel Discussion)",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-future-proofing-pharma-personal-care-how-life-cycle-assessments-carbon-footprinting-drive-real-change",
+      "title": "Future-Proofing Pharma & Personal Care: How Life Cycle Assessments & Carbon Footprinting Drive Real Change",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/applying-lca-pharma-certified-methods-and-insights-capsule-case-study",
+      "description": "ISPE upcoming webinar: Future-Proofing Pharma & Personal Care: How Life Cycle Assessments & Carbon Footprinting Drive Real Change",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-safer-systems-smarter-teams-delivering-just-culture-through-strategic-project-execution",
+      "title": "Safer Systems, Smarter Teams: Delivering Just Culture Through Strategic Project Execution",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/safer-systems-smarter-teams-delivering-just-culture-through-strategic-project-execution",
+      "description": "ISPE upcoming webinar: Safer Systems, Smarter Teams: Delivering Just Culture Through Strategic Project Execution",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-sustainable-structural-strategies-for-pharma-facilities-resilience-compliance-and-innovation",
+      "title": "Sustainable Structural Strategies for Pharma Facilities: Resilience, Compliance, and Innovation",
+      "provider": "ISPE",
+      "topics": [
+        "regulatory"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/sustainable-structural-strategies-pharma-facilities-resilience-compliance-and",
+      "description": "ISPE upcoming webinar: Sustainable Structural Strategies for Pharma Facilities: Resilience, Compliance, and Innovation",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-risk-to-regulatory-readiness-a-modern-guide-to-sterile-compounding-compliance",
+      "title": "Risk to Regulatory Readiness: A Modern Guide to Sterile Compounding Compliance",
+      "provider": "ISPE",
+      "topics": [
+        "regulatory",
+        "regulatory"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/risk-regulatory-readiness-modern-guide-sterile-compounding-compliance",
+      "description": "ISPE upcoming webinar: Risk to Regulatory Readiness: A Modern Guide to Sterile Compounding Compliance",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-08-03T03:49:09.307589",
-  "total_count": 130
+  "last_updated": "2025-08-10T03:41:46.898960",
+  "total_count": 138
 }
