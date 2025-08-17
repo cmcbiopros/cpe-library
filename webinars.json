@@ -794,28 +794,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-improving-productivity-and-reducing-cogs-in-bioprocesses-using-capacitance-as-a-pat-tool",
-      "title": "Improving Productivity and Reducing COGS in Bioprocesses Using Capacitance as a PAT Tool",
-      "provider": "ISPE",
-      "topics": [
-        "bioprocess",
-        "manufacturing",
-        "manufacturing",
-        "manufacturing",
-        "manufacturing"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-02",
-      "webinar_date": "2025-08-13",
-      "live_date": "2025-08-13",
-      "url": "https://ispe.org/webinars/improving-productivity-and-reducing-cogs-bioprocesses-using-capacitance-pat-tool",
-      "description": "ISPE upcoming webinar: Improving Productivity and Reducing COGS in Bioprocesses Using Capacitance as a PAT Tool",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-critical-quality-attributes-validation-of-a-parts-washer-and-autoclave",
       "title": "Critical Quality Attributes - Validation of a Parts Washer and Autoclave",
       "provider": "ISPE",
@@ -888,7 +866,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-09-03",
+      "webinar_date": "2025-08-27",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -2649,8 +2627,64 @@
       "url": "https://ispe.org/webinars/risk-regulatory-readiness-modern-guide-sterile-compounding-compliance",
       "description": "ISPE upcoming webinar: Risk to Regulatory Readiness: A Modern Guide to Sterile Compounding Compliance",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-reshoring-biologics-development-and-manufacturing-for-a-streamlined-path-to-ind",
+      "title": "Reshoring Biologics Development and Manufacturing for a Streamlined Path to IND",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/us-based-biologics-manufacturing-strategy-scalability-and-tech-transfer/",
+      "description": "Xtalks webinar: Reshoring Biologics Development and Manufacturing for a Streamlined Path to IND",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-clinical-trial-application-success-cmc-and-regulatory-insights-from-the-us-to-europe",
+      "title": "Clinical Trial Application Success: CMC and Regulatory Insights from the US to Europe",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/clinical-trial-application-success-cmc-and-regulatory-insights-from-the-us-to-europe/",
+      "description": "Xtalks webinar: Clinical Trial Application Success: CMC and Regulatory Insights from the US to Europe",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-unlocking-innovation-embracing-validation-4-0-for-a-digital-pharma-future",
+      "title": "Unlocking Innovation: Embracing Validation 4.0 for a Digital Pharma Future",
+      "provider": "ISPE",
+      "topics": [
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/unlocking-innovation-embracing-validation-40-digital-pharma-future",
+      "description": "ISPE upcoming webinar: Unlocking Innovation: Embracing Validation 4.0 for a Digital Pharma Future",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-08-10T03:41:46.898960",
-  "total_count": 138
+  "last_updated": "2025-08-17T03:24:39.493369",
+  "total_count": 140
 }
