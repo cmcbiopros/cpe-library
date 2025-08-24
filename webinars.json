@@ -2405,25 +2405,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-real-world-applications-of-ml-ai-predictive-maintenance-defect-detection-environmental-monitoring-and-capas",
-      "title": "Real-World Applications of ML/AI: Predictive Maintenance, Defect Detection, Environmental Monitoring, and CAPAs",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-27",
-      "webinar_date": "2025-08-20",
-      "live_date": "2025-08-20",
-      "url": "https://ispe.org/webinars/real-world-applications-mlai-predictive-maintenance-defect-detection-environmental",
-      "description": "ISPE upcoming webinar: Real-World Applications of ML/AI: Predictive Maintenance, Defect Detection, Environmental Monitoring, and CAPAs",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-the-future-of-usp-plastics-in-biotech",
       "title": "The Future of USP Plastics in Biotech",
       "provider": "ISPE",
@@ -2532,25 +2513,6 @@
       "live_date": "on-demand",
       "url": "https://xtalks.com/webinars/us-based-biologics-manufacturing-strategy-scalability-and-tech-transfer/",
       "description": "Xtalks webinar: US-Based Biologics Manufacturing: Strategy, Scalability and Tech Transfer",
-      "source": "scraped"
-    },
-    {
-      "id": "ispe-real-world-trends-in-gxp-including-machine-learning-artificial-intelligence-expert-panel-discussion",
-      "title": "Real-World Trends in GxP including Machine Learning/Artificial Intelligence (Expert Panel Discussion)",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-10",
-      "webinar_date": "2025-08-20",
-      "live_date": "2025-08-20",
-      "url": "https://ispe.org/webinars/real-world-applications-mlai-predictive-maintenance-defect-detection-environmental",
-      "description": "ISPE upcoming webinar: Real-World Trends in GxP including Machine Learning/Artificial Intelligence (Expert Panel Discussion)",
       "source": "scraped"
     },
     {
@@ -2683,8 +2645,46 @@
       "url": "https://ispe.org/webinars/unlocking-innovation-embracing-validation-40-digital-pharma-future",
       "description": "ISPE upcoming webinar: Unlocking Innovation: Embracing Validation 4.0 for a Digital Pharma Future",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-broadcast-1",
+      "title": "AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 1)",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-24",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-b1/",
+      "description": "Xtalks webinar: AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 1)",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-broadcast-2",
+      "title": "AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 2)",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-24",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-b2/",
+      "description": "Xtalks webinar: AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 2)",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-08-17T03:24:39.493369",
+  "last_updated": "2025-08-24T03:17:28.836040",
   "total_count": 140
 }
