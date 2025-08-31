@@ -803,15 +803,15 @@
         "manufacturing",
         "manufacturing"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-08-27",
-      "live_date": "2025-08-27",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
       "url": "https://ispe.org/webinars/critical-quality-attributes-validation-parts-washer-and-autoclave",
-      "description": "ISPE upcoming webinar: Critical Quality Attributes - Validation of a Parts Washer and Autoclave",
+      "description": "ISPE past webinar: Critical Quality Attributes - Validation of a Parts Washer and Autoclave",
       "source": "scraped"
     },
     {
@@ -866,7 +866,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-08-27",
+      "webinar_date": "2025-09-03",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -1082,8 +1082,8 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-08-25",
-      "live_date": "2025-08-25",
+      "webinar_date": "2025-11-12",
+      "live_date": "2025-11-12",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
       "source": "scraped"
@@ -2360,8 +2360,8 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-08-25",
-      "live_date": "2025-08-25",
+      "webinar_date": "2025-10-01",
+      "live_date": "2025-10-01",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
       "source": "scraped"
@@ -2683,8 +2683,45 @@
       "url": "https://xtalks.com/webinars/ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-b2/",
       "description": "Xtalks webinar: AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 2)",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-webinar-reducing-errors-and-enhancing-compliance-a-practical-look-at-digital-workflow-in-blood-gas-testing",
+      "title": "Webinar: Reducing errors and enhancing compliance: a practical look at digital workflow in blood gas testing",
+      "provider": "Labroots",
+      "topics": [
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-31",
+      "webinar_date": "2025-09-09",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/webinar-reducing-errors-enhancing-compliance-practical-look-digital-workflow-blood-gas-testing",
+      "description": "Labroots event: Webinar: Reducing errors and enhancing compliance: a practical look at digital workflow in blood gas testing",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-adcs-in-oncology-trials-practical-strategies-for-clinical-development-success",
+      "title": "ADCs in Oncology Trials: Practical Strategies for Clinical Development Success",
+      "provider": "Xtalks",
+      "topics": [
+        "development",
+        "oncology"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-08-31",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/adc-in-oncology-trials-practical-strategies-for-clinical-development-success/",
+      "description": "Xtalks webinar: ADCs in Oncology Trials: Practical Strategies for Clinical Development Success",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-08-24T03:17:28.836040",
-  "total_count": 140
+  "last_updated": "2025-08-31T03:05:06.692754",
+  "total_count": 142
 }
