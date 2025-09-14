@@ -1071,24 +1071,6 @@
       "source": "scraped"
     },
     {
-      "id": "labroots-the-simple-way-to-protein-research",
-      "title": "The Simple Way to Protein Research",
-      "provider": "Labroots",
-      "topics": [
-        "research"
-      ],
-      "format": "live",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-02",
-      "webinar_date": "2025-09-10",
-      "live_date": "2025-09-10",
-      "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
-      "description": "Labroots event: The Simple Way to Protein Research",
-      "source": "scraped"
-    },
-    {
       "id": "labroots-drug-discovery-development-virtual-event-series-2025",
       "title": "Drug Discovery & Development Virtual Event Series 2025",
       "provider": "Labroots",
@@ -2355,13 +2337,13 @@
       "topics": [
         "research"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
       "webinar_date": "2025-09-10",
-      "live_date": "2025-09-10",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
       "source": "scraped"
@@ -2795,8 +2777,105 @@
       "description": "Technology Networks webinar: Subscribe for FREE",
       "live_date": "on-demand",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-innovations-in-alzheimers-disease-clinical-trials-digital-endpoints",
+      "title": "Innovations in Alzheimer’s Disease Clinical Trials: Digital Endpoints",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/innovations-in-alzheimers-disease-clinical-trials-digital-endpoints/",
+      "description": "Xtalks webinar: Innovations in Alzheimer’s Disease Clinical Trials: Digital Endpoints",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-overcoming-ipf-and-other-rare-respiratory-disease-clinical-trial-challenges",
+      "title": "Overcoming IPF and Other Rare Respiratory Disease Clinical Trial Challenges",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/overcoming-ipf-and-other-rare-respiratory-disease-clinical-trial-challenges/",
+      "description": "Xtalks webinar: Overcoming IPF and Other Rare Respiratory Disease Clinical Trial Challenges",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-advancing-gene-therapy-development-with-monoclonal-hek293-cell-isolation-for-regulatory-compliance-broadcast-1",
+      "title": "Advancing Gene Therapy Development with Monoclonal HEK293 Cell Isolation for Regulatory Compliance (Broadcast 1)",
+      "provider": "Xtalks",
+      "topics": [
+        "gene-therapy",
+        "regulatory",
+        "compliance",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/advancing-gene-therapy-development-with-monoclonal-hek293-cell-isolation-for-regulatory-compliance-b1/",
+      "description": "Xtalks webinar: Advancing Gene Therapy Development with Monoclonal HEK293 Cell Isolation for Regulatory Compliance (Broadcast 1)",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-advancing-gene-therapy-development-with-monoclonal-hek293-cell-isolation-for-regulatory-compliance-broadcast-2",
+      "title": "Advancing Gene Therapy Development with Monoclonal HEK293 Cell Isolation for Regulatory Compliance (Broadcast 2)",
+      "provider": "Xtalks",
+      "topics": [
+        "gene-therapy",
+        "regulatory",
+        "compliance",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/advancing-gene-therapy-development-with-monoclonal-hek293-cell-isolation-for-regulatory-compliance-b2/",
+      "description": "Xtalks webinar: Advancing Gene Therapy Development with Monoclonal HEK293 Cell Isolation for Regulatory Compliance (Broadcast 2)",
+      "source": "scraped"
+    },
+    {
+      "id": "technology-networks-webinarmanipulating-human-cell-genetics-for-cellular-therapieson-demandin-this-webinar-dr-theo-roth-will-discuss-how-crispr-all-can-be-used-to-push-human-genetics-beyond-their-evolved-functionality-enabling-researchers-to-engineer-synthetic-cell-states-with-therapeutic-potential",
+      "title": "WebinarManipulating Human Cell Genetics for Cellular TherapiesOn-DemandIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
+      "provider": "Technology Networks",
+      "topics": [
+        "cell-therapy",
+        "gene-therapy",
+        "biotech"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-14",
+      "url": "https://www.technologynetworks.com/tn/webinars/manipulating-human-cell-genetics-for-cellular-therapies-401241",
+      "description": "Technology Networks webinar: WebinarManipulating Human Cell Genetics for Cellular TherapiesOn-DemandIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
+      "live_date": "on-demand",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-09-07T03:01:14.279973",
-  "total_count": 146
+  "last_updated": "2025-09-14T03:00:43.728600",
+  "total_count": 150
 }
