@@ -866,7 +866,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-09-16",
+      "webinar_date": "2025-10-08",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -2874,8 +2874,118 @@
       "description": "Technology Networks webinar: WebinarManipulating Human Cell Genetics for Cellular TherapiesOn-DemandIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
       "live_date": "on-demand",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-the-simple-way-to-protein-research",
+      "title": "The Simple Way to Protein Research",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-21",
+      "webinar_date": "2025-09-10",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
+      "description": "Labroots event: The Simple Way to Protein Research",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-advanced-therapy-safety-management-proactive-strategies-for-real-world-risk-detection",
+      "title": "Advanced Therapy Safety Management: Proactive Strategies for Real-World Risk Detection",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/advanced-therapy-safety-management-proactive-strategies-for-real-world-risk-detection/",
+      "description": "Xtalks webinar: Advanced Therapy Safety Management: Proactive Strategies for Real-World Risk Detection",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-how-digital-cleaning-validation-improves-oee-and-reduces-costs",
+      "title": "How Digital Cleaning Validation Improves OEE and Reduces Costs",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/how-digital-cleaning-validation-improves-oee-and-reduces-costs/",
+      "description": "Xtalks webinar: How Digital Cleaning Validation Improves OEE and Reduces Costs",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-clinical-research-in-latam-from-a-standalone-site-to-a-regional-network",
+      "title": "Clinical Research in LATAM: From a Standalone Site to a Regional Network",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-research",
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/clinical-research-in-latam-from-a-standalone-site-to-a-regional-network/",
+      "description": "Xtalks webinar: Clinical Research in LATAM: From a Standalone Site to a Regional Network",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improving-clinical-response-signaling-in-rare-disease-studies-with-targeted-endpoint-data-quality-programs",
+      "title": "Improving Clinical Response Signaling in Rare Disease Studies with Targeted Endpoint Data Quality Programs",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "rare-disease",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improving-clinical-response-signaling-in-rare-disease-studies-with-targeted-endpoint-data-quality-programs/",
+      "description": "Xtalks webinar: Improving Clinical Response Signaling in Rare Disease Studies with Targeted Endpoint Data Quality Programs",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-patient-identification-for-clinical-trials-through-ai-and-real-world-data",
+      "title": "Patient Identification for Clinical Trials Through AI and Real-World Data",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "patient-care",
+        "data-management",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/patient-identification-for-clinical-trials-through-ai-and-real-world-data/",
+      "description": "Xtalks webinar: Patient Identification for Clinical Trials Through AI and Real-World Data",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-09-14T03:00:43.728600",
-  "total_count": 150
+  "last_updated": "2025-09-21T03:05:26.529227",
+  "total_count": 156
 }
