@@ -866,7 +866,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-10-08",
+      "webinar_date": "2025-10-01",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -2342,7 +2342,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-09-10",
+      "webinar_date": "2025-10-01",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -2887,7 +2887,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-09-21",
-      "webinar_date": "2025-09-10",
+      "webinar_date": "2025-10-01",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -2984,8 +2984,81 @@
       "url": "https://xtalks.com/webinars/patient-identification-for-clinical-trials-through-ai-and-real-world-data/",
       "description": "Xtalks webinar: Patient Identification for Clinical Trials Through AI and Real-World Data",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-advancing-obesity-clinical-development-emerging-strategies-for-next-gen-trials",
+      "title": "Advancing Obesity Clinical Development: Emerging Strategies for Next‑Gen Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-28",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/advancing-obesity-clinical-development-emerging-strategies-for-next-gen-trials/",
+      "description": "Xtalks webinar: Advancing Obesity Clinical Development: Emerging Strategies for Next‑Gen Trials",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-clinical-data-analysis-with-agents-reliable-automation-with-human-oversight",
+      "title": "Clinical Data Analysis with Agents: Reliable Automation with Human Oversight",
+      "provider": "Xtalks",
+      "topics": [
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-28",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/clinical-data-analysis-with-agents-reliable-automation-with-human-oversight/",
+      "description": "Xtalks webinar: Clinical Data Analysis with Agents: Reliable Automation with Human Oversight",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-enhancing-clinical-trials-in-obesity-by-integrating-clinical-outcome-assessments-and-digital-health-technologies",
+      "title": "Enhancing Clinical Trials in Obesity by Integrating Clinical Outcome Assessments and Digital Health Technologies",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "digital-health"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-28",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/enhancing-clinical-trials-in-obesity-by-integrating-clinical-outcome-assessment-and-digital-health-technologies/",
+      "description": "Xtalks webinar: Enhancing Clinical Trials in Obesity by Integrating Clinical Outcome Assessments and Digital Health Technologies",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-byod-or-bust-are-clinical-trials-ready-for-the-device-revolution",
+      "title": "BYOD or Bust: Are Clinical Trials Ready for the Device Revolution?",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-09-28",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/byod-or-bust-are-clinical-trials-ready-for-the-device-revolution/",
+      "description": "Xtalks webinar: BYOD or Bust: Are Clinical Trials Ready for the Device Revolution?",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-09-21T03:05:26.529227",
-  "total_count": 156
+  "last_updated": "2025-09-28T03:06:13.463265",
+  "total_count": 160
 }
