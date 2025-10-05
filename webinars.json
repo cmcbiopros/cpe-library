@@ -866,7 +866,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-10-01",
+      "webinar_date": "2025-10-08",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -879,13 +879,13 @@
       "topics": [
         "research"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
       "webinar_date": "2025-10-01",
-      "live_date": "2025-10-01",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-week-2025",
       "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2025",
       "source": "scraped"
@@ -2342,7 +2342,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-10-01",
+      "webinar_date": "2025-10-08",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -2512,7 +2512,7 @@
       "date_added": "2025-08-10",
       "webinar_date": "Unknown",
       "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/applying-lca-pharma-certified-methods-and-insights-capsule-case-study",
+      "url": "https://ispe.org/webinars/future-proofing-pharma-personal-care-how-life-cycle-assessments-carbon-footprinting",
       "description": "ISPE upcoming webinar: Future-Proofing Pharma & Personal Care: How Life Cycle Assessments & Carbon Footprinting Drive Real Change",
       "source": "scraped"
     },
@@ -2882,13 +2882,13 @@
       "topics": [
         "research"
       ],
-      "format": "on-demand",
+      "format": "live",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-09-21",
-      "webinar_date": "2025-10-01",
-      "live_date": "on-demand",
+      "webinar_date": "2025-10-08",
+      "live_date": "2025-10-08",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
       "source": "scraped"
@@ -3057,8 +3057,158 @@
       "url": "https://xtalks.com/webinars/byod-or-bust-are-clinical-trials-ready-for-the-device-revolution/",
       "description": "Xtalks webinar: BYOD or Bust: Are Clinical Trials Ready for the Device Revolution?",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-unlocking-the-potential-of-stem-cell-and-organoid-research-with-advanced-tools",
+      "title": "Unlocking the Potential of Stem Cell and Organoid Research with Advanced Tools",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-05",
+      "webinar_date": "2025-10-14",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/unlocking-potential-stem-cell-organoid-research-advanced-tools",
+      "description": "Labroots event: Unlocking the Potential of Stem Cell and Organoid Research with Advanced Tools",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-cleaning-up-clinical-data-a-step-by-step-approach-to-remediation-that-actually-works",
+      "title": "Cleaning Up Clinical Data: A Step-by-Step Approach to Remediation That Actually Works",
+      "provider": "Xtalks",
+      "topics": [
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/clinical-data-a-step-by-step-approach-to-remediation/",
+      "description": "Xtalks webinar: Cleaning Up Clinical Data: A Step-by-Step Approach to Remediation That Actually Works",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-from-research-to-gmp-ready-cell-lines-bridging-the-development-gap-broadcast-1",
+      "title": "From Research to GMP-Ready Cell Lines: Bridging the Development Gap (Broadcast 1)",
+      "provider": "Xtalks",
+      "topics": [
+        "research",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/from-research-to-gmp-ready-cell-lines-bridging-the-development-gap-b1/",
+      "description": "Xtalks webinar: From Research to GMP-Ready Cell Lines: Bridging the Development Gap (Broadcast 1)",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-from-research-to-gmp-ready-cell-lines-bridging-the-development-gap-broadcast-2",
+      "title": "From Research to GMP-Ready Cell Lines: Bridging the Development Gap (Broadcast 2)",
+      "provider": "Xtalks",
+      "topics": [
+        "research",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/from-research-to-gmp-ready-cell-lines-bridging-the-development-gap-b2/",
+      "description": "Xtalks webinar: From Research to GMP-Ready Cell Lines: Bridging the Development Gap (Broadcast 2)",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-integrating-microsofts-genai-tool-for-office-365-co-pilot-in-the-deviation-management-process",
+      "title": "Integrating Microsoft’s GenAI tool for Office 365 (Co-Pilot) in the Deviation Management Process",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/integrating-microsofts-genai-tool-office-365-co-pilot-deviation-management-process",
+      "description": "ISPE upcoming webinar: Integrating Microsoft’s GenAI tool for Office 365 (Co-Pilot) in the Deviation Management Process",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-ai-powered-process-digital-twins",
+      "title": "AI-Powered Process Digital Twins",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/ai-powered-process-digital-twins",
+      "description": "ISPE upcoming webinar: AI-Powered Process Digital Twins",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-moving-beyond-the-hype-establishing-a-digital-backbone-to-support-pharma-4-0",
+      "title": "Moving Beyond the Hype: Establishing a Digital Backbone to Support Pharma 4.0",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/moving-beyond-hype-establishing-digital-backbone-support-pharma-40",
+      "description": "ISPE upcoming webinar: Moving Beyond the Hype: Establishing a Digital Backbone to Support Pharma 4.0",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-qrm-based-integrated-c-q-series-integrated-commissioning-strategy",
+      "title": "QRM Based Integrated C&Q Series - Integrated Commissioning Strategy",
+      "provider": "ISPE",
+      "topics": [
+        "validation",
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/qrm-based-integrated-cq-series-integrated-commissioning-strategy",
+      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series - Integrated Commissioning Strategy",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-09-28T03:06:13.463265",
-  "total_count": 160
+  "last_updated": "2025-10-05T03:05:39.684868",
+  "total_count": 168
 }
