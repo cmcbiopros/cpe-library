@@ -866,7 +866,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-10-08",
+      "webinar_date": "2025-10-15",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -2876,24 +2876,6 @@
       "source": "scraped"
     },
     {
-      "id": "labroots-the-simple-way-to-protein-research",
-      "title": "The Simple Way to Protein Research",
-      "provider": "Labroots",
-      "topics": [
-        "research"
-      ],
-      "format": "live",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-21",
-      "webinar_date": "2025-10-08",
-      "live_date": "2025-10-08",
-      "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
-      "description": "Labroots event: The Simple Way to Protein Research",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-advanced-therapy-safety-management-proactive-strategies-for-real-world-risk-detection",
       "title": "Advanced Therapy Safety Management: Proactive Strategies for Real-World Risk Detection",
       "provider": "Xtalks",
@@ -3207,8 +3189,116 @@
       "url": "https://ispe.org/webinars/qrm-based-integrated-cq-series-integrated-commissioning-strategy",
       "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series - Integrated Commissioning Strategy",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-unveiling-cosmic-s-secrets-curating-gene-and-somatic-variant-data-to-power-research-and-clinical-oncology",
+      "title": "Unveiling COSMIC's secrets: Curating gene and somatic variant data to power research and clinical oncology",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-12",
+      "webinar_date": "2025-10-15",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/unveiling-cosmics-secrets-curating-gene-somatic-variant-data-power-research-clinical-oncology",
+      "description": "Labroots event: Unveiling COSMIC's secrets: Curating gene and somatic variant data to power research and clinical oncology",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-preclinical-drug-discovery-turning-drug-safety-data-into-decisions",
+      "title": "Preclinical Drug Discovery: Turning Drug Safety Data into Decisions",
+      "provider": "Xtalks",
+      "topics": [
+        "drug-discovery",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/preclinical-drug-discovery-turning-drug-safety-data-into-decisions/",
+      "description": "Xtalks webinar: Preclinical Drug Discovery: Turning Drug Safety Data into Decisions",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-redefining-clinical-project-management-the-strategic-power-of-fsp-models",
+      "title": "Redefining Clinical Project Management: The Strategic Power of FSP Models",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/redefining-clinical-project-management-the-strategic-power-of-fsp-models/",
+      "description": "Xtalks webinar: Redefining Clinical Project Management: The Strategic Power of FSP Models",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-patient-experience-organization-model-for-clinical-trial-success",
+      "title": "Patient Experience Organization Model for Clinical Trial Success",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/patient-experience-organization-model-for-clinical-trial-success/",
+      "description": "Xtalks webinar: Patient Experience Organization Model for Clinical Trial Success",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-novel-long-rna-manufacturing-approaches-for-advancing-rna-therapeutics",
+      "title": "Novel Long RNA Manufacturing Approaches for Advancing RNA Therapeutics",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/novel-long-rna-manufacturing-approaches-for-advancing-rna-therapeutics/",
+      "description": "Xtalks webinar: Novel Long RNA Manufacturing Approaches for Advancing RNA Therapeutics",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-neuropsychiatry-clinical-trials-evolving-with-portable-eeg-and-digital-endpoints",
+      "title": "Neuropsychiatry Clinical Trials: Evolving with Portable EEG and Digital Endpoints",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/neuropsychiatry-clinical-trials-evolving-with-portable-eeg-and-digital-endpoints/",
+      "description": "Xtalks webinar: Neuropsychiatry Clinical Trials: Evolving with Portable EEG and Digital Endpoints",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-10-05T03:05:39.684868",
-  "total_count": 168
+  "last_updated": "2025-10-12T03:00:45.654910",
+  "total_count": 173
 }
