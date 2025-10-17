@@ -1003,11 +1003,39 @@ class WebinarDirectory {
         // Mark data as modified so it can be exported
         this.dataModified = true;
         
+        // Save likes to the server (webinars.json)
+        this.saveLikesToServer();
+        
         // Re-render the table to update like counts
         this.renderTable();
     }
 
-
+    async saveLikesToServer() {
+        try {
+            // Create a backup of current data
+            const backupData = {
+                webinars: this.webinars,
+                last_updated: new Date().toISOString(),
+                total_count: this.webinars.length
+            };
+            
+            // Save to webinars.json
+            const response = await fetch('save_likes.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(backupData)
+            });
+            
+            if (!response.ok) {
+                console.warn('Failed to save likes to server, but continuing with local changes');
+            }
+        } catch (error) {
+            console.warn('Error saving likes to server:', error);
+            // Don't show error to user as this is a background operation
+        }
+    }
 
     handleUrlParameters() {
         const urlParams = new URLSearchParams(window.location.search);

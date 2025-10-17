@@ -181,6 +181,9 @@
             <button id="refreshData" class="btn btn-secondary">
                 <i class="fas fa-sync"></i> Refresh Data
             </button>
+            <button id="cleanupBrokenLinks" class="btn btn-warning">
+                <i class="fas fa-broom"></i> Cleanup Broken Links
+            </button>
             <button id="clearChanges" class="btn btn-warning">
                 <i class="fas fa-undo"></i> Clear Changes
             </button>
@@ -455,6 +458,10 @@
                     this.clearChanges();
                 });
 
+                document.getElementById('cleanupBrokenLinks').addEventListener('click', () => {
+                    this.cleanupBrokenLinks();
+                });
+
                 // Provider dropdown functionality
                 document.getElementById('addNewProvider').addEventListener('click', () => {
                     this.showNewProviderInput();
@@ -693,6 +700,48 @@ Live Date: ${webinar.live_date || 'N/A'}
                         this.renderTable();
                         alert('Changes cleared!');
                     });
+                }
+            }
+
+            async cleanupBrokenLinks() {
+                if (!confirm('This will check all webinar URLs and remove any that return 404 errors. This may take several minutes. Continue?')) {
+                    return;
+                }
+
+                // Show loading state
+                const button = document.getElementById('cleanupBrokenLinks');
+                const originalText = button.innerHTML;
+                button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Checking URLs...';
+                button.disabled = true;
+
+                try {
+                    // Call the cleanup script
+                    const response = await fetch('run_cleanup_broken_links.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ action: 'cleanup' })
+                    });
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        alert(`Cleanup completed! Removed ${result.removed_count} broken webinars.`);
+                        // Reload data to reflect changes
+                        this.loadData().then(() => {
+                            this.updateStats();
+                            this.renderTable();
+                        });
+                    } else {
+                        alert(`Cleanup failed: ${result.error}`);
+                    }
+                } catch (error) {
+                    alert(`Error running cleanup: ${error.message}`);
+                } finally {
+                    // Restore button state
+                    button.innerHTML = originalText;
+                    button.disabled = false;
                 }
             }
 
