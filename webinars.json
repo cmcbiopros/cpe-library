@@ -1,26 +1,6 @@
 {
   "webinars": [
     {
-      "id": "fda-cder-advancing-transparency-and-regulatory-science-activities-on-the-risk-evaluation-and-mitigation-strategy-rems",
-      "title": "Advancing Transparency and Regulatory Science Activities on the Risk Evaluation and Mitigation Strategy (REMS)",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-development",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/advancing-transparency-and-regulatory-science-activities-risk-evaluation-and-mitigation-strategy",
-      "description": "FDA CDER training: Advancing Transparency and Regulatory Science Activities on the Risk Evaluation and Mitigation Strategy (REMS). Topics: Drug Regulatory Process; Drug Development; Drug Safety",
-      "source": "scraped"
-    },
-    {
       "id": "fda-cder-airflow",
       "title": "Airflow",
       "provider": "FDA CDER",
@@ -63,67 +43,6 @@
       "source": "scraped"
     },
     {
-      "id": "fda-cder-biosimilars-a-review-of-scientific-regulatory-and-clinical-considerations-for-health-care-providers",
-      "title": "Biosimilars: A Review of Scientific, Regulatory, and Clinical Considerations for Health Care Providers",
-      "provider": "FDA CDER",
-      "topics": [
-        "biosimilars",
-        "regulatory",
-        "drug-development"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/biosimilars-review-scientific-regulatory-and-clinical-considerations-health-care-providers",
-      "description": "FDA CDER training: Biosimilars: A Review of Scientific, Regulatory, and Clinical Considerations for Health Care Providers. Topics: Biosimilars; Drug Regulatory Process; Drug Development",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-bringing-clinical-research-to-patients",
-      "title": "Bringing Clinical Research to Patients",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-development",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/consumers/womens-health-events/bringing-clinical-research-patients",
-      "description": "FDA CDER training: Bringing Clinical Research to Patients. Topics: Drug Regulatory Process; Drug Development; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-cannabis-and-cannabis-derived-products-for-healthcare-practitioners",
-      "title": "Cannabis and Cannabis-Derived Products – For Healthcare Practitioners",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-development",
-        "drug-safety",
-        "cannabis"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/cannabis-and-cannabis-derived-products-healthcare-practitioners",
-      "description": "FDA CDER training: Cannabis and Cannabis-Derived Products – For Healthcare Practitioners. Topics: Drug Regulatory Process; Drug Development; Drug Safety; Cannabidiol",
-      "source": "scraped"
-    },
-    {
       "id": "fda-cder-cleanroom-in-person-course",
       "title": "Cleanroom In-person Course",
       "provider": "FDA CDER",
@@ -144,44 +63,6 @@
       "source": "scraped"
     },
     {
-      "id": "fda-cder-development-and-u-s-regulation-of-preventative-vaccines",
-      "title": "Development and U.S. Regulation of Preventative Vaccines",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-development"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/development-and-us-regulation-preventative-vaccines",
-      "description": "FDA CDER training: Development and U.S. Regulation of Preventative Vaccines. Topics: Drug Regulatory Process; Drug Development",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-drug-shortages-root-causes-and-potential-solutions",
-      "title": "Drug Shortages: Root Causes and Potential Solutions",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-development"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/drug-shortages-root-causes-and-potential-solutions",
-      "description": "FDA CDER training: Drug Shortages: Root Causes and Potential Solutions. Topics: Drug Regulatory Process; Drug Development",
-      "source": "scraped"
-    },
-    {
       "id": "fda-cder-environmental-monitoring-in-person-course",
       "title": "Environmental Monitoring In-person Course",
       "provider": "FDA CDER",
@@ -199,83 +80,6 @@
       "live_date": "on-demand",
       "url": "https://www.train.org/nm/course/1122536/live-event",
       "description": "FDA CDER training: Environmental Monitoring In-person Course. Topics: Compounding; Drug Regulatory Process; Drug Development",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-frequently-asked-questions-about-labeling-for-prescription-medicines",
-      "title": "Frequently Asked Questions about Labeling for Prescription Medicines",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-development",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/frequently-asked-questions-about-labeling-prescription-medicines",
-      "description": "FDA CDER training: Frequently Asked Questions about Labeling for Prescription Medicines. Topics: Drug Regulatory Process; Drug Development; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-how-fda-and-ismp-utilize-medication-error-reports-to-improve-drug-safety",
-      "title": "How FDA and ISMP Utilize Medication Error Reports to Improve Drug Safety",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/how-fda-and-ismp-utilize-medication-error-reports-improve-drug-safety",
-      "description": "FDA CDER training: How FDA and ISMP Utilize Medication Error Reports to Improve Drug Safety. Topics: Drug Regulatory Process; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-how-to-avoid-medication-errors-with-pen-injectors",
-      "title": "How to Avoid Medication Errors with Pen Injectors",
-      "provider": "FDA CDER",
-      "topics": [
-        "drug-safety",
-        "medwatch"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/how-avoid-medication-errors-pen-injectors",
-      "description": "FDA CDER training: How to Avoid Medication Errors with Pen Injectors. Topics: Drug Safety; MedWatch",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-hyperemesis-gravidarum-new-research-and-insights",
-      "title": "Hyperemesis Gravidarum: New Research and Insights",
-      "provider": "FDA CDER",
-      "topics": [
-        "womens-health",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/consumers/womens-health-events/hyperemesis-gravidarum-new-research-and-insights",
-      "description": "FDA CDER training: Hyperemesis Gravidarum: New Research and Insights. Topics: Women's Health; Drug Safety",
       "source": "scraped"
     },
     {
@@ -368,87 +172,6 @@
       "source": "scraped"
     },
     {
-      "id": "fda-cder-overview-of-expanded-access-ea-program-and-ea-erequest-site",
-      "title": "Overview of Expanded Access (EA) Program and EA eRequest Site",
-      "provider": "FDA CDER",
-      "topics": [
-        "expanded-access",
-        "rare-diseases",
-        "regulatory",
-        "drug-development",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/node/400064",
-      "description": "FDA CDER training: Overview of Expanded Access (EA) Program and EA eRequest Site. Topics: IND/Expanded Access; Rare Diseases; Drug Regulatory Process; Drug Development; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-an-overview-of-fdas-project-facilitate-oncology-expanded-access-program",
-      "title": "An Overview of FDA’s Project Facilitate Oncology Expanded Access Program",
-      "provider": "FDA CDER",
-      "topics": [
-        "cancer",
-        "drug-development",
-        "regulatory"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/overview-fdas-project-facilitate-oncology-expanded-access-program",
-      "description": "FDA CDER training: An Overview of FDA’s Project Facilitate Oncology Expanded Access Program. Topics: Cancer Drugs; Disease States; Drug Development; Drug Regulatory Process",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-pcos-revisited-diagnosis-management-and-future-needs",
-      "title": "PCOS Revisited: Diagnosis, Management, and Future Needs",
-      "provider": "FDA CDER",
-      "topics": [
-        "womens-health",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/consumers/womens-health-events/pcos-revisited-diagnosis-management-and-future-needs",
-      "description": "FDA CDER training: PCOS Revisited: Diagnosis, Management, and Future Needs. Topics: Women's Health; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-pregnancy-and-lactation-medication-information-for-the-healthcare-provider",
-      "title": "Pregnancy and Lactation Medication Information for the Healthcare Provider",
-      "provider": "FDA CDER",
-      "topics": [
-        "womens-health",
-        "regulatory",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/pregnancy-and-lactation-medication-information-healthcare-provider-05112022",
-      "description": "FDA CDER training: Pregnancy and Lactation Medication Information for the Healthcare Provider. Topics: Women's Health; Drug Regulatory Process; Drug Safety",
-      "source": "scraped"
-    },
-    {
       "id": "fda-cder-process-validation-virtual-course",
       "title": "Process Validation Virtual Course",
       "provider": "FDA CDER",
@@ -466,26 +189,6 @@
       "live_date": "Unknown",
       "url": "https://www.train.org/nm/course/1123040/live-event",
       "description": "FDA CDER training: Process Validation Virtual Course. Topics: Compounding; Drug Regulatory Process; Drug Development",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-public-meeting-fda-rare-disease-day-2024",
-      "title": "Public meeting: FDA Rare Disease Day 2024",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-safety",
-        "rare-diseases"
-      ],
-      "format": "on-demand",
-      "duration_min": 285,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 4.75 credits",
-      "ce_credits": 4.75,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/public-meeting-fda-rare-disease-day-2024-03012024",
-      "description": "FDA CDER training: Public meeting: FDA Rare Disease Day 2024. Topics: Drug Regulatory Process; Drug Safety Rare Diseases",
       "source": "scraped"
     },
     {
@@ -509,26 +212,6 @@
       "source": "scraped"
     },
     {
-      "id": "fda-cder-rare-diseases-challenges-and-progress-in-drug-development",
-      "title": "Rare Diseases - Challenges and Progress in Drug Development",
-      "provider": "FDA CDER",
-      "topics": [
-        "drug-development",
-        "drug-safety",
-        "rare-diseases"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/rare-diseases-challenges-and-progress-drug-development",
-      "description": "FDA CDER training: Rare Diseases - Challenges and Progress in Drug Development. Topics: Drug Development; Drug Safety; Rare Diseases",
-      "source": "scraped"
-    },
-    {
       "id": "fda-cder-regulatory-framework-for-human-drug-compounding",
       "title": "Regulatory Framework for Human Drug Compounding",
       "provider": "FDA CDER",
@@ -547,48 +230,6 @@
       "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1089314/",
       "description": "FDA CDER training: Regulatory Framework for Human Drug Compounding. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-reporting-and-public-viewing-of-individual-case-safety-reports-icsrs",
-      "title": "Reporting and Public Viewing of Individual Case Safety Reports (ICSRs)",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-development",
-        "drug-safety",
-        "medwatch"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/reporting-and-public-viewing-individual-case-safety-reports-icsrs",
-      "description": "FDA CDER training: Reporting and Public Viewing of Individual Case Safety Reports (ICSRs). Topics: Drug Regulatory Process; Drug Development; Drug Safety; MedWatch",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-safety-labeling-changes-for-leukotriene-receptor-antagonists-and-decisions-behind-a-boxed-warning",
-      "title": "Safety Labeling Changes for Leukotriene Receptor Antagonists and Decisions Behind a Boxed Warning",
-      "provider": "FDA CDER",
-      "topics": [
-        "regulatory",
-        "drug-development",
-        "drug-safety",
-        "medwatch"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/node/397296",
-      "description": "FDA CDER training: Safety Labeling Changes for Leukotriene Receptor Antagonists and Decisions Behind a Boxed Warning. Topics: Drug Regulatory Process; Drug Development; Drug Safety; MedWatch",
       "source": "scraped"
     },
     {
@@ -654,108 +295,6 @@
       "live_date": "on-demand",
       "url": "https://www.train.org/main/course/1097624/",
       "description": "FDA CDER training: Supplier/Contractor Qualification and Management. Topics: Compounding; Drug Development; Drug Regulatory Process; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-the-safety-evaluation-and-surveillance-of-generic-drugs",
-      "title": "The Safety Evaluation and Surveillance of Generic Drugs",
-      "provider": "FDA CDER",
-      "topics": [
-        "generic-drugs",
-        "regulatory",
-        "drug-development",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 90,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.5 credits",
-      "ce_credits": 1.5,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/safety-evaluation-and-surveillance-generic-drugs",
-      "description": "FDA CDER training: The Safety Evaluation and Surveillance of Generic Drugs. Topics: Generic Drugs; Drug Regulatory Process; Drug Development; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-topics-in-public-health",
-      "title": "Topics in Public Health",
-      "provider": "FDA CDER",
-      "topics": [
-        "biosimilars",
-        "cancer",
-        "case-study",
-        "compounding",
-        "covid-19",
-        "drug-development",
-        "regulatory",
-        "drug-safety",
-        "generic-drugs",
-        "expanded-access",
-        "medwatch",
-        "opioids",
-        "otc-drugs",
-        "womens-health"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/training-and-continuing-education/fda-continuing-education-programs/topics-public-health",
-      "description": "FDA CDER training: Topics in Public Health. Topics: Biosimilars; Cancer Drugs; Case Study; Compounding; COVID-19; Drug Development; Drug Regulatory Process; Drug Safety; Generic Drugs; IND/Expanded Access; MedWatch; Opioids; OTC Drug Regulations; Women's Health",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-understanding-generic-narrow-therapeutic-index-drugs",
-      "title": "Understanding Generic Narrow Therapeutic Index Drugs",
-      "provider": "FDA CDER",
-      "topics": [
-        "generic-drugs",
-        "regulatory",
-        "drug-development",
-        "drug-safety"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "on-demand",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/understanding-generic-narrow-therapeutic-index-drugs",
-      "description": "FDA CDER training: Understanding Generic Narrow Therapeutic Index Drugs. Topics: Generic Drugs; Drug Regulatory Process; Drug Development; Drug Safety",
-      "source": "scraped"
-    },
-    {
-      "id": "fda-cder-fda-drug-topics-webinars",
-      "title": "FDA Drug Topics Webinars",
-      "provider": "FDA CDER",
-      "topics": [
-        "biosimilars",
-        "cancer",
-        "cannabis",
-        "compounding",
-        "drug-development",
-        "regulatory",
-        "drug-safety",
-        "generic-drugs",
-        "health-fraud",
-        "expanded-access",
-        "opioids",
-        "rare-diseases"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": true,
-      "certificate_process": "CE credits available: 1.0 credits",
-      "ce_credits": 1.0,
-      "date_added": "2025-07-01",
-      "live_date": "Unknown",
-      "url": "https://www.fda.gov/about-fda/fda-pharmacy-student-experiential-program/fda-drug-topics-webinars",
-      "description": "FDA CDER training: FDA Drug Topics Webinars. Topics: Biosimilars; Cancer Drugs; Cannabidiol; Compounding; Drug Development; Drug Regulatory Process; Drug Safety; Generic Drugs; Health Fraud; IND/Expanded Access; Opioids; Rare Diseases",
       "source": "scraped"
     },
     {
@@ -3299,6 +2838,6 @@
       "source": "scraped"
     }
   ],
-  "last_updated": "2025-10-12T03:00:45.654910",
-  "total_count": 173
+  "last_updated": "2025-10-17T15:54:53.103107",
+  "total_count": 151
 }
