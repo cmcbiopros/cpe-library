@@ -105,6 +105,9 @@ class WebinarDirectory {
             // Migrate existing likes from localStorage to webinar data
             this.migrateLikesFromLocalStorage();
             
+            // Load global likes from localStorage
+            this.loadGlobalLikes();
+            
             this.filteredWebinars = [...this.webinars];
             
             // Update footer info with current data
@@ -938,6 +941,65 @@ class WebinarDirectory {
         this.showToast('Updated data exported! Replace webinars.json with this file. Likes will be preserved.', 'success');
     }
 
+    exportLikes() {
+        const globalLikes = JSON.parse(localStorage.getItem('global_webinar_likes') || '{}');
+        const userLikes = JSON.parse(localStorage.getItem('user_webinar_likes') || '{}');
+        
+        const likesData = {
+            global_likes: globalLikes,
+            user_likes: userLikes,
+            export_date: new Date().toISOString(),
+            total_webinars: this.webinars.length
+        };
+
+        const dataStr = JSON.stringify(likesData, null, 2);
+        const dataBlob = new Blob([dataStr], { type: 'application/json' });
+        
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(dataBlob);
+        link.download = 'webinar_likes_export.json';
+        link.click();
+        
+        this.showToast('Likes exported successfully!', 'success');
+    }
+
+    importLikes() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.json';
+        
+        input.onchange = (event) => {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const likesData = JSON.parse(e.target.result);
+                    
+                    if (likesData.global_likes) {
+                        localStorage.setItem('global_webinar_likes', JSON.stringify(likesData.global_likes));
+                    }
+                    
+                    if (likesData.user_likes) {
+                        localStorage.setItem('user_webinar_likes', JSON.stringify(likesData.user_likes));
+                    }
+                    
+                    // Reload data to apply imported likes
+                    this.loadGlobalLikes();
+                    this.renderTable();
+                    
+                    this.showToast('Likes imported successfully!', 'success');
+                } catch (error) {
+                    this.showToast('Error importing likes: Invalid file format', 'error');
+                }
+            };
+            reader.readAsText(file);
+        };
+        
+        input.click();
+    }
+
     updateFooterInfo() {
         // Find the latest date_added from all webinars
         const latestDate = this.webinars.reduce((latest, webinar) => {
@@ -1000,40 +1062,47 @@ class WebinarDirectory {
         // Save user likes to localStorage
         localStorage.setItem('user_webinar_likes', JSON.stringify(userLikes));
         
+        // Save global likes to localStorage for persistence across sessions
+        this.saveGlobalLikes();
+        
         // Mark data as modified so it can be exported
         this.dataModified = true;
-        
-        // Save likes to the server (webinars.json)
-        this.saveLikesToServer();
         
         // Re-render the table to update like counts
         this.renderTable();
     }
 
-    async saveLikesToServer() {
+    saveGlobalLikes() {
         try {
-            // Create a backup of current data
-            const backupData = {
-                webinars: this.webinars,
-                last_updated: new Date().toISOString(),
-                total_count: this.webinars.length
-            };
-            
-            // Save to webinars.json
-            const response = await fetch('save_likes.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(backupData)
+            // Save global like counts to localStorage for persistence
+            const globalLikes = {};
+            this.webinars.forEach(webinar => {
+                if (webinar.likes && webinar.likes > 0) {
+                    globalLikes[webinar.id] = webinar.likes;
+                }
             });
             
-            if (!response.ok) {
-                console.warn('Failed to save likes to server, but continuing with local changes');
-            }
+            localStorage.setItem('global_webinar_likes', JSON.stringify(globalLikes));
+            console.log('Global likes saved to localStorage');
         } catch (error) {
-            console.warn('Error saving likes to server:', error);
-            // Don't show error to user as this is a background operation
+            console.warn('Error saving global likes:', error);
+        }
+    }
+
+    loadGlobalLikes() {
+        try {
+            const globalLikes = JSON.parse(localStorage.getItem('global_webinar_likes') || '{}');
+            
+            // Apply global likes to webinars
+            this.webinars.forEach(webinar => {
+                if (globalLikes[webinar.id]) {
+                    webinar.likes = globalLikes[webinar.id];
+                }
+            });
+            
+            console.log('Global likes loaded from localStorage');
+        } catch (error) {
+            console.warn('Error loading global likes:', error);
         }
     }
 

@@ -33,6 +33,11 @@ jobs:
         cd scrapers
         python run_all_scrapers.py
         
+    - name: Cleanup broken links
+      run: |
+        python cleanup_broken_links.py --backup --timeout 10
+        echo "Broken link cleanup completed"
+        
     - name: Verify data file exists
       run: |
         if [ ! -f webinars.json ]; then

@@ -69,31 +69,52 @@ def test_url_validation():
     
     return True
 
-def test_php_scripts():
-    """Test that PHP scripts exist and are properly formatted"""
-    print("\nTesting PHP scripts...")
+def test_github_pages_compatibility():
+    """Test that the system is compatible with GitHub Pages"""
+    print("\nTesting GitHub Pages compatibility...")
     
-    scripts = ['save_likes.php', 'run_cleanup_broken_links.php']
+    # Check that PHP files are removed (they don't work on GitHub Pages)
+    php_files = ['save_likes.php', 'run_cleanup_broken_links.php']
+    php_found = False
     
-    for script in scripts:
-        if os.path.exists(script):
-            print(f"✅ {script} exists")
-            
-            # Check if it's valid PHP
-            try:
-                with open(script, 'r') as f:
-                    content = f.read()
-                    if '<?php' in content and 'json_encode' in content:
-                        print(f"   ✅ {script} appears to be valid PHP")
-                    else:
-                        print(f"   ⚠️  {script} may not be properly formatted")
-            except Exception as e:
-                print(f"   ❌ Error reading {script}: {e}")
+    for php_file in php_files:
+        if os.path.exists(php_file):
+            print(f"❌ {php_file} found - should be removed for GitHub Pages")
+            php_found = True
+    
+    if not php_found:
+        print("✅ PHP files removed (GitHub Pages compatible)")
+    
+    # Check that essential files exist
+    essential_files = ['script.js', 'index.html', 'admin-panel.html', 'webinars.json']
+    
+    for file in essential_files:
+        if os.path.exists(file):
+            print(f"✅ {file} exists")
         else:
-            print(f"❌ {script} not found")
+            print(f"❌ {file} not found")
             return False
     
-    return True
+    # Check GitHub Actions workflow
+    workflow_file = '.github/workflows/update-webinars.yml'
+    if os.path.exists(workflow_file):
+        print(f"✅ GitHub Actions workflow exists")
+        
+        # Check if cleanup is included
+        try:
+            with open(workflow_file, 'r') as f:
+                content = f.read()
+                if 'cleanup_broken_links.py' in content:
+                    print(f"   ✅ Cleanup script included in workflow")
+                else:
+                    print(f"   ⚠️  Cleanup script not found in workflow")
+        except Exception as e:
+            print(f"   ❌ Error reading workflow: {e}")
+    else:
+        print(f"❌ GitHub Actions workflow not found")
+        return False
+    
+    return not php_found
 
 def test_webinar_data_integrity():
     """Test that webinar data is properly structured"""
@@ -139,7 +160,7 @@ def main():
         test_webinar_data_integrity,
         test_like_persistence,
         test_url_validation,
-        test_php_scripts
+        test_github_pages_compatibility
     ]
     
     passed = 0

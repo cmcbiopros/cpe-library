@@ -181,8 +181,11 @@
             <button id="refreshData" class="btn btn-secondary">
                 <i class="fas fa-sync"></i> Refresh Data
             </button>
-            <button id="cleanupBrokenLinks" class="btn btn-warning">
-                <i class="fas fa-broom"></i> Cleanup Broken Links
+            <button id="exportLikes" class="btn btn-info">
+                <i class="fas fa-heart"></i> Export Likes
+            </button>
+            <button id="importLikes" class="btn btn-info">
+                <i class="fas fa-upload"></i> Import Likes
             </button>
             <button id="clearChanges" class="btn btn-warning">
                 <i class="fas fa-undo"></i> Clear Changes
@@ -458,8 +461,12 @@
                     this.clearChanges();
                 });
 
-                document.getElementById('cleanupBrokenLinks').addEventListener('click', () => {
-                    this.cleanupBrokenLinks();
+                document.getElementById('exportLikes').addEventListener('click', () => {
+                    this.exportLikes();
+                });
+
+                document.getElementById('importLikes').addEventListener('click', () => {
+                    this.importLikes();
                 });
 
                 // Provider dropdown functionality
@@ -703,45 +710,21 @@ Live Date: ${webinar.live_date || 'N/A'}
                 }
             }
 
-            async cleanupBrokenLinks() {
-                if (!confirm('This will check all webinar URLs and remove any that return 404 errors. This may take several minutes. Continue?')) {
-                    return;
+            exportLikes() {
+                // Call the exportLikes method from the main script
+                if (window.webinarDirectory) {
+                    window.webinarDirectory.exportLikes();
+                } else {
+                    alert('Webinar directory not loaded. Please refresh the page.');
                 }
+            }
 
-                // Show loading state
-                const button = document.getElementById('cleanupBrokenLinks');
-                const originalText = button.innerHTML;
-                button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Checking URLs...';
-                button.disabled = true;
-
-                try {
-                    // Call the cleanup script
-                    const response = await fetch('run_cleanup_broken_links.php', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({ action: 'cleanup' })
-                    });
-
-                    const result = await response.json();
-
-                    if (result.success) {
-                        alert(`Cleanup completed! Removed ${result.removed_count} broken webinars.`);
-                        // Reload data to reflect changes
-                        this.loadData().then(() => {
-                            this.updateStats();
-                            this.renderTable();
-                        });
-                    } else {
-                        alert(`Cleanup failed: ${result.error}`);
-                    }
-                } catch (error) {
-                    alert(`Error running cleanup: ${error.message}`);
-                } finally {
-                    // Restore button state
-                    button.innerHTML = originalText;
-                    button.disabled = false;
+            importLikes() {
+                // Call the importLikes method from the main script
+                if (window.webinarDirectory) {
+                    window.webinarDirectory.importLikes();
+                } else {
+                    alert('Webinar directory not loaded. Please refresh the page.');
                 }
             }
 
