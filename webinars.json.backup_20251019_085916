@@ -1774,6 +1774,25 @@
       "source": "scraped"
     },
     {
+      "id": "ispe-case-study-pharma-4-0-transformation-office",
+      "title": "Case Study: Pharma 4.0 Transformation Office",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-07-17",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/case-study-pharma-40-transformation-office",
+      "description": "ISPE upcoming webinar: Case Study: Pharma 4.0 Transformation Office",
+      "source": "scraped"
+    },
+    {
       "id": "ispe-transforming-pharmaceutical-supply-planning-a-real-world-implementation-of-mathematical-optimization",
       "title": "Transforming Pharmaceutical Supply Planning: A Real-World Implementation of Mathematical Optimization",
       "provider": "ISPE",
@@ -2819,6 +2838,6 @@
       "source": "scraped"
     }
   ],
-  "last_updated": "2025-10-19T08:59:16.792400",
-  "total_count": 150
+  "last_updated": "2025-10-17T15:54:53.103107",
+  "total_count": 151
 }

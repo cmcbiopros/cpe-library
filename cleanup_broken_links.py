@@ -56,7 +56,7 @@ def save_webinars(webinars, file_path, backup=True):
         return False
 
 
-def check_url(url, timeout=10):
+def check_url(url, timeout=10, remove_403=False):
     """Check if a URL is accessible"""
     if not url:
         return False, "No URL provided"
@@ -80,7 +80,11 @@ def check_url(url, timeout=10):
         elif response.status_code == 404:
             return False, f"404 Not Found"
         elif response.status_code in [403, 401]:
-            return False, f"Access denied ({response.status_code})"
+            # Treat access denied as potentially temporary unless explicitly requested to remove
+            if remove_403:
+                return False, f"Access denied ({response.status_code})"
+            else:
+                return True, f"Access restricted ({response.status_code}) - keeping for now"
         else:
             return False, f"HTTP {response.status_code}"
             
@@ -100,6 +104,7 @@ def main():
     parser.add_argument('--dry-run', action='store_true', help='Show what would be removed without making changes')
     parser.add_argument('--backup', action='store_true', help='Create backup before making changes')
     parser.add_argument('--timeout', type=int, default=10, help='Request timeout in seconds')
+    parser.add_argument('--remove-403', action='store_true', help='Also remove URLs that return 403/401 errors (use with caution)')
     
     args = parser.parse_args()
     
@@ -124,7 +129,7 @@ def main():
         
         print(f"[{i}/{len(webinars)}] Checking: {title}...")
         
-        is_valid, reason = check_url(url, args.timeout)
+        is_valid, reason = check_url(url, args.timeout, args.remove_403)
         
         if is_valid:
             valid_webinars.append(webinar)
@@ -164,10 +169,18 @@ def main():
     
     # Confirm before proceeding
     if broken_webinars:
-        response = input(f"\nRemove {len(broken_webinars)} broken webinars? (y/N): ")
-        if response.lower() != 'y':
-            print("Operation cancelled")
-            return
+        try:
+            response = input(f"\nRemove {len(broken_webinars)} broken webinars? (y/N): ")
+            if response.lower() != 'y':
+                print("Operation cancelled")
+                return
+        except EOFError:
+            # Non-interactive environment - auto-proceed for small numbers
+            if len(broken_webinars) <= 5:
+                print(f"\nAuto-proceeding to remove {len(broken_webinars)} broken webinars (non-interactive mode)")
+            else:
+                print(f"\nToo many broken webinars ({len(broken_webinars)}) for auto-removal. Please run interactively.")
+                return
     
     # Save updated data
     if save_webinars(valid_webinars, args.file, backup=args.backup):
