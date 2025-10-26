@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-10-15",
+      "webinar_date": "2025-10-29",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -436,13 +436,13 @@
       "topics": [
         "gene-therapy"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
       "webinar_date": "2025-10-15",
-      "live_date": "2025-10-15",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-2025",
       "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2025",
       "source": "scraped"
@@ -1862,7 +1862,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-10-08",
+      "webinar_date": "2025-10-27",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -2635,25 +2635,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-integrating-microsofts-genai-tool-for-office-365-co-pilot-in-the-deviation-management-process",
-      "title": "Integrating Microsoft’s GenAI tool for Office 365 (Co-Pilot) in the Deviation Management Process",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-10-05",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/integrating-microsofts-genai-tool-office-365-co-pilot-deviation-management-process",
-      "description": "ISPE upcoming webinar: Integrating Microsoft’s GenAI tool for Office 365 (Co-Pilot) in the Deviation Management Process",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-ai-powered-process-digital-twins",
       "title": "AI-Powered Process Digital Twins",
       "provider": "ISPE",
@@ -2817,8 +2798,133 @@
       "url": "https://xtalks.com/webinars/neuropsychiatry-clinical-trials-evolving-with-portable-eeg-and-digital-endpoints/",
       "description": "Xtalks webinar: Neuropsychiatry Clinical Trials: Evolving with Portable EEG and Digital Endpoints",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-the-simple-way-to-protein-research",
+      "title": "The Simple Way to Protein Research",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-26",
+      "webinar_date": "2025-10-27",
+      "live_date": "2025-10-27",
+      "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
+      "description": "Labroots event: The Simple Way to Protein Research",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-ich-gcp-e6-r3-navigating-the-new-era-of-good-clinical-practice",
+      "title": "ICH GCP E6(R3): Navigating the New Era of Good Clinical Practice",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/ich-gcp-e6r3-navigating-the-new-era-of-good-clinical-practice/",
+      "description": "Xtalks webinar: ICH GCP E6(R3): Navigating the New Era of Good Clinical Practice",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-overcoming-regulatory-hurdles-in-aav-production",
+      "title": "Overcoming Regulatory Hurdles in AAV Production",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/overcoming-regulatory-hurdles-in-aav-production/",
+      "description": "Xtalks webinar: Overcoming Regulatory Hurdles in AAV Production",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-boosting-clinical-trial-success-in-alzheimers-parkinsons-and-other-neurodegenerative-diseases",
+      "title": "Boosting clinical trial success in Alzheimer’s, Parkinson’s and other neurodegenerative diseases",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/boosting-clinical-trial-success-in-alzheimers-parkinsons-and-other-neurodegenerative-diseases/",
+      "description": "Xtalks webinar: Boosting clinical trial success in Alzheimer’s, Parkinson’s and other neurodegenerative diseases",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-simplifying-crispr-therapeutic-manufacturing-practical-solutions-to-accelerate-and-simplify-manufacturing",
+      "title": "Simplifying CRISPR Therapeutic Manufacturing: Practical Solutions to Accelerate and Simplify Manufacturing",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/simplifying-crispr-therapeutic-manufacturing-practical-solutions-to-accelerate-and-simplify-manufacturing/",
+      "description": "Xtalks webinar: Simplifying CRISPR Therapeutic Manufacturing: Practical Solutions to Accelerate and Simplify Manufacturing",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-how-to-measure-patient-experience-in-clinical-studies-driving-retention-timelines-and-roi",
+      "title": "How to Measure Patient Experience in Clinical Studies: Driving Retention, Timelines and ROI",
+      "provider": "Xtalks",
+      "topics": [
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/how-to-measure-patient-experience-in-clinical-studies-driving-retention-timelines-and-roi/",
+      "description": "Xtalks webinar: How to Measure Patient Experience in Clinical Studies: Driving Retention, Timelines and ROI",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-regulatory-writing-with-closed-loop-gen-ai-that-protects-ip-and-saves-time",
+      "title": "Regulatory Writing with Closed-Loop Gen-AI that Protects IP and Saves Time",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-10-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/regulatory-writing-with-closed-loop-gen-ai-that-protects-ip-and-saves-time/",
+      "description": "Xtalks webinar: Regulatory Writing with Closed-Loop Gen-AI that Protects IP and Saves Time",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-10-19T08:59:16.792400",
-  "total_count": 150
+  "last_updated": "2025-10-26T03:10:03.182201",
+  "total_count": 156
 }
