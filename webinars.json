@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-10-29",
+      "webinar_date": "2025-11-04",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -2800,24 +2800,6 @@
       "source": "scraped"
     },
     {
-      "id": "labroots-the-simple-way-to-protein-research",
-      "title": "The Simple Way to Protein Research",
-      "provider": "Labroots",
-      "topics": [
-        "research"
-      ],
-      "format": "live",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-10-26",
-      "webinar_date": "2025-10-27",
-      "live_date": "2025-10-27",
-      "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
-      "description": "Labroots event: The Simple Way to Protein Research",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-ich-gcp-e6-r3-navigating-the-new-era-of-good-clinical-practice",
       "title": "ICH GCP E6(R3): Navigating the New Era of Good Clinical Practice",
       "provider": "Xtalks",
@@ -2923,8 +2905,120 @@
       "url": "https://xtalks.com/webinars/regulatory-writing-with-closed-loop-gen-ai-that-protects-ip-and-saves-time/",
       "description": "Xtalks webinar: Regulatory Writing with Closed-Loop Gen-AI that Protects IP and Saves Time",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-improving-translational-research-and-clinical-trials-with-digital-pathology",
+      "title": "Improving Translational Research and Clinical Trials with Digital Pathology",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improving-translational-research-and-clinical-trials-with-digital-pathology/",
+      "description": "Xtalks webinar: Improving Translational Research and Clinical Trials with Digital Pathology",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-beyond-the-bench-the-advantages-of-gmp-over-usp-compounding-in-early-phase-development",
+      "title": "Beyond the bench: The advantages of GMP over USP compounding in early phase development",
+      "provider": "Xtalks",
+      "topics": [
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/beyond-the-bench-the-advantages-of-gmp-over-usp-compounding-in-early-phase-development/",
+      "description": "Xtalks webinar: Beyond the bench: The advantages of GMP over USP compounding in early phase development",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-overcoming-late-stage-formulations-manufacturing-challenges-with-kinetisol-technology",
+      "title": "Overcoming Late-Stage Formulations & Manufacturing Challenges with KinetiSol Technology",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/overcoming-late-stage-formulations-manufacturing-challenges-with-kinetisol-technology/",
+      "description": "Xtalks webinar: Overcoming Late-Stage Formulations & Manufacturing Challenges with KinetiSol Technology",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improve-clinical-trial-delivery-by-leveraging-ai-forecasting-tools-broadcast-1",
+      "title": "Improve Clinical Trial Delivery by Leveraging AI Forecasting Tools (Broadcast 1)",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improve-clinical-trial-delivery-by-leveraging-ai-forecasting-tools-b1/",
+      "description": "Xtalks webinar: Improve Clinical Trial Delivery by Leveraging AI Forecasting Tools (Broadcast 1)",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improve-clinical-trial-delivery-by-leveraging-ai-forecasting-tools-broadcast-2",
+      "title": "Improve Clinical Trial Delivery by Leveraging AI Forecasting Tools (Broadcast 2)",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improve-clinical-trial-delivery-by-leveraging-ai-forecasting-tools-b2/",
+      "description": "Xtalks webinar: Improve Clinical Trial Delivery by Leveraging AI Forecasting Tools (Broadcast 2)",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-safety-regulatory-compliance-predictions-for-2026-unlock-safety-regulatory-trends-with-iqvia",
+      "title": "Safety & Regulatory Compliance Predictions For 2026: Unlock Safety & Regulatory Trends With IQVIA",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "compliance"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/safety-regulatory-compliance-predictions-for-2026-unlock-safety-regulatory-trends-with-iqvia/",
+      "description": "Xtalks webinar: Safety & Regulatory Compliance Predictions For 2026: Unlock Safety & Regulatory Trends With IQVIA",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-10-26T03:10:03.182201",
-  "total_count": 156
+  "last_updated": "2025-11-02T03:15:03.848798",
+  "total_count": 161
 }
