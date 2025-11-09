@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-11-04",
+      "webinar_date": "2025-11-12",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -1862,7 +1862,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-10-27",
+      "webinar_date": "2025-11-04",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -3017,8 +3017,100 @@
       "url": "https://xtalks.com/webinars/safety-regulatory-compliance-predictions-for-2026-unlock-safety-regulatory-trends-with-iqvia/",
       "description": "Xtalks webinar: Safety & Regulatory Compliance Predictions For 2026: Unlock Safety & Regulatory Trends With IQVIA",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-the-simple-way-to-protein-research",
+      "title": "The Simple Way to Protein Research",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-09",
+      "webinar_date": "2025-11-04",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
+      "description": "Labroots event: The Simple Way to Protein Research",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improve-clinical-trial-delivery-by-leveraging-ai-forecasting-tools",
+      "title": "Improve Clinical Trial Delivery by Leveraging AI Forecasting Tools",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-09",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improve-clinical-trial-delivery-by-leveraging-ai-forecasting-tools-b1/",
+      "description": "Xtalks webinar: Improve Clinical Trial Delivery by Leveraging AI Forecasting Tools",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-advancing-cell-therapy-development-with-integrated-analytical-and-process-strategies",
+      "title": "Advancing Cell Therapy Development with Integrated Analytical and Process Strategies",
+      "provider": "Xtalks",
+      "topics": [
+        "cell-therapy",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-09",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/advancing-cell-therapy-development-with-integrated-analytical-and-process-strategies/",
+      "description": "Xtalks webinar: Advancing Cell Therapy Development with Integrated Analytical and Process Strategies",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-ivd-study-steps-for-success-safety-and-quality-of-global-ivd-clinical-performance-studies",
+      "title": "IVD Study Steps for Success: Safety and Quality of Global IVD Clinical Performance Studies",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-09",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/ivd-study-steps-for-success-safety-and-quality-of-global-ivd-clinical-performance-studies/",
+      "description": "Xtalks webinar: IVD Study Steps for Success: Safety and Quality of Global IVD Clinical Performance Studies",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-accelerating-radiopharmaceutical-therapy-with-translational-tools",
+      "title": "Accelerating Radiopharmaceutical Therapy with Translational Tools",
+      "provider": "Xtalks",
+      "topics": [
+        "pharmaceutical"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-09",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/accelerating-radiopharmaceutical-therapy-with-translational-tools/",
+      "description": "Xtalks webinar: Accelerating Radiopharmaceutical Therapy with Translational Tools",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-11-02T03:15:03.848798",
-  "total_count": 161
+  "last_updated": "2025-11-09T03:13:39.062119",
+  "total_count": 166
 }
