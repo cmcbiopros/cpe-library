@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-11-12",
+      "webinar_date": "2025-11-19",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -454,13 +454,13 @@
       "topics": [
         "research"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
       "webinar_date": "2025-11-12",
-      "live_date": "2025-11-12",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-2025",
       "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2025",
       "source": "scraped"
@@ -3109,8 +3109,120 @@
       "url": "https://xtalks.com/webinars/accelerating-radiopharmaceutical-therapy-with-translational-tools/",
       "description": "Xtalks webinar: Accelerating Radiopharmaceutical Therapy with Translational Tools",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-real-world-clinical-data-and-cohort-design",
+      "title": "Real-World Clinical Data and Cohort Design",
+      "provider": "Xtalks",
+      "topics": [
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-16",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/real-world-clinical-data-and-cohort-design/",
+      "description": "Xtalks webinar: Real-World Clinical Data and Cohort Design",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-using-imaging-in-clinical-trials-to-improve-data-and-decisions",
+      "title": "Using Imaging in Clinical Trials to Improve Data and Decisions",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-16",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/using-imaging-in-clinical-trials-to-improve-data-and-decisions/",
+      "description": "Xtalks webinar: Using Imaging in Clinical Trials to Improve Data and Decisions",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-clinical-signals-and-strategic-shifts-insights-that-shape-oncology-drug-development",
+      "title": "Clinical Signals and Strategic Shifts: Insights That Shape Oncology Drug Development",
+      "provider": "Xtalks",
+      "topics": [
+        "drug-development",
+        "development",
+        "oncology"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-16",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/clinical-signals-and-strategic-shifts-insights-that-shape-oncology-drug-development/",
+      "description": "Xtalks webinar: Clinical Signals and Strategic Shifts: Insights That Shape Oncology Drug Development",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-enhance-peptide-manufacturing-using-backbone-n-protecting-groups",
+      "title": "Enhance Peptide Manufacturing Using Backbone N-Protecting Groups",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-16",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/enhance-peptide-manufacturing-using-backbone-n-protecting-groups/",
+      "description": "Xtalks webinar: Enhance Peptide Manufacturing Using Backbone N-Protecting Groups",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-exploring-polycystic-kidney-disease-clinical-trials-and-new-treatments",
+      "title": "Exploring Polycystic Kidney Disease Clinical Trials and New Treatments",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-16",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/exploring-polycystic-kidney-disease-clinical-trials-and-new-treatments/",
+      "description": "Xtalks webinar: Exploring Polycystic Kidney Disease Clinical Trials and New Treatments",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-panel-discussion-women-leading-the-future-transforming-organizations-across-asia",
+      "title": "Panel Discussion - Women Leading the Future: Transforming Organizations Across Asia",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-16",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/panel-discussion-women-leading-future-transforming-organizations-across-asia",
+      "description": "ISPE upcoming webinar: Panel Discussion - Women Leading the Future: Transforming Organizations Across Asia",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-11-09T03:13:39.062119",
-  "total_count": 166
+  "last_updated": "2025-11-16T03:17:57.741034",
+  "total_count": 172
 }
