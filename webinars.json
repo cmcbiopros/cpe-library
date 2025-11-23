@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2025-11-19",
+      "webinar_date": "2026-02-18",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -3221,8 +3221,28 @@
       "url": "https://ispe.org/webinars/panel-discussion-women-leading-future-transforming-organizations-across-asia",
       "description": "ISPE upcoming webinar: Panel Discussion - Women Leading the Future: Transforming Organizations Across Asia",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-fih-clinical-trial-planning-for-radiopharmaceuticals-from-ind-to-patient-dosing",
+      "title": "FIH Clinical Trial Planning for Radiopharmaceuticals: From IND to Patient Dosing",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "pharmaceutical",
+        "patient-care"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-23",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/fih-clinical-trial-planning-for-radiopharmaceuticals-from-ind-to-patient-dosing/",
+      "description": "Xtalks webinar: FIH Clinical Trial Planning for Radiopharmaceuticals: From IND to Patient Dosing",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-11-16T03:17:57.741034",
-  "total_count": 172
+  "last_updated": "2025-11-23T03:28:00.533129",
+  "total_count": 173
 }
