@@ -1862,7 +1862,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-11-04",
+      "webinar_date": "2025-12-05",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -3030,7 +3030,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-09",
-      "webinar_date": "2025-11-04",
+      "webinar_date": "2025-12-05",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -3241,8 +3241,102 @@
       "url": "https://xtalks.com/webinars/fih-clinical-trial-planning-for-radiopharmaceuticals-from-ind-to-patient-dosing/",
       "description": "Xtalks webinar: FIH Clinical Trial Planning for Radiopharmaceuticals: From IND to Patient Dosing",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-mastering-inspection-readiness-for-fdas-ai-tool-elsa",
+      "title": "Mastering Inspection Readiness for FDA’s AI Tool Elsa",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-30",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/mastering-inspection-readiness-for-fdas-ai-tool-elsa/",
+      "description": "Xtalks webinar: Mastering Inspection Readiness for FDA’s AI Tool Elsa",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-standardize-globally-adapt-locally-best-practices-in-digital-validation",
+      "title": "Standardize Globally, Adapt Locally - Best Practices in Digital Validation",
+      "provider": "ISPE",
+      "topics": [
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-30",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/standardize-globally-adapt-locally-best-practices-digital-validation",
+      "description": "ISPE upcoming webinar: Standardize Globally, Adapt Locally - Best Practices in Digital Validation",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-panel-discussion-on-recent-ispe-article-on-visual-inspection-for-503b-s",
+      "title": "Panel Discussion on Recent ISPE Article on Visual Inspection for 503B's",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-30",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/panel-discussion-recent-ispe-article-visual-inspection-503bs",
+      "description": "ISPE upcoming webinar: Panel Discussion on Recent ISPE Article on Visual Inspection for 503B's",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-ai-ml-in-regulated-gxp-life-sciences-sectors-supporting-processes",
+      "title": "AI/ML in Regulated (GxP) Life Sciences Sectors - Supporting Processes",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-30",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/aiml-regulated-gxp-life-sciences-sectors-supporting-processes",
+      "description": "ISPE upcoming webinar: AI/ML in Regulated (GxP) Life Sciences Sectors - Supporting Processes",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-cleaning-considerations-for-antibody-drug-conjugate-adc-products",
+      "title": "Cleaning Considerations for Antibody Drug Conjugate (ADC) Products",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-11-30",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/cleaning-considerations-antibody-drug-conjugate-adc-products",
+      "description": "ISPE upcoming webinar: Cleaning Considerations for Antibody Drug Conjugate (ADC) Products",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-11-23T03:28:00.533129",
-  "total_count": 173
+  "last_updated": "2025-11-30T03:26:18.027602",
+  "total_count": 178
 }
