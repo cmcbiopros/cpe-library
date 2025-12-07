@@ -3335,8 +3335,75 @@
       "url": "https://ispe.org/webinars/cleaning-considerations-antibody-drug-conjugate-adc-products",
       "description": "ISPE upcoming webinar: Cleaning Considerations for Antibody Drug Conjugate (ADC) Products",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-ich-gcp-e6-r3-preparing-for-global-implementation-assessing-the-impact-risk-and-requirements-of-the-change",
+      "title": "ICH GCP E6(R3): Preparing for global implementation, assessing the impact, risk and requirements of the change",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-07",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/ich-gcp-e6r3-preparing-for-global-implementation-assessing-the-impact-risk-and-requirements-of-the-change/",
+      "description": "Xtalks webinar: ICH GCP E6(R3): Preparing for global implementation, assessing the impact, risk and requirements of the change",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-unlocking-mrna-performance-how-sequence-engineering-and-gmp-integration-accelerate-therapeutic-success",
+      "title": "Unlocking mRNA Performance: How Sequence Engineering and GMP Integration Accelerate Therapeutic Success",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-07",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/unlocking-mrna-performance-how-sequence-engineering-and-gmp-integration-accelerate-therapeutic-success/",
+      "description": "Xtalks webinar: Unlocking mRNA Performance: How Sequence Engineering and GMP Integration Accelerate Therapeutic Success",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-overcoming-pharmaceutical-supply-chain-risks-with-ai-tools",
+      "title": "Overcoming Pharmaceutical Supply Chain Risks with AI Tools",
+      "provider": "Xtalks",
+      "topics": [
+        "pharmaceutical",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-07",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/overcoming-pharmaceutical-supply-chain-risks-with-ai-tools/",
+      "description": "Xtalks webinar: Overcoming Pharmaceutical Supply Chain Risks with AI Tools",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-the-future-of-advanced-receptor-mediated-therapies-translating-mechanism-to-clinical-impact",
+      "title": "The Future of Advanced Receptor-Mediated Therapies: Translating Mechanism to Clinical Impact",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-07",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/the-future-of-advanced-receptor-mediated-therapies-translating-mechanism-to-clinical-impact/",
+      "description": "Xtalks webinar: The Future of Advanced Receptor-Mediated Therapies: Translating Mechanism to Clinical Impact",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-11-30T03:26:18.027602",
-  "total_count": 178
+  "last_updated": "2025-12-07T03:24:17.456688",
+  "total_count": 182
 }
