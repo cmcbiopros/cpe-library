@@ -1862,7 +1862,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-12-05",
+      "webinar_date": "2025-12-17",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -3030,7 +3030,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-09",
-      "webinar_date": "2025-12-05",
+      "webinar_date": "2025-12-17",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -3402,8 +3402,114 @@
       "url": "https://xtalks.com/webinars/the-future-of-advanced-receptor-mediated-therapies-translating-mechanism-to-clinical-impact/",
       "description": "Xtalks webinar: The Future of Advanced Receptor-Mediated Therapies: Translating Mechanism to Clinical Impact",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-improve-effectiveness-of-cardiac-assessments-in-early-phase-trials-with-early-precision-qt-and-ai-powered-data-quality-checks",
+      "title": "Improve Effectiveness of Cardiac Assessments in Early Phase Trials with Early Precision QT and AI-powered Data Quality Checks",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "data-management",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improve-effectiveness-of-cardiac-assessments-in-early-phase-trials-with-early-precision-qt-and-ai-powered-data-quality-checks/",
+      "description": "Xtalks webinar: Improve Effectiveness of Cardiac Assessments in Early Phase Trials with Early Precision QT and AI-powered Data Quality Checks",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-enhancing-clinical-efficiency-through-master-protocol-trial-design",
+      "title": "Enhancing Clinical Efficiency Through Master Protocol Trial Design",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/enhancing-clinical-efficiency-through-master-protocol-trial-design/",
+      "description": "Xtalks webinar: Enhancing Clinical Efficiency Through Master Protocol Trial Design",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-enhancing-signal-detection-and-mitigating-placebo-response-in-major-depressive-disorder-clinical-trials",
+      "title": "Enhancing Signal Detection and Mitigating Placebo Response in Major Depressive Disorder Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/enhancing-signal-detection-and-mitigating-placebo-response-in-major-depressive-disorder-clinical-trials/",
+      "description": "Xtalks webinar: Enhancing Signal Detection and Mitigating Placebo Response in Major Depressive Disorder Clinical Trials",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-medical-device-validation-solutions-for-evolving-industry-needs",
+      "title": "Medical Device Validation Solutions for Evolving Industry Needs",
+      "provider": "Xtalks",
+      "topics": [
+        "medical-device"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/medical-device-validation-solutions-for-evolving-industry-needs/",
+      "description": "Xtalks webinar: Medical Device Validation Solutions for Evolving Industry Needs",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-clinical-trial-success-through-novel-clinical-in-use-strategies",
+      "title": "Clinical Trial Success through Novel Clinical In-Use Strategies",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/clinical-trials-success-through-novel-clinical-in-use-strategies/",
+      "description": "Xtalks webinar: Clinical Trial Success through Novel Clinical In-Use Strategies",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-centralize-to-modernize-a-stepwise-path-to-agile-clinical-operations",
+      "title": "Centralize to Modernize: A Stepwise Path to Agile Clinical Operations",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/centralize-to-modernize-a-stepwise-path-to-agile-clinical-operations/",
+      "description": "Xtalks webinar: Centralize to Modernize: A Stepwise Path to Agile Clinical Operations",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-12-07T03:24:17.456688",
-  "total_count": 182
+  "last_updated": "2025-12-14T03:26:05.485763",
+  "total_count": 188
 }
