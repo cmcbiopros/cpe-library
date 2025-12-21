@@ -1862,7 +1862,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2025-12-17",
+      "webinar_date": "2026-02-18",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -3030,7 +3030,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-09",
-      "webinar_date": "2025-12-17",
+      "webinar_date": "2026-02-18",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -3508,8 +3508,97 @@
       "url": "https://xtalks.com/webinars/centralize-to-modernize-a-stepwise-path-to-agile-clinical-operations/",
       "description": "Xtalks webinar: Centralize to Modernize: A Stepwise Path to Agile Clinical Operations",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-high-throughput-clone-screening-under-manufacturing-relevant-conditions-with-the-cydem-vt-system",
+      "title": "High-Throughput Clone Screening Under Manufacturing-Relevant Conditions with the Cydem VT System",
+      "provider": "Labroots",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-21",
+      "webinar_date": "2026-01-22",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/high-throughput-clone-screening-manufacturing-relevant-conditions-cydem-vt-system",
+      "description": "Labroots event: High-Throughput Clone Screening Under Manufacturing-Relevant Conditions with the Cydem VT System",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-bridging-bench-to-bedside-de-risking-biotherapeutic-administration-via-cdmo-led-clinical-mimic-and-in-use-testing-strategies",
+      "title": "Bridging Bench to Bedside: De-Risking Biotherapeutic Administration via CDMO-Led Clinical-Mimic and In-Use Testing Strategies",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/bridging-bench-to-bedside-de-risking-biotherapeutic-administration-via-cdmo-led-clinical-mimic-and-in-use-testing-strategies/",
+      "description": "Xtalks webinar: Bridging Bench to Bedside: De-Risking Biotherapeutic Administration via CDMO-Led Clinical-Mimic and In-Use Testing Strategies",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-the-power-of-less-winning-with-asset-light-manufacturing",
+      "title": "The Power of Less: Winning with Asset-Light Manufacturing",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/the-power-of-less-winning-with-asset-light-manufacturing/",
+      "description": "Xtalks webinar: The Power of Less: Winning with Asset-Light Manufacturing",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-operationalizing-adc-clinical-trials-best-practices-for-success",
+      "title": "Operationalizing ADC Clinical Trials: Best Practices for Success",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/operationalizing-adc-clinical-trials-best-practices-for-success/",
+      "description": "Xtalks webinar: Operationalizing ADC Clinical Trials: Best Practices for Success",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-continuous-biologics-manufacturing-for-modular-and-sustainable-operations",
+      "title": "Continuous Biologics Manufacturing for Modular and Sustainable Operations",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2025-12-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/continuous-biologics-manufacturing-for-modular-and-sustainable-operations/",
+      "description": "Xtalks webinar: Continuous Biologics Manufacturing for Modular and Sustainable Operations",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-12-14T03:26:05.485763",
-  "total_count": 188
+  "last_updated": "2025-12-21T03:26:22.453458",
+  "total_count": 193
 }
