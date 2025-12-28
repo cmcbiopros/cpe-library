@@ -2137,15 +2137,15 @@
       "topics": [
         "validation"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-08-17",
       "webinar_date": "Unknown",
       "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/unlocking-innovation-embracing-validation-40-digital-pharma-future",
-      "description": "ISPE upcoming webinar: Unlocking Innovation: Embracing Validation 4.0 for a Digital Pharma Future",
+      "url": "https://ispe.org/webinars/videos/unlocking-innovation-embracing-validation-40-digital-pharma-future",
+      "description": "ISPE past webinar: Unlocking Innovation: Embracing Validation 4.0 for a Digital Pharma Future",
       "source": "scraped"
     },
     {
@@ -3268,15 +3268,15 @@
       "topics": [
         "validation"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-30",
       "webinar_date": "Unknown",
       "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/standardize-globally-adapt-locally-best-practices-digital-validation",
-      "description": "ISPE upcoming webinar: Standardize Globally, Adapt Locally - Best Practices in Digital Validation",
+      "url": "https://ispe.org/webinars/videos/standardize-globally-adapt-locally-best-practices-digital-validation",
+      "description": "ISPE past webinar: Standardize Globally, Adapt Locally - Best Practices in Digital Validation",
       "source": "scraped"
     },
     {
@@ -3599,6 +3599,6 @@
       "source": "scraped"
     }
   ],
-  "last_updated": "2025-12-21T03:26:22.453458",
+  "last_updated": "2025-12-28T03:44:35.916974",
   "total_count": 193
 }
