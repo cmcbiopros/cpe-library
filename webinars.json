@@ -3597,8 +3597,65 @@
       "url": "https://xtalks.com/webinars/continuous-biologics-manufacturing-for-modular-and-sustainable-operations/",
       "description": "Xtalks webinar: Continuous Biologics Manufacturing for Modular and Sustainable Operations",
       "source": "scraped"
+    },
+    {
+      "id": "ispe-leveraging-generative-ai-for-audit-and-regulatory-response-development",
+      "title": "Leveraging Generative AI for Audit and Regulatory Response Development",
+      "provider": "ISPE",
+      "topics": [
+        "regulatory",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-04",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/leveraging-generative-ai-audit-and-regulatory-response-development",
+      "description": "ISPE upcoming webinar: Leveraging Generative AI for Audit and Regulatory Response Development",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-ai-guided-process-analytical-technology-for-real-time-sterility-assurance",
+      "title": "AI-Guided Process Analytical Technology for Real-Time Sterility Assurance",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-04",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/ai-guided-process-analytical-technology-real-time-sterility-assurance",
+      "description": "ISPE upcoming webinar: AI-Guided Process Analytical Technology for Real-Time Sterility Assurance",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-strengthening-drug-shortage-frameworks-global-perspectives-and-regional-action",
+      "title": "Strengthening Drug Shortage Frameworks: Global Perspectives and Regional Action",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-04",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/strengthening-drug-shortage-frameworks-global-perspectives-and-regional-action",
+      "description": "ISPE upcoming webinar: Strengthening Drug Shortage Frameworks: Global Perspectives and Regional Action",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2025-12-28T03:44:35.916974",
-  "total_count": 193
+  "last_updated": "2026-01-04T03:47:28.709734",
+  "total_count": 196
 }
