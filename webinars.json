@@ -3654,8 +3654,62 @@
       "url": "https://ispe.org/webinars/strengthening-drug-shortage-frameworks-global-perspectives-and-regional-action",
       "description": "ISPE upcoming webinar: Strengthening Drug Shortage Frameworks: Global Perspectives and Regional Action",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-drug-discovery-development-virtual-event-series-2027",
+      "title": "Drug Discovery & Development Virtual Event Series 2027",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-11",
+      "webinar_date": "2027-02-17",
+      "live_date": "2027-02-17",
+      "url": "https://www.labroots.com/virtual-event/drug-discovery-development-2027",
+      "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2027",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-laboratory-automation-virtual-event-series-2027",
+      "title": "Laboratory Automation Virtual Event Series 2027",
+      "provider": "Labroots",
+      "topics": [
+        "laboratory"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-11",
+      "webinar_date": "2027-03-17",
+      "live_date": "2027-03-17",
+      "url": "https://www.labroots.com/virtual-event/laboratory-automation-2027",
+      "description": "Labroots event: Laboratory Automation Virtual Event Series 2027",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-bioprocessing-virtual-event-series-2027",
+      "title": "Bioprocessing Virtual Event Series 2027",
+      "provider": "Labroots",
+      "topics": [
+        "bioprocess"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-11",
+      "webinar_date": "2027-03-31",
+      "live_date": "2027-03-31",
+      "url": "https://www.labroots.com/virtual-event/bioprocessing-2027",
+      "description": "Labroots event: Bioprocessing Virtual Event Series 2027",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-01-04T03:47:28.709734",
-  "total_count": 196
+  "last_updated": "2026-01-11T03:47:10.505561",
+  "total_count": 199
 }
