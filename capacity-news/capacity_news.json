@@ -1,0 +1,2833 @@
+[
+  {
+    "id": "fierce-pharma-2026-01-16-after-abbvie-and-genmab-s-ph-3-survival-miss-for-epkinly-in-dlbcl-what-s-next",
+    "published_at": "2026-01-16",
+    "outlet": "Fierce Pharma",
+    "title": "After AbbVie and Genmab's ph. 3 survival miss for Epkinly in DLBCL, what's next?",
+    "url": "https://www.fiercepharma.com/pharma/after-abbvie-and-genmabs-ph-3-survival-miss-epkinly-dlbcl-whats-next",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-16-single-drug-exelixis-aims-to-be-top-5-solid-tumor-company-in-the-us-ceo",
+    "published_at": "2026-01-16",
+    "outlet": "Fierce Pharma",
+    "title": "Single-drug Exelixis aims to be top 5 solid tumor company in the US: CEO",
+    "url": "https://www.fiercepharma.com/pharma/single-product-exelixis-aims-be-top-5-solid-tumor-drugmaker-us",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-16-jpm26-fujifilm-ceo-touts-biologics-capacity-edge-amid-expansion-tear",
+    "published_at": "2026-01-16",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26: Fujifilm CEO touts biologics capacity edge amid expansion tear",
+    "url": "https://www.fiercepharma.com/pharma/jpm26-fujifilm-ceo-touts-biologics-capacity-edge-manufacturing-unit-keeps-expansions-coming",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $890 million; capacity_volume: 600,000 liter; bioreactor_volume: 20,000-liter",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$890 million",
+        "value_norm": 890000000,
+        "unit": "USD",
+        "evidence_snippet": "Fujifilm then made another major contract manufacturing play when it budgeted $890 million in cash for a Biogen plant near Copenhagen, Denmark, in 2019, Goto said.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "600,000 liter",
+        "value_norm": 600000,
+        "unit": "L",
+        "evidence_snippet": "“So, that means we are going to need about 600,000 liter capacity per year,” he said.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "20,000-liter",
+        "value_norm": 20000,
+        "unit": "L",
+        "evidence_snippet": "Right now, the company has eight 20,000-liter bioreactors up-and-running at the facility, half of which have been booked by Johnson & Johnson and the other half by Regeneron , Goto noted.",
+        "context": "bioreactor"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-01-16-abbvies-skyrizi-takes-full-year-tv-ad-spending-crown-yet-again-with-j-js-tremfya-in-hot-pursuit",
+    "published_at": "2026-01-16",
+    "outlet": "Fierce Pharma",
+    "title": "AbbVie’s Skyrizi takes full-year TV ad spending crown yet again, with J&J’s Tremfya in hot pursuit",
+    "url": "https://www.fiercepharma.com/marketing/abbvies-skyrizi-takes-full-year-tv-ad-spending-crown-yet-again-jjs-tremfya-hot-pursuit",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $300 million; capex: $185 million; capex: $2.67 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$300 million",
+        "value_norm": 300000000,
+        "unit": "USD",
+        "evidence_snippet": "Holding steady in fourth place was Novo Nordisk’s Wegovy, with close to $300 million spent airing just three TV ads, while Sanofi and Regeneron’s Dupixent—previously a mainstay in the annual top three—fell to fifth as its spending dropped by about $38 million.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$185 million",
+        "value_norm": 185000000,
+        "unit": "USD",
+        "evidence_snippet": "In the seventh and ninth spots were a pair of newcomers to the full-year list: J&J’s Caplyta, which more than doubled its 2024 spend to top $185 million last year, and Lilly’s Zepbound, with a whopping 1300% year-over-year increase from $11.5 million to just over $160 million to air its 13 TV spots in 2025.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2.67 billion",
+        "value_norm": 2670000000,
+        "unit": "USD",
+        "evidence_snippet": "For all of 2025, the top 10 spenders shelled out a combined total of $2.67 billion to air their TV ads, well above the previous year’s $2.13 billion.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-16-dawsongroup-tcs-usa-launches-in-the-states",
+    "published_at": "2026-01-16",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Dawsongroup tcs USA Launches in the States",
+    "url": "https://www.pharmaceuticalcommerce.com/view/dawsongroup-tcs-usa-launches-in-the-states",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "facility_footprint: 135,000 square-foot",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "135,000 square-foot",
+        "value_norm": 135000,
+        "unit": "square-foot",
+        "evidence_snippet": "In other pharma cold chain news, TemperPack, who specializes in sustainable thermal packaging, recently relocated its Green Cell Foam production plant from Holt, MI to a larger 135,000 square-foot facility in Lansing.",
+        "context": "footprint"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-16-affordability-strain-is-moving-up-the-income-ladder",
+    "published_at": "2026-01-16",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Affordability Strain Is Moving Up the Income Ladder",
+    "url": "https://www.pharmaceuticalcommerce.com/view/affordability-strain-is-moving-up-the-income-ladder",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-16-pharma-pulse-trumps-new-healthcare-roadmap-fda-vaccine-warnings-and-bpd-to-lead-the-a",
+    "published_at": "2026-01-16",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: Trump’s New Healthcare Roadmap, FDA Vaccine Warnings, and BPD to Lead The Agency Network",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-trump-new-healthcare-roadmap",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-15-evaluates-2026-pharma-forecast-signals-cautious-recovery-rising-m-a-and-glp-1-market-",
+    "published_at": "2026-01-15",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Evaluate’s 2026 Pharma Forecast Signals Cautious Recovery, Rising M&A, and GLP-1 Market Shifts",
+    "url": "https://www.pharmaceuticalcommerce.com/view/evaluate--2026-pharma-forecast-signals-cautious-recovery",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-15-premium-inflation-is-reshaping-patient-access-and-adherence",
+    "published_at": "2026-01-15",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Premium Inflation Is Reshaping Patient Access and Adherence",
+    "url": "https://www.pharmaceuticalcommerce.com/view/premium-inflation-is-reshaping-patient-access-and-adherence",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-15-pharma-pulse-navigating-the-new-era-of-healthcare",
+    "published_at": "2026-01-15",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: Navigating the New Era of Healthcare",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-navigating-the-new-era-of-healthcare",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $100 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 billion",
+        "value_norm": 100000000000,
+        "unit": "USD",
+        "evidence_snippet": "The company is also committing a total of $100 billion toward R&amp;D and capital investments in the US over the next decade.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-drug-approvals-went-from-crawl-to-sprint-in-2025",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "Drug approvals went from crawl to sprint in 2025",
+    "url": "https://www.fiercepharma.com/pharma/drug-approvals-went-crawl-sprint-2025",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-fierce-pharma-asia-abbvies-bispecific-play-illuminas-china-import-efforts-and-pharma-execs-jpm-",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—AbbVie’s bispecific play, Illumina’s China import efforts and pharma execs’ JPM comments",
+    "url": "https://www.fiercepharma.com/pharma/fierce-pharma-asia-abbvies-bispecific-play-illuminas-china-import-efforts-and-pharma-execs",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-former-emergent-ceo-kramer-faces-insider-trading-allegations-in-ny",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "Former Emergent CEO Kramer faces insider trading allegations in NY",
+    "url": "https://www.fiercepharma.com/pharma/former-emergent-ceo-kramer-faces-insider-trading-allegations-ny",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown",
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-jpm26-whats-in-a-biopharma-ceo-says-teva-has-the-goods",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26: What’s in a biopharma? CEO says Teva has the goods",
+    "url": "https://www.fiercepharma.com/pharma/jpm-2026-biosimilars-biopharma-teva-walks-walk-2026",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-fda-tells-sanofi-gsk-az-and-csl-to-include-warnings-for-febrile-seizures-on-flu-shot-labels",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "FDA tells Sanofi, GSK, AZ and CSL to include warnings for febrile seizures on flu shot labels",
+    "url": "https://www.fiercepharma.com/pharma/fda-tells-sanofi-gsk-az-and-csl-include-warning-childhood-seizures-flu-shots",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-trump-takes-aim-at-insurance-industry-drug-prices-in-unveiling-the-great-healthcare-plan",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "Trump takes aim at insurance industry, drug prices in unveiling 'The Great Healthcare Plan'",
+    "url": "https://www.fiercepharma.com/regulatory/trump-takes-aim-insurance-industry-unveiling-great-healthcare-plan",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-fda-chides-beone-immunitybio-promo-materials-in-1st-untitled-letters-of-2026",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "FDA chides BeOne, ImmunityBio promo materials in 1st untitled letters of 2026",
+    "url": "https://www.fiercepharma.com/marketing/fda-chides-beone-immunitybio-promo-materials-first-untitled-letters-2026",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-jpm26-astellas-ceo-resists-rescue-bd-as-6b-xtandi-patent-cliff-nears",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26: Astellas CEO resists 'rescue BD' as $6B Xtandi patent cliff nears",
+    "url": "https://www.fiercepharma.com/pharma/astellas-ceo-resists-rescue-bd-6b-xtandi-patent-cliff-nears",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-after-succeeding-in-combo-with-darzalex-j-j-s-tecvayli-shines-as-solo-act",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "After succeeding in combo with Darzalex, J&J's Tecvayli shines as solo act",
+    "url": "https://www.fiercepharma.com/pharma/after-succeeding-combo-darzalex-jjs-tecvayli-shines-solo-act",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-hologic-sets-a-screen-to-block-cervical-cancer-with-wnba-s-erica-wheeler",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "Hologic sets a screen to block cervical cancer with WNBA's Erica Wheeler",
+    "url": "https://www.fiercepharma.com/marketing/hologic-sets-screen-block-cervical-cancer-basketball-star",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-15-bd-budgets-110m-to-expand-neb-syringe-production",
+    "published_at": "2026-01-15",
+    "outlet": "Fierce Pharma",
+    "title": "BD budgets $110M to expand Neb. syringe production",
+    "url": "https://www.fiercepharma.com/manufacturing/becton-dickinson-budgets-110m-expand-nebraska-syringe-production-plant",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $110 million; capex: $10 million; capex: $35 million; capex: $2.5 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$110 million",
+        "value_norm": 110000000,
+        "unit": "USD",
+        "evidence_snippet": "Becton, Dickinson and Company will shell out $110 million to expand prefillable syringe production at its Columbus, Nebraska, manufacturing plant.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$10 million",
+        "value_norm": 10000000,
+        "unit": "USD",
+        "evidence_snippet": "“This investment in Nebraska advances our long-term growth strategy and reflects our commitment to partnering with biopharmaceutical innovators as they bring advanced therapies to patients who require next-generation drug delivery solutions.” Apart from integrating its Neopak technology at the site, BD said $10 million of its investment will be used to bolster cannula production capabilities at the Columbus plant.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$35 million",
+        "value_norm": 35000000,
+        "unit": "USD",
+        "evidence_snippet": "BD's latest outlay in Columbus comes after the company announced a $35 million investment to expand the facility’s prefilled flush syringe manufacturing last year.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2.5 billion",
+        "value_norm": 2500000000,
+        "unit": "USD",
+        "evidence_snippet": "Both expansions fit into BD's broader commitment to spend more than $2.5 billion in U.S.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-14-abbvie-joins-trumprx-in-exchange-for-tariff-relief-and-pricing-flexibility",
+    "published_at": "2026-01-14",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "AbbVie Joins TrumpRx in Exchange for Tariff Relief and Pricing Flexibility",
+    "url": "https://www.pharmaceuticalcommerce.com/view/abbvie-joins-trumprx-in-exchange-for-tariff-relief-pricing-flexibility",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-14-pharmas-us-manufacturing-push-faces-a-long-investment-horizon",
+    "published_at": "2026-01-14",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma’s US Manufacturing Push Faces a Long Investment Horizon",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-us-manufacturing-push-faces-long-investment-horizon",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "expansion",
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-14-pharma-pulse-precision-cancer-care",
+    "published_at": "2026-01-14",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: Precision Cancer Care",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-precision-cancer-care",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-14-jpm26-jazz-s-200m-voucher-sale-shows-drumbeat-of-rising-prices-isn-t-stopping",
+    "published_at": "2026-01-14",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26: Jazz's $200M voucher sale shows drumbeat of rising prices isn't stopping",
+    "url": "https://www.fiercepharma.com/pharma/jpm26-jazzs-prv-sale-200m-shows-drum-beat-rising-prv-prices-isnt-stopping",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-14-bayer-taps-gabrielle-union-wade-as-face-of-menopause-med-lynkuet",
+    "published_at": "2026-01-14",
+    "outlet": "Fierce Pharma",
+    "title": "Bayer taps Gabrielle Union-Wade as face of menopause med Lynkuet",
+    "url": "https://www.fiercepharma.com/marketing/bayer-taps-gabrielle-union-wade-face-menopause-med-lynkuet",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-14-jpm26-with-pricing-deal-in-the-books-sanofi-steels-against-lingering-policy-unknowns",
+    "published_at": "2026-01-14",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26: With pricing deal in the books, Sanofi steels against lingering policy unknowns",
+    "url": "https://www.fiercepharma.com/biotech/jpm26-after-important-year-sanofi-looks-ahead-remaining-federal-challenges",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-14-amneal-and-vantai-unveil-fresh-branding-to-kick-off-2026-plans",
+    "published_at": "2026-01-14",
+    "outlet": "Fierce Pharma",
+    "title": "Amneal and VantAI unveil fresh branding to kick off 2026 plans",
+    "url": "https://www.fiercepharma.com/marketing/amneal-and-vantai-unveil-fresh-branding-kick-2026-plans",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-14-lenz-ups-vizz-visibility-with-dtc-campaign-starring-sarah-jessica-parker",
+    "published_at": "2026-01-14",
+    "outlet": "Fierce Pharma",
+    "title": "Lenz ups Vizz visibility with DTC campaign starring Sarah Jessica Parker",
+    "url": "https://www.fiercepharma.com/marketing/lenz-ups-vizz-visibility-dtc-campaign-starring-sarah-jessica-parker",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-14-fda-delays-decision-on-travere-s-filspari-in-key-kidney-disease-indication",
+    "published_at": "2026-01-14",
+    "outlet": "Fierce Pharma",
+    "title": "FDA delays decision on Travere's Filspari in key kidney disease indication",
+    "url": "https://www.fiercepharma.com/pharma/fda-delays-decision-traveres-filspari-2b-kidney-disease-indication",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-14-jpm26-novo-nordisk-ceo-reflects-on-curse-of-a-leader-as-company-looks-to-reassert-glp-1-footing",
+    "published_at": "2026-01-14",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26: Novo Nordisk CEO reflects on 'curse of a leader' as company looks to reassert GLP-1 footing",
+    "url": "https://www.fiercepharma.com/pharma/jpm26-novo-nordisk-ceo-reflects-curse-leader-company-looks-reassert-glp-1-footing",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-13-novartis-to-build-fourth-us-radioligand-therapy-facility-to-strengthen-supply-chain",
+    "published_at": "2026-01-13",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Novartis to Build Fourth US Radioligand Therapy Facility to Strengthen Supply Chain",
+    "url": "https://www.pharmaceuticalcommerce.com/view/novartis-to-build-fourth-us-radioligand-therapy-facility",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "facility_footprint: 35,000 square-foot; capex: $23 billion; facility_footprint: 10,000-square-foot; capex: $23 Billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "35,000 square-foot",
+        "value_norm": 35000,
+        "unit": "square-foot",
+        "evidence_snippet": "Novartis has revealed its intention to construct a new 35,000 square-foot radioligand therapy (RLT) product facility in Winter Park, FL, representing the fourth in the United States.1 The future plant is a component of the company’s greater mission of investing $23 billion over the next five years toward US infrastructure, while also serving as a way to strengthen the US pharma supply chain.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$23 billion",
+        "value_norm": 23000000000,
+        "unit": "USD",
+        "evidence_snippet": "Novartis has revealed its intention to construct a new 35,000 square-foot radioligand therapy (RLT) product facility in Winter Park, FL, representing the fourth in the United States.1 The future plant is a component of the company’s greater mission of investing $23 billion over the next five years toward US infrastructure, while also serving as a way to strengthen the US pharma supply chain.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "10,000-square-foot",
+        "value_norm": 10000,
+        "unit": "square-foot",
+        "evidence_snippet": "Late last year, Novartis also unveiled a 10,000-square-foot RLT production plant in Carlsbad, CA, intended to help prepare Novartis for future demand—as noted by the boost in capacity.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$23 Billion",
+        "value_norm": 23000000000,
+        "unit": "USD",
+        "evidence_snippet": "Novartis to Add Radioligand Therapy Manufacturing Facility in Winter Park, Florida, Fourth in US to Serve patients and Advance $23 Billion Investment.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-13-managing-tariff-driven-cost-increases-without-disrupting-customers",
+    "published_at": "2026-01-13",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Managing Tariff-Driven Cost Increases Without Disrupting Customers",
+    "url": "https://www.pharmaceuticalcommerce.com/view/managing-tariff-driven-cost-increases-without-disrupting-customers",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "expansion"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-13-pharma-pulse-amazon-pharmacy-sells-oral-wegovy-j-js-billion-dollar-hub-and-the-debt-h",
+    "published_at": "2026-01-13",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: Amazon Pharmacy Sells Oral Wegovy, J&J’s Billion-Dollar Hub, and the Debt-Housing Crisis",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-amazon-weight-loss-pivot",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $2 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "Turning to the supply chain, Johnson &amp; Johnson has announced a second $2 billion facility in Wilson, North Carolina.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-01-13-jpm26-astrazeneca-s-80b-revenue-target-very-much-within-reach-cfo-says",
+    "published_at": "2026-01-13",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26: AstraZeneca's $80B revenue target 'very much within reach,' CFO says",
+    "url": "https://www.fiercepharma.com/pharma/astrazeneca-80-billion-revenue-target-very-much-within-reach-cfo-says",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-13-jpm26-as-lenacapavir-momentum-builds-gilead-eyes-new-deals-from-a-position-of-strength",
+    "published_at": "2026-01-13",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26: As lenacapavir momentum builds, Gilead eyes new deals from a 'position of strength'",
+    "url": "https://www.fiercepharma.com/biotech/jpm-lenacapavir-momentum-builds-gilead-eyes-new-deals-position-strength",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-01-13-triple-play-johnson-johnson-expands-manufacturing-footprint-in-nc",
+    "published_at": "2026-01-13",
+    "outlet": "BioProcess International",
+    "title": "Triple play: Johnson & Johnson expands manufacturing footprint in NC",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/triple-play-johnson-johnson-expands-manufacturing-footprint-in-nc",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-12-amazon-pharmacy-adds-fda-approved-wegovy-pill-the-first-oral-glp-1-for-weight-loss",
+    "published_at": "2026-01-12",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Amazon Pharmacy Adds FDA-Approved Wegovy Pill, the First Oral GLP-1 for Weight Loss",
+    "url": "https://www.pharmaceuticalcommerce.com/view/amazon-pharmacy-adds-fda-approved-wegovy-pill",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-12-why-us-based-manufacturing-is-becoming-a-strategic-imperative-for-biopharma",
+    "published_at": "2026-01-12",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Why US-Based Manufacturing Is Becoming a Strategic Imperative for Biopharma",
+    "url": "https://www.pharmaceuticalcommerce.com/view/why-us-based-manufacturing-is-becoming-a-strategic-imperative-for-biopharma",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "expansion",
+      "new_facility"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-12-pharma-pulse-j-j-enters-trumprx-and-the-red-flags-in-pediatric-vaccines",
+    "published_at": "2026-01-12",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: J&J Enters TrumpRx and the Red Flags in Pediatric Vaccines",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-j-j-enters-trumprx",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $55 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$55 billion",
+        "value_norm": 55000000000,
+        "unit": "USD",
+        "evidence_snippet": "This follows J&amp;J&apos;s announcement of a $55 billion domestic investment, including new state-of-the-art manufacturing sites in North Carolina and Pennsylvania.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-09-johnson-johnson-joins-trumprx-to-lower-drug-prices-secures-tariff-exemption",
+    "published_at": "2026-01-09",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Johnson & Johnson Joins TrumpRx to Lower Drug Prices, Secures Tariff Exemption",
+    "url": "https://www.pharmaceuticalcommerce.com/view/johnson-johnson-joins-trumprx",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $55 billion; capex: $2 billion; capex: $2 Billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$55 billion",
+        "value_norm": 55000000000,
+        "unit": "USD",
+        "evidence_snippet": "Johnson &amp; Johnson reinforces US manufacturing and investment strategy Meanwhile, the company continues to stand by its $55 billion pledge to support domestic manufacturing, research and development, and tech investments by 2029.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "This past August, the company announced $2 billion plans to boost its North Carolina presence by constructing a 160,0000-plus-square-foot manufacturing facility at FUJIFILM’s new biopharmaceutical manufacturing site in Holly Springs, NC.4 “Johnson &amp; Johnson has more manufacturing facilities in the US than in any other country, and we continue to strengthen our presence here,” said Duato at the time of the announcement.4 “With the recent signing of the One Big Beautiful Bill Act, we continue to expand our investment in the US to lead the next era of healthcare innovation.” Policy shifts, OBBA, and the broader pharma market impact Also known as the OBBA, the One Big Beautiful Bill Act reshapes prescription drug spending, while pushing pharma companies to mitigate its potential impact on innovation, R&amp;D investment, and M&amp;A activity.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 Billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "Johnson &amp; Johnson Commits $2 Billion to North Carolina Manufacturing Expansion.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-09-tariffs-nudge-pharma-toward-localization-but-supply-chains-cant-shift-overnight",
+    "published_at": "2026-01-09",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Tariffs Nudge Pharma Toward Localization, but Supply Chains Can’t Shift Overnight",
+    "url": "https://www.pharmaceuticalcommerce.com/view/tariffs-nudge-pharma-toward-localization",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "expansion"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-09-pharma-pulse-merger-fever-lillys-1-2b-inflammatory-bet-and-the-birth-of-caretria",
+    "published_at": "2026-01-09",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: Merger Fever, Lilly’s $1.2B Inflammatory Bet, and the Birth of CareTria",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-merger-fever",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-09-jpm26-day-3-abbvie-touts-clear-line-of-sight-to-continued-growth-into-2030s",
+    "published_at": "2026-01-09",
+    "outlet": "Fierce Pharma",
+    "title": "JPM26, Day 3: AbbVie touts 'clear line of sight' to continued growth into 2030s",
+    "url": "https://www.fiercepharma.com/pharma/fierce-pharmas-jpm26-tracker-day-3",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "fill_finish_output: 10,000 doses; capex: $1 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": true,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "fill_finish_output",
+        "value_raw": "10,000 doses",
+        "value_norm": 10000,
+        "unit": "doses",
+        "evidence_snippet": "As of 2026, Legend says it boasts an annualized capacity for Carvkyti of 10,000 doses.",
+        "context": "fill_finish"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1 billion",
+        "value_norm": 1000000000,
+        "unit": "USD",
+        "evidence_snippet": "where, the company boasts facilities for drug substance, drug product and process development, WuXi Biologics and its conjugation spinoff WuXi XDC have raised their total investment plan to about $1 billion, according to the CEO.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-08-knipper-health-rebrands-as-caretria-to-expand-integrated-therapy-initiation-platform",
+    "published_at": "2026-01-08",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Knipper Health Rebrands as CareTria to Expand Integrated Therapy Initiation Platform",
+    "url": "https://www.pharmaceuticalcommerce.com/view/knipper-health-rebrands-as-caretria",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-08-what-will-actually-bend-the-healthcare-cost-curve",
+    "published_at": "2026-01-08",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "What Will Actually Bend the Healthcare Cost Curve?",
+    "url": "https://www.pharmaceuticalcommerce.com/view/what-will-actually-bend-the-healthcare-cost-curve-",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-08-pharma-pulse-fda-fast-tracks-merck-blockbusters-gsks-precision-data-bet-and-dhls-mass",
+    "published_at": "2026-01-08",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: FDA Fast-Tracks Merck Blockbusters, GSK’s Precision Data Bet, and DHL’s Massive PA Hub",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-fda-fast-tracks-merck-blockbusters",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-07-dhl-supply-chain-opens-1-million-square-foot-life-sciences-distribution-center-in-pen",
+    "published_at": "2026-01-07",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "DHL Supply Chain Opens 1-Million-Square-Foot Life Sciences Distribution Center in Pennsylvania, Expanding Healthcare Logistics Footprint",
+    "url": "https://www.pharmaceuticalcommerce.com/view/dhl-supply-chain-opens-1-million-square-foot-life-sciences-distribution-center",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-07-why-employers-are-passing-more-healthcare-costs-to-workers",
+    "published_at": "2026-01-07",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Why Employers Are Passing More Healthcare Costs to Workers",
+    "url": "https://www.pharmaceuticalcommerce.com/view/why-employers-are-passing-more-healthcare-costs-to-workers",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-07-pharma-pulse-pediatric-vaccine-revisions-copd-mortality-trends-and-eli-lillys-1-3b-ob",
+    "published_at": "2026-01-07",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: Pediatric Vaccine Revisions, COPD Mortality Trends, and Eli Lilly’s $1.3B Obesity Deal",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-pediatric-vaccine-revisions",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-06-what-the-closure-of-a-single-plant-reveals-about-us-drug-resilience",
+    "published_at": "2026-01-06",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "What the Closure of a Single Plant Reveals About US Drug Resilience",
+    "url": "https://www.pharmaceuticalcommerce.com/view/what-the-closure-of-a-single-plant-reveals-about-us-drug-resilience",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-06-how-public-policy-shifts-are-reshaping-employer-healthcare-costs",
+    "published_at": "2026-01-06",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "How Public Policy Shifts Are Reshaping Employer Healthcare Costs",
+    "url": "https://www.pharmaceuticalcommerce.com/view/how-public-policy-shifts-are-reshaping-employer-healthcare-costs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-06-pharma-pulse-goodrx-rollout-for-oral-wegovy-major-reprieve-for-340b-hospitals-sanofis",
+    "published_at": "2026-01-06",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: GoodRx Rollout for Oral Wegovy; Major Reprieve for 340B Hospitals; Sanofi’s $2.5B AI Bet",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-goodrx-rollout-for-oral-wegovy",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-05-goodrx-offers-fda-approved-wegovy-pill-at-149-monthly-cash-price-across-us-pharmacies",
+    "published_at": "2026-01-05",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "GoodRx Offers FDA-Approved Wegovy Pill at $149 Monthly Cash Price Across US Pharmacies",
+    "url": "https://www.pharmaceuticalcommerce.com/view/goodrx-offers-fda-approved-wegovy-pill-across-us-pharmacies",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-05-employer-health-costs-rise-as-drug-innovation-behavioral-health-and-hospital-dynamics",
+    "published_at": "2026-01-05",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Employer Health Costs Rise, as Drug Innovation, Behavioral Health, and Hospital Dynamics Converge",
+    "url": "https://www.pharmaceuticalcommerce.com/view/employer-health-costs-rise",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-05-pharma-pulse-fda-ends-40-year-drought-for-motion-sickness",
+    "published_at": "2026-01-05",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: FDA Ends 40-Year Drought for Motion Sickness",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-fda-ends-40-year-drought-for-motion-sickness",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-01-05-samsung-biologics-to-acquire-manufacturing-facility-from-gsk-in-280m-deal",
+    "published_at": "2026-01-05",
+    "outlet": "BioProcess International",
+    "title": "Samsung Biologics to acquire manufacturing facility from GSK in $280m deal",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/samsung-biologics-to-acquire-manufacturing-facility-from-gsk-in-280m-deal",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $280 million; capacity_volume: 60,000 liters",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$280 million",
+        "value_norm": 280000000,
+        "unit": "USD",
+        "evidence_snippet": "From Identification to Justification: A Practical and Consolidated Strategy for Elemental-Impurity Risk Management in Biomanufacturing From Identification to Justification: A Practical and Consolidated Strategy for Elemental-Impurity Risk Management in Biomanufacturing Contract development and manufacturing organization (CDMO) Samsung Biologics made a splash at the end of 2025, Human Genome Sciences from GSK to secure the firm’s first US-based manufacturing site for US$280 million.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "60,000 liters",
+        "value_norm": 60000,
+        "unit": "L",
+        "evidence_snippet": "The Rockville, Maryland, facility has two GMP manufacturing plants with a combined 60,000 liters of drug substance capacity, able to support small- and large-scale production.",
+        "context": "capacity"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-02-temperpack-expands-michigan-footprint-with-larger-green-cell-foam-manufacturing-facil",
+    "published_at": "2026-01-02",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "TemperPack Expands Michigan Footprint With Larger Green Cell Foam Manufacturing Facility",
+    "url": "https://www.pharmaceuticalcommerce.com/view/temperpack-expands-michigan-footprint",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "facility_footprint: 135,000 square-foot",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "135,000 square-foot",
+        "value_norm": 135000,
+        "unit": "square-foot",
+        "evidence_snippet": "TemperPack, who specializes in sustainable thermal packaging, has relocated its Green Cell Foam production plant from Holt, MI to a larger 135,000 square-foot facility in Lansing.1 The new site not only welcomes expansion, but features boosts in equipment and an increase in operational efficiency.",
+        "context": "footprint"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-02-modernizing-the-last-mile",
+    "published_at": "2026-01-02",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Modernizing the Last Mile",
+    "url": "https://www.pharmaceuticalcommerce.com/view/modernizing-the-last-mile",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2026-01-02-pharma-pulse-a-win-for-bone-health",
+    "published_at": "2026-01-02",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: A Win for Bone Health",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-a-win-for-bone-health",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-31-how-integrated-solutions-deliver-measurable-value-for-pharma-manufacturers",
+    "published_at": "2025-12-31",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "How Integrated Solutions Deliver Measurable Value for Pharma Manufacturers",
+    "url": "https://www.pharmaceuticalcommerce.com/view/how-integrated-solutions-deliver-measurable-value-for-pharma-manufacturers",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-30-where-the-last-mile-breaks-down",
+    "published_at": "2025-12-30",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Where the Last Mile Breaks Down",
+    "url": "https://www.pharmaceuticalcommerce.com/view/where-the-last-mile-breaks-down",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-26-rising-cargo-theft-puts-healthcare-shipments-under-pressure",
+    "published_at": "2025-12-26",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Rising Cargo Theft Puts Healthcare Shipments Under Pressure",
+    "url": "https://www.pharmaceuticalcommerce.com/view/rising-cargo-theft-puts-healthcare-shipments-under-pressure",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-24-fda-approves-novo-nordisks-wegovy-pill-marking-first-oral-glp-1-for-weight-management",
+    "published_at": "2025-12-24",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "FDA Approves Novo Nordisk’s Wegovy Pill, Marking First Oral GLP-1 for Weight Management",
+    "url": "https://www.pharmaceuticalcommerce.com/view/fda-approves-novo-nordisk-wegovy-pill",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-24-pharma-pulse-fda-clears-first-oral-wegovy-yusen-logistics-seals-european-health-deal",
+    "published_at": "2025-12-24",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: FDA Clears First Oral Wegovy; Yusen Logistics Seals European Health Deal",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-fda-clears-first-oral-wegovy",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-23-yusen-logistics-completes-walden-health-acquisition-expanding-european-healthcare-log",
+    "published_at": "2025-12-23",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Yusen Logistics Completes Walden Health Acquisition, Expanding European Healthcare Logistics Platform",
+    "url": "https://www.pharmaceuticalcommerce.com/view/yusen-logistics-completes-walden-health-acquisition",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $280 million; capex: $280M",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$280 million",
+        "value_norm": 280000000,
+        "unit": "USD",
+        "evidence_snippet": "I am proud of the remarkable progress Walden Health has achieved and look forward to shaping an even stronger future together with Yusen Logistics.&quot; Other supply chain developments In other supply chain/logistics news, Samsung Biologics, a contract development and manufacturing organization (CDMO) based in South Korea, revealed that its wholly owned US subsidiary, Samsung Biologics America, is purchasing Human Genome Sciences from GSK for $280 million.2 As a result, the CDMO acquires its first manufacturing site based in the US—based in Rockville, MD—while also representing growth of its global footprint.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$280M",
+        "value_norm": 280000000,
+        "unit": "USD",
+        "evidence_snippet": "Samsung Biologics Enters US Manufacturing Market with $280M GSK Site Acquisition.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-23-trade-channel-strategies-2025-why-wholesalers-remain-pharmas-backbone",
+    "published_at": "2025-12-23",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Trade & Channel Strategies 2025: Why Wholesalers Remain Pharma’s Backbone",
+    "url": "https://www.pharmaceuticalcommerce.com/view/why-wholesalers-remain-pharma-s-backbone",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-23-pharma-pulse-us-manufacturing-expansion-oncology-partnerships-and-workplace-health",
+    "published_at": "2025-12-23",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: US Manufacturing Expansion, Oncology Partnerships, and Workplace Health",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-us-manufacturing-expansion-oncology-partnerships--workplace-health",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $280 million; capacity_volume: 60,000 liters",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$280 million",
+        "value_norm": 280000000,
+        "unit": "USD",
+        "evidence_snippet": "The South Korean giant is acquiring a manufacturing facility in Rockville, MD, from GSK for $280 million.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "60,000 liters",
+        "value_norm": 60000,
+        "unit": "L",
+        "evidence_snippet": "The deal includes two cGMP-compliant plants with a combined capacity of 60,000 liters.",
+        "context": "capacity"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-22-president-trump-announces-nine-more-trumprx-participants",
+    "published_at": "2025-12-22",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "President Trump Announces Nine More TrumpRx Participants",
+    "url": "https://www.pharmaceuticalcommerce.com/view/president-trump-announces-nine-more-trumprx-participants",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-22-samsung-biologics-enters-us-manufacturing-market-with-280m-gsk-site-acquisition",
+    "published_at": "2025-12-22",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Samsung Biologics Enters US Manufacturing Market with $280M GSK Site Acquisition",
+    "url": "https://www.pharmaceuticalcommerce.com/view/samsung-biologics-enters-us-manufacturing-market-gsk-site-acquisition",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $280 million; capacity_volume: 60,000 liters; capacity_volume: 785,000 liters; capex: $30 billion",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$280 million",
+        "value_norm": 280000000,
+        "unit": "USD",
+        "evidence_snippet": "Samsung Biologics, a contract development and manufacturing organization (CDMO) based in South Korea, revealed that its wholly owned US subsidiary, Samsung Biologics America, is purchasing Human Genome Sciences from GSK for $280 million.1 As a result, the CDMO acquires its first manufacturing site based in the US, while also representing growth of its global footprint.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "60,000 liters",
+        "value_norm": 60000,
+        "unit": "L",
+        "evidence_snippet": "It features two current good manufacturing practice (cGMP) production plants that offer a total of 60,000 liters of drug substance capacity, which is able to accommodate clinical and commercial manufacturing, all the way to large scale.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "785,000 liters",
+        "value_norm": 785000,
+        "unit": "L",
+        "evidence_snippet": "With 785,000 liters of capacity spanning five facilities, the CDMO continues to grow a diversified portfolio that includes antibody-drug conjugates (ADCs), monoclonal antibodies, mRNA, organoid-based services, and more.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$30 billion",
+        "value_norm": 30000000000,
+        "unit": "USD",
+        "evidence_snippet": "“Along with GSK’s recent commitment to invest $30 billion in R&amp;D and manufacturing in the US over the next five years, this deal enables us to further focus on building the agility, capacity, and capability needed in our manufacturing network to deliver the next generation of specialty medicines and vaccines.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-22-trade-channel-strategies-2025-waiting-watching-and-reshoring",
+    "published_at": "2025-12-22",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Trade & Channel Strategies 2025: Waiting, Watching, and Reshoring",
+    "url": "https://www.pharmaceuticalcommerce.com/view/waiting-watching-and-reshoring",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-22-pharma-pulse-trumprx-gains-nine-new-pharma-partners-dhl-expands-lax-cold-chain-hub",
+    "published_at": "2025-12-22",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: TrumpRx Gains Nine New Pharma Partners; DHL Expands LAX Cold Chain Hub",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-trumprx-gains-nine-new-pharma-partners",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $1.5 million; capex: $2.3 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.5 million",
+        "value_norm": 1500000,
+        "unit": "USD",
+        "evidence_snippet": "In logistics news, DHL Global Forwarding is expanding its cold storage footprint at LAX with a new $1.5 million investment.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2.3 billion",
+        "value_norm": 2300000000,
+        "unit": "USD",
+        "evidence_snippet": "As part of a broader $2.3 billion global health logistics strategy, the facility will enhance the safe handling of temperature-sensitive pharmaceuticals.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-19-dhl-global-forwarding-expands-lax-cold-storage",
+    "published_at": "2025-12-19",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "DHL Global Forwarding Expands LAX Cold Storage",
+    "url": "https://www.pharmaceuticalcommerce.com/view/dhl-global-forwarding-expands-lax-cold-storage",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $1.5 million; capex: $2.3 billion; capex: 46.5 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.5 million",
+        "value_norm": 1500000,
+        "unit": "USD",
+        "evidence_snippet": "DHL Global Forwarding, who not only specializes in air and ocean freight but is a part of Deutsche Post DHL Group, is growing its cold storage facilities that are located close to Los Angeles International Airport (LAX).1 With the help of a $1.5 million financial commitment, the plant will be more prepared to tackle the increase in demand that comes with temperature-sensitive logistics, while also providing safe handling of various goods, including those in the pharma space.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2.3 billion",
+        "value_norm": 2300000000,
+        "unit": "USD",
+        "evidence_snippet": "Part of a broader $2.3 billion global health logistics investment The latest project represents one component of DHL Group&apos;s mission to invest $2.3 billion over the next five years toward boosting its logistics services in this sector.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "46.5 billion",
+        "value_norm": 46500000000,
+        "unit": "USD",
+        "evidence_snippet": "&quot;The North American cold storage market, estimated at USD 46.5 billion in 2025, is projected to more than double by 2032, and this facility positions us to support that growth effectively while complementing DHL Group&apos;s regional investments in health logistics.&quot; In other DHL news, DHL Supply Chain earlier this year agreed2 to purchase SDS Rx, a provider of final-mile delivery and specialized healthcare transportation services for long-term care and specialty pharmacies, radiopharmacies, and health system networks.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-19-trade-channel-strategies-2025-why-pharma-is-entering-a-multi-payer-multi-pricing-mult",
+    "published_at": "2025-12-19",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Trade & Channel Strategies 2025: Why Pharma Is Entering a Multi-Payer, Multi-Pricing, Multi-Channel Era",
+    "url": "https://www.pharmaceuticalcommerce.com/view/why-pharma-is-entering-a-multi-payer-multi-pricing-multi-channel-era",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-19-pharma-pulse-navigating-the-biosecure-act-post-viral-sleep-phenotypes-and-rising-insu",
+    "published_at": "2025-12-19",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Pharma Pulse: Navigating the Biosecure Act, Post-Viral Sleep Phenotypes, and Rising Insurance Costs",
+    "url": "https://www.pharmaceuticalcommerce.com/view/pharma-pulse-navigating-the-biosecure-act",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-18-alcami-brings-third-sterile-fill-finish-line-online-expanding-clinical-to-commercial-",
+    "published_at": "2025-12-18",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Alcami Brings Third Sterile Fill-Finish Line Online, Expanding Clinical-to-Commercial Capacity",
+    "url": "https://www.pharmaceuticalcommerce.com/view/alcami-brings-third-sterile-fill-finish-line-online",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "expansion",
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $120 million; capacity_volume: 2,000-liter; capex: $38 million; capex: $120 Million",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$120 million",
+        "value_norm": 120000000,
+        "unit": "USD",
+        "evidence_snippet": "Cambrex invests $120 million to scale US API manufacturing In other CDMO news, Cambrex, a contract development and manufacturing organization (CDMO) that offers drug substance, drug product, and analytical services across the entire drug lifecycle, is financially committing $120 million to grow its US operations, particularly to address the demand for active pharmaceutical ingredient (API) development and production services.2 The latest investment will provide a 40% boost to the CDMO’s Charles City, IA site’s manufacturing capacity, which is currently close to reaching nearly one million liters.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "2,000-liter",
+        "value_norm": 2000,
+        "unit": "L",
+        "evidence_snippet": "The investment in our Charles City facility, the nation&apos;s largest independent API manufacturing site, reflects our commitment to meeting clients&apos; evolving needs for small molecule and peptide manufacturing.&quot; The announcement builds on the momentum garnered by previous investments surrounding Cambrex&apos;s drug development and manufacturing services, including the completion of its $38 million capacity expansion at its small molecule API manufacturing facility in High Point, NC back in October 2023.2 The expansion doubled the facility&apos;s manufacturing capacity, with new state-of-the-art analytical and chemical development laboratories, two new clinical manufacturing suites, and a small-scale commercial manufacturing operation with three work centers and 2,000-liter reactors.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$38 million",
+        "value_norm": 38000000,
+        "unit": "USD",
+        "evidence_snippet": "The investment in our Charles City facility, the nation&apos;s largest independent API manufacturing site, reflects our commitment to meeting clients&apos; evolving needs for small molecule and peptide manufacturing.&quot; The announcement builds on the momentum garnered by previous investments surrounding Cambrex&apos;s drug development and manufacturing services, including the completion of its $38 million capacity expansion at its small molecule API manufacturing facility in High Point, NC back in October 2023.2 The expansion doubled the facility&apos;s manufacturing capacity, with new state-of-the-art analytical and chemical development laboratories, two new clinical manufacturing suites, and a small-scale commercial manufacturing operation with three work centers and 2,000-liter reactors.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$120 Million",
+        "value_norm": 120000000,
+        "unit": "USD",
+        "evidence_snippet": "Cambrex Commits $120 Million to Grow US API Manufacturing.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "pharmaceutical-commerce-2025-12-18-trade-channel-strategies-2025-why-product-level-strategy-matters-more-than-ever",
+    "published_at": "2025-12-18",
+    "outlet": "Pharmaceutical Commerce",
+    "title": "Trade & Channel Strategies 2025: Why Product-Level Strategy Matters More Than Ever",
+    "url": "https://www.pharmaceuticalcommerce.com/view/why-product-level-strategy-matters-more-than-ever",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2025-09-24-texas-sized-investment-eli-lilly-announces-6-5bn-houston-manufacturing-facility",
+    "published_at": "2025-09-24",
+    "outlet": "BioProcess International",
+    "title": "Texas-sized investment: Eli Lilly announces $6.5bn Houston manufacturing facility",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/texas-sized-investment-eli-lilly-announces-6-5bn-houston-manufacturing-facility",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "construction"
+    ],
+    "key_facts_text": "capex: $6.5 billion; capex: $6.5 billion; capex: $2 billion",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$6.5 billion",
+        "value_norm": 6500000000,
+        "unit": "USD",
+        "evidence_snippet": "plans to build a new $6.5 billion facility at Generation Park in Houston, Texas.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$6.5 billion",
+        "value_norm": 6500000000,
+        "unit": "USD",
+        "evidence_snippet": "“This $6.5 billion facility will not only bolster Houston's economy, it will boost our life sciences sector.” The plant to be built in Houston will focus on the domestic production of active pharmaceutical ingredients (APIs) for a variety of therapeutic purposes, including oncology, immunology, neuroscience, and weight management.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "have all invested upwards of $2 billion on individual site constructions or expansions in just the past few months.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2025-09-22-gsk-announces-5-year-plan-to-invest-30bn-in-us",
+    "published_at": "2025-09-22",
+    "outlet": "BioProcess International",
+    "title": "GSK announces 5-year plan to invest $30bn in US",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/gsk-announces-5-year-plan-to-invest-30bn-in-us",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $30 billion; capex: $30 billion; capex: $50 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$30 billion",
+        "value_norm": 30000000000,
+        "unit": "USD",
+        "evidence_snippet": "to invest $30 billion across the US over the next five years.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$30 billion",
+        "value_norm": 30000000000,
+        "unit": "USD",
+        "evidence_snippet": "Trump is Walmsley added, “Today, we are committing to invest at least $30 billion in the United States over the next 5 years, further bolstering the already strong R&D and supply chain we have in the country,” With the investments, GSK expects the US to host more of the company's studies, sites, and clinical trial participants than any other country over the next five years.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$50 billion",
+        "value_norm": 50000000000,
+        "unit": "USD",
+        "evidence_snippet": "The announcement follows word of Lilly’s plans to build a manufacturing plant near Richmond, Virginia, part of that company’s own $50 billion investment stemming from 2020.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2025-09-18-lilly-to-build-5bn-biologics-manufacturing-plant-in-virginia",
+    "published_at": "2025-09-18",
+    "outlet": "BioProcess International",
+    "title": "Lilly to build $5bn biologics manufacturing plant in Virginia",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/lilly-to-build-5bn-biologics-manufacturing-plant-in-virginia",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $2.148 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$2.148 billion",
+        "value_norm": 2148000000,
+        "unit": "USD",
+        "evidence_snippet": "\"By expanding our domestic capacity, we're building a secure, resilient supply chain that delivers for patients today and supports the breakthrough medicines of tomorrow.\" in Virginia have spoken out in praise of Lilly’s financial commitment to the region, which goes beyond the company’s original promise of $2.148 billion.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-mbi-welcomes-three-new-companies-as-two-startups-graduate",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "MBI welcomes three new companies as two startups graduate",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/mbi-welcomes-three-new-companies-as-two-startups-graduate",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-tivic-forms-cdmo-after-acquiring-manufacturing-facility-and-assets-from-scorpius",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Tivic forms CDMO after acquiring manufacturing facility and assets from Scorpius",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/scorpius-closes-north-carolina-facilities-amid-growing-financial-concerns",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-eli-lilly-to-build-glp-focused-6bn-manufacturing-facility-in-alabama",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Eli Lilly to build GLP-focused $6bn manufacturing facility in Alabama",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/eli-lilly-to-build-glp-focused-6bn-manufacturing-facility-in-alabama",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $6 billion; capex: $27 billion",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$6 billion",
+        "value_norm": 6000000000,
+        "unit": "USD",
+        "evidence_snippet": "to build a $6 billion manufacturing facility in Huntsville, Alabama.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$27 billion",
+        "value_norm": 27000000000,
+        "unit": "USD",
+        "evidence_snippet": "The site will focus on the production of small molecules and peptide medicines, This is the third installment as a part of an overarching $27 billion investment Eli Lilly announced to build four US-based manufacturing sites.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-thermo-fisher-opens-cgt-collaboration-center-in-philadelphia",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Thermo Fisher opens CGT collaboration center in Philadelphia",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/thermo-fisher-opens-cgt-collaboration-center-in-philadelphia",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-biolife-opens-biopreservation-center-in-washington-to-support-cgt-manufacturing",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "BioLife opens biopreservation center in Washington to support CGT manufacturing",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/biolife-opens-biopreservation-center-in-washington-to-support-cgt-manufacturing",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-moderna-expands-mrna-manufacturing-in-us-at-site-in-norwood-ma",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Moderna expands mRNA manufacturing in US at site in Norwood, MA",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/moderna-expands-mrna-manufacturing-in-us-at-site-in-norwood-ma",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $140 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$140 million",
+        "value_norm": 140000000,
+        "unit": "USD",
+        "evidence_snippet": "Vaccine maker Moderna has announced a $140 million US manufacturing expansion at its existing Moderna Technology Center (MTC) in Norwood, Massachusetts.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-pioneering-leon-company-biomar-files-for-bankruptcy-amid-mounting-debts",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Pioneering Léon company Biomar files for bankruptcy amid mounting debts",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/pioneering-l-on-company-biomar-files-for-bankruptcy-amid-mounting-debts",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-novartis-plans-nc-manufacturing-hub-as-part-of-23bn-us-investment",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Novartis plans NC manufacturing hub as part of $23bn US investment",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/novartis-plans-nc-manufacturing-hub-as-part-of-23bn-us-investment",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $23 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$23 billion",
+        "value_norm": 23000000000,
+        "unit": "USD",
+        "evidence_snippet": "The projects are part of Novartis’s $23 billion commitment to building a robust US infrastructure.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-catalent-employee-cites-mismanagement-as-the-firm-cuts-77-more-maryland-jobs",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Catalent employee cites mismanagement as the firm cuts 77 more Maryland jobs",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/catalent-employee-sites-mismanagement-as-the-firm-cuts-77-more-maryland-jobs",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-trelleborg-expands-biomanufacturing-capabilities-in-massachusetts",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Trelleborg expands biomanufacturing capabilities in Massachusetts",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/trelleborg-expands-biomanufacturing-capabilities-in-massachusetts",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "expansion"
+    ],
+    "key_facts_text": "facility_footprint: 13,000 square feet",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "13,000 square feet",
+        "value_norm": 13000,
+        "unit": "square feet",
+        "evidence_snippet": "The expansion brings increased capacity for extrusion, molding, and assembly, bringing the site’s ISO8 cleanroom space to 13,000 square feet.",
+        "context": "footprint"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-alcami-bets-big-on-biologics-growth-with-20000-sq-ft-durham-expansion",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Alcami bets big on biologics growth with 20,000 sq ft Durham expansion",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/alcami-to-expand-biologics-support-at-nc-site",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_MENTION",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-merck-sweetens-virginia-investment-committing-3bn-and-500-jobs",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Merck sweetens Virginia investment, committing $3bn and 500 jobs",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/merck-sweetens-virginia-investment-committing-3bn-and-500-jobs",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $70 billion; capex: $3 billion; facility_footprint: 400,000 square-foot; capex: $70 billion; facility_footprint: 470,000 square-foot; capex: $1 billion",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$70 billion",
+        "value_norm": 70000000000,
+        "unit": "USD",
+        "evidence_snippet": "The company recently broke ground in Virginia as part of an overarching $70 billion US investment.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$3 billion",
+        "value_norm": 3000000000,
+        "unit": "USD",
+        "evidence_snippet": "The $3 billion investment will add about 500 jobs to the site, exceeding the firm’s original plans by $1 billion and 200 workers according to Glenn Youngkin, governor of Virginia.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "400,000 square-foot",
+        "value_norm": 400000,
+        "unit": "square-foot",
+        "evidence_snippet": "The 400,000 square-foot facility will manufacture active pharmaceutical ingredients (APIs) and small molecules and is part of Merck’s overarching $70 billion investment in US manufacturing.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$70 billion",
+        "value_norm": 70000000000,
+        "unit": "USD",
+        "evidence_snippet": "The 400,000 square-foot facility will manufacture active pharmaceutical ingredients (APIs) and small molecules and is part of Merck’s overarching $70 billion investment in US manufacturing.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "470,000 square-foot",
+        "value_norm": 470000,
+        "unit": "square-foot",
+        "evidence_snippet": "The firm committed to opening a 470,000 square-foot facility dedicated to the production of immunotherapy Keytruda in Wilmington, Delaware, and a further $1 billion to its site “Today is an important milestone for Merck, for Virginia, and for manufacturing in the United States,” stated Merck chairman and CEO Robert Davis.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1 billion",
+        "value_norm": 1000000000,
+        "unit": "USD",
+        "evidence_snippet": "The firm committed to opening a 470,000 square-foot facility dedicated to the production of immunotherapy Keytruda in Wilmington, Delaware, and a further $1 billion to its site “Today is an important milestone for Merck, for Virginia, and for manufacturing in the United States,” stated Merck chairman and CEO Robert Davis.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-going-green-fujifilms-denmark-site-now-covered-by-100-solar-powered-electricity",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Going green: Fujifilm’s Denmark site now covered by 100% solar-powered electricity",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/going-green-fujifilm-s-denmark-site-now-operating-on-100-solar-powered-electricity",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "bioreactor_volume: 20,000 liter",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "20,000 liter",
+        "value_norm": 20000,
+        "unit": "L",
+        "evidence_snippet": "that the Hillerød facility will add eight 20,000 liter bioreactors to accompany its current 12, supporting Fujifilm’s goal of becoming the “largest end-to-end CDMO in Europe.” “This achievement reflects our strong commitment to sustainability and our Partners for the Planet plan,” said senior vice president and Hillerød site head Christian Houborg.",
+        "context": "bioreactor"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-astrazeneca-breaks-ground-on-enormous-4-5bn-virginia-manufacturing-plant",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "AstraZeneca breaks ground on enormous $4.5bn Virginia manufacturing plant",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/astrazeneca-breaks-ground-on-enormous-4-5bn-virginia-manufacturing-plant",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $50 billion; capex: $4.5 billion; capex: $4.5 billion; capex: $50 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$50 billion",
+        "value_norm": 50000000000,
+        "unit": "USD",
+        "evidence_snippet": "From Identification to Justification: A Practical and Consolidated Strategy for Elemental-Impurity Risk Management in Biomanufacturing From Identification to Justification: A Practical and Consolidated Strategy for Elemental-Impurity Risk Management in Biomanufacturing The project is part of the firm’s plan to invest $50 billion in US medicines manufacturing and R&D by 2030.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$4.5 billion",
+        "value_norm": 4500000000,
+        "unit": "USD",
+        "evidence_snippet": "on its US$4.5 billion pharmaceutical manufacturing facility in Albemarle County, Virginia.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$4.5 billion",
+        "value_norm": 4500000000,
+        "unit": "USD",
+        "evidence_snippet": "We have found in Virginia an amazing team that moves at incredible speed to build a better future for this Commonwealth and the American people.” At the podium, Soriot confirmed the company’s $4.5 billion investment and its overall goal of investing $50 billion in the country over the coming years.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$50 billion",
+        "value_norm": 50000000000,
+        "unit": "USD",
+        "evidence_snippet": "Register Now: The Analyte Matters — The Science Behind Mycoplasma Testing in Biomanufacturing The project is part of the firm’s $50 billion US investment plan in medicines manufacturing and R&D by 2030.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-fujifilm-opens-cell-culture-manufacturing-facility-in-north-carolina",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Fujifilm opens cell-culture manufacturing facility in North Carolina",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/fujifilm-opens-cell-culture-manufacturing-facility-in-north-carolina",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "expansion",
+      "new_facility",
+      "outsourcing"
+    ],
+    "key_facts_text": "capacity_volume: 8 x 20,000 L; capex: $1.2 billion; bioreactor_volume: 8 x 20,000 L; capex: $4.7 billion; capex: $8 billion",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "8 x 20,000 L",
+        "value_norm": 160000,
+        "unit": "L",
+        "evidence_snippet": "The first phase of the manufacturing site opens with a capacity of 8 x 20,000 L, supporting drug product and drug substance manufacturing.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.2 billion",
+        "value_norm": 1200000000,
+        "unit": "USD",
+        "evidence_snippet": ", the firm announced an additional $1.2 billion expansion of its contract development and manufacturing organization (CDMO) business, bringing the total investment to $3.2 billion.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "8 x 20,000 L",
+        "value_norm": 160000,
+        "unit": "L",
+        "evidence_snippet": "The second phase – planned to open in 2028 – will add another 8 x 20,000 L bioreactors, doubling capacity.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$4.7 billion",
+        "value_norm": 4700000000,
+        "unit": "USD",
+        "evidence_snippet": "It also reinforces our long-standing and continued commitment to invest in US manufacturing, innovation and job creation.” A number of state and local officials attended the opening ceremony, including North Carolina Governor Josh Stein, who said, “This overall project will create 1,400 new, good-paying jobs in North Carolina by 2031 and will grow our state’s economy by $4.7 billion over the next decade.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$8 billion",
+        "value_norm": 8000000000,
+        "unit": "USD",
+        "evidence_snippet": "“Fujifilm’s total global investment of over $8 billion to expand our CDMO business underscores our unwavering commitment to advancing life sciences for our partners, people, and patients.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-enzene-cuts-ribbon-on-50m-new-jersey-biologics-facility",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Enzene cuts ribbon on $50m New Jersey biologics facility",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/enzene-cuts-ribbon-on-50m-new-jersey-biologics-facility",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "facility_footprint: 80,000 square-foot; capex: $50 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "80,000 square-foot",
+        "value_norm": 80000,
+        "unit": "square-foot",
+        "evidence_snippet": "Indian contract development and manufacturing organization (CDMO) Enzene has opened an 80,000 square-foot biologics manufacturing plant in Hopewell, New Jersey.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$50 million",
+        "value_norm": 50000000,
+        "unit": "USD",
+        "evidence_snippet": "“Our first-to-market manufacturing technology is forging a new path in biologics manufacturing that will provide a cost-efficient, high yield, US-based biomanufacturing solution for biopharmaceutical innovators, and complement our facilities in India to provide global supply solutions.\" Governor Murphy added, “This state-of-the-art facility represents the future of advanced manufacturing – ultimately creating hundreds of jobs and generating $50 million in investment.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-amgen-credits-tax-initiatives-as-helping-to-enable-600m-us-expansion",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Amgen credits tax initiatives as helping to enable $600m US expansion",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/amgen-credits-tax-initiatives-as-helping-to-enable-600m-us-expansion",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $40 billion; capex: $27 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$40 billion",
+        "value_norm": 40000000000,
+        "unit": "USD",
+        "evidence_snippet": "\"This new center will empower our scientists with the tools and collaborative environment they need to shape the next era of scientific discovery and advance medicines that improve human health.\" Amgen asserted its commitment to US innovation and manufacturing, having invested $40 billion within the country since passage of the Tax Cuts and Jobs Act (TCJA) in 2017.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$27 billion",
+        "value_norm": 27000000000,
+        "unit": "USD",
+        "evidence_snippet": ", when Eli Lilly announced its $27 billion investment in four US sites, CEO David Ricks said that such an investment would have been impossible in an environment with higher corporate taxes.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-california-love-lieutenant-governor-attends-gilead-groundbreaking-in-foster-city",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "California love: Lieutenant Governor attends Gilead groundbreaking in Foster City",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/california-love-lieutenant-governor-attends-gilead-groundbreaking-in-foster-city",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "construction"
+    ],
+    "key_facts_text": "capex: $32 billion; capex: $32 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$32 billion",
+        "value_norm": 32000000000,
+        "unit": "USD",
+        "evidence_snippet": "The project is part of Gilead’s multi-year strategy to “This new facility is part of our vision for delivering next generation therapies and a cornerstone of Gilead’s $32 billion investment in the United States,” said Daniel O’Day, chairman and CEO of Gilead Sciences.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$32 billion",
+        "value_norm": 32000000000,
+        "unit": "USD",
+        "evidence_snippet": "Ganguly spoke about his company’s $32 billion commitment, emphasizing that much of the investment is happening in California.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-beyond-tariffs-how-smarter-planning-is-reshaping-life-sciences-project-execution",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Beyond tariffs: How smarter planning is reshaping life sciences project execution",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/beyond-tariffs-how-smarter-planning-is-reshaping-life-sciences-project-execution",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "construction"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-genentech-break-ground-on-700m-east-coast-facility-for-manufacturing-metabolic-medicines",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Genentech break ground on $700m East Coast facility for manufacturing metabolic medicines",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/genentech-break-ground-on-700m-east-coast-facility-for-manufacturing-metabolic-medicines",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-mass-layoffs-at-catalent-maryland-facilities-as-large-client-pulls-back-gene-therapy-orders",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Mass layoffs at Catalent Maryland facilities as large client pulls back gene therapy orders",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/mass-layoffs-at-catalent-maryland-facilities-as-large-client-pulls-back-gene-therapy-orders",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-wuxi-biologics-gains-ema-approval-at-ireland-commercial-manufacturing-site",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "WuXi Biologics gains EMA approval at Ireland commercial manufacturing site",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/wuxi-biologics-gains-ema-approval-at-ireland-commercial-manufacturing-site",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing",
+      "shutdown"
+    ],
+    "key_facts_text": "bioreactor_volume: 48,000-liter; fill_finish_output: 15 million vials; capex: $500 million",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": true,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "48,000-liter",
+        "value_norm": 48000,
+        "unit": "L",
+        "evidence_snippet": "The Dundalk facility boasts a 48,000-liter batch-fed capacity, one of the largest cell culture processes worldwide.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "fill_finish_output",
+        "value_raw": "15 million vials",
+        "value_norm": 15000000,
+        "unit": "vials",
+        "evidence_snippet": "Earlier this month, the firm unveiled its GMP-approved DP3 facility in China, expanding the entire site’s capacity to up to 15 million vials per year, and in June, it completed its construction of a Furthermore, as well as certification of the Dundalk facility, earlier this year WuXi Biologics signed an for Merck to acquire all assets of the WuXi Vaccines manufacturing facility, also located in Dundalk, Ireland.",
+        "context": "fill_finish"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$500 million",
+        "value_norm": 500000000,
+        "unit": "USD",
+        "evidence_snippet": "The $500 million investment secures an over 15,000 square-meter facility with more than 150 staff, capable of both drug substance and drug product manufacturing.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-state-reps-attend-opening-of-made-scientific-cell-therapy-plant-in-new-jersey",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "State reps attend opening of Made Scientific cell therapy plant in New Jersey",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/state-reps-attend-opening-of-made-scientific-cell-therapy-plant-in-new-jersey",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "facility_footprint: 60,000 square-foot; capex: $12 million; capex: $12 million; capex: $500 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "60,000 square-foot",
+        "value_norm": 60000,
+        "unit": "square-foot",
+        "evidence_snippet": "The 60,000 square-foot manufacturing plant completes a $12 million capital investment announced last year.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$12 million",
+        "value_norm": 12000000,
+        "unit": "USD",
+        "evidence_snippet": "The 60,000 square-foot manufacturing plant completes a $12 million capital investment announced last year.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$12 million",
+        "value_norm": 12000000,
+        "unit": "USD",
+        "evidence_snippet": "The opening of the facility marks the completion of a $12 million investment toward facility upgrades, equipment, and business system digitization that Made Scientific announced in The timing of the ribbon cutting coincides with New Jersey Governor Phil Murphy’s August 13 signing of A5687/S4407, colloquially known as .",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$500 million",
+        "value_norm": 500000000,
+        "unit": "USD",
+        "evidence_snippet": "The US$500 million tax credit program incentivizes eligible businesses to conduct manufacturing in the state by rewarding them with a tax credit based upon their capital investment.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-building-a-better-facility-bpi-tours-pci-manufacturing-plant-in-bedford",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Building a better facility: BPI tours PCI manufacturing plant in Bedford",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/building-a-better-facility-bpi-tours-pci-manufacturing-plant-in-bedford",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "expansion",
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $100 million; fill_finish_rate: 400 vials per minute; capex: $100 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": true,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 million",
+        "value_norm": 100000000,
+        "unit": "USD",
+        "evidence_snippet": "From Identification to Justification: A Practical and Consolidated Strategy for Elemental-Impurity Risk Management in Biomanufacturing From Identification to Justification: A Practical and Consolidated Strategy for Elemental-Impurity Risk Management in Biomanufacturing PCI’s $100 million facility expansion is a culmination of experiences forged in previous builds.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "fill_finish_rate",
+        "value_raw": "400 vials per minute",
+        "value_norm": 400,
+        "unit": "vials/minute",
+        "evidence_snippet": "“We grow to get different modalities and different types of projects and molecules that can support our clients.” The US$100 million expansion houses an aseptic fill–finish line within a fully isolated containment system, capable of filling 400 vials per minute.",
+        "context": "fill_finish"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 million",
+        "value_norm": 100000000,
+        "unit": "USD",
+        "evidence_snippet": "“We grow to get different modalities and different types of projects and molecules that can support our clients.” The US$100 million expansion houses an aseptic fill–finish line within a fully isolated containment system, capable of filling 400 vials per minute.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-wuxi-xdc-unveils-gmp-certified-facility-in-china",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "WuXi XDC unveils GMP-certified facility in China",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/wuxi-xdc-unveils-gmp-certified-facility-in-china",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "expansion"
+    ],
+    "key_facts_text": "fill_finish_output: seven million vials; fill_finish_output: 15 million vials; fill_finish_rate: 300 vials per minute",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": true,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "fill_finish_output",
+        "value_raw": "seven million vials",
+        "value_norm": 7000000,
+        "unit": "vials",
+        "evidence_snippet": "The facility will be able to produce up to seven million vials, increasing the site’s total capacity to 15 million vials per year.",
+        "context": "fill_finish"
+      },
+      {
+        "fact_type": "fill_finish_output",
+        "value_raw": "15 million vials",
+        "value_norm": 15000000,
+        "unit": "vials",
+        "evidence_snippet": "The facility will be able to produce up to seven million vials, increasing the site’s total capacity to 15 million vials per year.",
+        "context": "fill_finish"
+      },
+      {
+        "fact_type": "fill_finish_rate",
+        "value_raw": "300 vials per minute",
+        "value_norm": 300,
+        "unit": "vials/minute",
+        "evidence_snippet": "The company further elaborated in its announcement to the public of high-speed filling machinery able to complete 300 vials per minute, and an automated dual camera system that can detect if stoppers are at the correct height.",
+        "context": "fill_finish"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-regal-touch-princess-anne-opens-insmeds-new-cambridge-facility-for-rare-disease-research",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Regal touch: Princess Anne opens Insmed’s new Cambridge facility for rare disease research",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/regal-touch-princess-anne-opens-insmed-s-new-cambridge-facility-for-rare-disease",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "facility_footprint: 17,000 square foot",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "17,000 square foot",
+        "value_norm": 17000,
+        "unit": "square foot",
+        "evidence_snippet": "The 17,000 square foot facility is dedicated to synthetic rescue of rare diseases.",
+        "context": "footprint"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-simtra-expands-to-bring-commercial-adc-drug-product-manufacturing-to-us",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Simtra expands to bring commercial ADC drug product manufacturing to US",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/simtra-expands-to-bring-commercial-adc-drug-product-manufacturing-to-us",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $100 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 million",
+        "value_norm": 100000000,
+        "unit": "USD",
+        "evidence_snippet": "Simtra’s original Bloomington manufacturing site also has undergone upgrades, including a recently completed $100 million production building.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-biogen-bolsters-us-supply-chain-with-2bn-manufacturing-investment",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Biogen bolsters US supply chain with $2bn manufacturing investment",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/biogen-bolsters-us-supply-chain-with-2bn-manufacturing-investment",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $10 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$10 billion",
+        "value_norm": 10000000000,
+        "unit": "USD",
+        "evidence_snippet": "Biogen has invested $10 billion in the area since 1995, when it first broke ground in the region.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-astrazeneca-commits-50-billion-to-us-pharmaceutical-manufacturing-and-r-d",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "AstraZeneca commits $50 billion to US pharmaceutical manufacturing and R&D",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/astrazeneca-commits-50-billion-to-us-pharmaceutical-manufacturing-and-r-d",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $50 billion",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$50 billion",
+        "value_norm": 50000000000,
+        "unit": "USD",
+        "evidence_snippet": "plans to invest $50 billion in the US for manufacturing and research and development (R&D), led by a drug substance manufacturing facility in Virginia.",
+        "context": "investment"
+      }
+    ]
+  }
+]

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com; font-src cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self';">
+    <title>Biologics Manufacturing Capacity News Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-newspaper"></i> Capacity News Directory</h1>
+            <p>Biologics manufacturing capacity announcements with evidence-backed facts</p>
+            <div class="directory-nav">
+                <a class="nav-link" href="../">
+                    <i class="fas fa-graduation-cap"></i> Webinar Directory
+                </a>
+            </div>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search by company, facility, or capacity details...">
+                <button id="clearSearch" class="clear-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="filters-section">
+            <div class="filter-group">
+                <label for="outletFilter">Outlet:</label>
+                <select id="outletFilter">
+                    <option value="">All Outlets</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="yearFilter">Year:</label>
+                <select id="yearFilter">
+                    <option value="">All Years</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="statusFilter">Status:</label>
+                <select id="statusFilter">
+                    <option value="">All Statuses</option>
+                    <option value="PERTINENT">Pertinent</option>
+                    <option value="NEEDS_REVIEW">Needs Review</option>
+                    <option value="NOT_PERTINENT">Not Pertinent</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="bioreactorFilter">Bioreactor L:</label>
+                <select id="bioreactorFilter">
+                    <option value="">Any</option>
+                    <option value="true">Has Bioreactor L</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="footprintFilter">Footprint:</label>
+                <select id="footprintFilter">
+                    <option value="">Any</option>
+                    <option value="true">Has Footprint</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="fillfinishFilter">Fill/Finish:</label>
+                <select id="fillfinishFilter">
+                    <option value="">Any</option>
+                    <option value="true">Has Output</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="capexFilter">Capex:</label>
+                <select id="capexFilter">
+                    <option value="">Any</option>
+                    <option value="true">Has Capex</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="results-info">
+            <span id="resultsCount">Loading...</span>
+            <div class="results-actions">
+                <button id="downloadCsv" class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download CSV
+                </button>
+                <button id="resetFilters" class="btn btn-secondary">
+                    <i class="fas fa-undo"></i> Reset Filters
+                </button>
+            </div>
+        </div>
+
+        <div class="content-grid">
+            <div class="table-container">
+                <table id="newsTable">
+                    <thead>
+                        <tr>
+                            <th>Headline</th>
+                            <th>Outlet</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Key Facts</th>
+                        </tr>
+                    </thead>
+                    <tbody id="newsTableBody">
+                        <!-- Data will be populated by JavaScript -->
+                    </tbody>
+                </table>
+                <div id="noResults" class="no-results" style="display: none;">
+                    <i class="fas fa-search"></i>
+                    <h3>No articles found</h3>
+                    <p>Try adjusting your search terms or filters</p>
+                </div>
+            </div>
+
+            <aside class="detail-panel" id="detailPanel">
+                <div class="detail-empty">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>Select an article</h3>
+                    <p>Click a row to view facts and evidence snippets.</p>
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <p>Last updated: <span id="lastUpdated">Loading...</span></p>
+            <p>Total articles: <span id="totalCount">Loading...</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
