@@ -3708,8 +3708,113 @@
       "url": "https://www.labroots.com/virtual-event/bioprocessing-2027",
       "description": "Labroots event: Bioprocessing Virtual Event Series 2027",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-cancer-research-oncology-virtual-event-series-2027",
+      "title": "Cancer Research & Oncology Virtual Event Series 2027",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-25",
+      "webinar_date": "2027-09-29",
+      "live_date": "2027-09-29",
+      "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-virtual-event-series-2027",
+      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2027",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-cell-gene-therapy-virtual-event-series-2027",
+      "title": "Cell & Gene Therapy Virtual Event Series 2027",
+      "provider": "Labroots",
+      "topics": [
+        "gene-therapy"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-25",
+      "webinar_date": "2027-10-13",
+      "live_date": "2027-10-13",
+      "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-virtual-event-series-2027",
+      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2027",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improving-vaccine-production-through-advanced-raw-materials-for-cell-based-processes",
+      "title": "Improving Vaccine Production Through Advanced Raw Materials for Cell-Based Processes",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-25",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improving-vaccine-production-through-advanced-raw-materials-for-cell-based-processes/",
+      "description": "Xtalks webinar: Improving Vaccine Production Through Advanced Raw Materials for Cell-Based Processes",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-accelerating-clinical-entry-for-poorly-soluble-molecules-a-proven-and-structured-roadmap",
+      "title": "Accelerating Clinical Entry for Poorly Soluble Molecules: A Proven and Structured Roadmap",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-25",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/accelerating-clinical-entry-for-poorly-soluble-molecules-a-proven-and-structured-roadmap/",
+      "description": "Xtalks webinar: Accelerating Clinical Entry for Poorly Soluble Molecules: A Proven and Structured Roadmap",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-qrm-based-integrated-c-q-series-qualification-strategies-and-acceptance-and-release",
+      "title": "QRM Based Integrated C&Q Series - Qualification Strategies and Acceptance and Release",
+      "provider": "ISPE",
+      "topics": [
+        "validation",
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-25",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/qrm-based-integrated-cq-series-qualification-strategies-and-acceptance-and-release",
+      "description": "ISPE upcoming webinar: QRM Based Integrated C&Q Series - Qualification Strategies and Acceptance and Release",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-implementation-of-compliant-cgmp-cell-production-infrastructure-from-zero-to-a-one-stop-shop",
+      "title": "Implementation of Compliant cGMP Cell Production Infrastructure: From Zero to a One-Stop-Shop",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-01-25",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/implementation-compliant-cgmp-cell-production-infrastructure-zero-one-stop-shop",
+      "description": "ISPE upcoming webinar: Implementation of Compliant cGMP Cell Production Infrastructure: From Zero to a One-Stop-Shop",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-01-18T03:43:06.963901",
-  "total_count": 199
+  "last_updated": "2026-01-25T03:51:10.846595",
+  "total_count": 205
 }
