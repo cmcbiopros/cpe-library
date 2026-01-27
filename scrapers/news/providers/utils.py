@@ -123,6 +123,8 @@ def extract_text_from_selectors(soup, selectors):
     for selector in selectors:
         node = soup.select_one(selector)
         if node:
+            if node.name == "meta" and node.get("content"):
+                return clean_text(node.get("content"))
             return clean_text(node.get_text(" ", strip=True))
     return ""
 

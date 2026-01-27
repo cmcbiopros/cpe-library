@@ -70,6 +70,22 @@ def parse_article(url):
         published_text = extract_text_from_selectors(soup, ["meta[property='article:published_time']"])
 
     published_at = parse_date(published_text)
+    if not published_at:
+        for script in soup.find_all("script", type="application/ld+json"):
+            if not script.string:
+                continue
+            try:
+                data = json.loads(script.string)
+            except json.JSONDecodeError:
+                continue
+            payloads = data if isinstance(data, list) else [data]
+            for payload in payloads:
+                if isinstance(payload, dict) and payload.get("datePublished"):
+                    published_at = parse_date(payload.get("datePublished"))
+                    if published_at:
+                        break
+            if published_at:
+                break
     body_text = extract_body_text(
         soup,
         [
