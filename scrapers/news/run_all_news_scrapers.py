@@ -23,6 +23,12 @@ def parse_args():
     parser.add_argument("--max-pages", type=int, default=20, help="Max pages to scan per provider.")
     parser.add_argument("--max-articles", type=int, default=0, help="Max articles total (0 = no limit).")
     parser.add_argument("--reprocess-existing", action="store_true", help="Re-parse and re-score existing articles.")
+    parser.add_argument(
+        "--reprocess-outlet",
+        action="append",
+        default=[],
+        help="Limit reprocessing to a specific outlet name (repeatable)."
+    )
     return parser.parse_args()
 
 
@@ -496,13 +502,14 @@ def key_facts_text_from_facts(facts):
     return "; ".join(summaries)
 
 
-def reprocess_existing_articles(existing_articles, providers, max_articles):
+def reprocess_existing_articles(existing_articles, providers, max_articles, reprocess_outlets):
     provider_by_name = {provider["name"]: provider for provider in providers}
     provider_by_domain = {
         "bioprocessintl.com": provider_by_name.get("BioProcess International"),
         "pharmaceuticalcommerce.com": provider_by_name.get("Pharmaceutical Commerce"),
         "fiercepharma.com": provider_by_name.get("Fierce Pharma")
     }
+    outlet_filter = {outlet.lower() for outlet in reprocess_outlets} if reprocess_outlets else None
     updated = []
     processed_count = 0
 
@@ -521,6 +528,9 @@ def reprocess_existing_articles(existing_articles, providers, max_articles):
                     break
 
         if not provider or not url:
+            updated.append(article)
+            continue
+        if outlet_filter and provider["name"].lower() not in outlet_filter:
             updated.append(article)
             continue
 
@@ -556,7 +566,7 @@ def reprocess_existing_articles(existing_articles, providers, max_articles):
     return updated
 
 
-def run_all_scrapers(months, retention_years, max_pages, max_articles, reprocess_existing):
+def run_all_scrapers(months, retention_years, max_pages, max_articles, reprocess_existing, reprocess_outlets):
     repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     data_file = os.path.join(repo_root, "capacity-news", "capacity_news.json")
     os.makedirs(os.path.dirname(data_file), exist_ok=True)
@@ -564,8 +574,11 @@ def run_all_scrapers(months, retention_years, max_pages, max_articles, reprocess
     existing_articles = [normalize_article(article) for article in load_existing_articles(data_file)]
     providers = load_providers()
     if reprocess_existing:
-        print("\nReprocessing existing articles...")
-        existing_articles = reprocess_existing_articles(existing_articles, providers, max_articles)
+        if reprocess_outlets:
+            print(f"\nReprocessing existing articles for outlets: {', '.join(reprocess_outlets)}")
+        else:
+            print("\nReprocessing existing articles...")
+        existing_articles = reprocess_existing_articles(existing_articles, providers, max_articles, reprocess_outlets)
     seen_urls = {article["url"] for article in existing_articles if article.get("url")}
 
     backfill_cutoff = datetime.utcnow() - timedelta(days=months * 30)
@@ -681,4 +694,11 @@ def run_all_scrapers(months, retention_years, max_pages, max_articles, reprocess
 
 if __name__ == "__main__":
     args = parse_args()
-    run_all_scrapers(args.months, args.retention_years, args.max_pages, args.max_articles, args.reprocess_existing)
+    run_all_scrapers(
+        args.months,
+        args.retention_years,
+        args.max_pages,
+        args.max_articles,
+        args.reprocess_existing,
+        args.reprocess_outlet
+    )
