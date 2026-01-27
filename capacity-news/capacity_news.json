@@ -1,5 +1,419 @@
 [
   {
+    "id": "fierce-pharma-2026-01-27-china-regulators-suspend-sale-of-sun-pharma-s-dementia-med-after-site-inspection",
+    "published_at": "2026-01-27",
+    "outlet": "Fierce Pharma",
+    "title": "China regulators suspend sale of Sun Pharma's dementia med after site inspection",
+    "url": "https://www.fiercepharma.com/manufacturing/chinese-regulators-suspend-sale-sun-pharmas-dementia-med-after-site-inspection",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-27-eu-looks-to-knock-out-pharmaceutical-export-tariffs-in-sweeping-free-trade-pact-with-india",
+    "published_at": "2026-01-27",
+    "outlet": "Fierce Pharma",
+    "title": "EU looks to knock out pharmaceutical export tariffs in sweeping free trade pact with India",
+    "url": "https://www.fiercepharma.com/pharma/eu-looks-knock-out-pharmaceutical-export-tariffs-sweeping-free-trade-pact-india",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-27-servier-delivers-16-revenue-jump-firming-up-eur10b-ambition-by-2030",
+    "published_at": "2026-01-27",
+    "outlet": "Fierce Pharma",
+    "title": "Servier delivers 16% revenue jump, firming up €10B ambition by 2030",
+    "url": "https://www.fiercepharma.com/pharma/servier-delivers-16-revenue-jump-firming-eu10b-ambition-2030",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-27-pfizer-retains-top-spot-in-vaccine-maker-rankings-as-sanofi-s-slide-sparks-code-red-call",
+    "published_at": "2026-01-27",
+    "outlet": "Fierce Pharma",
+    "title": "Pfizer retains top spot in vaccine maker rankings as Sanofi's slide sparks 'code red' call",
+    "url": "https://www.fiercepharma.com/marketing/pfizer-retains-top-spot-vaccine-rankings-sanofis-slide-sparks-code-red-call",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-27-siegfried-extends-m-a-streak-gaining-3-sites-from-sk-capital-and-advancing-us-onshoring-aims",
+    "published_at": "2026-01-27",
+    "outlet": "Fierce Pharma",
+    "title": "Siegfried extends M&A streak, gaining 3 sites from SK Capital and advancing US onshoring aims",
+    "url": "https://www.fiercepharma.com/manufacturing/siegfried-continues-its-ma-splurge-gaining-3-sites-sk-capital",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $302 million",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$302 million",
+        "value_norm": 302000000,
+        "unit": "USD",
+        "evidence_snippet": "Five years before that, Siegfried paid $302 million for BASF’s ephedrine, pseudoephedrine and caffeine API businesses as well as BASF’s custom drug manufacturing operation.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-01-26-teva-taps-snl-alum-will-forte-to-join-huntingtons-disease-awareness-push",
+    "published_at": "2026-01-26",
+    "outlet": "Fierce Pharma",
+    "title": "Teva taps ‘SNL’ alum Will Forte to join Huntington’s disease awareness push",
+    "url": "https://www.fiercepharma.com/marketing/teva-taps-snl-alum-will-forte-join-huntingtons-disease-awareness-push",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-26-catalent-moves-to-wind-down-operations-at-eu-cell-therapy-manufacturing-hub",
+    "published_at": "2026-01-26",
+    "outlet": "Fierce Pharma",
+    "title": "Catalent moves to wind down operations at EU cell therapy manufacturing hub",
+    "url": "https://www.fiercepharma.com/manufacturing/catalent-moves-wind-down-operations-eu-cell-therapy-manufacturing-hub",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "facility_footprint: 25,000 square-foot; facility_footprint: 60,000-square-foot",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "25,000 square-foot",
+        "value_norm": 25000,
+        "unit": "square-foot",
+        "evidence_snippet": "That agreement gave Catalent a 25,000 square-foot facility in Gosselies, and then Catalent moved quickly to add to that presence with a separate facility buyout in the fall of 2020 and another CDMO acquisition in the spring of 2021.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "60,000-square-foot",
+        "value_norm": 60000,
+        "unit": "square-foot",
+        "evidence_snippet": "Finally, in 2022, Catalent touted the opening of a 60,000-square-foot site in Gosselies.",
+        "context": "footprint"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-01-26-new-rules-higher-stakes-biopharma-plays-the-long-game-in-2026",
+    "published_at": "2026-01-26",
+    "outlet": "Fierce Pharma",
+    "title": "New rules, higher stakes: Biopharma plays the long game in 2026",
+    "url": "https://www.fiercepharma.com/biotech/new-rules-higher-stakes-biopharma-plays-long-game-2026",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-26-arcutis-kowa-part-ways-on-us-marketing-partnership-for-zoryve",
+    "published_at": "2026-01-26",
+    "outlet": "Fierce Pharma",
+    "title": "Arcutis, Kowa part ways on US marketing partnership for Zoryve",
+    "url": "https://www.fiercepharma.com/marketing/arcutis-kowa-cut-ties-two-years-us-marketing-partnership-arcutis-topical-zorvye",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-26-daiichi-sankyo-navigates-complexity-of-success-as-enhertu-datroway-push-for-market-dominance",
+    "published_at": "2026-01-26",
+    "outlet": "Fierce Pharma",
+    "title": "Daiichi Sankyo navigates complexity of success as Enhertu, Datroway push for market dominance",
+    "url": "https://www.fiercepharma.com/pharma/daiichi-sankyo-navigates-complexity-success-enhertu-datroway-push-market-dominance",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-26-responding-to-tougher-fda-standards-recipharm-debuts-new-facility-for-beta-lactam-drugs",
+    "published_at": "2026-01-26",
+    "outlet": "Fierce Pharma",
+    "title": "Responding to tougher FDA standards, Recipharm debuts new facility for beta-lactam drugs",
+    "url": "https://www.fiercepharma.com/manufacturing/fda-winds-changing-recipharm-debuts-purpose-built-plant-beta-lactam-drugs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "construction",
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-23-anti-vaccine-sentiment-pushes-moderna-away-from-new-late-stage-infectious-disease-trials",
+    "published_at": "2026-01-23",
+    "outlet": "Fierce Pharma",
+    "title": "Anti-vaccine sentiment pushes Moderna away from new late-stage infectious disease trials",
+    "url": "https://www.fiercepharma.com/biotech/anti-vaccine-sentiment-pushes-moderna-away-new-late-stage-infectious-disease-trials",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-23-lilly-battles-weight-stigma-in-short-film-centering-obesity-conversation-on-health-not-appearan",
+    "published_at": "2026-01-23",
+    "outlet": "Fierce Pharma",
+    "title": "Lilly battles weight stigma in short film centering obesity conversation on health, not appearance",
+    "url": "https://www.fiercepharma.com/marketing/lilly-battles-weight-stigma-short-film-centering-obesity-conversation-health-not",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-23-rfk-jr-s-new-acip-chair-stresses-individual-autonomy-questions-polio-shot-guidance-on-podcast",
+    "published_at": "2026-01-23",
+    "outlet": "Fierce Pharma",
+    "title": "RFK Jr.'s new ACIP chair stresses 'individual autonomy,' questions polio shot guidance on podcast",
+    "url": "https://www.fiercepharma.com/pharma/new-acip-chair-talks-established-science-polio-vaccine-uncertainty-and-individual-autonomy",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-23-novo-s-wegovy-pill-launch-wows-with-strong-early-uptake-analysts",
+    "published_at": "2026-01-23",
+    "outlet": "Fierce Pharma",
+    "title": "Novo's Wegovy pill launch wows with strong early uptake: analysts",
+    "url": "https://www.fiercepharma.com/pharma/novos-impressive-wegovy-pill-launch-headline-and-itself-evercore-says",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-01-21-genentech-doubles-holly-springs-manufacturing-investment-to-2bn",
+    "published_at": "2026-01-21",
+    "outlet": "BioProcess International",
+    "title": "Genentech doubles Holly Springs manufacturing investment to $2bn",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/genentech-doubles-holly-springs-manufacturing-investment-to-2bn",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $2 billion; capex: $23 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "US biotechnology company Genentech announced that it is more than doubling its investment in the facility it is building in Holly Springs, North Carolina, bringing the total investment to US$2 billion.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$23 billion",
+        "value_norm": 23000000000,
+        "unit": "USD",
+        "evidence_snippet": "“This expansion reflects our long-term commitment to the United States and communities like Holly Springs that offer the kind of world-class biotech talent, top research institutions, and strong infrastructure that make innovation possible.” She added, “This additional investment will create more high-quality jobs, strengthen local partnerships, and ensure a resilient supply of medicines for years to come, allowing us to bring life-changing medicines to patients faster and more reliably.” in Durham as part of a $23 billion commitment to US investment.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-01-21-fujifilm-biotechnologies-ceo-talks-uk-facility-ahead-of-february-opening",
+    "published_at": "2026-01-21",
+    "outlet": "BioProcess International",
+    "title": "FUJIFILM Biotechnologies CEO talks UK facility ahead of February opening",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/fujifilm-biotechnologies-ceo-talks-uk-facility-ahead-of-february-opening",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "outsourcing"
+    ],
+    "key_facts_text": "bioreactor_volume: 2,000-L; bioreactor_volume: 5,000-L; capex: 400 million; capex: $10 billion",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "2,000-L",
+        "value_norm": 2000,
+        "unit": "L",
+        "evidence_snippet": "The £400 million (US$537 million) expansion is built for small-to-medium sized scale production and is equipped with 2,000-L and 5,000-L single-use bioreactors.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "5,000-L",
+        "value_norm": 5000,
+        "unit": "L",
+        "evidence_snippet": "The £400 million (US$537 million) expansion is built for small-to-medium sized scale production and is equipped with 2,000-L and 5,000-L single-use bioreactors.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "400 million",
+        "value_norm": 400000000,
+        "unit": "USD",
+        "evidence_snippet": "The £400 million (US$537 million) expansion is built for small-to-medium sized scale production and is equipped with 2,000-L and 5,000-L single-use bioreactors.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$10 billion",
+        "value_norm": 10000000000,
+        "unit": "USD",
+        "evidence_snippet": "Petersen credit’s the company’s kojoX strategy for guiding its approach to building an agile manufacturing network throughout the US, Europe, and Japan, adding up to a total investment of $10 billion.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-01-20-sartorius-expands-sustainable-manufacturing-network-to-germany-and-tunisia",
+    "published_at": "2026-01-20",
+    "outlet": "BioProcess International",
+    "title": "Sartorius expands sustainable manufacturing network to Germany and Tunisia",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/sartorius-expands-sustainable-manufacturing-network-to-germany-and-tunisia",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-01-16-after-abbvie-and-genmab-s-ph-3-survival-miss-for-epkinly-in-dlbcl-what-s-next",
     "published_at": "2026-01-16",
     "outlet": "Fierce Pharma",
@@ -1313,6 +1727,26 @@
     "key_facts_text": "",
     "flags": [
       "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-01-02-regulatory-tracker-europe-expands-use-of-gsk-s-arexvy-to-all-adults",
+    "published_at": "2026-01-02",
+    "outlet": "Fierce Pharma",
+    "title": "Regulatory tracker: Europe expands use of GSK's Arexvy to all adults",
+    "url": "https://www.fiercepharma.com/pharma/fierce-pharma-regulatory-tracker-2026",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "SMALL_MOLECULE_MENTION",
       "BIO_MANUFACTURING_SIGNAL"
     ],
     "has_bioreactor_L": false,
@@ -2826,6 +3260,58 @@
         "value_norm": 50000000000,
         "unit": "USD",
         "evidence_snippet": "plans to invest $50 billion in the US for manufacturing and research and development (R&D), led by a drug substance manufacturing facility in Virginia.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-alcami-consolidates-nc-footprint-with-6-7m-manufacturing-facility",
+    "published_at": "",
+    "outlet": "BioProcess International",
+    "title": "Alcami consolidates NC footprint with $6.7m manufacturing facility",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/alcami-consolidates-nc-footprint-with-6-7m-manufacturing-facility",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "facility_footprint: 37,000 square feet; capex: $6.7 million; capex: $2 billion; capex: $3.2 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "37,000 square feet",
+        "value_norm": 37000,
+        "unit": "square feet",
+        "evidence_snippet": "The two-story $6.7 million facility has over 37,000 square feet of space.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$6.7 million",
+        "value_norm": 6700000,
+        "unit": "USD",
+        "evidence_snippet": "The two-story $6.7 million facility has over 37,000 square feet of space.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "Recently, announced a more than $2 billion investment in its Holly Springs facility based in North Carolina.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$3.2 billion",
+        "value_norm": 3200000000,
+        "unit": "USD",
+        "evidence_snippet": "Fujifilm biotechnologies significant funds into the state, including a $3.2 billion facility also based in Holly Springs, which opened late last year.",
         "context": "investment"
       }
     ]
