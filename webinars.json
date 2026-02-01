@@ -3813,8 +3813,27 @@
       "url": "https://ispe.org/webinars/implementation-compliant-cgmp-cell-production-infrastructure-zero-one-stop-shop",
       "description": "ISPE upcoming webinar: Implementation of Compliant cGMP Cell Production Infrastructure: From Zero to a One-Stop-Shop",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-automated-high-purity-cell-isolation-for-efficient-cell-therapy-manufacturing",
+      "title": "Automated, High Purity Cell Isolation for Efficient Cell Therapy Manufacturing",
+      "provider": "Labroots",
+      "topics": [
+        "cell-therapy",
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-01",
+      "webinar_date": "2026-02-17",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/automated-purity-cell-isolation-efficient-cell-therapy-manufacturing",
+      "description": "Labroots event: Automated, High Purity Cell Isolation for Efficient Cell Therapy Manufacturing",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-01-25T03:51:10.846595",
-  "total_count": 205
+  "last_updated": "2026-02-01T04:27:50.173380",
+  "total_count": 206
 }
