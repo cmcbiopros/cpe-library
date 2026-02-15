@@ -3832,8 +3832,102 @@
       "url": "https://www.labroots.com/webinar/automated-purity-cell-isolation-efficient-cell-therapy-manufacturing",
       "description": "Labroots event: Automated, High Purity Cell Isolation for Efficient Cell Therapy Manufacturing",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-responsible-data-return-in-rare-disease-clinical-trials-what-sponsors-need-to-know",
+      "title": "Responsible Data Return in Rare Disease Clinical Trials: What Sponsors Need to Know",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "rare-disease",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-15",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/responsible-data-return-in-rare-disease-clinical-trials-what-sponsors-need-to-know/",
+      "description": "Xtalks webinar: Responsible Data Return in Rare Disease Clinical Trials: What Sponsors Need to Know",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-engaging-community-voices-to-improve-clinical-trial-access",
+      "title": "Engaging Community Voices to Improve Clinical Trial Access",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-15",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/engaging-community-voices-to-improve-trial-access/",
+      "description": "Xtalks webinar: Engaging Community Voices to Improve Clinical Trial Access",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-how-to-safely-harness-r-and-sas-for-cutting-edge-and-validated-clinical-analytics",
+      "title": "How to Safely Harness R and SAS for Cutting-Edge and Validated Clinical Analytics",
+      "provider": "Xtalks",
+      "topics": [
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-15",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/how-to-safely-harness-r-and-sas-for-cutting-edge-and-validated-clinical-analytics/",
+      "description": "Xtalks webinar: How to Safely Harness R and SAS for Cutting-Edge and Validated Clinical Analytics",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-peptide-synthesis-new-sustainable-strategies-for-regulatory-and-market-demands",
+      "title": "Peptide Synthesis: New Sustainable Strategies for Regulatory and Market Demands",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-15",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/peptide-synthesis-new-sustainable-strategies-for-regulatory-and-market-demands/",
+      "description": "Xtalks webinar: Peptide Synthesis: New Sustainable Strategies for Regulatory and Market Demands",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-3-key-trends-transforming-the-future-of-rare-disease-clinical-development",
+      "title": "3 Key Trends Transforming the Future of Rare Disease Clinical Development",
+      "provider": "Xtalks",
+      "topics": [
+        "development",
+        "rare-disease"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-15",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/3-key-trends-transforming-the-future-of-rare-disease-clinical-development/",
+      "description": "Xtalks webinar: 3 Key Trends Transforming the Future of Rare Disease Clinical Development",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-02-01T04:27:50.173380",
-  "total_count": 206
+  "last_updated": "2026-02-15T04:18:45.211055",
+  "total_count": 211
 }
