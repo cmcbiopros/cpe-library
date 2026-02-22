@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2026-02-18",
+      "webinar_date": "2026-03-18",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -472,13 +472,13 @@
       "topics": [
         "research"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
       "webinar_date": "2026-02-18",
-      "live_date": "2026-02-18",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/drug-discovery-development-2026",
       "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2026",
       "source": "scraped"
@@ -1862,7 +1862,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2026-02-18",
+      "webinar_date": "2026-01-23",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -3030,7 +3030,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-09",
-      "webinar_date": "2026-02-18",
+      "webinar_date": "2026-01-23",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -3606,15 +3606,15 @@
         "regulatory",
         "quality-assurance"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-01-04",
       "webinar_date": "Unknown",
       "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/leveraging-generative-ai-audit-and-regulatory-response-development",
-      "description": "ISPE upcoming webinar: Leveraging Generative AI for Audit and Regulatory Response Development",
+      "url": "https://ispe.org/webinars/videos/leveraging-generative-ai-audit-and-regulatory-response-development",
+      "description": "ISPE past webinar: Leveraging Generative AI for Audit and Regulatory Response Development",
       "source": "scraped"
     },
     {
@@ -3926,8 +3926,142 @@
       "url": "https://xtalks.com/webinars/3-key-trends-transforming-the-future-of-rare-disease-clinical-development/",
       "description": "Xtalks webinar: 3 Key Trends Transforming the Future of Rare Disease Clinical Development",
       "source": "scraped"
+    },
+    {
+      "id": "ispe-from-ambition-to-action-real-world-energy-reduction-in-practice",
+      "title": "From Ambition to Action: Real-World Energy Reduction in Practice",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-22",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/ambition-action-real-world-energy-reduction-practice",
+      "description": "ISPE upcoming webinar: From Ambition to Action: Real-World Energy Reduction in Practice",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-concrete-industrial-case-studies-of-decision-making-ai",
+      "title": "Concrete Industrial Case Studies of Decision-Making AI",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-22",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/concrete-industrial-case-studies-decision-making-ai",
+      "description": "ISPE upcoming webinar: Concrete Industrial Case Studies of Decision-Making AI",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-from-prompt-to-proof-ai-for-dea-compliance-and-gxp-manufacturing-investigations",
+      "title": "From Prompt to Proof: AI for DEA Compliance and GxP Manufacturing Investigations",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "regulatory",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-22",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/prompt-proof-ai-dea-compliance-and-gxp-manufacturing-investigations",
+      "description": "ISPE upcoming webinar: From Prompt to Proof: AI for DEA Compliance and GxP Manufacturing Investigations",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-guardrails-for-growth-standardize-scale-and-stay-compliant-across-every-site",
+      "title": "Guardrails for Growth: Standardize, Scale, and Stay Compliant Across Every Site",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-22",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/guardrails-growth-standardize-scale-and-stay-compliant-across-every-site",
+      "description": "ISPE upcoming webinar: Guardrails for Growth: Standardize, Scale, and Stay Compliant Across Every Site",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-tackling-mega-scale-project-execution-challenges-in-the-u-s-pharmaceutical-sector",
+      "title": "Tackling Mega-Scale Project Execution Challenges in the U.S. Pharmaceutical Sector",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-22",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/tackling-mega-scale-project-execution-challenges-us-pharmaceutical-sector",
+      "description": "ISPE upcoming webinar: Tackling Mega-Scale Project Execution Challenges in the U.S. Pharmaceutical Sector",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-improving-compliance-speed-decisions-and-reduce-operational-risk-using-ai-and-digital-quality-solutions",
+      "title": "Improving Compliance, Speed Decisions, and Reduce Operational Risk Using AI and Digital Quality Solutions",
+      "provider": "ISPE",
+      "topics": [
+        "quality-assurance",
+        "regulatory"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-22",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/events/improving-compliance-speed-decisions-and-reduce-operational-risk-using-ai-and-digital",
+      "description": "ISPE upcoming webinar: Improving Compliance, Speed Decisions, and Reduce Operational Risk Using AI and Digital Quality Solutions",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-autonomous-batch-disposition-using-rules-risk-ai-signals",
+      "title": "Autonomous Batch Disposition Using Rules, Risk & AI Signals",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-02-22",
+      "webinar_date": "2026-05-07",
+      "live_date": "2026-05-07",
+      "url": "https://ispe.org/webinars/autonomous-batch-disposition-using-rules-risk-ai-signals",
+      "description": "ISPE upcoming webinar: Autonomous Batch Disposition Using Rules, Risk & AI Signals",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-02-15T04:18:45.211055",
-  "total_count": 211
+  "last_updated": "2026-02-22T04:13:01.139505",
+  "total_count": 218
 }
