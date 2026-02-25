@@ -18,6 +18,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Sync with latest main
+      run: |
+        git pull --rebase origin main
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -55,7 +59,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add capacity-news/capacity_news.json
         git commit -m "Update capacity news directory [skip ci]"
-        git push --force-with-lease
+        git push origin HEAD:main
 
     - name: Create issue for failures
       if: failure()
