@@ -4060,8 +4060,98 @@
       "url": "https://ispe.org/webinars/autonomous-batch-disposition-using-rules-risk-ai-signals",
       "description": "ISPE upcoming webinar: Autonomous Batch Disposition Using Rules, Risk & AI Signals",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-qsit-is-ending-how-to-achieve-audit-readiness-for-medical-devices-under-fda-qmsr",
+      "title": "QSIT Is Ending: How to Achieve Audit Readiness for Medical Devices Under FDA QMSR",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "medical-device"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-01",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/qsit-is-ending-how-to-achieve-audit-readiness-for-medical-devices-under-fda-qmsr/",
+      "description": "Xtalks webinar: QSIT Is Ending: How to Achieve Audit Readiness for Medical Devices Under FDA QMSR",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-the-art-of-market-entry-navigating-japans-pharmaceutical-landscape",
+      "title": "The ART of Market Entry: Navigating Japan’s Pharmaceutical Landscape",
+      "provider": "Xtalks",
+      "topics": [
+        "pharmaceutical"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-01",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/the-art-of-market-entry-navigating-japans-pharmaceutical-landscape/",
+      "description": "Xtalks webinar: The ART of Market Entry: Navigating Japan’s Pharmaceutical Landscape",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-quality-management-accelerating-qa-qc-and-time-to-market-with-intelligent-solutions-ai",
+      "title": "Quality Management: Accelerating QA/QC and Time-to-Market with Intelligent Solutions & AI",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-01",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/quality-management-accelerating-qa-qc-and-time-to-market-with-intelligent-solutions-ai/",
+      "description": "Xtalks webinar: Quality Management: Accelerating QA/QC and Time-to-Market with Intelligent Solutions & AI",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-optimizing-dna-yield-in-self-collected-samples-through-advanced-materials",
+      "title": "Optimizing DNA Yield in Self-Collected Samples Through Advanced Materials",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-01",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/optimizing-dna-yield-in-self-collected-samples-through-advanced-materials/",
+      "description": "Xtalks webinar: Optimizing DNA Yield in Self-Collected Samples Through Advanced Materials",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-smarter-trial-decisions-through-clinical-data-integration",
+      "title": "Smarter Trial Decisions Through Clinical Data Integration",
+      "provider": "Xtalks",
+      "topics": [
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-01",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/smarter-trial-decisions-through-clinical-data-integration/",
+      "description": "Xtalks webinar: Smarter Trial Decisions Through Clinical Data Integration",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-02-22T04:13:01.139505",
-  "total_count": 218
+  "last_updated": "2026-03-01T04:19:10.886984",
+  "total_count": 223
 }
