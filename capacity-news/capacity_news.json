@@ -1,5 +1,821 @@
 [
   {
+    "id": "fierce-pharma-2026-03-12-partnering-to-advance-drug-delivery-innovation",
+    "published_at": "2026-03-12",
+    "outlet": "Fierce Pharma",
+    "title": "Partnering to Advance Drug Delivery Innovation",
+    "url": "https://www.fiercepharma.com/webinars/partnering-to-advance-drug-delivery-innovation",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-lonza-hands-off-capsule-business-to-investment-firm-lone-star-in-3b-deal",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "Lonza hands off capsule business to investment firm Lone Star in $3B deal",
+    "url": "https://www.fiercepharma.com/manufacturing/lonza-hands-capsule-business-investment-firm-lone-star-3b-deal",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing",
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-democrats-press-11-pharmas-for-any-evidence-their-trump-pricing-deals-deliver-savings-for-medic",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "Democrats press 11 pharmas for 'any evidence' their Trump pricing deals deliver savings for Medicaid",
+    "url": "https://www.fiercepharma.com/pharma/senators-press-11-pharmas-any-evidence-their-trump-drug-pricing-deals-benefit-medicaid",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-sanofi-strikes-deal-with-brazil-s-ems-to-sell-generics-manufacturer-medley",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "Sanofi strikes deal with Brazil's EMS to sell generics manufacturer Medley",
+    "url": "https://www.fiercepharma.com/manufacturing/sanofi-strikes-deal-brazils-ems-sell-local-generics-manufacturer-medley",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-super-bowl-winter-olympics-defined-tv-drug-ad-spending-in-february-led-by-abbvies-rinvoq",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "Super Bowl, Winter Olympics defined TV drug ad spending in February, led by AbbVie’s Rinvoq",
+    "url": "https://www.fiercepharma.com/marketing/super-bowl-winter-olympics-defined-tv-drug-ad-spending-february-led-abbvies-rinvoq",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $33.3 million; capex: $255.9 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$33.3 million",
+        "value_norm": 33299999,
+        "unit": "USD",
+        "evidence_snippet": "According to iSpot, Novo poured $33.3 million into airing its big game Wegovy pill spot last month, making up more than 80% of the GLP-1 drug’s $39.5 million spending total during the period.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$255.9 million",
+        "value_norm": 255900000,
+        "unit": "USD",
+        "evidence_snippet": "As in past years, February and its truncated timeline brought a sharp drop in spending as, all together, the month’s top 10 shelled out $255.9 million to air their commercials.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-taiwan-earmarks-755m-for-multi-year-drug-supply-resilience-program",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "Taiwan earmarks $755M for multi-year drug supply resilience program",
+    "url": "https://www.fiercepharma.com/manufacturing/taiwan-earmarks-754m-multi-year-drug-supply-resilience-program",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: 24 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "24 billion",
+        "value_norm": 24000000000,
+        "unit": "USD",
+        "evidence_snippet": "Taiwan is mapping out a four-year national pharmaceutical resilience preparedness program that aims to bolster the country’s domestic drug supply with a 24 billion new Taiwan dollar ($755 million) investment.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-pfizer-breaks-into-obesity-market-in-china-with-approval-for-sciwind-partnered-glp-1",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "Pfizer breaks into obesity market in China with approval for Sciwind-partnered GLP-1",
+    "url": "https://www.fiercepharma.com/pharma/pfizer-breaks-obesity-market-china-approval-sciwind-partnered-glp-1",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-fda-to-end-9-month-advisory-committee-drought-with-april-review-of-astrazenecas-oral-serd-truqa",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "FDA to end 9-month advisory committee drought with April review of AstraZeneca’s oral SERD, Truqap",
+    "url": "https://www.fiercepharma.com/biotech/fda-end-8-month-advisory-committee-drought-april-review-astrazenecas-oral-serd-truqap",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-servier-to-widen-rare-cancer-offerings-with-2-5b-buyout-of-day-one-and-glioma-drug-ojemda",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "Servier to widen rare cancer offerings with $2.5B buyout of Day One and glioma drug Ojemda",
+    "url": "https://www.fiercepharma.com/pharma/servier-adopt-sibling-voranigo-25b-purchase-day-one-and-its-childhood-brain-tumor-med",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-fierce-pharma-asia-kyowa-ends-ox40-program-sanofi-licenses-first-in-class-drug-biontech-advance",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Kyowa ends OX40 program; Sanofi licenses first-in-class drug; BioNTech advances Duality ADC",
+    "url": "https://www.fiercepharma.com/pharma/kyowa-ends-ox40-program-sanofi-licenses-first-class-drug-biontech-advances-duality-adc",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $480M",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$480M",
+        "value_norm": 480000000,
+        "unit": "USD",
+        "evidence_snippet": "Roche pumps $480M into South Korea biopharma industry to establish global trial 'ecosystem' Roche signed a memorandum of understanding with the South Korean government for the Swiss pharma to spend about $484 million in South Korea’s biopharma industry.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-as-ai-evolves-the-modern-r-d-lab-is-changing",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "As AI evolves, the modern R&D lab is changing",
+    "url": "https://www.fiercepharma.com/pharma/ai-evolves-modern-rd-lab-changing",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-06-j-j-s-tecvayli-darzalex-multiple-myeloma-combo-takes-home-fda-s-3rd-national-priority-nod",
+    "published_at": "2026-03-06",
+    "outlet": "Fierce Pharma",
+    "title": "J&J's Tecvayli-Darzalex multiple myeloma combo takes home FDA's 3rd national priority nod",
+    "url": "https://www.fiercepharma.com/pharma/jjs-tecvayli-darzalex-multiple-myeloma-combo-takes-home-fdas-3rd-national-priority-nod",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-05-forma-life-sciences-launches-with-oral-solid-dose-focus-joining-class-of-new-cdmos",
+    "published_at": "2026-03-05",
+    "outlet": "Fierce Pharma",
+    "title": "Forma Life Sciences launches with oral solid dose focus, joining class of new CDMOs",
+    "url": "https://www.fiercepharma.com/manufacturing/forma-life-sciences-launches-cdmo-oral-solid-dosage-focus",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-05-fda-gives-glenmark-thumbs-up-for-first-true-generic-version-of-gsk-s-asthma-inhaler-flovent",
+    "published_at": "2026-03-05",
+    "outlet": "Fierce Pharma",
+    "title": "FDA gives Glenmark thumbs up for first 'true' generic version of GSK's asthma inhaler Flovent",
+    "url": "https://www.fiercepharma.com/pharma/fda-gives-glenmark-thumbs-first-true-generic-version-gsks-flovent",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-05-after-generic-defense-fails-merck-kgaa-assumes-no-us-mavenclad-sales-after-march",
+    "published_at": "2026-03-05",
+    "outlet": "Fierce Pharma",
+    "title": "After generic defense fails, Merck KGaA assumes no US Mavenclad sales after March",
+    "url": "https://www.fiercepharma.com/pharma/after-generic-defense-fails-merck-kgaa-expects-no-us-mavenclad-sales-after-march",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-05-galderma-doubles-nemluvio-peak-sales-projection-to-4b-plus-after-strong-atopic-dermatitis-launc",
+    "published_at": "2026-03-05",
+    "outlet": "Fierce Pharma",
+    "title": "Galderma doubles Nemluvio peak sales projection to $4B-plus after strong atopic dermatitis launch year",
+    "url": "https://www.fiercepharma.com/pharma/galderma-doubles-nemluvio-peak-sales-projection-4b-after-strong-atopic-dermatitis-launch",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-05-leo-roars-onto-netflix-with-dtc-campaign-for-new-hand-eczema-cream-anzupgo",
+    "published_at": "2026-03-05",
+    "outlet": "Fierce Pharma",
+    "title": "Leo roars onto Netflix with DTC campaign for new hand eczema cream Anzupgo",
+    "url": "https://www.fiercepharma.com/marketing/leo-roars-netflix-dtc-campaign-new-hand-eczema-cream-anzupgo",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-05-eli-lilly-launches-its-direct-to-employer-platform-for-obesity-drugs",
+    "published_at": "2026-03-05",
+    "outlet": "Fierce Pharma",
+    "title": "Eli Lilly launches its direct-to-employer platform for obesity drugs",
+    "url": "https://www.fiercepharma.com/payers/eli-lilly-launches-its-direct-employer-platform-obesity-drugs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-04-collegium-enrolls-paris-hilton-in-jornay-pm-push-encouraging-adhd-community-to-embrace-your-spa",
+    "published_at": "2026-03-04",
+    "outlet": "Fierce Pharma",
+    "title": "Collegium enrolls Paris Hilton in Jornay PM push encouraging ADHD community to 'Embrace Your Sparkle'",
+    "url": "https://www.fiercepharma.com/marketing/collegium-enrolls-paris-hilton-jornay-pm-push-encouraging-adhd-community-embrace-your",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-04-fda-answers-vanda-s-yearslong-call-for-public-hearing-on-unsuccessful-jet-lag-approval-bid",
+    "published_at": "2026-03-04",
+    "outlet": "Fierce Pharma",
+    "title": "FDA answers Vanda's yearslong call for public hearing on unsuccessful jet lag approval bid",
+    "url": "https://www.fiercepharma.com/pharma/fda-answers-vandas-years-long-call-formal-hearing-sleep-drug-hetlioz-twice-rejected-jet-lag",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-04-bioduro-enters-taiwan-joint-venture-adding-commercial-api-plant-to-production-network",
+    "published_at": "2026-03-04",
+    "outlet": "Fierce Pharma",
+    "title": "BioDuro enters Taiwan joint venture, adding commercial API plant to production network",
+    "url": "https://www.fiercepharma.com/manufacturing/crdmo-bioduro-enters-taiwan-joint-venture-adding-taipei-commercial-api-plant",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-04-bayer-looking-at-another-year-of-resilience-before-growth-kicks-in-behind-nubeqa-kerendia",
+    "published_at": "2026-03-04",
+    "outlet": "Fierce Pharma",
+    "title": "Bayer looking at another year of 'resilience' before growth kicks in behind Nubeqa, Kerendia",
+    "url": "https://www.fiercepharma.com/pharma/bayer-looking-one-more-year-resilience-growth-kicks-behind-nubeqa-kerendia",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-04-novo-lands-another-fda-untitled-letter-this-time-for-apple-inspired-ozempic-ad",
+    "published_at": "2026-03-04",
+    "outlet": "Fierce Pharma",
+    "title": "Novo lands another FDA untitled letter, this time for Apple-inspired Ozempic ad",
+    "url": "https://www.fiercepharma.com/marketing/novo-lands-another-fda-untitled-letter-time-apple-inspired-ozempic-ad",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-04-moderna-fronts-950m-to-settle-yearslong-covid-patent-litigation-with-genevant-arbutus",
+    "published_at": "2026-03-04",
+    "outlet": "Fierce Pharma",
+    "title": "Moderna fronts $950M to settle yearslong COVID patent litigation with Genevant, Arbutus",
+    "url": "https://www.fiercepharma.com/pharma/moderna-fronts-950m-more-potentially-line-settle-yearslong-covid-patent-litigation-genevant",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-02-25-novartis-to-build-rlt-manufacturing-facility-in-denton-texas",
+    "published_at": "2026-02-25",
+    "outlet": "BioProcess International",
+    "title": "Novartis to build RLT manufacturing facility in Denton, Texas",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/novartis-to-build-rlt-manufacturing-facility-in-denton-texas",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $23 billion; facility_footprint: 46,000 square feet; capex: $23 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$23 billion",
+        "value_norm": 23000000000,
+        "unit": "USD",
+        "evidence_snippet": "Scientists link manufacturing contaminants with liver toxicity in AAV-based gene therapies The construction will be part of the pharma firm’s $23 billion five-year commitment to US manufacturing.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "46,000 square feet",
+        "value_norm": 46000,
+        "unit": "square feet",
+        "evidence_snippet": "The facility will be 46,000 square feet, joining the firm’s RLT domestic network, which has existing US sites in New Jersey, Indiana, and California, along with a recently announced Florida project.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$23 billion",
+        "value_norm": 23000000000,
+        "unit": "USD",
+        "evidence_snippet": "Like many other recently announced facility builds, Novartis’s Texas expansion builds upon a general trend of onshoring in the US, joining And much like those projects, Novartis’s RLT manufacturing commitment builds on a long-term commitment to US manufacturing, in this case toward a total $23 billion investment over a five-year period.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-02-23-axplora-expands-le-mans-manufacturing-site-to-support-increased-adc-demand",
+    "published_at": "2026-02-23",
+    "outlet": "BioProcess International",
+    "title": "Axplora expands Le Mans manufacturing site to support increased ADC demand",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/axplora-expands-le-mans-manufacturing-site-to-support-increased-adc-demand",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: 30 million; capex: $30 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "30 million",
+        "value_norm": 30000000,
+        "unit": "USD",
+        "evidence_snippet": "The development is part of a €30 million ($35 million) investment into the site, which itself stems from a €100 million ($117 million) commitment to expanding ADC pipelines.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$30 million",
+        "value_norm": 30000000,
+        "unit": "USD",
+        "evidence_snippet": "Axplora invests $30 million in lyophilization at Le Mans site, boosting ADC production.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-02-23-abbvie-invests-380m-in-chicago-api-manufacturing",
+    "published_at": "2026-02-23",
+    "outlet": "BioProcess International",
+    "title": "AbbVie invests $380m in Chicago API manufacturing",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/abbvie-invests-380-million-in-chicago-api-manufacturing",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $380 million; capex: $100 billion; capex: $100 billion; capex: $175 million; capex: $380m",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$380 million",
+        "value_norm": 380000000,
+        "unit": "USD",
+        "evidence_snippet": "The company will invest US$380 million into advanced manufacturing capabilities for active pharmaceutical ingredients (APIs) for next-generation neuroscience and obesity therapeutics at two new facilities.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 billion",
+        "value_norm": 100000000000,
+        "unit": "USD",
+        "evidence_snippet": "\"This milestone demonstrates further progress against our $100 billion commitment to US R&D [research and development] and capital investments over the next decade,\" Robert Michael, chairman and CEO of AbbVie.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 billion",
+        "value_norm": 100000000000,
+        "unit": "USD",
+        "evidence_snippet": "Together, we’re advancing pharmaceutical manufacturing and R&D and building a stronger economic future for communities across Illinois.” Last month, AbbVie pledged $100 billion in US-based R&D and manufacturing investments over the next decade, AbbVie has also made domestic investments outside the state to shore up manufacturing.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$175 million",
+        "value_norm": 175000000,
+        "unit": "USD",
+        "evidence_snippet": "The value of that investment will exceed $175 million and will support the hiring of more than 200 employees.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$380m",
+        "value_norm": 380000000,
+        "unit": "USD",
+        "evidence_snippet": "Register Now: Leveraging Cost Modeling to Bring Cell and Gene Therapies to Market The Future of Bioprocessing: BPI Benchmark Report 2026 — Insights, Trends, and Strategies Shaping the Future of Biopharma AbbVie invests $380m in North Chicago for API manufacturing, creating 300 jobs, boosting US R&D, and expanding domestic production with AI technologies.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-02-19-j-j-announces-1bn-pennsylvania-cell-therapy-manufacturing-investment",
+    "published_at": "2026-02-19",
+    "outlet": "BioProcess International",
+    "title": "J&J announces $1bn Pennsylvania cell-therapy manufacturing investment",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/j-j-announces-1bn-pennsylvania-cell-therapy-manufacturing-investment",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $55 billion; capex: $1 billion; capex: $3.5 billion; capex: $55 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$55 billion",
+        "value_norm": 55000000000,
+        "unit": "USD",
+        "evidence_snippet": "The company continues to chip away at its promised $55 billion commitment toward domestic manufacturing.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1 billion",
+        "value_norm": 1000000000,
+        "unit": "USD",
+        "evidence_snippet": "Pharma giant Johnson & Johnson (J&J) continues to roll out massive domestic investments, this time of a US$1 billion cell-therapy manufacturing plant in Montgomery County, Pennsylvania.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$3.5 billion",
+        "value_norm": 3500000000,
+        "unit": "USD",
+        "evidence_snippet": "Fellow pharma-giant Eli Lilly to invest $3.5 billion in a manufacturing site in Lehigh Valley last month.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$55 billion",
+        "value_norm": 55000000000,
+        "unit": "USD",
+        "evidence_snippet": "Register Now: Leveraging Cost Modeling to Bring Cell and Gene Therapies to Market Register Now: From mAbs to AAV — Unlocking Upstream Bottlenecks with CELLiST Supplements The company continues to chip away at its promised $55 billion commitment toward domestic manufacturing.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-02-13-novo-nordisk-ceo-confirms-irish-expansion-to-manufacture-wegovy-pills",
+    "published_at": "2026-02-13",
+    "outlet": "BioProcess International",
+    "title": "Novo Nordisk CEO confirms Irish expansion to manufacture Wegovy pills",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/novo-nordisk-ceo-confirms-irish-expansion-to-manufacture-wegovy-pills",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-02-11-one-site-to-rule-them-all-fujifilm-opens-540m-uk-expansion",
+    "published_at": "2026-02-11",
+    "outlet": "BioProcess International",
+    "title": "One site to rule them all: FUJIFILM opens $540m UK expansion",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/one-site-to-rule-them-all-fujifilm-opens-540m-uk-expansion",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: 400 million; bioreactor_volume: 2000 L; bioreactor_volume: 5000 L; capex: 400 million; facility_footprint: 100,000 square-foot; capacity_volume: 5000 L; capex: 5 billion; capex: 400 million",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "400 million",
+        "value_norm": 400000000,
+        "unit": "USD",
+        "evidence_snippet": "The £400 million (US$546 million) investment adds significant manufacturing and research capacity to the site and is now one of the largest CDMO facilities in the UK.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "2000 L",
+        "value_norm": 0,
+        "unit": "L",
+        "evidence_snippet": "“FUJIFILM’s investment in Teesside is part of our long-term commitment to strengthen the UK’s biomanufacturing capabilities,” commented a FUJIFILM spokesperson to “This £400 million expansion is a significant milestone, and we will continue to review opportunities to grow our capacity, enhance our technology, and deepen our presence in the region.” The site expansion boasts significant upgrades, including 2000 L and 5000 L single-use bioreactors for small- and mid-scale manufacturing, accompanied by the Bioprocess Innovation Center UK for process development.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "5000 L",
+        "value_norm": 0,
+        "unit": "L",
+        "evidence_snippet": "“FUJIFILM’s investment in Teesside is part of our long-term commitment to strengthen the UK’s biomanufacturing capabilities,” commented a FUJIFILM spokesperson to “This £400 million expansion is a significant milestone, and we will continue to review opportunities to grow our capacity, enhance our technology, and deepen our presence in the region.” The site expansion boasts significant upgrades, including 2000 L and 5000 L single-use bioreactors for small- and mid-scale manufacturing, accompanied by the Bioprocess Innovation Center UK for process development.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "400 million",
+        "value_norm": 400000000,
+        "unit": "USD",
+        "evidence_snippet": "“FUJIFILM’s investment in Teesside is part of our long-term commitment to strengthen the UK’s biomanufacturing capabilities,” commented a FUJIFILM spokesperson to “This £400 million expansion is a significant milestone, and we will continue to review opportunities to grow our capacity, enhance our technology, and deepen our presence in the region.” The site expansion boasts significant upgrades, including 2000 L and 5000 L single-use bioreactors for small- and mid-scale manufacturing, accompanied by the Bioprocess Innovation Center UK for process development.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "100,000 square-foot",
+        "value_norm": 100000,
+        "unit": "square-foot",
+        "evidence_snippet": "The over 100,000 square-foot laboratory doubles the current campus size of the Teesside facility.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "5000 L",
+        "value_norm": 0,
+        "unit": "L",
+        "evidence_snippet": "“Our customers can come in with DNA, and then we can develop a cell line.” From there, customers can progress from small-scale manufacturing all the way up to 5000 L at the same site.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "5 billion",
+        "value_norm": 5000000000,
+        "unit": "USD",
+        "evidence_snippet": "The spokesperson emphasized that the firm has invested more than £5 billion over the past decade toward scaling its global biopharmaceutical CDMO network.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "400 million",
+        "value_norm": 400000000,
+        "unit": "USD",
+        "evidence_snippet": "Fujifilm Biotechnologies expands its Teesside facility with a £400 million investment to boost UK biomanufacturing.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-02-11-pharmaessentia-establishes-us-footprint-with-46m-puerto-rican-facility",
+    "published_at": "2026-02-11",
+    "outlet": "BioProcess International",
+    "title": "PharmaEssentia establishes US footprint with $46m Puerto Rican facility",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/pharmaessentia-establishes-us-footprint-with-46m-puerto-rican-facility",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $46 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$46 million",
+        "value_norm": 46000000,
+        "unit": "USD",
+        "evidence_snippet": "“PharmaEssentia will also leverage its proven experience operating GMP-compliant manufacturing facilities in Taichung, Taiwan, transferring established expertise, systems, and talent to support the efficient development and operation of the Puerto Rico site.” PharmaEssentia invests $46 million in Puerto Rico to bolster BESREMi production and strengthen US supply chains.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-02-09-its-all-about-timing-cellprothera-ceo-talks-cdmo-partnership-with-cellforcure",
+    "published_at": "2026-02-09",
+    "outlet": "BioProcess International",
+    "title": "It’s all about timing: CellProthera CEO talks CDMO partnership with CELLforCURE",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/it-s-all-about-timing-cellprothera-ceo-talks-cdmo-partnership-with-cellforcure",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-02-06-lilly-likens-relentless-work-of-scientific-and-athletic-progress-in-winter-olympics-ad",
     "published_at": "2026-02-06",
     "outlet": "Fierce Pharma",
