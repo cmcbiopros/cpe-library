@@ -59,6 +59,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add capacity-news/capacity_news.json
         git commit -m "Update capacity news directory [skip ci]"
+        git pull --rebase origin main
         git push origin HEAD:main
 
     - name: Create issue for failures

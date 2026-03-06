@@ -61,6 +61,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add webinars.json
         git commit -m "Update webinar directory [skip ci]"
+        git pull --rebase origin main
         # Use force-with-lease to avoid conflicts while being safe
         git push --force-with-lease
         
