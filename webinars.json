@@ -1862,7 +1862,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2026-03-04",
+      "webinar_date": "2026-03-18",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -2255,7 +2255,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-09-07",
-      "url": "https://www.technologynetworks.com/api/auth/login?screenHint=signup&context=newsletter&newsletter=Technology%20Networks%20Breaking%20Science%20News&returnTo=https%3A%2F%2Fwww.technologynetworks.com%2Ftn%2Ftopic-hub%2Fgene-and-cell-therapy%2Fwebinars-and-online-events",
+      "url": "https://www.technologynetworks.com/api/auth/login?screenHint=signup&context=header&newsletter=Technology%20Networks%20Breaking%20Science%20News&returnTo=https%3A%2F%2Fwww.technologynetworks.com%2Ftn%2Ftopic-hub%2Fgene-and-cell-therapy%2Fwebinars-and-online-events",
       "description": "Technology Networks webinar: Subscribe",
       "live_date": "on-demand",
       "source": "scraped"
@@ -2274,7 +2274,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-09-07",
-      "url": "https://www.technologynetworks.com/api/auth/login?screenHint=signup&context=newsletter&newsletter=Technology%20Networks%20Breaking%20Science%20News&returnTo=https%3A%2F%2Fwww.technologynetworks.com%2Ftn%2Ftopic-hub%2Fgene-and-cell-therapy%2Fwebinars-and-online-events",
+      "url": "https://www.technologynetworks.com/api/auth/login?screenHint=signup&context=header&newsletter=Technology%20Networks%20Breaking%20Science%20News&returnTo=https%3A%2F%2Fwww.technologynetworks.com%2Ftn%2Ftopic-hub%2Fgene-and-cell-therapy%2Fwebinars-and-online-events",
       "description": "Technology Networks webinar: Subscribe Now",
       "live_date": "on-demand",
       "source": "scraped"
@@ -3030,7 +3030,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-09",
-      "webinar_date": "2026-03-04",
+      "webinar_date": "2026-03-18",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -4158,7 +4158,7 @@
       "topics": [
         "manufacturing"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
@@ -4166,7 +4166,7 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://ispe.org/webinars/preparing-gmp-updates",
-      "description": "ISPE upcoming webinar: Preparing for GMP Updates",
+      "description": "ISPE past webinar: Preparing for GMP Updates",
       "source": "scraped"
     },
     {
@@ -4186,8 +4186,26 @@
       "url": "https://ispe.org/webinars/navigating-water-circularity-pharma-regulatory-perspectives-and-emerging-contaminant",
       "description": "ISPE upcoming webinar: Navigating Water Circularity in Pharma: Regulatory Perspectives and Emerging Contaminant Challenges",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-biomanufacturing-strategies-for-accelerated-modular-scale-up-and-supply",
+      "title": "Biomanufacturing Strategies for Accelerated Modular Scale-Up and Supply",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-15",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/biomanufacturing-strategies-for-accelerated-modular-scale-up-and-supply/",
+      "description": "Xtalks webinar: Biomanufacturing Strategies for Accelerated Modular Scale-Up and Supply",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-03-08T04:07:44.480335",
-  "total_count": 225
+  "last_updated": "2026-03-15T04:30:14.474782",
+  "total_count": 226
 }
