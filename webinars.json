@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2026-03-18",
+      "webinar_date": "2026-04-07",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -490,13 +490,13 @@
       "topics": [
         "laboratory"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
       "webinar_date": "2026-03-18",
-      "live_date": "2026-03-18",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/laboratory-automation-2026",
       "description": "Labroots event: Laboratory Automation Virtual Event Series 2026",
       "source": "scraped"
@@ -3974,7 +3974,7 @@
         "regulatory",
         "quality-assurance"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
@@ -3982,7 +3982,7 @@
       "webinar_date": "Unknown",
       "live_date": "on-demand",
       "url": "https://ispe.org/webinars/prompt-proof-ai-dea-compliance-and-gxp-manufacturing-investigations",
-      "description": "ISPE upcoming webinar: From Prompt to Proof: AI for DEA Compliance and GxP Manufacturing Investigations",
+      "description": "ISPE past webinar: From Prompt to Proof: AI for DEA Compliance and GxP Manufacturing Investigations",
       "source": "scraped"
     },
     {
@@ -4165,7 +4165,7 @@
       "date_added": "2026-03-08",
       "webinar_date": "Unknown",
       "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/preparing-gmp-updates",
+      "url": "https://ispe.org/webinars/videos/preparing-gmp-updates",
       "description": "ISPE past webinar: Preparing for GMP Updates",
       "source": "scraped"
     },
@@ -4204,8 +4204,62 @@
       "url": "https://xtalks.com/webinars/biomanufacturing-strategies-for-accelerated-modular-scale-up-and-supply/",
       "description": "Xtalks webinar: Biomanufacturing Strategies for Accelerated Modular Scale-Up and Supply",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-clinical-diagnostics-research-virtual-event-series-2027",
+      "title": "Clinical Diagnostics & Research Virtual Event Series 2027",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-22",
+      "webinar_date": "2027-11-10",
+      "live_date": "2027-11-10",
+      "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-virtual-event-series-2027",
+      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2027",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-why-hplc-cad-is-ideal-for-quality-assurance-of-apis-and-excipients",
+      "title": "Why HPLC-CAD is ideal for quality assurance of APIs and excipients",
+      "provider": "Labroots",
+      "topics": [
+        "quality-assurance"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-22",
+      "webinar_date": "2026-03-25",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/hplc-cad-ideal-quality-assurance-apis-excipients",
+      "description": "Labroots event: Why HPLC-CAD is ideal for quality assurance of APIs and excipients",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improve-recruitment-outcomes-through-more-diverse-clinical-trials",
+      "title": "Improve Recruitment Outcomes Through More Diverse Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-22",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improve-recruitment-outcomes-through-more-diverse-clinical-trials/",
+      "description": "Xtalks webinar: Improve Recruitment Outcomes Through More Diverse Clinical Trials",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-03-15T04:30:14.474782",
-  "total_count": 226
+  "last_updated": "2026-03-22T04:16:19.494567",
+  "total_count": 229
 }
