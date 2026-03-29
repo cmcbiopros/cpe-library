@@ -1862,7 +1862,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-20",
-      "webinar_date": "2026-03-18",
+      "webinar_date": "2026-04-01",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
       "description": "Labroots event: Innovations in Cancer Research Solutions",
@@ -3030,7 +3030,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-09",
-      "webinar_date": "2026-03-18",
+      "webinar_date": "2026-04-01",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -4258,8 +4258,65 @@
       "url": "https://xtalks.com/webinars/improve-recruitment-outcomes-through-more-diverse-clinical-trials/",
       "description": "Xtalks webinar: Improve Recruitment Outcomes Through More Diverse Clinical Trials",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-informatics-for-oncology-research-sequencer-to-report-completely",
+      "title": "Informatics for Oncology Research: Sequencer to report. Completely...",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-29",
+      "webinar_date": "2026-04-01",
+      "live_date": "2026-04-01",
+      "url": "https://www.labroots.com/virtual-event/informatics-oncology-research-sequencer-report-completely-automated",
+      "description": "Labroots event: Informatics for Oncology Research: Sequencer to report. Completely...",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-respiratory-drug-development-comprehensive-strategies-to-improve-data-quality",
+      "title": "Respiratory Drug Development: Comprehensive Strategies to Improve Data Quality",
+      "provider": "Xtalks",
+      "topics": [
+        "drug-development",
+        "quality-assurance",
+        "development",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-29",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/respiratory-drug-development-comprehensive-strategies-to-improve-data-quality/",
+      "description": "Xtalks webinar: Respiratory Drug Development: Comprehensive Strategies to Improve Data Quality",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-de-risk-supply-disruptions-through-flexible-manufacturing-capacity",
+      "title": "De-Risk Supply Disruptions Through Flexible Manufacturing Capacity",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-03-29",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/de-risk-supply-disruptions-through-flexible-manufacturing-capacity/",
+      "description": "Xtalks webinar: De-Risk Supply Disruptions Through Flexible Manufacturing Capacity",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-03-22T04:16:19.494567",
-  "total_count": 229
+  "last_updated": "2026-03-29T04:35:41.400151",
+  "total_count": 232
 }
