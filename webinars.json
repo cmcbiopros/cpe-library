@@ -508,13 +508,13 @@
       "topics": [
         "bioprocess"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
       "webinar_date": "2026-04-01",
-      "live_date": "2026-04-01",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/bioprocessing-2026",
       "description": "Labroots event: Bioprocessing Virtual Event Series 2026",
       "source": "scraped"
@@ -4271,8 +4271,8 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-03-29",
-      "webinar_date": "2026-04-01",
-      "live_date": "2026-04-01",
+      "webinar_date": "2026-05-19",
+      "live_date": "2026-05-19",
       "url": "https://www.labroots.com/virtual-event/informatics-oncology-research-sequencer-report-completely-automated",
       "description": "Labroots event: Informatics for Oncology Research: Sequencer to report. Completely...",
       "source": "scraped"
@@ -4315,8 +4315,26 @@
       "url": "https://xtalks.com/webinars/de-risk-supply-disruptions-through-flexible-manufacturing-capacity/",
       "description": "Xtalks webinar: De-Risk Supply Disruptions Through Flexible Manufacturing Capacity",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-designing-risk-based-qa-oversight-for-clinical-trials-under-ich-e6-r3",
+      "title": "Designing Risk-Based QA Oversight for Clinical Trials Under ICH E6 (R3)",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-05",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/designing-risk-based-qa-oversight-for-clinical-trials-under-ich-e6-r3/",
+      "description": "Xtalks webinar: Designing Risk-Based QA Oversight for Clinical Trials Under ICH E6 (R3)",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-03-29T04:35:41.400151",
-  "total_count": 232
+  "last_updated": "2026-04-05T04:35:49.641693",
+  "total_count": 233
 }
