@@ -1,5 +1,517 @@
 [
   {
+    "id": "fierce-pharma-2026-04-03-an-update-on-the-pharma-industrys-reshoring-effort",
+    "published_at": "2026-04-03",
+    "outlet": "Fierce Pharma",
+    "title": "An update on the pharma industry’s reshoring effort",
+    "url": "https://www.fiercepharma.com/pharma/update-pharma-industrys-reshoring-effort",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-03-biopharma-r-d-pipeline-shrinks-for-1st-time-in-30-years-report",
+    "published_at": "2026-04-03",
+    "outlet": "Fierce Pharma",
+    "title": "Biopharma R&D pipeline shrinks for 1st time in 30 years: report",
+    "url": "https://www.fiercepharma.com/biotech/biopharma-rd-pipeline-shrinks-1st-time-30-years-report",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-03-fierce-pharma-asia-trumps-100-drug-tariff-takeda-layoffs-lilly-insilico-s-ai-deal",
+    "published_at": "2026-04-03",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Trump’s 100% drug tariff; Takeda layoffs; Lilly, Insilico's AI deal",
+    "url": "https://www.fiercepharma.com/pharma/trumps-100-drug-tariff-takeda-layoffs-lilly-insilico-ai-deal",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-trump-slaps-100-duties-on-imported-drugs-but-leaves-plenty-of-exceptions",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "Trump slaps 100% duties on imported drugs but leaves plenty of exceptions",
+    "url": "https://www.fiercepharma.com/pharma/trump-slaps-100-duties-imported-drugs-there-are-plenty-exceptions",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-uk-signs-off-on-us-pharma-deal-ensuring-tariff-reprieve-as-britain-aims-to-reattract-investment",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "UK signs off on US pharma deal, ensuring tariff reprieve as Britain aims to reattract investments",
+    "url": "https://www.fiercepharma.com/pharma/uk-government-signs-us-uk-pharma-deal-ensuring-0-drug-tariffs-britain-looks-re-attract",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: 1 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "1 billion",
+        "value_norm": 1000000000,
+        "unit": "USD",
+        "evidence_snippet": "R&D investments and Merck scrapping a 1 billion pound sterling R&D location in London while pulling research operations out of Britain.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-biontech-telegraphs-closure-of-singapore-vaccine-facility-amid-efforts-to-align-capacity",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "BioNTech telegraphs closure of Singapore vaccine facility amid efforts to 'align capacity'",
+    "url": "https://www.fiercepharma.com/pharma/biontech-telegraphs-closure-singapore-mrna-facility-amid-efforts-align-capacity",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-rising-stars-the-trade-desk-s-elizabeth-keenan-finds-the-rhythm-in-music-and-media",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "Rising Stars: The Trade Desk's Elizabeth Keenan finds the rhythm in music and media",
+    "url": "https://www.fiercepharma.com/marketing/rising-stars-elizabeth-keenan-finds-rhythm-music-and-media",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-trump-eyes-100-tariff-rate-for-companies-that-have-not-struck-mfn-deals-bloomberg",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "Trump eyes 100% tariff rate for companies that have not struck MFN deals: Bloomberg",
+    "url": "https://www.fiercepharma.com/pharma/trump-set-impose-100-tariff-drugs-companies-have-not-struck-mfn-deals",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-poland-romania-must-pay-pfizer-2-2b-in-fight-over-contested-covid-vaccine-doses-belgian-court",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "Poland, Romania must pay Pfizer $2.2B in fight over contested COVID vaccine doses: Belgian court",
+    "url": "https://www.fiercepharma.com/pharma/poland-romania-must-pay-pfizer-22b-missed-covid-vaccine-deliveries-belgain-court-rules",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-lilly-s-obesity-pill-foundayo-gains-early-blockbuster-forecast-as-analysts-float-5m-prescriptio",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "Lilly's obesity pill Foundayo gains early blockbuster forecast as analysts float 5M+ prescriptions in 2026",
+    "url": "https://www.fiercepharma.com/pharma/lillys-obesity-pill-foundayo-gains-early-blockbuster-expectations-analyst-suggests-5m",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-another-astrazeneca-emerald-glimmers-as-imfinzi-imjudo-delay-liver-cancer-progression",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "Another AstraZeneca Emerald glimmers as Imfinzi, Imjudo delay liver cancer progression",
+    "url": "https://www.fiercepharma.com/pharma/another-astrazeneca-emerald-glimmers-imfinzi-imjudo-delay-liver-cancer-progression",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-glenmark-goes-direct-with-new-us-ryaltris-marketing-plan-as-it-drops-partner-model",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "Glenmark goes direct with new US Ryaltris marketing plan as it drops partner model",
+    "url": "https://www.fiercepharma.com/marketing/glenmark-goes-direct-new-us-ryaltris-marketing-plan-it-drops-partner-model",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-german-cdmo-adragos-buys-french-sterile-injectables-plant-from-sanofi",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "German CDMO Adragos buys French sterile injectables plant from Sanofi",
+    "url": "https://www.fiercepharma.com/manufacturing/german-cdmo-adragos-buys-french-sterile-injectables-plant-sanofi",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing",
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-02-bayer-rejigs-marketing-claims-after-recommendation-from-us-advertising-body",
+    "published_at": "2026-04-02",
+    "outlet": "Fierce Pharma",
+    "title": "Bayer rejigs marketing claims after recommendation from US advertising body",
+    "url": "https://www.fiercepharma.com/marketing/bayer-rejigs-marketing-claims-after-challenge-us-advertising-body",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-01-lilly-answers-novo-s-glp-1-pill-with-highly-anticipated-fda-nod-for-foundayo",
+    "published_at": "2026-04-01",
+    "outlet": "Fierce Pharma",
+    "title": "Lilly answers Novo's GLP-1 pill with highly anticipated FDA nod for Foundayo",
+    "url": "https://www.fiercepharma.com/pharma/lilly-answers-novos-glp-1-pill-highly-anticipated-fda-nod-foundayo",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $1.5 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.5 billion",
+        "value_norm": 1500000000,
+        "unit": "USD",
+        "evidence_snippet": "For its part, Lilly has been gearing up for its Foundayo launch for some time, indicating earlier this year that it had secured “pre-launch inventories” of investigational meds worth $1.5 billion as of Dec.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-01-novo-s-wegovy-nets-cardio-nod-from-uk-cost-gatekeeper-adding-1m-eligible-patients",
+    "published_at": "2026-04-01",
+    "outlet": "Fierce Pharma",
+    "title": "Novo's Wegovy nets cardio nod from UK cost gatekeeper, adding 1M+ eligible patients",
+    "url": "https://www.fiercepharma.com/pharma/novos-wegovy-nets-cardio-recommendation-separate-obesity-uk-drug-cost-gatekeeper",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-01-there-isn-t-as-much-meat-left-to-cut-biopharma-layoffs-maintain-slowdown-in-q1",
+    "published_at": "2026-04-01",
+    "outlet": "Fierce Pharma",
+    "title": "‘There isn't as much meat left to cut’: Biopharma layoffs maintain slowdown in Q1",
+    "url": "https://www.fiercepharma.com/biotech/biotech-layoffs-continue-slowdown-q125",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "capex: $700 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$700 million",
+        "value_norm": 700000000,
+        "unit": "USD",
+        "evidence_snippet": "Other significant redundancy rounds included Germany’s Evotec —which will lay off 800 employees and shutter four sites over the next two years—and Viatris, which is shaving off around 10% of its 32,000-strong global workforce as part of plans to save up to $700 million annually.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-01-fda-extends-review-of-orca-bios-novel-cell-therapy-for-blood-cancers",
+    "published_at": "2026-04-01",
+    "outlet": "Fierce Pharma",
+    "title": "FDA extends review of Orca Bio’s novel cell therapy for blood cancers",
+    "url": "https://www.fiercepharma.com/manufacturing/fda-extends-review-orca-bios-novel-cell-therapy-blood-cancers",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-01-evotec-hires-exec-with-ai-experience-to-lead-rebooted-commercial-team",
+    "published_at": "2026-04-01",
+    "outlet": "Fierce Pharma",
+    "title": "Evotec hires exec with AI experience to lead rebooted commercial team",
+    "url": "https://www.fiercepharma.com/marketing/evotec-hires-exec-ai-experience-lead-rebooted-commercial-team",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-03-31-samsung-biologics-expands-us-manufacturing-footprint-with-acquisition-of-gsks-rockvi",
+    "published_at": "2026-03-31",
+    "outlet": "BioProcess International",
+    "title": "Samsung Biologics expands US manufacturing footprint with acquisition of GSK’s Rockville site",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/samsung-biologics-expands-us-manufacturing-footprint-with-acquisition-of-gsk-s-rockville-site",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capacity_volume: 60,000 liters; capacity_volume: 845,000 liters; capacity_volume: 785,000 liters; capacity_volume: 60,000 liters",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "60,000 liters",
+        "value_norm": 60000,
+        "unit": "L",
+        "evidence_snippet": "The Rockville site comprises two GMP manufacturing plants, adding a combined 60,000 liters of drug substance capacity to Samsung Biologics’ global network.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "845,000 liters",
+        "value_norm": 845000,
+        "unit": "L",
+        "evidence_snippet": "With the acquisition, the firm has established a manufacturing presence in the US, bringing its total capacity to 845,000 liters.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "785,000 liters",
+        "value_norm": 785000,
+        "unit": "L",
+        "evidence_snippet": "As a CDMO, our mission is to help our partners bring important therapies to patients worldwide, and this site will play a pivotal role in that mission while ensuring continuity and upholding the high standards our clients expect.” The bulk of Samsung Biologics’ manufacturing network resides in South Korea, where the company has a drug substance capacity of 785,000 liters across Bio Campus I and II.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "60,000 liters",
+        "value_norm": 60000,
+        "unit": "L",
+        "evidence_snippet": "Register Now: De‑Risking Biologics Development — Practical Strategies to Move Faster from Cell Line to Clinic The Global CRDMO Advantage: How WuXi Biologics Accelerates Complex Formats with Industry-Leading Timelines and Technical Expertise Samsung Biologics acquires GSK’s Rockville site, boosting US capacity by 60,000 liters and advancing supply-chain resilience for critical medicines.",
+        "context": "capacity"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-03-31-fda-flags-serious-liver-injury-cases-8-deaths-with-reasonable-link-to-amgen-s-tavneos",
+    "published_at": "2026-03-31",
+    "outlet": "Fierce Pharma",
+    "title": "FDA flags serious liver injury cases, 8 deaths with ‘reasonable’ link to Amgen's Tavneos",
+    "url": "https://www.fiercepharma.com/pharma/fda-flags-serious-liver-injury-concerns-fatalities-linked-amgens-tavneos",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-31-novo-nordisk-cuts-400-roles-at-troubled-bloomington-site",
+    "published_at": "2026-03-31",
+    "outlet": "Fierce Pharma",
+    "title": "Novo Nordisk cuts 400 roles at troubled Bloomington site",
+    "url": "https://www.fiercepharma.com/manufacturing/novo-nordisk-cuts-hundreds-roles-troubled-bloomington-site",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $16.5 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$16.5 billion",
+        "value_norm": 16500000000,
+        "unit": "USD",
+        "evidence_snippet": "When Novo Holdings inked its $16.5 billion buyout of Catalent back in 2024, it arranged for Novo Nordisk to purchase three of the CDMO's sites, including Bloomington, for $11 billion.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-03-31-iterum-initiates-wind-down-after-failure-to-offload-antibiotic-with-sluggish-sales",
+    "published_at": "2026-03-31",
+    "outlet": "Fierce Pharma",
+    "title": "Iterum initiates wind-down after failure to offload antibiotic with sluggish sales",
+    "url": "https://www.fiercepharma.com/pharma/iterum-initiates-wind-down-after-failure-offload-antibiotic-sluggish-sales",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-03-31-api-supplier-basf-raises-prices-up-to-20-in-response-to-rising-energy-raw-material-costs",
+    "published_at": "2026-03-31",
+    "outlet": "Fierce Pharma",
+    "title": "API supplier BASF raises prices up to 20% in response to rising energy, raw material costs",
+    "url": "https://www.fiercepharma.com/manufacturing/api-supplier-basf-raises-prices-20-response-rising-energy-costs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-03-27-health-doesnt-need-to-be-ludacris-bayer-signs-rapper-actor-to-multivitamin-campaign",
     "published_at": "2026-03-27",
     "outlet": "Fierce Pharma",
