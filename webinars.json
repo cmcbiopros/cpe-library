@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2026-04-07",
+      "webinar_date": "2026-04-15",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -4333,8 +4333,45 @@
       "url": "https://xtalks.com/webinars/designing-risk-based-qa-oversight-for-clinical-trials-under-ich-e6-r3/",
       "description": "Xtalks webinar: Designing Risk-Based QA Oversight for Clinical Trials Under ICH E6 (R3)",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-scalable-2d-and-3d-human-hepatocyte-platforms-for-target-validation-and-compound-screening-in-early-drug-discovery-pipelines-of-liver-diseases",
+      "title": "Scalable 2D and 3D human hepatocyte platforms for target validation and compound screening in early drug discovery pipelines of liver diseases",
+      "provider": "Labroots",
+      "topics": [
+        "validation"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-12",
+      "webinar_date": "2026-04-16",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/scalable-2d-3d-human-hepatocyte-platforms-target-validation-compound-screening-drug-discovery-pipeli",
+      "description": "Labroots event: Scalable 2D and 3D human hepatocyte platforms for target validation and compound screening in early drug discovery pipelines of liver diseases",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-accelerating-time-to-data-in-cell-and-gene-therapy-trials",
+      "title": "Accelerating Time to Data in Cell and Gene Therapy Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "gene-therapy",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/accelerating-time-to-data-in-cell-and-gene-therapy-trials/",
+      "description": "Xtalks webinar: Accelerating Time to Data in Cell and Gene Therapy Trials",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-04-05T04:35:49.641693",
-  "total_count": 233
+  "last_updated": "2026-04-12T04:45:02.528294",
+  "total_count": 235
 }
