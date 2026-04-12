@@ -1,5 +1,545 @@
 [
   {
+    "id": "fierce-pharma-2026-04-10-hhs-after-legal-setback-updates-acip-charter-to-put-more-emphasis-on-vaccine-safety",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "HHS, after legal setback, updates ACIP charter to put more emphasis on vaccine safety",
+    "url": "https://www.fiercepharma.com/pharma/hhs-after-legal-setback-updates-acip-charter-put-more-emphasis-vaccine-safety",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-starting-material-sourcing-bottlenecks-increase-us-drug-shortage-risks-report",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "Starting material sourcing bottlenecks increase US drug shortage risks: report",
+    "url": "https://www.fiercepharma.com/manufacturing/usp-flags-hamstrung-starting-material-sourcing-latest-us-vulnerable-medicines-update",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-novartis-cuts-114-more-jobs-at-new-jersey-hq-as-restructuring-rolls-on",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "Novartis cuts 114 more jobs at New Jersey HQ as restructuring rolls on",
+    "url": "https://www.fiercepharma.com/pharma/novartis-cuts-114-more-jobs-new-jersey-hq-restructuring-reverberates",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $23 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$23 billion",
+        "value_norm": 23000000000,
+        "unit": "USD",
+        "evidence_snippet": "Following an industry-wide trend to avoid potential pharmaceutical tariffs by the Trump administration, Novartis last year unveiled a $23 billion investment to grow its U.S.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-charles-river-flows-into-boston-to-help-aha-bridge-cardiovascular-health-divide",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "Charles River flows into Boston to help AHA bridge cardiovascular health divide",
+    "url": "https://www.fiercepharma.com/marketing/charles-river-flows-boston-help-aha-bridge-cardiovascular-health-divide",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $145 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$145 million",
+        "value_norm": 145000000,
+        "unit": "USD",
+        "evidence_snippet": "IQVIA is buying European discovery services sites from Charles River for $145 million.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-envision-hires-concertai-iqvia-alum-nick-jones-as-its-med-comms-president",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "Envision hires ConcertAI, IQVIA alum Nick Jones as its med comms president",
+    "url": "https://www.fiercepharma.com/marketing/envision-hires-concertai-iqvia-alum-nick-jones-its-med-comms-president",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-the-top-10-pharma-r-d-budgets-of-2025",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "The top 10 pharma R&D budgets of 2025",
+    "url": "https://www.fiercepharma.com/pharma/top-10-pharma-rd-budgets-2025",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-bial-launches-dialogues-with-parkinsons-campaign-aimed-at-identifying-early-symptoms",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "Bial launches ‘Dialogues with Parkinson’s’ campaign aimed at identifying early symptoms",
+    "url": "https://www.fiercepharma.com/marketing/bial-launches-dialogues-parkinsons-campaign-aimed-identifying-early-symptoms",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-abbott-survey-finds-information-overload-confusion-and-cost-affecting-health-choices-in-us",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "Abbott survey finds ‘information overload, confusion and cost’ affecting health choices in US",
+    "url": "https://www.fiercepharma.com/marketing/abbott-survey-finds-information-overload-confusion-and-cost-hitting-health-choices",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-fda-accuses-amneal-biocorrx-of-producing-false-and-misleading-drug-promos",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "FDA accuses Amneal, BioCorRx of producing ‘false and misleading’ drug promos",
+    "url": "https://www.fiercepharma.com/marketing/fda-accuses-amneal-biocorrx-false-and-misleading-promotions",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-fierce-pharma-asia-takeda-denali-split-up-merck-zhifei-s-revised-deal-shionogi-s-made-in-us-pla",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Takeda-Denali split-up; Merck, Zhifei's revised deal; Shionogi's made-in-US plan",
+    "url": "https://www.fiercepharma.com/pharma/takeda-denali-split-merck-zhifei-revised-deal-shionogi-made-us-plan",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $119M",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$119M",
+        "value_norm": 119000000,
+        "unit": "USD",
+        "evidence_snippet": "Shionogi nabs initial $119M award from BARDA to establish US antibiotic plant Shionogi unveiled a deal with the Biomedical Advanced Research and Development Authority (BARDA) to bolster U.S.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-10-novartis-pumps-up-community-health-footprint-to-tackle-heart-disease-and-cancer",
+    "published_at": "2026-04-10",
+    "outlet": "Fierce Pharma",
+    "title": "Novartis pumps up community health footprint to tackle heart disease and cancer",
+    "url": "https://www.fiercepharma.com/marketing/novartis-pumps-community-health-footprint-tackle-heart-disease-and-cancer",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-04-09-rising-tides-neuland-appoints-ceo-to-lead-firms-aggressive-peptide-expansion-phase",
+    "published_at": "2026-04-09",
+    "outlet": "BioProcess International",
+    "title": "Rising tides: Neuland appoints CEO to lead firm’s “aggressive” peptide expansion phase",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/neuland-appoints-ceo-to-lead-firm-s-aggressive-peptide-expansion-plans",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $30 million; capex: $30m",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$30 million",
+        "value_norm": 30000000,
+        "unit": "USD",
+        "evidence_snippet": "The company plans to open the first module by mid-2026 following a US$30 million investment.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$30m",
+        "value_norm": 30000000,
+        "unit": "USD",
+        "evidence_snippet": "Register Now: Tailored Bioassay Solutions for Peptide Drugs and New Biologic Modalities The Global CRDMO Advantage: How WuXi Biologics Accelerates Complex Formats with Industry-Leading Timelines and Technical Expertise Neuland Laboratories appoints Saharsh Davuluri as CEO to lead its $30m peptide facility expansion, targeting growth in next-gen therapies.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-09-vanda-initiates-study-of-motion-sickness-drug-nereus-in-glp-1-users",
+    "published_at": "2026-04-09",
+    "outlet": "Fierce Pharma",
+    "title": "Vanda initiates study of motion sickness drug Nereus in GLP-1 users",
+    "url": "https://www.fiercepharma.com/pharma/vanda-initiates-study-motion-sickness-drug-nereus-glp-1-users",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-09-garda-snaps-up-assertio-and-chemo-infection-treatment-rolvedon-in-125m-deal",
+    "published_at": "2026-04-09",
+    "outlet": "Fierce Pharma",
+    "title": "Garda snaps up Assertio and chemo infection treatment Rolvedon in $125M deal",
+    "url": "https://www.fiercepharma.com/pharma/garda-snaps-assertio-and-chemo-infection-treatment-rolvedon-125m-deal",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-09-abbvie-challenges-outdated-340b-drug-discount-program-guidance-in-new-lawsuit",
+    "published_at": "2026-04-09",
+    "outlet": "Fierce Pharma",
+    "title": "AbbVie challenges 'outdated' 340B drug discount program guidance in new lawsuit",
+    "url": "https://www.fiercepharma.com/pharma/abbvie-challenges-outdated-340b-drug-discount-program-guidance-new-suit",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-09-rfk-jr-launching-health-podcast-to-expose-hypocrisy-and-corruption",
+    "published_at": "2026-04-09",
+    "outlet": "Fierce Pharma",
+    "title": "RFK Jr. launching health podcast to expose ‘hypocrisy’ and ‘corruption’",
+    "url": "https://www.fiercepharma.com/marketing/rfk-jr-launching-health-podcast-expose-hypocrisy-and-corruption",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-09-judge-rules-that-hhs-must-face-states-lawsuit-over-rfk-jr-s-agency-overhaul-massive-layoffs",
+    "published_at": "2026-04-09",
+    "outlet": "Fierce Pharma",
+    "title": "Judge rules that HHS must face states' lawsuit over RFK Jr.'s agency overhaul, massive layoffs",
+    "url": "https://www.fiercepharma.com/regulatory/judge-rules-hhs-must-face-states-lawsuit-over-rfk-jrs-agency-overhaul-massive-layoffs",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-09-avalyn-plans-ipo-to-fund-phase-3-trials-of-inhaled-versions-of-approved-respiratory-drugs",
+    "published_at": "2026-04-09",
+    "outlet": "Fierce Pharma",
+    "title": "Avalyn plans IPO to fund phase 3 trials of inhaled versions of approved respiratory drugs",
+    "url": "https://www.fiercepharma.com/biotech/avalyn-plans-ipo-fund-phase-3-trials-inhaled-versions-approved-respiratory-drugs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-08-steven-ubl-set-to-depart-after-more-than-a-decade-as-ceo-of-phrma",
+    "published_at": "2026-04-08",
+    "outlet": "Fierce Pharma",
+    "title": "Steven Ubl set to depart after more than a decade as CEO of PhRMA",
+    "url": "https://www.fiercepharma.com/pharma/steven-ubl-set-depart-after-decade-plus-ceo-phrma",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-08-shionogi-nabs-initial-119m-award-from-barda-to-establish-us-antibiotic-plant",
+    "published_at": "2026-04-08",
+    "outlet": "Fierce Pharma",
+    "title": "Shionogi nabs initial $119M award from BARDA to establish US antibiotic plant",
+    "url": "https://www.fiercepharma.com/manufacturing/shionogi-nabs-initial-119m-barda-build-us-antibiotic-plant",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $339 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$339 million",
+        "value_norm": 339000000,
+        "unit": "USD",
+        "evidence_snippet": "More recently, Cidara Therapeutics snagged a BARDA award worth up to $339 million in October to support domestic manufacturing for its experimental non-vaccine flu preventive, CD388, and help establish an “initial commercial supply chain” for the asset.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-08-j-j-s-tremfya-retakes-tv-drug-ad-spending-crown-from-abbvie",
+    "published_at": "2026-04-08",
+    "outlet": "Fierce Pharma",
+    "title": "J&J's Tremfya retakes TV drug ad spending crown from AbbVie",
+    "url": "https://www.fiercepharma.com/marketing/jjs-tremfya-retakes-tv-drug-ad-spending-crown-abbvie",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $10 million; capex: $42.1 million; capex: $5.5 million; capex: $12.3 million; capex: $39.5 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$10 million",
+        "value_norm": 10000000,
+        "unit": "USD",
+        "evidence_snippet": "That’s up more than $10 million from February, when it ranked second in spending.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$42.1 million",
+        "value_norm": 42100000,
+        "unit": "USD",
+        "evidence_snippet": "AbbVie is still in the fight, however, taking the podium spots behind J&J with its immunology duo Skyrizi and Rinvoq, spending $42.1 million and $36.3 million, respectively.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$5.5 million",
+        "value_norm": 5500000,
+        "unit": "USD",
+        "evidence_snippet": "J&J is back again in fourth with its atypical antipsychotic drug Caplyta, with the drug up two spots from its February ranking and a $5.5 million increase in spending month over month.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$12.3 million",
+        "value_norm": 12300000,
+        "unit": "USD",
+        "evidence_snippet": "Eli Lilly’s obesity drug Zepbound comes in fifth, up two spots, with its highest level of spending going to its TV ad “Watch This: Head-to-Head,” which accounted for $12.3 million in March.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$39.5 million",
+        "value_norm": 39500000,
+        "unit": "USD",
+        "evidence_snippet": "It was a big drop for Novo Nordisk’s obesity drug Wegovy, which fell six places to ninth, with spending sinking from $39.5 million in February to $13.5 million last month.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-08-pfizer-walks-away-from-underutilized-office-space-in-south-san-francisco-transitions-employees-",
+    "published_at": "2026-04-08",
+    "outlet": "Fierce Pharma",
+    "title": "Pfizer walks away from 'underutilized' office space in South San Francisco, transitions employees to remote roles",
+    "url": "https://www.fiercepharma.com/pharma/pfizer-walks-away-underutilized-office-space-san-francisco-transitions-employees-remote",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "facility_footprint: 164,150-square-foot; capex: $255 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "164,150-square-foot",
+        "value_norm": 164150,
+        "unit": "square-foot",
+        "evidence_snippet": "The 164,150-square-foot office building on Oyster Point Blvd is closing its doors as the office space is “currently underutilized,” a Pfizer spokesperson told Fierce Pharma in an emailed statement.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$255 million",
+        "value_norm": 255000000,
+        "unit": "USD",
+        "evidence_snippet": "More recently, Pfizer last April sold its five-building campus in San Diego to life sciences real estate firm BioMed Realty for $255 million, more than a decade after originally picking up the site in 2004.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-08-biogen-settles-investor-lawsuit-over-its-messaging-on-failed-alzheimer-s-drug-aduhelm",
+    "published_at": "2026-04-08",
+    "outlet": "Fierce Pharma",
+    "title": "Biogen settles investor lawsuit over its messaging on failed Alzheimer's drug Aduhelm",
+    "url": "https://www.fiercepharma.com/pharma/biogen-settles-investor-lawsuit-its-messaging-alzheimers-drug",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-08-amgen-ceo-netted-24-7m-pay-package-in-25-as-companys-upward-trajectory-continued",
+    "published_at": "2026-04-08",
+    "outlet": "Fierce Pharma",
+    "title": "Amgen CEO netted $24.7M pay package in ‘25 as company’s upward trajectory continued",
+    "url": "https://www.fiercepharma.com/pharma/after-big-bump-last-year-amgen-ceo-bradways-2025-pay-charts-slight-increase-247m",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-04-03-an-update-on-the-pharma-industrys-reshoring-effort",
     "published_at": "2026-04-03",
     "outlet": "Fierce Pharma",
