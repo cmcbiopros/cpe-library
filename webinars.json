@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2026-09-02",
+      "webinar_date": "2026-06-03",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -4036,9 +4036,9 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-02-22",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/events/improving-compliance-speed-decisions-and-reduce-operational-risk-using-ai-and-digital",
+      "webinar_date": "2026-05-14",
+      "live_date": "2026-05-14",
+      "url": "https://ispe.org/webinars/improving-compliance-speed-decisions-and-reduce-operational-risk-using-ai-and-digital",
       "description": "ISPE upcoming webinar: Improving Compliance, Speed Decisions, and Reduce Operational Risk Using AI and Digital Quality Solutions",
       "source": "scraped"
     },
@@ -4446,8 +4446,120 @@
       "url": "https://xtalks.com/webinars/media-manufacturing-strategies-to-reduce-gmp-transition-risk/",
       "description": "Xtalks webinar: Media Manufacturing Strategies to Reduce GMP Transition Risk",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-translational-infectious-disease-research-summit",
+      "title": "Translational Infectious Disease Research Summit",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "live",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-26",
+      "webinar_date": "2026-06-03",
+      "live_date": "2026-06-03",
+      "url": "https://www.labroots.com/virtual-event/translational-infectious-disease-research-summit-global-voices-with-shared-impact",
+      "description": "Labroots event: Translational Infectious Disease Research Summit",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-how-objective-sleep-biomarkers-improve-clinical-development-and-clinical-assessment-in-depression",
+      "title": "How Objective Sleep Biomarkers Improve Clinical Development and Clinical Assessment in Depression",
+      "provider": "Xtalks",
+      "topics": [
+        "development",
+        "biomarker"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/how-sleep-biomarkers-improve-clinical-development-and-commercial-strategy-in-depression/",
+      "description": "Xtalks webinar: How Objective Sleep Biomarkers Improve Clinical Development and Clinical Assessment in Depression",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-using-ai-to-responsibly-accelerate-clinical-trials-under-regulatory-scrutiny",
+      "title": "Using AI to Responsibly Accelerate Clinical Trials Under Regulatory Scrutiny",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "regulatory",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/using-ai-to-responsibly-accelerate-clinical-trials-under-regulatory-scrutiny/",
+      "description": "Xtalks webinar: Using AI to Responsibly Accelerate Clinical Trials Under Regulatory Scrutiny",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-future-landscape-of-flexible-atmp-facilities-and-design-considerations",
+      "title": "Future Landscape of Flexible ATMP Facilities and Design Considerations",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-26",
+      "webinar_date": "2026-05-12",
+      "live_date": "2026-05-12",
+      "url": "https://ispe.org/webinars/future-landscape-flexible-atmp-facilities-and-design-considerations",
+      "description": "ISPE upcoming webinar: Future Landscape of Flexible ATMP Facilities and Design Considerations",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-ready-for-remote-preparing-your-validation-program-for-fda-s-digital-assessment-era",
+      "title": "Ready for Remote: Preparing Your Validation Program for FDA's Digital Assessment Era",
+      "provider": "ISPE",
+      "topics": [
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-26",
+      "webinar_date": "2026-05-19",
+      "live_date": "2026-05-19",
+      "url": "https://ispe.org/webinars/ready-remote-preparing-your-validation-program-fdas-digital-assessment-era",
+      "description": "ISPE upcoming webinar: Ready for Remote: Preparing Your Validation Program for FDA's Digital Assessment Era",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-simplifying-compliance-in-life-sciences-with-engineering-document-management",
+      "title": "Simplifying Compliance in Life Sciences with Engineering Document Management",
+      "provider": "ISPE",
+      "topics": [
+        "regulatory"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-04-26",
+      "webinar_date": "2026-05-28",
+      "live_date": "2026-05-28",
+      "url": "https://ispe.org/webinars/simplifying-compliance-life-sciences-engineering-document-management",
+      "description": "ISPE upcoming webinar: Simplifying Compliance in Life Sciences with Engineering Document Management",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-04-19T04:48:45.713156",
-  "total_count": 239
+  "last_updated": "2026-04-26T04:57:00.442025",
+  "total_count": 245
 }
