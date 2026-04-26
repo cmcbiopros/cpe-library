@@ -1,5 +1,584 @@
 [
   {
+    "id": "fierce-pharma-2026-04-24-the-oral-glp-1-tracker-lilly-s-launch-of-foundayo-lags-boosting-novo-s-shares",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "The Oral GLP-1 Tracker: Lilly's launch of Foundayo lags, boosting Novo's shares",
+    "url": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-updated-roche-q1-earnings-suffer-from-currency-headwinds-with-hits-and-misses-across-the-board",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "UPDATED: Roche Q1 earnings suffer from currency headwinds with hits and misses across the board",
+    "url": "https://www.fiercepharma.com/pharma/roche-q1-earnings-suffer-blood-bath-currency-headwinds-arent-only-culprit",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-fda-snubs-abbvie-s-prospective-botox-heir-amid-series-of-manufacturing-related-crls",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "FDA snubs AbbVie's prospective Botox heir amid series of manufacturing-related CRLs",
+    "url": "https://www.fiercepharma.com/pharma/fda-snubs-abbvies-new-prospective-botox-offering-manufacturing-related-crl",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-sanofi-gains-long-awaited-win-for-tolebrutinib-as-eu-regulator-endorses-ms-drug-for-approval",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Sanofi gains long-awaited win for tolebrutinib as EU regulator endorses MS drug for approval",
+    "url": "https://www.fiercepharma.com/pharma/chmp-nod-sanofi-gains-long-awaited-win-tolebrutinib",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-daiichi-pushes-back-annual-report-citing-reviews-amid-rapidly-changing-business-conditions",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Daiichi pushes back annual report, citing reviews amid ‘rapidly changing business conditions’",
+    "url": "https://www.fiercepharma.com/pharma/daiichi-pushes-back-annual-report-citing-reviews-amid-changing-business-conditions",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: 56 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "56 billion",
+        "value_norm": 56000000000,
+        "unit": "USD",
+        "evidence_snippet": "As part of its global manufacturing expansion plan for its core antibody-drug conjugate business, Daiichi is reportedly investing up to 56 billion yen ($351 million) to build additional facilities at its Ohio campus.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-traveres-launchpad-positions-filspari-for-fast-rise-toward-blockbuster-sales-analyst",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Travere’s launchpad positions Filspari for fast rise toward blockbuster sales: analyst",
+    "url": "https://www.fiercepharma.com/marketing/traveres-launchpad-positions-filspari-fast-rise-toward-blockbuster-sales-analyst",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-can-trumps-deal-with-the-uk-become-a-model-for-similar-drug-price-agreements",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Can Trump’s deal with the UK become a model for similar drug price agreements?",
+    "url": "https://www.fiercepharma.com/pharma/can-trumps-deal-uk-become-model-similar-drug-price-agreements",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-pfizer-drafts-fernando-mendoza-as-new-face-of-its-game-of-inches-cancer-campaign",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Pfizer drafts Fernando Mendoza as new face of its ‘game of inches’ cancer campaign",
+    "url": "https://www.fiercepharma.com/marketing/pfizer-drafts-fernando-mendoza-new-face-its-game-inches-cancer-campaign",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-genentech-wants-all-eyes-on-dme-as-it-taps-damon-wayans-for-humor-laced-campaign",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Genentech wants ‘All Eyes on DME’ as it taps Damon Wayans for humor-laced campaign",
+    "url": "https://www.fiercepharma.com/marketing/genentech-wants-all-eyes-dme-it-taps-damon-wayans-humor-laden-campaign",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-pfizer-s-cost-cutting-push-reaches-ireland-again-as-it-plans-manufacturing-layoffs",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Pfizer's cost-cutting push reaches Ireland again as it plans manufacturing layoffs",
+    "url": "https://www.fiercepharma.com/manufacturing/pfizers-cost-cutting-push-reaches-ireland-again-it-plans-manufacturing-layoffs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-fierce-pharma-asia-mercks-pd-1xvegf-data-zai-labs-global-view-kaileras-record-ipo",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Merck’s PD-1xVEGF data; Zai Lab’s global view; Kailera’s record IPO",
+    "url": "https://www.fiercepharma.com/pharma/merck-pd-1vegf-data-zai-lab-global-view-kailera-record-ipo",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-avalyn-aims-for-182m-ipo-to-fund-phase-3-trials-of-reformulated-respiratory-drugs",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Avalyn aims for $182M IPO to fund phase 3 trials of reformulated respiratory drugs",
+    "url": "https://www.fiercepharma.com/biotech/avalyn-aims-181m-ipo-fund-phase-3-trials-reformulated-respiratory-drugs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-24-patients-less-confident-than-ever-about-health-choices-survey",
+    "published_at": "2026-04-24",
+    "outlet": "Fierce Pharma",
+    "title": "Patients less confident than ever about health choices: survey",
+    "url": "https://www.fiercepharma.com/marketing/patients-less-confident-ever-about-health-choices-survey",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-regeneron-ushers-in-new-genetic-medicine-era-with-groundbreaking-gene-therapy-approval",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "Regeneron ushers in new genetic medicine era with groundbreaking gene therapy approval",
+    "url": "https://www.fiercepharma.com/pharma/regeneron-ushers-new-genetic-medicine-era-groundbreaking-gene-therapy-approval",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-despite-data-concerns-roches-oral-serd-can-still-be-largest-product-in-company-history-exec",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "Despite data concerns, Roche’s oral SERD can still be largest product in company history: exec",
+    "url": "https://www.fiercepharma.com/pharma/roche-pharma-ceo-maintains-oral-serd-could-be-largest-product-company-history-despite-data",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-regeneron-unveils-latest-most-favored-nation-drug-pricing-deal-with-white-house",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "Regeneron unveils latest 'most favored nation' drug pricing deal with White House",
+    "url": "https://www.fiercepharma.com/pharma/regeneron-unveil-latest-most-favored-nation-drug-pricing-deal-white-house",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $3 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$3 billion",
+        "value_norm": 3000000000,
+        "unit": "USD",
+        "evidence_snippet": "For its part, Regeneron has made domestic investment pledges in recent months through a $3 billion commercial manufacturing pact with CDMO Fujifilm Biotechnologies in North Carolina, plus plans to invest around $2 billion into a production site in Saratoga Springs, New York, which the company acquired last April.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-with-dupixent-driving-growth-sanofi-touts-vigorous-defense-to-extend-us-exclusivity",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "With Dupixent driving growth, Sanofi touts 'vigorous defense' to extend US exclusivity",
+    "url": "https://www.fiercepharma.com/pharma/sanofi-expects-extend-its-loe-dupixent-beyond-2031",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-fda-citizen-petition-calls-on-agency-to-tighten-up-crl-disclosure-practices",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "FDA citizen petition calls on agency to tighten up CRL disclosure practices",
+    "url": "https://www.fiercepharma.com/pharma/citizen-petition-behalf-unnamed-pharma-calls-fda-tighten-its-crl-disclosure-practices",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-with-trial-win-novo-nordisk-eyes-adolescent-diabetes-approval-for-oral-semaglutide",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "With trial win, Novo Nordisk eyes adolescent diabetes approval for oral semaglutide",
+    "url": "https://www.fiercepharma.com/pharma/amid-obesity-pill-duel-novo-tees-potential-oral-semaglutide-nod-adolescent-diabetes",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-more-than-60-of-americans-using-ai-tools-for-medical-information-survey",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "More than 60% of Americans using AI tools for medical information: survey",
+    "url": "https://www.fiercepharma.com/marketing/more-60-americans-using-ai-tools-medical-information-survey",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-evonik-to-pump-eur80m-into-slovakia-production-facility-add-50-jobs",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "Evonik to pump €80M into Slovakia production facility, add 50 jobs",
+    "url": "https://www.fiercepharma.com/manufacturing/evonik-pump-eu80m-slovakian-biotech-production-facility-add-50-jobs",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: 80 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "80 million",
+        "value_norm": 80000000,
+        "unit": "USD",
+        "evidence_snippet": "Evonik plans to spend roughly €80 million ($93.5 million) to upgrade the fermentation technology at its facility in Slovenská Ľupča, Slovakia, as part of an expansion that will add 50 new jobs.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-deerfield-trots-into-pharma-sales-software-space-with-crm-enhancing-tool",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "Deerfield trots into pharma sales software space with CRM-enhancing tool",
+    "url": "https://www.fiercepharma.com/marketing/deerfield-trots-pharma-sales-software-space-crm-enhancing-tool",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-23-mercks-new-ai-commercial-strategy-reimagining-engagement-with-hcps",
+    "published_at": "2026-04-23",
+    "outlet": "Fierce Pharma",
+    "title": "Merck’s new AI commercial strategy ‘reimagining engagement with HCPs’",
+    "url": "https://www.fiercepharma.com/marketing/mercks-new-ai-commercial-strategy-reimagining-engagement-hcps",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-04-22-abbvie-to-build-1-4bn-manufacturing-facility-in-durham",
+    "published_at": "2026-04-22",
+    "outlet": "BioProcess International",
+    "title": "AbbVie to build $1.4bn manufacturing facility in Durham",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/abbvie-to-build-1-4-billion-manufacturing-facility-in-durham",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $1.4 billion; capex: $100 billion; capex: $2.2 billion; capex: $380 million; capex: $1.4B",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.4 billion",
+        "value_norm": 1400000000,
+        "unit": "USD",
+        "evidence_snippet": "a US$1.4 billion investment to build a 185-acre pharmaceutical manufacturing campus in Durham, North Carolina.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 billion",
+        "value_norm": 100000000000,
+        "unit": "USD",
+        "evidence_snippet": "The investment is part of AbbVie’s greater $100 billion commitment to US R&D and capital investment over the next decade.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2.2 billion",
+        "value_norm": 2200000000,
+        "unit": "USD",
+        "evidence_snippet": "Novartis Over the past year, AbbVie has committed more than $2.2 billion to US manufacturing as part of its overall $100 billion ten-year investment strategy.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$380 million",
+        "value_norm": 380000000,
+        "unit": "USD",
+        "evidence_snippet": "Among those deals, the company $380 million to active pharmaceutical ingredient (API) manufacturing in Chicago, Illinois.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.4B",
+        "value_norm": 1400000000,
+        "unit": "USD",
+        "evidence_snippet": "Register Now: Reducing Risk in Biomanufacturing — Data-Driven Insights for Smarter Facility and Scale-Up Decision AbbVie invests $1.4B in NC campus, creating 734 jobs, advancing AI-driven manufacturing, and supporting immunology, oncology, and neuroscience",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-22-abbvie-to-establish-nc-production-base-with-1-4b-investment-creating-730-plus-jobs",
+    "published_at": "2026-04-22",
+    "outlet": "Fierce Pharma",
+    "title": "AbbVie to establish NC production base with $1.4B investment, creating 730-plus jobs",
+    "url": "https://www.fiercepharma.com/manufacturing/abbvie-establish-nc-production-base-14b-investment-create-730-plus-jobs",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $771 million; capex: $100 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$771 million",
+        "value_norm": 771000000,
+        "unit": "USD",
+        "evidence_snippet": "For example, Novartis in November said it would set up a manufacturing hub in Durham and the nearby town of Morrisville, spending $771 million and hiring hundreds in the process.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 billion",
+        "value_norm": 100000000000,
+        "unit": "USD",
+        "evidence_snippet": "On the investment side, its $100 billion pledge includes domestic R&D and capital expenditures over a 10-year span, with projects in North Chicago , Arizona and Massachusetts falling in the latter category.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-22-cms-delays-part-d-glp-1-model-amid-skepticism-from-insurers",
+    "published_at": "2026-04-22",
+    "outlet": "Fierce Pharma",
+    "title": "CMS delays Part D GLP-1 model amid skepticism from insurers",
+    "url": "https://www.fiercepharma.com/payers/cms-delays-part-d-glp-1-model-amid-skepticism-insurers",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-04-20-ispe-announces-category-winners-for-2026-facility-of-the-year-awards",
+    "published_at": "2026-04-20",
+    "outlet": "BioProcess International",
+    "title": "ISPE announces category winners for 2026 Facility of the Year Awards",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/ispe-announces-category-winners-for-2026-facility-of-the-year-awards",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-04-17-fda-s-accelerated-approval-pathway-needs-stronger-transparency-evidence-standards-icer",
     "published_at": "2026-04-17",
     "outlet": "Fierce Pharma",
