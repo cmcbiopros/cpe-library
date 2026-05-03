@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2026-06-03",
+      "webinar_date": "2026-05-21",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -4558,8 +4558,27 @@
       "url": "https://ispe.org/webinars/simplifying-compliance-life-sciences-engineering-document-management",
       "description": "ISPE upcoming webinar: Simplifying Compliance in Life Sciences with Engineering Document Management",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-reduce-delays-from-operational-gaps-in-oncology-clinical-trials",
+      "title": "Reduce Delays from Operational Gaps in Oncology Clinical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "oncology"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-03",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/reduce-delays-from-operational-gaps-in-oncology-clinical-trials/",
+      "description": "Xtalks webinar: Reduce Delays from Operational Gaps in Oncology Clinical Trials",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-04-26T04:57:00.442025",
-  "total_count": 245
+  "last_updated": "2026-05-03T05:27:19.435757",
+  "total_count": 246
 }
