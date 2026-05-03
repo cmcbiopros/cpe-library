@@ -1,5 +1,567 @@
 [
   {
+    "id": "fierce-pharma-2026-05-01-fda-hands-pfizer-arvinas-veppanu-early-approval-for-breast-cancer-subtype",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "FDA hands Pfizer, Arvinas’ Veppanu early approval for breast cancer subtype",
+    "url": "https://www.fiercepharma.com/pharma/fda-hands-pfizer-arvinas-veppanu-early-approval-certain-breast-cancer",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-look-out-rexulti-axsome-s-auvelity-has-its-nod-for-alzheimer-s-agitation",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "Look out Rexulti, Axsome's Auvelity has its nod for Alzheimer's agitation",
+    "url": "https://www.fiercepharma.com/pharma/look-out-rexulti-here-comes-axsome-alzheimers-agitation-fda-nod-auvelity",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-cardio-drug-developer-esperion-to-go-private-in-potential-1-1b-buyout-by-archimed",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "Cardio drug developer Esperion to go private in potential $1.1B buyout by ArchiMed",
+    "url": "https://www.fiercepharma.com/pharma/healthcare-investor-archimed-pay-11b-take-esperion-and-its-roster-cardio-drugs-private",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $75 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$75 million",
+        "value_norm": 75000000,
+        "unit": "USD",
+        "evidence_snippet": "Shortly after laying out $75 million upfront for Corstasis Therapeutics and its congestive heart failure edema drug Enbumyst, Esperion Therapeutics is itself being acquired and taken private by healthcare investment firm Archimed.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-union-workers-at-korean-cdmo-samsung-biologics-kick-off-strike",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "Union workers at Korean CDMO Samsung Biologics kick off strike",
+    "url": "https://www.fiercepharma.com/manufacturing/labor-union-workers-korean-cdmo-samsung-biologics-go-strike",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capacity_volume: 60,000 liters",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "60,000 liters",
+        "value_norm": 60000,
+        "unit": "L",
+        "evidence_snippet": "The spot features a total of 60,000 liters of drug substance capacity and can support both clinical-stage and commercial drug production.",
+        "context": "capacity"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-summit-s-pd-1xvegf-interim-trial-miss-surprises-analysts-shares-tumble",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "Summit's PD-1xVEGF interim trial miss surprises analysts, shares tumble",
+    "url": "https://www.fiercepharma.com/pharma/summit-pd-1vegf-interim-trial-miss-surprises-analysts-shares-tumble",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-fda-expectations-create-potential-friction-in-new-form-483-response-guidance",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "FDA expectations create potential friction in new Form 483 response guidance",
+    "url": "https://www.fiercepharma.com/manufacturing/fda-expectations-create-potential-friction-new-form-483-response-guidance",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-fierce-pharma-asia-suns-11-75b-organon-buy-astellas-xtandi-peak-beones-pd-1xvegf-bet",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Sun’s $11.75B Organon buy; Astellas’ Xtandi peak; BeOne’s PD-1xVEGF bet",
+    "url": "https://www.fiercepharma.com/pharma/sun-1175b-organon-buy-astellas-xtandi-peak-beone-pd-1vegf-bet",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-a-pivotal-time-for-an-rna-pioneer",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "A pivotal time for an RNA pioneer",
+    "url": "https://www.fiercepharma.com/pharma/pivotal-time-rna-pioneer",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-repatha-sales-help-amgen-overcome-prolia-biosimilar-hits-in-1st-quarter",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "Repatha sales help Amgen overcome Prolia biosimilar hits in 1st quarter",
+    "url": "https://www.fiercepharma.com/pharma/amgen-gets-big-bounce-repatha-first-quarter",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-novo-nordisks-rybelsus-officially-retired-in-us-as-ozempic-pill-takes-branding-center-stage",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "Novo Nordisk’s Rybelsus officially retired in US as ‘Ozempic pill’ takes branding center stage",
+    "url": "https://www.fiercepharma.com/marketing/novo-nordisks-rybelsus-brand-officially-retired-us-ozempic-pill-takes-branding-center",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-01-verastem-launches-reimagine-campaign-to-move-ovarian-cancer-drugs-into-earlier-lines",
+    "published_at": "2026-05-01",
+    "outlet": "Fierce Pharma",
+    "title": "Verastem launches ‘Reimagine’ campaign to move ovarian cancer drugs into earlier lines",
+    "url": "https://www.fiercepharma.com/marketing/verastem-launches-reimagine-campaign-move-ovarian-cancer-drugs-earlier-lines",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-04-30-novartis-to-open-api-manufacturing-facility-in-morrisville",
+    "published_at": "2026-04-30",
+    "outlet": "BioProcess International",
+    "title": "Novartis to open API manufacturing facility in Morrisville",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/novartis-to-open-api-manufacturing-facility-in-morrisville",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $23 billion; facility_footprint: 56,200 square feet; capex: $2 billion; capex: $1.4 billion; capex: $2 billion",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$23 billion",
+        "value_norm": 23000000000,
+        "unit": "USD",
+        "evidence_snippet": "The facility is part of the firm’s $23 billion commitment to US manufacturing and R&D.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "56,200 square feet",
+        "value_norm": 56200,
+        "unit": "square feet",
+        "evidence_snippet": "The facility will span 56,200 square feet, bolstering Novartis’s robust presence in North Carolina as part of its greater North Carolina Manufacturing Hub, composed of three sites and five facilities.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "In January, Genentech its investment in a Holly Springs facility to $2 billion, focusing on metabolic medicines.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.4 billion",
+        "value_norm": 1400000000,
+        "unit": "USD",
+        "evidence_snippet": "AbbVie is a $1.4 billion pharmaceutical campus in Durham, integrating advanced manufacturing technologies to support immunology and oncology programs.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "Meanwhile, Johnson & Johnson is pouring into the state through multiple investments, including a $2 billion contract development and manufacturing organization (CDMO) partnership with Fujifilm.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-bms-well-prepared-for-camzyos-competition-as-revenue-from-new-products-overtakes-legacy-portfol",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "BMS 'well prepared' for Camzyos competition as revenue from new products overtakes legacy portfolio",
+    "url": "https://www.fiercepharma.com/pharma/bms-well-prepared-camzyos-competition-revenue-new-growth-products-overtakes-legacy-portfolio",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-lilly-touts-encouraging-early-days-for-foundayo-obesity-launch-even-as-glp-1-pill-appears-to-la",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "Lilly touts 'encouraging' early days for Foundayo obesity launch, even as GLP-1 pill appears to lag Novo's",
+    "url": "https://www.fiercepharma.com/pharma/lilly-touts-encouraging-early-days-foundayo-obesity-launch-even-glp-1-pill-appears-lag-novos",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-merck-s-growth-products-winrevair-ohtuvayre-trending-in-opposite-directions",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "Merck's growth products Winrevair, Ohtuvayre trending in opposite directions",
+    "url": "https://www.fiercepharma.com/pharma/mercks-growth-products-winrevair-ohtuvayre-trending-opposite-directions",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-merck-bats-for-heart-disease-awareness-with-new-baseball-inspired-campaign",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "Merck bats for heart disease awareness with new baseball-inspired campaign",
+    "url": "https://www.fiercepharma.com/marketing/merck-bats-heart-disease-awareness-new-baseball-inspired-campaign",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-europes-drug-regulator-sets-up-new-group-to-counter-vaccine-hesitancy",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "Europe’s drug regulator sets up new group to counter vaccine hesitancy",
+    "url": "https://www.fiercepharma.com/marketing/europes-drug-regulator-sets-new-group-counter-vaccine-hesitancy",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-amarox-recalls-batch-of-antidepressants-in-uk-over-packaging-mix-up",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "Amarox recalls batch of antidepressants in UK over packaging mix-up",
+    "url": "https://www.fiercepharma.com/manufacturing/amarox-recalls-batch-antidepressants-due-manufacturing-label-issue",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-novartis-rounds-out-23b-us-investment-push-with-plans-for-north-carolina-api-plant",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "Novartis rounds out $23B US investment push with plans for North Carolina API plant",
+    "url": "https://www.fiercepharma.com/manufacturing/novartis-bolsters-presence-nc-plan-build-api-plant-0",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "facility_footprint: 56,200 square-foot; capex: $1.4 billion",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "56,200 square-foot",
+        "value_norm": 56200,
+        "unit": "square-foot",
+        "evidence_snippet": "The 56,200 square-foot plant will manufacture ingredients for solid-dose tablets, capsules and RNA therapeutics, marking the 7th and final facility the company will build in the United States as part of the investment plan revealed last April.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.4 billion",
+        "value_norm": 1400000000,
+        "unit": "USD",
+        "evidence_snippet": "As for North Carolina, the state has enjoyed a steady influx of recent pharma manufacturing commitments, including a $1.4 billion production hub that AbbVie has planned in Durham; a $2 billion manufacturing complex Roche is building in Holly Springs; and a $2 billion expansion project from Biogen, which will include new facilities and upgrades to other sites in the state.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-bayer-earns-fda-untitled-letter-for-nubeqa-s-attention-grabbing-visuals",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "Bayer earns FDA untitled letter for Nubeqa's 'attention-grabbing visuals'",
+    "url": "https://www.fiercepharma.com/marketing/bayer-earns-fda-untitled-letter-nubeqa-ads-risk-information",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-avalyn-heads-to-nasdaq-with-oversized-300m-ipo-to-fund-reformulated-respiratory-drugs",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "Avalyn heads to Nasdaq with oversized $300M IPO to fund reformulated respiratory drugs",
+    "url": "https://www.fiercepharma.com/biotech/avalyn-heads-nasdaq-oversized-300m-ipo-fund-reformulated-respiratory-drugs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-30-us-drugmakers-reputations-shift-quickly-amid-political-pressures-job-cuts-survey",
+    "published_at": "2026-04-30",
+    "outlet": "Fierce Pharma",
+    "title": "US drugmaker’s reputations shift quickly amid political pressures, job cuts: survey",
+    "url": "https://www.fiercepharma.com/marketing/us-drugmakers-reputations-shift-quickly-amid-political-pressures-job-cuts-survey",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-04-29-thermo-fisher-opens-bioprocess-design-center-in-massachusetts",
+    "published_at": "2026-04-29",
+    "outlet": "BioProcess International",
+    "title": "Thermo Fisher opens Bioprocess Design Center in Massachusetts",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/thermo-fisher-opens-bioprocess-design-center-in-massachusetts",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "facility_footprint: 4,000 square feet",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "4,000 square feet",
+        "value_norm": 4000,
+        "unit": "square feet",
+        "evidence_snippet": "The facility has 4,000 square feet of laboratory and training space that can support customers working in biologics, vaccines, and in advanced therapies.",
+        "context": "footprint"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-04-29-astrazeneca-ceo-s-conservative-mfn-model-excludes-reference-markets-from-forecast",
+    "published_at": "2026-04-29",
+    "outlet": "Fierce Pharma",
+    "title": "AstraZeneca CEO's conservative MFN model excludes reference markets from forecast",
+    "url": "https://www.fiercepharma.com/pharma/astrazeneca-ceo-conservative-mfn-model-excludes-reference-markets-forecast",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-29-abbvie-outlines-skyrizi-defense-against-new-j-j-plaque-psoriasis-rival-icotyde",
+    "published_at": "2026-04-29",
+    "outlet": "Fierce Pharma",
+    "title": "AbbVie outlines Skyrizi defense against new J&J plaque psoriasis rival Icotyde",
+    "url": "https://www.fiercepharma.com/pharma/abbvie-outlines-immunology-superstar-skyrizis-defense-against-new-jj-competition-icotyde",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-04-29-with-austedo-at-helm-teva-s-impressive-innovative-drug-sales-signal-company-s-successful-metamo",
+    "published_at": "2026-04-29",
+    "outlet": "Fierce Pharma",
+    "title": "With Austedo at helm, Teva's impressive innovative drug sales signal company's successful metamorphosis",
+    "url": "https://www.fiercepharma.com/pharma/austedo-helm-tevas-impressive-innovative-drug-sales-signal-companys-successful-metamorphosis",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-04-24-the-oral-glp-1-tracker-lilly-s-launch-of-foundayo-lags-boosting-novo-s-shares",
     "published_at": "2026-04-24",
     "outlet": "Fierce Pharma",
