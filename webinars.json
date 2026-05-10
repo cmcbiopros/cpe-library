@@ -4043,25 +4043,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-autonomous-batch-disposition-using-rules-risk-ai-signals",
-      "title": "Autonomous Batch Disposition Using Rules, Risk & AI Signals",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-02-22",
-      "webinar_date": "2026-05-07",
-      "live_date": "2026-05-07",
-      "url": "https://ispe.org/webinars/autonomous-batch-disposition-using-rules-risk-ai-signals",
-      "description": "ISPE upcoming webinar: Autonomous Batch Disposition Using Rules, Risk & AI Signals",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-qsit-is-ending-how-to-achieve-audit-readiness-for-medical-devices-under-fda-qmsr",
       "title": "QSIT Is Ending: How to Achieve Audit Readiness for Medical Devices Under FDA QMSR",
       "provider": "Xtalks",
@@ -4577,8 +4558,64 @@
       "url": "https://xtalks.com/webinars/reduce-delays-from-operational-gaps-in-oncology-clinical-trials/",
       "description": "Xtalks webinar: Reduce Delays from Operational Gaps in Oncology Clinical Trials",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-adoption-of-new-technologies-in-cgt-manufacturing-challenges-and-drivers",
+      "title": "Adoption of New Technologies in CGT Manufacturing: Challenges and Drivers",
+      "provider": "Labroots",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-10",
+      "webinar_date": "2026-05-20",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/adoption-technologies-cgt-manufacturing-challenges-drivers",
+      "description": "Labroots event: Adoption of New Technologies in CGT Manufacturing: Challenges and Drivers",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-eu-clinical-trial-regulation-latest-developments-and-upcoming-opportunities",
+      "title": "EU Clinical Trial Regulation: Latest Developments and Upcoming Opportunities",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/eu-clinical-trial-regulation-latest-developments-and-upcoming-opportunities/",
+      "description": "Xtalks webinar: EU Clinical Trial Regulation: Latest Developments and Upcoming Opportunities",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-seamless-biopharmaceutical-development-for-accelerated-validation-readiness",
+      "title": "Seamless Biopharmaceutical Development for Accelerated Validation Readiness",
+      "provider": "Xtalks",
+      "topics": [
+        "pharmaceutical",
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-10",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/seamless-biopharmaceutical-development-for-accelerated-validation-readiness/",
+      "description": "Xtalks webinar: Seamless Biopharmaceutical Development for Accelerated Validation Readiness",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-05-03T05:27:19.435757",
-  "total_count": 246
+  "last_updated": "2026-05-10T05:34:34.117639",
+  "total_count": 248
 }
