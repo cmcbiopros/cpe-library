@@ -1,5 +1,585 @@
 [
   {
+    "id": "fierce-pharma-2026-05-11-targeted-protein-degradation-and-novel-modalities-getting-on-the-frontline",
+    "published_at": "2026-05-11",
+    "outlet": "Fierce Pharma",
+    "title": "Targeted Protein Degradation and Novel Modalities: Getting on the Frontline",
+    "url": "https://www.fiercepharma.com/sponsored/targeted-protein-degradation-and-novel-modalities-getting-frontline",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-trump-plans-to-fire-fda-chief-marty-makary-report",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Trump plans to fire FDA chief Marty Makary: report",
+    "url": "https://www.fiercepharma.com/pharma/trump-plans-fire-fda-chief-makary-report",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-as-new-tech-ai-sweeps-the-marketing-world-eversana-intouchs-new-ceo-is-comfortable-in-the-gray",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "As new tech, AI sweeps the marketing world, Eversana Intouch’s new CEO is ‘comfortable in the gray’",
+    "url": "https://www.fiercepharma.com/marketing/new-tech-and-ai-sweeps-marketing-world-eversana-intouchs-new-ceo-mike-guarino-comfortable",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-lawmakers-former-fda-leaders-and-more-rally-behind-mifepristone-as-supreme-court-weighs-telemed",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Lawmakers, former FDA leaders and more rally behind mifepristone as Supreme Court weighs telemedicine access to abortion pill",
+    "url": "https://www.fiercepharma.com/pharma/lawmakers-former-fda-leaders-and-more-rally-behind-mifepristone-supreme-court-weighs",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-capricor-therapeutics-files-breach-of-contract-lawsuit-against-us-partner-ns-pharma",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Capricor Therapeutics files breach-of-contract lawsuit against US partner NS Pharma",
+    "url": "https://www.fiercepharma.com/pharma/capricor-files-breach-contract-lawsuit-against-us-partner-ns-pharma",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-gilead-cranks-up-yeztugo-first-year-sales-forecast-to-1b-on-unprecedented-launch-trajectory",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Gilead cranks up Yeztugo first-year sales forecast to $1B on 'unprecedented launch trajectory'",
+    "url": "https://www.fiercepharma.com/pharma/gilead-cranks-yeztugo-first-year-sales-forecast-1b-unprecedented-launch-trajectory",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "SMALL_MOLECULE_MENTION",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-daiichi-sankyo-takes-610m-profit-hit-linked-to-adc-manufacturing-overbuild",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Daiichi Sankyo takes $610M profit hit linked to ADC manufacturing overbuild",
+    "url": "https://www.fiercepharma.com/pharma/daiichi-sankyo-takes-610m-profit-hit-linked-adc-manufacturing-losses",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: 56 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "56 billion",
+        "value_norm": 56000000000,
+        "unit": "USD",
+        "evidence_snippet": "Daiichi is reportedly investing up to 56 billion yen ($351 million) to build additional facilities at its Ohio plant.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-abbvies-skyrizi-beats-out-j-js-tremfya-in-april-drug-ad-spending-leaderboard",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "AbbVie’s Skyrizi beats out J&J’s Tremfya in April drug ad spending leaderboard",
+    "url": "https://www.fiercepharma.com/marketing/abbvies-skyrizi-beats-out-jjs-tremfya-aprils-drug-ad-spending-leaderboard",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $1.5 million; capex: $20.4 million; capex: $23.4 million; capex: $8.2 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.5 million",
+        "value_norm": 1500000,
+        "unit": "USD",
+        "evidence_snippet": "Eli Lilly nudged up spending on its obesity drug Zepbound by $1.5 million, pushing the med into fourth place, up one spot from March.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$20.4 million",
+        "value_norm": 20400000,
+        "unit": "USD",
+        "evidence_snippet": "In fifth place, and up two spots, was Sanofi and Regeneron’s immunology megablockbuster Dupixent, with the majority of its $20.4 million spend last month going toward ads tied to its eczema indication.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$23.4 million",
+        "value_norm": 23400000,
+        "unit": "USD",
+        "evidence_snippet": "Johnson & Johnson appeared again on the list with its atypical antipsychotic Caplyta, which fell two spots to sixth place as spending dropped from $23.4 million in March to $20.2 million in April.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$8.2 million",
+        "value_norm": 8199999,
+        "unit": "USD",
+        "evidence_snippet": "Lundbeck and Otsuka’s depression drug Rexulti landed in seventh place, while Eli Lilly and Boehringer Ingelheim’s diabetes and kidney disease med Jardiance came in eighth, down from sixth in March as spending fell by $8.2 million.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-johnson-johnson-launches-generation-fine-depression-project",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Johnson & Johnson launches ‘Generation Fine’ depression project",
+    "url": "https://www.fiercepharma.com/marketing/johnson-johnson-launches-generation-fine-depression-project",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-revisiting-pharmas-tariff-reality",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Revisiting Pharma’s tariff reality",
+    "url": "https://www.fiercepharma.com/pharma/revisiting-pharmas-tariff-reality",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-fierce-pharma-asia-summits-surprise-interim-trial-miss-ucbs-2b-candid-buy-j-js-car-t-cuts",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Summit’s surprise interim trial miss; UCB’s $2B Candid buy; J&J’s CAR-T cuts",
+    "url": "https://www.fiercepharma.com/pharma/summit-surprise-interim-trial-miss-ucb-2b-candid-buy-jj-car-t-cuts",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-gsk-tees-up-a-modern-family-for-meningitis-messaging",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "GSK tees up a Modern Family for meningitis messaging",
+    "url": "https://www.fiercepharma.com/marketing/gsk-tees-modern-family-meningitis-messaging",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-08-pre-launch-efforts-linked-to-lasting-drug-awareness-edge-report",
+    "published_at": "2026-05-08",
+    "outlet": "Fierce Pharma",
+    "title": "Pre-launch efforts linked to lasting drug awareness edge: report",
+    "url": "https://www.fiercepharma.com/marketing/pre-launch-efforts-linked-lasting-drug-awareness-edge-report",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-05-07-novartis-breaks-ground-on-rlt-manufacturing-site-in-denton-texas",
+    "published_at": "2026-05-07",
+    "outlet": "BioProcess International",
+    "title": "Novartis breaks ground on RLT manufacturing site in Denton, Texas",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/novartis-breaks-ground-on-rlt-manufacturing-site-in-denton-texas",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "facility_footprint: 46,000 square-foot",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "46,000 square-foot",
+        "value_norm": 46000,
+        "unit": "square-foot",
+        "evidence_snippet": "The company plans for the 46,000 square-foot Denton manufacturing site to open in 2028, creating jobs in bioengineering, advanced manufacturing, quality, and operations.",
+        "context": "footprint"
+      }
+    ]
+  },
+  {
+    "id": "bioprocess-international-2026-05-07-eli-lilly-commits-4-5bn-to-indiana-glp-1-and-advanced-therapy-manufacturing",
+    "published_at": "2026-05-07",
+    "outlet": "BioProcess International",
+    "title": "Eli Lilly commits $4.5bn to Indiana GLP-1 and advanced therapy manufacturing",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/eli-lilly-commits-4-5bn-to-indiana-glp-1-and-advanced-therapy-manufacturing",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $4.5 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$4.5 billion",
+        "value_norm": 4500000000,
+        "unit": "USD",
+        "evidence_snippet": "an additional investment of US$4.5 billion across two of its three sites in Lebanon, Indiana, bringing the company’s total investment in US manufacturing since 2020 to more than $50 billion, with $21 billion dedicated to Indiana.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-07-angelini-finds-catalyst-for-its-us-growth-ambitions-with-4-1b-buyout",
+    "published_at": "2026-05-07",
+    "outlet": "Fierce Pharma",
+    "title": "Angelini finds Catalyst for its US growth ambitions with $4.1B buyout",
+    "url": "https://www.fiercepharma.com/pharma/angelini-finds-catalyst-its-us-growth-ambitions-41b-buyout",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: 150 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "150 million",
+        "value_norm": 150000000,
+        "unit": "USD",
+        "evidence_snippet": "Angelini Pharma and parent Angelini Industries have been on an investment tear, most recently partnering with the EU’s investment arm , the European Investment Bank, to infuse 150 million euros (about $174.3 million) into biotech, medtech and digital health companies over the next six years in Europe.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-07-the-timing-is-right-for-psychedelics-manufacturer-optimi-health-s-ipo",
+    "published_at": "2026-05-07",
+    "outlet": "Fierce Pharma",
+    "title": "The timing is right for psychedelics manufacturer Optimi Health's IPO",
+    "url": "https://www.fiercepharma.com/manufacturing/timing-right-psychedelics-manufacturer-optimi-health",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-07-fda-to-reconsider-shock-rejection-of-cell-therapy-ebvallo-could-uniqure-be-next",
+    "published_at": "2026-05-07",
+    "outlet": "Fierce Pharma",
+    "title": "FDA to reconsider shock rejection of cell therapy Ebvallo. Could uniQure be next?",
+    "url": "https://www.fiercepharma.com/pharma/fda-reconsider-surprisingly-rejected-cell-therapy-ebvallo-could-uniqure-be-next",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-07-insulet-ceo-details-scrubs-device-promotion-win-as-it-boosts-awareness-education-drive",
+    "published_at": "2026-05-07",
+    "outlet": "Fierce Pharma",
+    "title": "Insulet CEO details ‘Scrubs’ device promotion win as it boosts awareness, education drive",
+    "url": "https://www.fiercepharma.com/marketing/insulet-ceo-details-scrubs-device-promotion-win-it-boosts-awareness-education-drive",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-07-alnylam-rebuked-by-fda-over-efficacy-claims-on-amvuttra-website",
+    "published_at": "2026-05-07",
+    "outlet": "Fierce Pharma",
+    "title": "Alnylam rebuked by FDA over efficacy claims on Amvuttra website",
+    "url": "https://www.fiercepharma.com/marketing/alnylam-rebuked-fda-over-efficacy-claims-amvuttra-website",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-06-sanofi-asks-to-pull-tzield-bid-from-fda-s-controversial-cnpv-program-report",
+    "published_at": "2026-05-06",
+    "outlet": "Fierce Pharma",
+    "title": "Sanofi asks to pull Tzield bid from FDA's controversial CNPV program: report",
+    "url": "https://www.fiercepharma.com/pharma/sanofi-requests-exit-controversial-cnpv-fast-track-program-stat",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-06-fda-rolls-out-1-day-assessment-pilot-in-bid-to-refocus-inspection-resources",
+    "published_at": "2026-05-06",
+    "outlet": "Fierce Pharma",
+    "title": "FDA rolls out 1-day assessment pilot in bid to refocus inspection resources",
+    "url": "https://www.fiercepharma.com/manufacturing/fda-rolls-out-1-day-assessment-pilot-bid-refocus-inspection-resources",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-06-novo-ceo-cites-pricing-sweet-spot-as-wegovy-pill-debuts-with-355m-quarter",
+    "published_at": "2026-05-06",
+    "outlet": "Fierce Pharma",
+    "title": "Novo CEO cites pricing 'sweet spot' as Wegovy pill debuts with $355M quarter",
+    "url": "https://www.fiercepharma.com/pharma/novo-ceo-cites-wegovy-pill-pricing-sweet-spot-oral-obesity-launch-garners-355m-its-1st",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-06-fda-blocks-publication-of-covid-shingles-vaccine-safety-studies-nyt",
+    "published_at": "2026-05-06",
+    "outlet": "Fierce Pharma",
+    "title": "FDA blocks publication of COVID, shingles vaccine safety studies: NYT",
+    "url": "https://www.fiercepharma.com/pharma/fda-blocks-publication-covid-shingles-vaccine-safety-studies-nyt",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-06-bayer-diagnoses-how-to-build-trust-in-cell-and-gene-therapies",
+    "published_at": "2026-05-06",
+    "outlet": "Fierce Pharma",
+    "title": "Bayer diagnoses how to build trust in cell and gene therapies",
+    "url": "https://www.fiercepharma.com/marketing/bayer-diagnoses-how-build-trust-cell-and-gene-therapies",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-05-04-amgen-invests-300m-in-us-biomanufacturing-in-puerto-rico",
+    "published_at": "2026-05-04",
+    "outlet": "BioProcess International",
+    "title": "Amgen invests $300m in US biomanufacturing in Puerto Rico",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/amgen-invests-300m-in-us-biomanufacturing-in-puerto-rico",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $1 billion; capex: $300 million; capex: $300 million; capex: $1 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$1 billion",
+        "value_norm": 1000000000,
+        "unit": "USD",
+        "evidence_snippet": "The investment will bring Puerto Rico's biomanufacturing facility commitment to nearly $1 billion, reinforcing US production.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$300 million",
+        "value_norm": 300000000,
+        "unit": "USD",
+        "evidence_snippet": "an additional US$300 million at its bioproduction facility in Juncos, Peurto Rico, building on the $650 million expansion that it announced \"Amgen has been a leader in US biomanufacturing for decades, and this expansion reflects our continued commitment to American manufacturing,\" said Robert Bradway, chairman and CEO of Amgen.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$300 million",
+        "value_norm": 300000000,
+        "unit": "USD",
+        "evidence_snippet": "We will continue working to make Puerto Rico the number one destination for advanced manufacturing in the United States.\" \"Amgen's additional $300 million commitment in Juncos is a powerful signal that the future of American biomanufacturing is being built here,\" added Sebastián Negrón Reichard, Puerto Rico secretary of the Department of Economic Development and Commerce.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1 billion",
+        "value_norm": 1000000000,
+        "unit": "USD",
+        "evidence_snippet": "Register Now: Reducing Risk in Biomanufacturing — Data-Driven Insights for Smarter Facility and Scale-Up Decision The Amgen investment will bring Puerto Rico's biomanufacturing facility commitment to nearly $1 billion, reinforcing US production.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
     "id": "fierce-pharma-2026-05-01-fda-hands-pfizer-arvinas-veppanu-early-approval-for-breast-cancer-subtype",
     "published_at": "2026-05-01",
     "outlet": "Fierce Pharma",
