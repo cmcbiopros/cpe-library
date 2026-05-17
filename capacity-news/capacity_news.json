@@ -1,5 +1,517 @@
 [
   {
+    "id": "fierce-pharma-2026-05-15-roche-s-ctdna-guided-approach-in-post-surgical-bladder-cancer-pays-off-with-tecentriq-nod",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "Roche's ctDNA-guided approach in post-surgical bladder cancer pays off with Tecentriq nod",
+    "url": "https://www.fiercepharma.com/pharma/roches-tailored-ctdna-guided-approach-tecentriq-pays-post-surgical-bladder-cancer-nod",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-after-makary-departure-cder-chief-tracy-beth-hoeg-likely-headed-out-at-fda-report",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "After Makary departure, CDER chief Tracy Beth Høeg likely headed out at FDA: report",
+    "url": "https://www.fiercepharma.com/pharma/after-makary-departure-cder-chief-tracy-beth-hoeg-headed-out-door-fda-report",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-eisai-s-slow-push-toward-blockbuster-leqembi-sales-gains-steam-with-900m-forecast",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "Eisai's slow push toward blockbuster Leqembi sales gains steam with $900M forecast",
+    "url": "https://www.fiercepharma.com/pharma/eisais-slow-walk-blockbuster-leqembi-sales-inches-closer-900m-26-sales-forecast",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-scotus-temporarily-restores-telehealth-access-to-abortion-pill-mifepristone",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "SCOTUS temporarily restores telehealth access to abortion pill mifepristone",
+    "url": "https://www.fiercepharma.com/pharma/scotus-restores-telehealth-access-abortion-pill-mifepristone",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-as-biologics-dominate-biopharma-pipelines-manufacturing-hurdles-trip-up-new-launches-report",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "As biologics dominate biopharma pipelines, manufacturing hurdles trip up new launches: report",
+    "url": "https://www.fiercepharma.com/manufacturing/biologics-dominate-biopharma-pipelines-more-recent-launches-tripped-manufacturing",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-health-execs-persevere-in-new-policy-landscape",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "Health execs persevere in new policy landscape",
+    "url": "https://www.fiercepharma.com/pharma/health-execs-persevere-new-policy-landscape",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-doceree-launches-daily-command-an-ai-platform-for-brand-teams-co-built-by-pharma-leaders",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "Doceree launches Daily Command, an AI platform for brand teams co-built by pharma leaders",
+    "url": "https://www.fiercepharma.com/sponsored/doceree-launches-daily-command-ai-platform-brand-teams-co-built-pharma-leaders",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $30 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$30 billion",
+        "value_norm": 30000000000,
+        "unit": "USD",
+        "evidence_snippet": "The platform enters a market that, by Doceree's analysis, sees more than $30 billion in annual global software-and-services spend across the fragmented stack pharma brand teams currently run — market research portals, HCP targeting tools, media-planning platforms, measurement dashboards, MLR workflow software, CRM, competitive intelligence subscriptions and agency project management.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-fierce-pharma-asia-bms-hengrui-s-15b-deal-takedas-4-5k-layoffs-daiichis-oncology-ambition",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—BMS-Hengrui's $15B deal; Takeda’s 4.5K layoffs; Daiichi’s oncology ambition",
+    "url": "https://www.fiercepharma.com/pharma/bms-hengrui-15b-deal-takeda-4500-layoffs-daiichi-oncology-ambition",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $127.5M",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$127.5M",
+        "value_norm": 127500000,
+        "unit": "USD",
+        "evidence_snippet": "Bora snaps up MacroGenics’ manufacturing, CDMO operations for up to $127.5M 9.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-to-gain-tariff-exemptions-drugmakers-must-reveal-us-production-plans",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "To gain tariff exemptions, drugmakers must reveal US production plans",
+    "url": "https://www.fiercepharma.com/pharma/gain-tariff-exemptions-drugmakers-will-have-reveal-all-their-us-plans",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-15-bridgebio-pharma-teams-with-awareness-groups-to-spotlight-attr-cms-hidden-impact-on-women",
+    "published_at": "2026-05-15",
+    "outlet": "Fierce Pharma",
+    "title": "BridgeBio Pharma teams with awareness groups to spotlight ATTR-CM’s hidden impact on women",
+    "url": "https://www.fiercepharma.com/marketing/bridgebio-pharma-teams-awareness-groups-reveal-attr-cms-hidden-impact-women",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "bioprocess-international-2026-05-14-nibrt-partnership-helping-to-reshape-regional-biotech-training-in-maryland",
+    "published_at": "2026-05-14",
+    "outlet": "BioProcess International",
+    "title": "NIBRT partnership helping to reshape regional biotech training in Maryland",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/nibrt-partnership-helping-to-reshape-regional-biotech-training-in-maryland",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-14-johnson-johnson-bladder-cancer-survey-reveals-toll-of-surgery-bcg-treatment",
+    "published_at": "2026-05-14",
+    "outlet": "Fierce Pharma",
+    "title": "Johnson & Johnson bladder cancer survey reveals toll of surgery, BCG treatment",
+    "url": "https://www.fiercepharma.com/marketing/johnson-johnson-bladder-cancer-survey-reveals-toll-surgery-bcg-treatment",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-14-astrazeneca-scores-with-imfinzi-in-another-bladder-cancer-trial-rivaling-merck-s-keytruda",
+    "published_at": "2026-05-14",
+    "outlet": "Fierce Pharma",
+    "title": "AstraZeneca scores with Imfinzi in another bladder cancer trial, rivaling Merck's Keytruda",
+    "url": "https://www.fiercepharma.com/pharma/astrazeneca-scores-imfinzi-another-bladder-cancer-trial",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-14-eli-lilly-delivers-50m-boost-to-unicefs-pediatric-health-push",
+    "published_at": "2026-05-14",
+    "outlet": "Fierce Pharma",
+    "title": "Eli Lilly delivers $50M boost to UNICEF’s pediatric health push",
+    "url": "https://www.fiercepharma.com/marketing/eli-lilly-delivers-50m-boost-unicefs-pediatric-health-push",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $20.9 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$20.9 million",
+        "value_norm": 20900000,
+        "unit": "USD",
+        "evidence_snippet": "Having donated $20.9 million over roughly the past five years, Lilly plans to hand UNICEF USA $50 million over the next six years to support the expansion of activities funded by its contributions.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-14-biopharma-leaders-rally-behind-pazdur-for-fda-commissioner-pick-but-does-he-want-the-role",
+    "published_at": "2026-05-14",
+    "outlet": "Fierce Pharma",
+    "title": "Biopharma leaders rally behind Pazdur for FDA commissioner pick. But does he want the role?",
+    "url": "https://www.fiercepharma.com/pharma/biopharma-leaders-rally-behind-pazdur-fda-commissioner-pick-does-he-want-role",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-14-fda-floats-possible-approach-to-repurpose-approved-drugs-under-new-uses",
+    "published_at": "2026-05-14",
+    "outlet": "Fierce Pharma",
+    "title": "FDA floats possible approach to repurpose approved drugs under new uses",
+    "url": "https://www.fiercepharma.com/pharma/fda-floats-potential-approach-repurpose-approved-drugs-under-new-uses",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-14-sun-recalls-us-chemotherapy-batch-citing-glass-particle-contamination-concerns",
+    "published_at": "2026-05-14",
+    "outlet": "Fierce Pharma",
+    "title": "Sun recalls US chemotherapy batch, citing glass particle contamination concerns",
+    "url": "https://www.fiercepharma.com/manufacturing/sun-recalls-us-chemotherapy-batch-citing-glass-particle-contamination-concerns",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-14-bora-snaps-up-macrogenics-manufacturing-cdmo-operations-for-up-to-127-5m",
+    "published_at": "2026-05-14",
+    "outlet": "Fierce Pharma",
+    "title": "Bora snaps up MacroGenics’ manufacturing, CDMO operations for up to $127.5M",
+    "url": "https://www.fiercepharma.com/manufacturing/bora-snaps-macrogenics-manufacturing-cdmo-operations-127m",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $127.5 million; bioreactor_volume: 20,000-liter; bioreactor_volume: 2,000-liter; bioreactor_volume: 500-liter; capex: $250 million",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$127.5 million",
+        "value_norm": 127500000,
+        "unit": "USD",
+        "evidence_snippet": "Taiwan’s Bora Group will shell out up to $127.5 million to acquire the CDMO business and manufacturing operations from Maryland-based MacroGenics.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "20,000-liter",
+        "value_norm": 20000,
+        "unit": "L",
+        "evidence_snippet": "He continued, “With the addition of the Rockville site, Bora Biologics total drug substance capacity would be 20,000-liter and Bora Group will integrate our in-house drug Substance and drug product capabilities and network investments over the next 12 to 18 months to offer global biotech customers a seamless offering allowing customers to advance programs from development through commercial supply with one single partner.” The Rockville facility features five 2,000-liter and two 500-liter single-use bioreactors and fully integrated quality control and analytical laboratories, according to the release.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "2,000-liter",
+        "value_norm": 2000,
+        "unit": "L",
+        "evidence_snippet": "He continued, “With the addition of the Rockville site, Bora Biologics total drug substance capacity would be 20,000-liter and Bora Group will integrate our in-house drug Substance and drug product capabilities and network investments over the next 12 to 18 months to offer global biotech customers a seamless offering allowing customers to advance programs from development through commercial supply with one single partner.” The Rockville facility features five 2,000-liter and two 500-liter single-use bioreactors and fully integrated quality control and analytical laboratories, according to the release.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "500-liter",
+        "value_norm": 500,
+        "unit": "L",
+        "evidence_snippet": "He continued, “With the addition of the Rockville site, Bora Biologics total drug substance capacity would be 20,000-liter and Bora Group will integrate our in-house drug Substance and drug product capabilities and network investments over the next 12 to 18 months to offer global biotech customers a seamless offering allowing customers to advance programs from development through commercial supply with one single partner.” The Rockville facility features five 2,000-liter and two 500-liter single-use bioreactors and fully integrated quality control and analytical laboratories, according to the release.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$250 million",
+        "value_norm": 250000000,
+        "unit": "USD",
+        "evidence_snippet": "Earlier this year, Bora renewed a $250 million global manufacturing pact with British drugmaker GSK, covering a five-year term.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-14-patient-involvement-in-life-shortening-conditions-mnd-insights",
+    "published_at": "2026-05-14",
+    "outlet": "Fierce Pharma",
+    "title": "Patient involvement in life-shortening conditions: MND Insights",
+    "url": "https://www.fiercepharma.com/sponsored/patient-involvement-life-shortening-conditions-mnd-insights",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-13-beone-s-venclexta-challenger-beqalzi-nets-fda-approval-as-first-bcl-2-for-mantle-cell-lymphoma",
+    "published_at": "2026-05-13",
+    "outlet": "Fierce Pharma",
+    "title": "BeOne's Venclexta challenger Beqalzi nets FDA approval as first BCL-2 for mantle cell lymphoma",
+    "url": "https://www.fiercepharma.com/pharma/beone-venclexta-challenger-beqalzi-sonrotoclax-nets-fda-approval-first-bcl-2-mantle-cell",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-13-as-trump-arrives-in-china-big-pharma-ceos-are-notably-absent",
+    "published_at": "2026-05-13",
+    "outlet": "Fierce Pharma",
+    "title": "As Trump arrives in China, Big Pharma CEOs are notably absent",
+    "url": "https://www.fiercepharma.com/pharma/trump-arrives-china-big-pharma-ceos-are-notably-absent",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $15 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$15 billion",
+        "value_norm": 15000000000,
+        "unit": "USD",
+        "evidence_snippet": "During the visit, AZ unveiled a $15 billion investment in the country with plans spanning drug R&D and manufacturing.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-05-13-merck-kgaa-looks-to-m-a-to-bolster-its-rather-slim-pipeline",
+    "published_at": "2026-05-13",
+    "outlet": "Fierce Pharma",
+    "title": "Merck KGaA looks to M&A to bolster its 'rather slim' pipeline",
+    "url": "https://www.fiercepharma.com/pharma/merck-kgaa-looks-ma-bolster-its-rather-slim-pipeline",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-13-takeda-slimming-down-for-new-era-plots-4500-layoffs-in-latest-restructuring-drive",
+    "published_at": "2026-05-13",
+    "outlet": "Fierce Pharma",
+    "title": "Takeda, slimming down for 'new era,' plots 4,500 layoffs in latest restructuring drive",
+    "url": "https://www.fiercepharma.com/pharma/takeda-slimming-down-new-era-plots-4500-layoffs-latest-restructuring-drive",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-05-13-novo-lilly-tout-respective-early-response-and-weight-loss-maintenance-data-as-glp-1-rivalry-int",
+    "published_at": "2026-05-13",
+    "outlet": "Fierce Pharma",
+    "title": "Novo, Lilly tout respective early response and weight loss maintenance data as GLP-1 rivalry intensifies",
+    "url": "https://www.fiercepharma.com/pharma/novo-lilly-tout-respective-early-response-and-weight-loss-maintenance-data-glp-1-obesity",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-05-11-targeted-protein-degradation-and-novel-modalities-getting-on-the-frontline",
     "published_at": "2026-05-11",
     "outlet": "Fierce Pharma",
