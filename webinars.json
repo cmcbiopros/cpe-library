@@ -4145,7 +4145,7 @@
       "date_added": "2026-03-08",
       "webinar_date": "Unknown",
       "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/navigating-water-circularity-pharma-regulatory-perspectives-and-emerging-contaminant",
+      "url": "https://ispe.org/webinars/videos/navigating-water-circularity-pharma-regulatory-perspectives-and-emerging-contaminant",
       "description": "ISPE past webinar: Navigating Water Circularity in Pharma: Regulatory Perspectives and Emerging Contaminant Challenges",
       "source": "scraped"
     },
@@ -4228,13 +4228,13 @@
       "topics": [
         "research"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-03-29",
       "webinar_date": "2026-05-19",
-      "live_date": "2026-05-19",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/informatics-oncology-research-sequencer-report-completely-automated",
       "description": "Labroots event: Informatics for Oncology Research: Sequencer to report. Completely...",
       "source": "scraped"
@@ -4473,15 +4473,15 @@
       "topics": [
         "validation"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-04-26",
-      "webinar_date": "2026-05-19",
-      "live_date": "2026-05-19",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
       "url": "https://ispe.org/webinars/ready-remote-preparing-your-validation-program-fdas-digital-assessment-era",
-      "description": "ISPE upcoming webinar: Ready for Remote: Preparing Your Validation Program for FDA's Digital Assessment Era",
+      "description": "ISPE past webinar: Ready for Remote: Preparing Your Validation Program for FDA's Digital Assessment Era",
       "source": "scraped"
     },
     {
@@ -4633,8 +4633,100 @@
       "url": "https://xtalks.com/webinars/optimize-yield-and-compliance-with-ai-enabled-pharma-manufacturing/",
       "description": "Xtalks webinar: Optimize Yield and Compliance With AI-Enabled Pharma Manufacturing",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-scaling-cell-line-development-enabling-ind-ready-gmp-compatible-workflows-broadcast-1",
+      "title": "Scaling Cell Line Development: Enabling IND-Ready, GMP-Compatible Workflows (Broadcast 1)",
+      "provider": "Xtalks",
+      "topics": [
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-24",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/scaling-cell-line-development-enabling-ind-ready-gmp-compatible-workflows-broadcast-1/",
+      "description": "Xtalks webinar: Scaling Cell Line Development: Enabling IND-Ready, GMP-Compatible Workflows (Broadcast 1)",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-scaling-cell-line-development-enabling-ind-ready-gmp-compatible-workflows-broadcast-2",
+      "title": "Scaling Cell Line Development: Enabling IND-Ready, GMP-Compatible Workflows (Broadcast 2)",
+      "provider": "Xtalks",
+      "topics": [
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-24",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/scaling-cell-line-development-enabling-ind-ready-gmp-compatible-workflows-broadcast-2/",
+      "description": "Xtalks webinar: Scaling Cell Line Development: Enabling IND-Ready, GMP-Compatible Workflows (Broadcast 2)",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-reduce-supply-risk-with-rtsm-designs-for-radiopharmaceutical-trials",
+      "title": "Reduce Supply Risk with RTSM Designs for Radiopharmaceutical Trials",
+      "provider": "Xtalks",
+      "topics": [
+        "pharmaceutical"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-24",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/reduce-supply-risk-with-rtsm-designs-for-radiopharmaceutical-trials/",
+      "description": "Xtalks webinar: Reduce Supply Risk with RTSM Designs for Radiopharmaceutical Trials",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-improving-compliance-speed-decisions-and-reduce-operational-risk-using-ai-and-digital-quality-solutions",
+      "title": "Improving Compliance, Speed Decisions, and Reduce Operational Risk Using AI and Digital Quality Solutions",
+      "provider": "ISPE",
+      "topics": [
+        "quality-assurance",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-24",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/improving-compliance-speed-decisions-and-reduce-operational-risk-using-ai-and-digital",
+      "description": "ISPE past webinar: Improving Compliance, Speed Decisions, and Reduce Operational Risk Using AI and Digital Quality Solutions",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-critical-quality-attributes-validation-of-an-automated-glassware-washer-and-depyrogenation-tunnel",
+      "title": "Critical Quality Attributes - Validation of an Automated Glassware Washer and Depyrogenation Tunnel",
+      "provider": "ISPE",
+      "topics": [
+        "validation",
+        "quality-assurance"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-05-24",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/videos/critical-quality-attributes-validation-automated-glassware-washer-and-depyrogenation-tunnel",
+      "description": "ISPE past webinar: Critical Quality Attributes - Validation of an Automated Glassware Washer and Depyrogenation Tunnel",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-05-17T05:45:34.321488",
-  "total_count": 249
+  "last_updated": "2026-05-24T05:58:18.985842",
+  "total_count": 254
 }
