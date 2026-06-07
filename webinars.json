@@ -405,7 +405,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2026-06-03",
+      "webinar_date": "2026-01-04",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
       "description": "Labroots event: Drug Discovery & Development",
@@ -4416,13 +4416,13 @@
       "topics": [
         "research"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": "unknown",
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-04-26",
       "webinar_date": "2026-06-03",
-      "live_date": "2026-06-03",
+      "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/translational-infectious-disease-research-summit-global-voices-with-shared-impact",
       "description": "Labroots event: Translational Infectious Disease Research Summit",
       "source": "scraped"
@@ -5007,6 +5007,6 @@
       "source": "scraped"
     }
   ],
-  "last_updated": "2026-05-31T06:14:17.607240",
+  "last_updated": "2026-06-07T06:19:37.648450",
   "total_count": 269
 }
