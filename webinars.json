@@ -3030,7 +3030,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-09",
-      "webinar_date": "2026-01-23",
+      "webinar_date": "2026-01-04",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -4876,25 +4876,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-igniting-digital-transformation-intro-to-the-holistic-digital-enablement-good-practice-guide-series-kickoff-part-1-of-4",
-      "title": "Igniting Digital Transformation: Intro to the Holistic Digital Enablement Good Practice Guide — Series Kickoff (Part 1 of 4)",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-05-31",
-      "webinar_date": "2026-06-11",
-      "live_date": "2026-06-11",
-      "url": "https://ispe.org/webinars/igniting-digital-transformation-intro-holistic-digital-enablement-good-practice-guide",
-      "description": "ISPE upcoming webinar: Igniting Digital Transformation: Intro to the Holistic Digital Enablement Good Practice Guide — Series Kickoff (Part 1 of 4)",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-2026-state-of-validation-accelerating-digital-maturity-in-the-age-of-ai",
       "title": "2026 State of Validation: Accelerating Digital Maturity in the Age of AI",
       "provider": "ISPE",
@@ -5005,8 +4986,137 @@
       "url": "https://ispe.org/webinars/conferences/ai-bottom-why-conventional-deployment-playbook-failing-pharma-organizations",
       "description": "ISPE upcoming webinar: AI From The Bottom-Up: Why the Conventional Deployment Playbook Is Failing Pharma Organizations",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-a-covid-19-preventive-strategy-is-now-fda-approved",
+      "title": "A COVID-19 Preventive Strategy is Now FDA Approved",
+      "provider": "Labroots",
+      "topics": [
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-14",
+      "webinar_date": "2026-06-09",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/trending/nocat/30643/covid-19-preventive-strategy-fda-approved",
+      "description": "Labroots event: A COVID-19 Preventive Strategy is Now FDA Approved",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-prevent-advanced-therapy-program-delays-with-early-supply-chain-strategy",
+      "title": "Prevent Advanced Therapy Program Delays with Early Supply Chain Strategy",
+      "provider": "Xtalks",
+      "topics": [
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/prevent-advanced-therapy-program-delays-with-early-supply-chain-strategy/",
+      "description": "Xtalks webinar: Prevent Advanced Therapy Program Delays with Early Supply Chain Strategy",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-reduce-supply-chain-delays-in-life-sciences-manufacturing",
+      "title": "Reduce Supply Chain Delays in Life Sciences Manufacturing",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing",
+        "life-sciences",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/reduce-supply-chain-delays-in-life-sciences-manufacturing/",
+      "description": "Xtalks webinar: Reduce Supply Chain Delays in Life Sciences Manufacturing",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-hybrid-operating-models-a-practical-guide-to-harmonizing-priorities-in-clinical-development",
+      "title": "Hybrid Operating Models: A Practical Guide to Harmonizing Priorities in Clinical Development",
+      "provider": "Xtalks",
+      "topics": [
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/hybrid-operating-models-a-practical-guide-to-harmonizing-priorities-in-clinical-development/",
+      "description": "Xtalks webinar: Hybrid Operating Models: A Practical Guide to Harmonizing Priorities in Clinical Development",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-empowering-clinical-sites-to-drive-engagement-and-retention-among-human-centered-trials",
+      "title": "Empowering Clinical Sites to Drive Engagement and Retention among Human-Centered Trials",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/empowering-clinical-sites-to-drive-engagement-and-retention-among-human-centered-trials/",
+      "description": "Xtalks webinar: Empowering Clinical Sites to Drive Engagement and Retention among Human-Centered Trials",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-why-level-setting-around-site-technology-may-be-the-most-overlooked-step-in-clinical-trial-planning",
+      "title": "Why Level Setting around Site Technology May Be The Most Overlooked Step in Clinical Trial Planning",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/why-level-setting-around-site-technology-may-be-the-most-overlooked-step-in-clinical-trial-planning/",
+      "description": "Xtalks webinar: Why Level Setting around Site Technology May Be The Most Overlooked Step in Clinical Trial Planning",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-ai-and-automation-in-artwork-labelling-for-life-sciences-advancing-quality-and-efficiency",
+      "title": "AI and Automation in Artwork & Labelling for Life Sciences: Advancing Quality and Efficiency",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "laboratory-management",
+        "life-sciences",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-14",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/ai-and-automation-in-artwork-labelling-for-life-sciences-advancing-quality-and-efficiency/",
+      "description": "Xtalks webinar: AI and Automation in Artwork & Labelling for Life Sciences: Advancing Quality and Efficiency",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-06-07T06:19:37.648450",
-  "total_count": 269
+  "last_updated": "2026-06-14T06:30:46.359031",
+  "total_count": 275
 }
