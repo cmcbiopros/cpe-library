@@ -4876,43 +4876,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-2026-state-of-validation-accelerating-digital-maturity-in-the-age-of-ai",
-      "title": "2026 State of Validation: Accelerating Digital Maturity in the Age of AI",
-      "provider": "ISPE",
-      "topics": [
-        "validation"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-05-31",
-      "webinar_date": "2026-06-16",
-      "live_date": "2026-06-16",
-      "url": "https://ispe.org/webinars/2026-state-validation-accelerating-digital-maturity-age-ai",
-      "description": "ISPE upcoming webinar: 2026 State of Validation: Accelerating Digital Maturity in the Age of AI",
-      "source": "scraped"
-    },
-    {
-      "id": "ispe-ai-in-regulated-environments-what-agencies-are-saying-where-it-s-failing-and-what-to-watch-for",
-      "title": "AI in Regulated Environments: What Agencies Are Saying, Where It's Failing, and What to Watch For",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-05-31",
-      "webinar_date": "2026-06-18",
-      "live_date": "2026-06-18",
-      "url": "https://ispe.org/webinars/ai-regulated-environments-what-agencies-are-saying-where-its-failing-and-what-watch",
-      "description": "ISPE upcoming webinar: AI in Regulated Environments: What Agencies Are Saying, Where It's Failing, and What to Watch For",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-beyond-the-pilot-business-impacts-of-llms-in-quality-and-regulatory-applications",
       "title": "Beyond the Pilot: Business Impacts of LLMs in Quality and Regulatory Applications",
       "provider": "ISPE",
@@ -5115,8 +5078,76 @@
       "url": "https://xtalks.com/webinars/ai-and-automation-in-artwork-labelling-for-life-sciences-advancing-quality-and-efficiency/",
       "description": "Xtalks webinar: AI and Automation in Artwork & Labelling for Life Sciences: Advancing Quality and Efficiency",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-using-lessons-from-fintech-to-improve-clinical-trial-interoperability",
+      "title": "Using Lessons from FinTech to Improve Clinical Trial Interoperability",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/using-lessons-from-fintech-to-improve-clinical-trial-interoperability/",
+      "description": "Xtalks webinar: Using Lessons from FinTech to Improve Clinical Trial Interoperability",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-built-to-scale-cro-growth-with-the-right-eclinical-partner",
+      "title": "Built to Scale: CRO Growth with the Right eClinical Partner",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/built-to-scale-cro-growth-with-the-right-eclinical-partner/",
+      "description": "Xtalks webinar: Built to Scale: CRO Growth with the Right eClinical Partner",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-clinical-trial-rescue-fix-recruitment-get-timelines-back-on-track",
+      "title": "Clinical Trial Rescue: Fix Recruitment & Get Timelines Back on Track",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/clinical-trial-rescue-fix-recruitment-get-timelines-back-on-track/",
+      "description": "Xtalks webinar: Clinical Trial Rescue: Fix Recruitment & Get Timelines Back on Track",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-strengthen-tmf-strategy-under-ich-e6-r3-risk-expectations",
+      "title": "Strengthen TMF Strategy Under ICH E6(R3) Risk Expectations",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-21",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/strengthen-tmf-strategy-under-ich-e6r3-risk-expectations/",
+      "description": "Xtalks webinar: Strengthen TMF Strategy Under ICH E6(R3) Risk Expectations",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-06-14T06:30:46.359031",
-  "total_count": 275
+  "last_updated": "2026-06-21T06:47:42.313782",
+  "total_count": 277
 }
