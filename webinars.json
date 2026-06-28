@@ -3521,9 +3521,9 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-12-21",
-      "webinar_date": "2026-01-22",
+      "webinar_date": "2026-06-30",
       "live_date": "on-demand",
-      "url": "https://www.labroots.com/webinar/high-throughput-clone-screening-manufacturing-relevant-conditions-cydem-vt-system",
+      "url": "https://www.labroots.com/webinar/high-throughput-clone-screening-under-manufacturing-relevant-conditions-cydem-vt-system",
       "description": "Labroots event: High-Throughput Clone Screening Under Manufacturing-Relevant Conditions with the Cydem VT System",
       "source": "scraped"
     },
@@ -4883,15 +4883,15 @@
         "quality-assurance",
         "regulatory"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-05-31",
-      "webinar_date": "2026-06-25",
-      "live_date": "2026-06-25",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
       "url": "https://ispe.org/webinars/beyond-pilot-business-impacts-llms-quality-and-regulatory-applications",
-      "description": "ISPE upcoming webinar: Beyond the Pilot: Business Impacts of LLMs in Quality and Regulatory Applications",
+      "description": "ISPE past webinar: Beyond the Pilot: Business Impacts of LLMs in Quality and Regulatory Applications",
       "source": "scraped"
     },
     {
@@ -5146,8 +5146,80 @@
       "url": "https://xtalks.com/webinars/strengthen-tmf-strategy-under-ich-e6r3-risk-expectations/",
       "description": "Xtalks webinar: Strengthen TMF Strategy Under ICH E6(R3) Risk Expectations",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-built-to-scale-growth-with-the-right-eclinical-partner",
+      "title": "Built to Scale: Growth with the Right eClinical Partner",
+      "provider": "Xtalks",
+      "topics": [],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-28",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/built-to-scale-growth-with-the-right-eclinical-partner/",
+      "description": "Xtalks webinar: Built to Scale: Growth with the Right eClinical Partner",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-effectively-streamlining-eu-uk-clinical-trial-sample-testing",
+      "title": "Effectively Streamlining EU & UK Clinical Trial Sample Testing",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-28",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/effectively-streamlining-eu-uk-clinical-trial-sample-testing/",
+      "description": "Xtalks webinar: Effectively Streamlining EU & UK Clinical Trial Sample Testing",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-coas-in-early-stage-alzheimer-s-trials-how-scientific-strategy-ecoa-rater-training-align-to-protect-endpoint-data-quality",
+      "title": "COAs in Early-Stage Alzheimer's Trials: How scientific strategy, eCOA & rater training align to protect endpoint & data quality",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "data-management",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-28",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/coas-in-early-stage-alzheimers-trials-how-scientific-strategy-ecoa-rater-training-align-to-protect-endpoint-data-quality/",
+      "description": "Xtalks webinar: COAs in Early-Stage Alzheimer's Trials: How scientific strategy, eCOA & rater training align to protect endpoint & data quality",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-2026-state-of-validation-accelerating-digital-maturity-in-the-age-of-ai",
+      "title": "2026 State of Validation: Accelerating Digital Maturity in the Age of AI",
+      "provider": "ISPE",
+      "topics": [
+        "validation"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-06-28",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/videos/2026-state-validation-accelerating-digital-maturity-age-ai",
+      "description": "ISPE past webinar: 2026 State of Validation: Accelerating Digital Maturity in the Age of AI",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-06-21T06:47:42.313782",
-  "total_count": 277
+  "last_updated": "2026-06-28T06:13:15.939915",
+  "total_count": 281
 }
