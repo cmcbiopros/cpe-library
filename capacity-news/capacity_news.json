@@ -1,5 +1,528 @@
 [
   {
+    "id": "bioprocess-international-2026-06-26-shilpa-biologicals-brings-adc-manufacturing-capacity-to-dharwad-india",
+    "published_at": "2026-06-26",
+    "outlet": "BioProcess International",
+    "title": "Shilpa Biologicals brings ADC manufacturing capacity to Dharwad, India",
+    "url": "https://www.bioprocessintl.com/facilities-capacity/shilpa-biologicals-brings-adc-manufacturing-capacity-to-dharwad-india",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-26-fda-slaps-dr-reddy-s-hyderabad-biologics-plant-with-seven-observations-in-new-form-483",
+    "published_at": "2026-06-26",
+    "outlet": "Fierce Pharma",
+    "title": "FDA slaps Dr. Reddy's Hyderabad biologics plant with seven observations in new Form 483",
+    "url": "https://www.fiercepharma.com/manufacturing/fda-slaps-dr-reddys-hyderabad-biologics-plant-seven-observations-new-form-483",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-26-sanofi-under-antitrust-probe-as-european-commission-kicks-off-formal-proceedings",
+    "published_at": "2026-06-26",
+    "outlet": "Fierce Pharma",
+    "title": "Sanofi under antitrust probe as European Commission kicks off formal proceedings",
+    "url": "https://www.fiercepharma.com/pharma/sanofi-subject-antitrust-probe-ec-kicks-formal-proceedings",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-26-pharmas-cannes-do-attitude-sees-industry-return-to-triumph",
+    "published_at": "2026-06-26",
+    "outlet": "Fierce Pharma",
+    "title": "Pharma’s Cannes-do attitude sees industry return to triumph",
+    "url": "https://www.fiercepharma.com/marketing/pharmas-cannes-do-attitude-sees-industry-return-triumph",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-26-europe-s-chmp-reverses-endorsement-of-tavneos-as-amgen-fda-hearing-looms",
+    "published_at": "2026-06-26",
+    "outlet": "Fierce Pharma",
+    "title": "Europe's CHMP reverses endorsement of Tavneos as Amgen FDA hearing looms",
+    "url": "https://www.fiercepharma.com/pharma/chmp-reverses-marketing-recommendation-amgens-tavneos-fda-hearing-looms",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-26-eli-lilly-taps-ai-to-bring-personal-memories-to-life-during-its-european-radio-show-road-trip",
+    "published_at": "2026-06-26",
+    "outlet": "Fierce Pharma",
+    "title": "Eli Lilly taps AI to bring personal memories to life during its European radio show road trip",
+    "url": "https://www.fiercepharma.com/marketing/eli-lilly-taps-ai-being-personal-memories-life-during-its-european-radio-show-road-trip",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-26-fierce-pharma-asia-historic-solid-tumor-car-t-nod-inside-pfizer-innovents-10b-pact-more-china-d",
+    "published_at": "2026-06-26",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Historic solid tumor CAR-T nod; Inside Pfizer, Innovent’s $10B pact; More China deals",
+    "url": "https://www.fiercepharma.com/pharma/historic-solid-tumor-car-t-nod-inside-pfizer-innovent-10b-pact-more-china-deals",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $230M; capex: $65M; capex: $29M",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$230M",
+        "value_norm": 230000000,
+        "unit": "USD",
+        "evidence_snippet": "Serapha Bio takes flight from Boundless merger with $230M and gene-editing prospect from China Serapha Bio has launched with $230 million in funding commitments from an investor group led by RA Capital Management and RTW Investments.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$65M",
+        "value_norm": 65000000,
+        "unit": "USD",
+        "evidence_snippet": "Eisai snares government manufacturing grant as it brings Leqembi packaging to UK with $65M expansion 18.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$29M",
+        "value_norm": 29000000,
+        "unit": "USD",
+        "evidence_snippet": "Novo Nordisk opens Czech plant and unveils $29M upgrade to China facility 21.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-06-26-biogen-launches-ready-for-more-hd-spinraza-campaign-with-a-focus-on-how-we-see-sma",
+    "published_at": "2026-06-26",
+    "outlet": "Fierce Pharma",
+    "title": "Biogen launches ‘Ready for More’ HD Spinraza campaign with a focus on how we see SMA",
+    "url": "https://www.fiercepharma.com/marketing/biogen-launches-ready-more-hd-spinraza-campaign-focus-how-we-see-sma",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "SMALL_MOLECULE_MENTION",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-26-beone-boosts-support-for-blood-cancer-united-with-5m-commitment",
+    "published_at": "2026-06-26",
+    "outlet": "Fierce Pharma",
+    "title": "BeOne boosts support for Blood Cancer United with $5M commitment",
+    "url": "https://www.fiercepharma.com/marketing/beone-boosts-support-blood-cancer-united-5m-commitment",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-25-fosun-pharma-plots-global-push-beyond-oncology-fueled-by-multi-asset-alzheimers-strategy",
+    "published_at": "2026-06-25",
+    "outlet": "Fierce Pharma",
+    "title": "Fosun Pharma plots global push beyond oncology, fueled by multi-asset Alzheimer’s strategy",
+    "url": "https://www.fiercepharma.com/pharma/fosun-pharma-plots-global-push-beyond-oncology-fueled-multi-asset-alzheimers-strategy",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-25-bayer-scores-landmark-victory-as-supreme-court-overturns-roundup-verdict",
+    "published_at": "2026-06-25",
+    "outlet": "Fierce Pharma",
+    "title": "Bayer scores landmark victory as Supreme Court overturns Roundup verdict",
+    "url": "https://www.fiercepharma.com/pharma/bayer-scores-major-win-scotus-overturns-roundup-verdict",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-25-fda-shines-harsh-light-on-pinnacle-after-finding-fault-with-photodynamic-therapy-videos",
+    "published_at": "2026-06-25",
+    "outlet": "Fierce Pharma",
+    "title": "FDA shines harsh light on Pinnacle after finding fault with photodynamic therapy videos",
+    "url": "https://www.fiercepharma.com/marketing/fda-shines-harsh-light-pinnacle-after-finding-fault-photodynamic-therapy-videos",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-25-merck-kgaa-throws-down-11-3b-for-bio-techne-in-its-biggest-deal-since-2015-sigma-aldrich-buy",
+    "published_at": "2026-06-25",
+    "outlet": "Fierce Pharma",
+    "title": "Merck KGaA throws down $11.3B for Bio-Techne in its biggest deal since 2015 Sigma-Aldrich buy",
+    "url": "https://www.fiercepharma.com/pharma/merck-kgaa-throws-down-113b-bio-techne-biggest-deal-2015-sigma-aldrich-buy",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-25-novartis-teams-up-with-becoming-rentable-for-its-new-sma-campaign",
+    "published_at": "2026-06-25",
+    "outlet": "Fierce Pharma",
+    "title": "Novartis teams up with Becoming rentABLE for its new SMA campaign",
+    "url": "https://www.fiercepharma.com/marketing/novartis-teams-becoming-rentable-its-new-sma-campaign",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-25-ionis-scores-transformational-fda-label-expansion-for-tryngolza",
+    "published_at": "2026-06-25",
+    "outlet": "Fierce Pharma",
+    "title": "Ionis scores transformational FDA label expansion for Tryngolza",
+    "url": "https://www.fiercepharma.com/pharma/ionis-scores-landmark-fda-label-expansion-tryngolza",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-25-jubilant-hollisterstier-gets-fda-warning-letter-for-quality-control-problems",
+    "published_at": "2026-06-25",
+    "outlet": "Fierce Pharma",
+    "title": "Jubilant HollisterStier gets FDA warning letter for quality control problems",
+    "url": "https://www.fiercepharma.com/manufacturing/jubilant-hollisterstier-gets-fda-warning-letter-quality-control-problems",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $76 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$76 million",
+        "value_norm": 76000000,
+        "unit": "USD",
+        "evidence_snippet": "“Your failure to promptly investigate these excursions may allow microbiological contamination hazards to persist and worsen in your classified areas.” The company sank $76 million into expanding the Montreal facility in 2022 in a move to double the facility’s production capacity as part of Jubilant’s efforts to ramp up its sterile injectables output in the wake of the COVID-19 pandemic.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-06-25-astrazeneca-spells-out-a-community-cancer-screening-strategy-with-the-ymca",
+    "published_at": "2026-06-25",
+    "outlet": "Fierce Pharma",
+    "title": "AstraZeneca spells out a community cancer screening strategy with the YMCA",
+    "url": "https://www.fiercepharma.com/marketing/astrazeneca-spells-out-community-cancer-screening-strategy-ymca",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-24-gileads-trodelvy-nabs-broad-fda-approval-in-front-line-tnbc-fueling-trop2-adc-market-war",
+    "published_at": "2026-06-24",
+    "outlet": "Fierce Pharma",
+    "title": "Gilead’s Trodelvy nabs broad FDA approval in front-line TNBC, fueling TROP2 ADC market war",
+    "url": "https://www.fiercepharma.com/pharma/gilead-trodelvy-nabs-broad-fda-approval-front-line-tnbc-fueling-trop2-adc-market-war",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-24-mapp-gilead-antivirals-to-be-deployed-in-drc-ebola-trial-who-chief",
+    "published_at": "2026-06-24",
+    "outlet": "Fierce Pharma",
+    "title": "Mapp, Gilead antivirals to be deployed in DRC Ebola trial: WHO chief",
+    "url": "https://www.fiercepharma.com/biotech/mapp-gilead-antivirals-be-deployed-drc-ebola-trial-who-chief",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-24-pfizer-scores-1st-expansion-in-7-years-for-breast-cancer-blockbuster-ibrance",
+    "published_at": "2026-06-24",
+    "outlet": "Fierce Pharma",
+    "title": "Pfizer scores 1st expansion in 7 years for breast cancer blockbuster Ibrance",
+    "url": "https://www.fiercepharma.com/pharma/pfizer-scores-its-first-expansion-7-years-breast-cancer-blockbuster-ibrance",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-24-stada-under-new-capvest-ownership-picks-up-horde-of-european-consumer-brands",
+    "published_at": "2026-06-24",
+    "outlet": "Fierce Pharma",
+    "title": "Stada, under new CapVest ownership, picks up horde of European consumer brands",
+    "url": "https://www.fiercepharma.com/pharma/stada-under-new-capvest-ownership-picks-horde-european-consumer-health-brands-orifarm",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-24-lilly-exec-says-mfn-will-affect-company-s-obesity-pill-launch-strategy-in-europe-report",
+    "published_at": "2026-06-24",
+    "outlet": "Fierce Pharma",
+    "title": "Lilly exec says MFN will affect company's obesity pill launch strategy in Europe: report",
+    "url": "https://www.fiercepharma.com/pharma/lilly-exec-says-company-will-focus-telehealth-sales-obesity-pill-europe-report",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-24-nature-retracts-provocative-pd-1-study-that-tied-lung-cancer-survival-to-treatment-timing",
+    "published_at": "2026-06-24",
+    "outlet": "Fierce Pharma",
+    "title": "Nature retracts provocative PD-1 study that tied lung cancer survival to treatment timing",
+    "url": "https://www.fiercepharma.com/pharma/nature-retracts-provocative-pd-1-study-tied-lung-cancer-survival-treatment-timing",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-24-amid-safety-concerns-adc-therapeutics-plots-17-staff-cuts-to-push-resources-behind-zynlonta",
+    "published_at": "2026-06-24",
+    "outlet": "Fierce Pharma",
+    "title": "Amid safety concerns, ADC Therapeutics plots 17% staff cuts to push resources behind Zynlonta",
+    "url": "https://www.fiercepharma.com/pharma/amid-safety-concerns-adc-therapeutics-plots-17-staff-cuts-push-resources-behind-lead-adc",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-06-24-advancell-locks-in-lease-for-us-headquarters-radiopharmaceutical-production-near-boston",
+    "published_at": "2026-06-24",
+    "outlet": "Fierce Pharma",
+    "title": "AdvanCell locks in lease for US headquarters, radiopharmaceutical production near Boston",
+    "url": "https://www.fiercepharma.com/manufacturing/advancell-enters-long-term-lease-us-radiopharmaceutical-production",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "facility_footprint: 128,000-square-foot; capex: $400 million; capex: $112 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "128,000-square-foot",
+        "value_norm": 128000,
+        "unit": "square-foot",
+        "evidence_snippet": "The company, which was founded in 2019 in Sydney, Australia, will take over a 128,000-square-foot facility at Innovation Park in Andover, Massachusetts, just outside of Boston.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$400 million",
+        "value_norm": 400000000,
+        "unit": "USD",
+        "evidence_snippet": "“This site will be foundational to AdvanCell's next stage of growth, enabling us to scale our proprietary Lead-212 targeted alpha therapy manufacturing for Phase 3 and future commercial production.” The Innovation Park campus also touts tenant Generate Biomedicines, which recently raised $400 million earlier this year in a public offering.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$112 million",
+        "value_norm": 112000000,
+        "unit": "USD",
+        "evidence_snippet": "In February 2025, AdvanCell hauled in $112 million in an oversubscribed series C funding round co-led by SV Health Investors, Sanofi Ventures, Abingworth and SymBiosis.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
     "id": "bioprocess-international-2026-06-18-cdmo-resilience-relocates-headquarters-to-blue-ash-ohio",
     "published_at": "2026-06-18",
     "outlet": "BioProcess International",
