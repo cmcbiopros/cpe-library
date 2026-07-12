@@ -3273,7 +3273,7 @@
       "date_added": "2026-05-31",
       "webinar_date": "Unknown",
       "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/beyond-pilot-business-impacts-llms-quality-and-regulatory-applications",
+      "url": "https://ispe.org/webinars/videos/beyond-pilot-business-impacts-llms-quality-and-regulatory-applications",
       "description": "ISPE past webinar: Beyond the Pilot: Business Impacts of LLMs in Quality and Regulatory Applications",
       "source": "scraped"
     },
@@ -3284,15 +3284,15 @@
       "topics": [
         "manufacturing"
       ],
-      "format": "live",
+      "format": "on-demand",
       "duration_min": 60,
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-05-31",
-      "webinar_date": "2026-07-08",
-      "live_date": "2026-07-08",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
       "url": "https://ispe.org/webinars/vaccines-manufacturing-air-change-rate-reduction-integrated-risk-based-execution",
-      "description": "ISPE upcoming webinar: Vaccines Manufacturing Air Change Rate Reduction with Integrated Risk-Based Execution",
+      "description": "ISPE past webinar: Vaccines Manufacturing Air Change Rate Reduction with Integrated Risk-Based Execution",
       "source": "scraped"
     },
     {
@@ -3584,24 +3584,6 @@
       "source": "scraped"
     },
     {
-      "id": "labroots-preparing-for-a-laboratory-relocation-what-you-need-to-know-before",
-      "title": "Preparing for a Laboratory Relocation: What You Need to Know Before...",
-      "provider": "Labroots",
-      "topics": [
-        "laboratory"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-07-05",
-      "webinar_date": "2026-01-04",
-      "live_date": "on-demand",
-      "url": "https://www.labroots.com/virtual-event/preparing-for-a-laboratory-relocation-what-you-need-to-know-before-move-day",
-      "description": "Labroots event: Preparing for a Laboratory Relocation: What You Need to Know Before...",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-improve-blood-assay-analyte-preservation-recovery-with-advanced-materials",
       "title": "Improve Blood Assay Analyte Preservation & Recovery with Advanced Materials",
       "provider": "Xtalks",
@@ -3632,8 +3614,286 @@
       "url": "https://xtalks.com/webinars/strategies-to-reduce-risk-in-multi-site-assay-cross-validation/",
       "description": "Xtalks webinar: Strategies to Reduce Risk in Multi-Site Assay Cross-Validation",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-drug-discovery-development",
+      "title": "Drug Discovery & Development",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-01-04",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-events/drug-discovery-and-development",
+      "description": "Labroots event: Drug Discovery & Development",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-bioprocessing-virtual-event-series-2026",
+      "title": "Bioprocessing Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "bioprocess"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-04-01",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-event/bioprocessing-2026",
+      "description": "Labroots event: Bioprocessing Virtual Event Series 2026",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-laboratory-automation-virtual-event-series-2026",
+      "title": "Laboratory Automation Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "laboratory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-03-18",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-event/laboratory-automation-2026",
+      "description": "Labroots event: Laboratory Automation Virtual Event Series 2026",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-drug-discovery-development-virtual-event-series-2026",
+      "title": "Drug Discovery & Development Virtual Event Series 2026",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-02-18",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-event/drug-discovery-development-2026",
+      "description": "Labroots event: Drug Discovery & Development Virtual Event Series 2026",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-clinical-diagnostics-research-virtual-event-series-2025",
+      "title": "Clinical Diagnostics & Research Virtual Event Series 2025",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2025-11-12",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-2025",
+      "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2025",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-cell-gene-therapy-virtual-event-series-2025",
+      "title": "Cell & Gene Therapy Virtual Event Series 2025",
+      "provider": "Labroots",
+      "topics": [
+        "gene-therapy"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2025-10-15",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-event/cell-gene-therapy-2025",
+      "description": "Labroots event: Cell & Gene Therapy Virtual Event Series 2025",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-how-mi-pv-regulatory-collaborate-on-signals-labeling-crisis-response-and-ai",
+      "title": "How MI, PV & Regulatory Collaborate on Signals, Labeling, Crisis Response and AI",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "laboratory-management",
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/how-mi-pv-regulatory-collaborate-on-signals-labeling-crisis-response-and-ai/",
+      "description": "Xtalks webinar: How MI, PV & Regulatory Collaborate on Signals, Labeling, Crisis Response and AI",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-use-patient-insights-to-improve-real-world-data-quality",
+      "title": "Use Patient Insights to Improve Real-World Data Quality",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "patient-care",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/use-patient-insights-to-improve-real-world-data-quality/",
+      "description": "Xtalks webinar: Use Patient Insights to Improve Real-World Data Quality",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-empowering-data-excellence-navigating-data-governance-and-data-integrity-for-digital-success",
+      "title": "Empowering Data Excellence: Navigating Data Governance and Data Integrity for Digital Success",
+      "provider": "ISPE",
+      "topics": [
+        "data-management"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-07-14",
+      "live_date": "2026-07-14",
+      "url": "https://ispe.org/webinars/empowering-data-excellence-navigating-data-governance-and-data",
+      "description": "ISPE upcoming webinar: Empowering Data Excellence: Navigating Data Governance and Data Integrity for Digital Success",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-audit-ready-by-design-the-importance-of-embedding-contamination-control-into-new-aseptic-cleanrooms",
+      "title": "Audit-Ready by Design: The Importance of Embedding Contamination Control into New Aseptic Cleanrooms",
+      "provider": "ISPE",
+      "topics": [
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-07-22",
+      "live_date": "2026-07-22",
+      "url": "https://ispe.org/webinars/audit-ready-design-importance-embedding-contamination-control-new-aseptic-cleanrooms",
+      "description": "ISPE upcoming webinar: Audit-Ready by Design: The Importance of Embedding Contamination Control into New Aseptic Cleanrooms",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-scalability-in-commissioning-qualification-and-validation-cqv",
+      "title": "Scalability in Commissioning, Qualification, and Validation (CQV)",
+      "provider": "ISPE",
+      "topics": [
+        "validation",
+        "validation",
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-08-18",
+      "live_date": "2026-08-18",
+      "url": "https://ispe.org/webinars/scalability-commissioning-qualification-and-validation-cqv",
+      "description": "ISPE upcoming webinar: Scalability in Commissioning, Qualification, and Validation (CQV)",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-digital-display-labels-in-clinical-trials-from-concept-to-practice",
+      "title": "Digital Display Labels in Clinical Trials — From Concept to Practice",
+      "provider": "ISPE",
+      "topics": [
+        "clinical-trials",
+        "clinical-trials"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-08-25",
+      "live_date": "2026-08-25",
+      "url": "https://ispe.org/webinars/digital-display-labels-clinical-trials-concept-practice",
+      "description": "ISPE upcoming webinar: Digital Display Labels in Clinical Trials — From Concept to Practice",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-mastering-visual-inspection-in-high-mix-low-volume-pharma-production",
+      "title": "Mastering Visual Inspection in High-Mix, Low-Volume Pharma Production",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "2026-10-01",
+      "live_date": "2026-10-01",
+      "url": "https://ispe.org/webinars/mastering-visual-inspection-high-mix-low-volume-pharma-production",
+      "description": "ISPE upcoming webinar: Mastering Visual Inspection in High-Mix, Low-Volume Pharma Production",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-redesigning-cleaning-validation-from-compliance-to-value",
+      "title": "Redesigning Cleaning Validation: From Compliance to Value",
+      "provider": "ISPE",
+      "topics": [
+        "validation",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-12",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/videos/redesigning-cleaning-validation-compliance-value",
+      "description": "ISPE past webinar: Redesigning Cleaning Validation: From Compliance to Value",
+      "source": "scraped"
+    },
+    {
+      "id": "pmi-on-demand-webinars",
+      "title": "PMI On-Demand Webinars",
+      "provider": "PMI",
+      "topics": [
+        "project-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "variable",
+      "certificate_available": true,
+      "certificate_process": "PDUs available upon completion",
+      "date_added": "2026-07-12",
+      "live_date": "on-demand",
+      "url": "https://www.projectmanagement.com/webinars/webinarmainondemand.cfm",
+      "description": "Access to PMI on-demand webinars. Free webinars available within the last 6 months. PDUs available upon completion.",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-07-05T06:00:21.866569",
-  "total_count": 198
+  "last_updated": "2026-07-12T05:23:20.743284",
+  "total_count": 212
 }
