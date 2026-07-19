@@ -75,165 +75,6 @@
       "source": "scraped"
     },
     {
-      "id": "xtalks-vaccines-and-clinical-testing-strategic-entry-into-trials-in-europe",
-      "title": "Vaccines and Clinical Testing: Strategic Entry into Trials in Europe",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/vaccines-and-clinical-testing-strategic-entry-into-trials-in-europe/",
-      "description": "Xtalks webinar: Vaccines and Clinical Testing: Strategic Entry into Trials in Europe",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-advancing-psychedelic-compounds-from-preclinical-discovery-to-translational-insight",
-      "title": "Advancing Psychedelic Compounds: From Preclinical Discovery to Translational Insight",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/advancing-psychedelic-compounds-from-preclinical-discovery-to-translational-insight/",
-      "description": "Xtalks webinar: Advancing Psychedelic Compounds: From Preclinical Discovery to Translational Insight",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-improving-clinical-tech-adoption-site-centric-approaches",
-      "title": "Improving Clinical Tech Adoption: Site-Centric Approaches",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/improving-clinical-tech-adoption-site-centric-insights/",
-      "description": "Xtalks webinar: Improving Clinical Tech Adoption: Site-Centric Approaches",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-radiotracers-and-adc-targeting-scientific-insights-for-in-vivo-validation-and-clinical-transition",
-      "title": "Radiotracers and ADC Targeting: Scientific Insights for In Vivo Validation and Clinical Transition",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/radiotracers-and-adc-targeting-scientific-insights-for-in-vivo-validation-and-clinical-transition/",
-      "description": "Xtalks webinar: Radiotracers and ADC Targeting: Scientific Insights for In Vivo Validation and Clinical Transition",
-      "source": "scraped"
-    },
-    {
-      "id": "ispe-validation-in-transition-2025s-top-trends-tools-and-takeaways",
-      "title": "Validation in Transition: 2025’s Top Trends, Tools, and Takeaways",
-      "provider": "ISPE",
-      "topics": [
-        "validation"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/validation-transition-2025s-top-trends-tools-and-takeaways",
-      "description": "ISPE past webinar: Validation in Transition: 2025’s Top Trends, Tools, and Takeaways",
-      "source": "scraped"
-    },
-    {
-      "id": "ispe-transforming-pharmaceutical-supply-planning-a-real-world-implementation-of-mathematical-optimization",
-      "title": "Transforming Pharmaceutical Supply Planning: A Real-World Implementation of Mathematical Optimization",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/transforming-pharmaceutical-supply-planning-real-world-implementation-mathematical",
-      "description": "ISPE upcoming webinar: Transforming Pharmaceutical Supply Planning: A Real-World Implementation of Mathematical Optimization",
-      "source": "scraped"
-    },
-    {
-      "id": "ispe-the-use-of-quality-risk-management-to-support-commissioning-qualification-system-risk-assessment",
-      "title": "The Use of Quality Risk Management to Support Commissioning & Qualification - System Risk Assessment",
-      "provider": "ISPE",
-      "topics": [
-        "quality-assurance",
-        "validation",
-        "validation"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/use-quality-risk-management-support-commissioning-qualification-system-risk-assessment",
-      "description": "ISPE upcoming webinar: The Use of Quality Risk Management to Support Commissioning & Qualification - System Risk Assessment",
-      "source": "scraped"
-    },
-    {
-      "id": "technology-networks-webinarmanipulating-human-cell-genetics-for-cellular-therapiesin-this-webinar-dr-theo-roth-will-discuss-how-crispr-all-can-be-used-to-push-human-genetics-beyond-their-evolved-functionality-enabling-researchers-to-engineer-synthetic-cell-states-with-therapeutic-potential",
-      "title": "WebinarManipulating Human Cell Genetics for Cellular TherapiesIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "url": "https://www.technologynetworks.com/tn/webinars/manipulating-human-cell-genetics-for-cellular-therapies-401241",
-      "description": "Technology Networks webinar: WebinarManipulating Human Cell Genetics for Cellular TherapiesIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
-      "live_date": "on-demand",
-      "source": "scraped"
-    },
-    {
-      "id": "technology-networks-webinarbest-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-developmenton-demandin-this-webinar-our-expert-speaker-will-share-insights-on-optimizing-pcr-performance-for-applications-within-cell-and-gene-therapy-development-including-biodistribution-transgene-expression-viral-shedding-and-cellular-kinetics",
-      "title": "WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentOn-DemandIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics.",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-17",
-      "url": "https://www.technologynetworks.com/tn/webinars/best-practices-for-qpcr-and-dpcr-assays-in-cell-and-gene-therapy-development-400895",
-      "description": "Technology Networks webinar: WebinarBest Practices for qPCR and dPCR Assays in Cell and Gene Therapy DevelopmentOn-DemandIn this webinar, our expert speaker will share insights on optimizing PCR performance for applications within cell and gene therapy development, including biodistribution, transgene expression, viral shedding and cellular kinetics.",
-      "live_date": "on-demand",
-      "source": "scraped"
-    },
-    {
       "id": "labroots-innovations-in-cancer-research-solutions",
       "title": "Innovations in Cancer Research Solutions",
       "provider": "Labroots",
@@ -3764,24 +3605,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-empowering-data-excellence-navigating-data-governance-and-data-integrity-for-digital-success",
-      "title": "Empowering Data Excellence: Navigating Data Governance and Data Integrity for Digital Success",
-      "provider": "ISPE",
-      "topics": [
-        "data-management"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-07-12",
-      "webinar_date": "2026-07-14",
-      "live_date": "2026-07-14",
-      "url": "https://ispe.org/webinars/empowering-data-excellence-navigating-data-governance-and-data",
-      "description": "ISPE upcoming webinar: Empowering Data Excellence: Navigating Data Governance and Data Integrity for Digital Success",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-audit-ready-by-design-the-importance-of-embedding-contamination-control-into-new-aseptic-cleanrooms",
       "title": "Audit-Ready by Design: The Importance of Embedding Contamination Control into New Aseptic Cleanrooms",
       "provider": "ISPE",
@@ -3892,8 +3715,64 @@
       "url": "https://www.projectmanagement.com/webinars/webinarmainondemand.cfm",
       "description": "Access to PMI on-demand webinars. Free webinars available within the last 6 months. PDUs available upon completion.",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-preparing-for-a-laboratory-relocation-what-you-need-to-know-before",
+      "title": "Preparing for a Laboratory Relocation: What You Need to Know Before...",
+      "provider": "Labroots",
+      "topics": [
+        "laboratory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-19",
+      "webinar_date": "2026-01-04",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-event/preparing-for-a-laboratory-relocation-what-you-need-to-know-before-move-day",
+      "description": "Labroots event: Preparing for a Laboratory Relocation: What You Need to Know Before...",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-using-ai-to-improve-qmsr-readiness-in-medical-device-quality",
+      "title": "Using AI to Improve QMSR Readiness in Medical Device Quality",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "artificial-intelligence",
+        "medical-device"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-19",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/using-ai-to-improve-qmsr-readiness-in-medical-device-quality/",
+      "description": "Xtalks webinar: Using AI to Improve QMSR Readiness in Medical Device Quality",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-streamline-targeted-lnp-development-to-improve-preclinical-translation",
+      "title": "Streamline Targeted LNP Development to Improve Preclinical Translation",
+      "provider": "Xtalks",
+      "topics": [
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-19",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/streamline-targeted-lnp-development-to-improve-preclinical-translation/",
+      "description": "Xtalks webinar: Streamline Targeted LNP Development to Improve Preclinical Translation",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-07-12T05:23:20.743284",
-  "total_count": 212
+  "last_updated": "2026-07-19T05:18:03.277022",
+  "total_count": 205
 }
