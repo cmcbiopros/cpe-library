@@ -75,24 +75,6 @@
       "source": "scraped"
     },
     {
-      "id": "labroots-innovations-in-cancer-research-solutions",
-      "title": "Innovations in Cancer Research Solutions",
-      "provider": "Labroots",
-      "topics": [
-        "research"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-20",
-      "webinar_date": "2026-01-23",
-      "live_date": "on-demand",
-      "url": "https://www.labroots.com/virtual-event/innovations-cancer-research-solutions",
-      "description": "Labroots event: Innovations in Cancer Research Solutions",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-practice-session-for-integra-it-ai-in-clinical-trials-early-use-cases-and-innovations",
       "title": "Practice Session for Integra IT – AI in Clinical Trials: Early Use Cases and Innovations",
       "provider": "Xtalks",
@@ -3605,24 +3587,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-audit-ready-by-design-the-importance-of-embedding-contamination-control-into-new-aseptic-cleanrooms",
-      "title": "Audit-Ready by Design: The Importance of Embedding Contamination Control into New Aseptic Cleanrooms",
-      "provider": "ISPE",
-      "topics": [
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-07-12",
-      "webinar_date": "2026-07-22",
-      "live_date": "2026-07-22",
-      "url": "https://ispe.org/webinars/audit-ready-design-importance-embedding-contamination-control-new-aseptic-cleanrooms",
-      "description": "ISPE upcoming webinar: Audit-Ready by Design: The Importance of Embedding Contamination Control into New Aseptic Cleanrooms",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-scalability-in-commissioning-qualification-and-validation-cqv",
       "title": "Scalability in Commissioning, Qualification, and Validation (CQV)",
       "provider": "ISPE",
@@ -3771,8 +3735,80 @@
       "url": "https://xtalks.com/webinars/streamline-targeted-lnp-development-to-improve-preclinical-translation/",
       "description": "Xtalks webinar: Streamline Targeted LNP Development to Improve Preclinical Translation",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-health-sciences-medical-research",
+      "title": "Health Sciences & Medical Research",
+      "provider": "Labroots",
+      "topics": [
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-26",
+      "webinar_date": "2026-01-04",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-events/health-sciences-and-medical-research",
+      "description": "Labroots event: Health Sciences & Medical Research",
+      "source": "scraped"
+    },
+    {
+      "id": "labroots-diagnostics-laboratory-medicine",
+      "title": "Diagnostics & Laboratory Medicine",
+      "provider": "Labroots",
+      "topics": [
+        "laboratory"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-26",
+      "webinar_date": "2026-01-04",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/virtual-events/diagnostics-and-laboratory-medicine",
+      "description": "Labroots event: Diagnostics & Laboratory Medicine",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-avoiding-costly-rework-during-biopharmaceutical-scale-up",
+      "title": "Avoiding Costly Rework During Biopharmaceutical Scale-Up",
+      "provider": "Xtalks",
+      "topics": [
+        "pharmaceutical"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/avoiding-costly-rework-during-biopharmaceutical-scale-up/",
+      "description": "Xtalks webinar: Avoiding Costly Rework During Biopharmaceutical Scale-Up",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improve-biologic-modalities-manufacturing-for-mab-readiness",
+      "title": "Improve Biologic Modalities Manufacturing for mAb Readiness",
+      "provider": "Xtalks",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-07-26",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improve-biologic-modalities-manufacturing-for-mab-readiness/",
+      "description": "Xtalks webinar: Improve Biologic Modalities Manufacturing for mAb Readiness",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-07-19T05:18:03.277022",
-  "total_count": 205
+  "last_updated": "2026-07-26T05:35:26.806596",
+  "total_count": 207
 }
