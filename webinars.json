@@ -75,63 +75,6 @@
       "source": "scraped"
     },
     {
-      "id": "xtalks-practice-session-for-integra-it-ai-in-clinical-trials-early-use-cases-and-innovations",
-      "title": "Practice Session for Integra IT – AI in Clinical Trials: Early Use Cases and Innovations",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-27",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/practice-session-for-integra-it-ai-in-clinical-trials-early-use-cases-and-innovations/",
-      "description": "Xtalks webinar: Practice Session for Integra IT – AI in Clinical Trials: Early Use Cases and Innovations",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-ai-in-clinical-trials-early-use-cases-and-innovations",
-      "title": "AI in Clinical Trials: Early Use Cases and Innovations",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-27",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/ai-in-clinical-trials-early-use-cases-and-innovations/",
-      "description": "Xtalks webinar: AI in Clinical Trials: Early Use Cases and Innovations",
-      "source": "scraped"
-    },
-    {
-      "id": "ispe-the-future-of-usp-plastics-in-biotech",
-      "title": "The Future of USP Plastics in Biotech",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-27",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/future-usp-plastics-biotech",
-      "description": "ISPE upcoming webinar: The Future of USP Plastics in Biotech",
-      "source": "scraped"
-    },
-    {
       "id": "labroots-modern-coagulation-laboratory-operations-building-superior-quality",
       "title": "Modern coagulation laboratory operations: building superior quality",
       "provider": "Labroots",
@@ -3114,7 +3057,7 @@
       "date_added": "2026-05-31",
       "webinar_date": "Unknown",
       "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/vaccines-manufacturing-air-change-rate-reduction-integrated-risk-based-execution",
+      "url": "https://ispe.org/webinars/videos/vaccines-manufacturing-air-change-rate-reduction-integrated-risk-based-execution",
       "description": "ISPE past webinar: Vaccines Manufacturing Air Change Rate Reduction with Integrated Risk-Based Execution",
       "source": "scraped"
     },
@@ -3807,8 +3750,100 @@
       "url": "https://xtalks.com/webinars/improve-biologic-modalities-manufacturing-for-mab-readiness/",
       "description": "Xtalks webinar: Improve Biologic Modalities Manufacturing for mAb Readiness",
       "source": "scraped"
+    },
+    {
+      "id": "labroots-scaling-up-congenital-cmv-screening-validation-of-a-qualitative-real-time-pcr-assay-for-the-direct-detection-of-ccmv-for-pooled-saliva-specimens",
+      "title": "Scaling up Congenital CMV Screening - Validation of a qualitative real-time PCR assay for the direct detection of cCMV for pooled saliva specimens",
+      "provider": "Labroots",
+      "topics": [
+        "validation"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-08-02",
+      "webinar_date": "2026-08-26",
+      "live_date": "on-demand",
+      "url": "https://www.labroots.com/webinar/scaling-congenital-cmv-screening-validation-qualitative-real-time-pcr-assay-direct-detection-ccmv-po",
+      "description": "Labroots event: Scaling up Congenital CMV Screening - Validation of a qualitative real-time PCR assay for the direct detection of cCMV for pooled saliva specimens",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-transforming-chronic-disease-research-through-digital-and-decentralized-clinical-trial-solutions",
+      "title": "Transforming Chronic Disease Research Through Digital and Decentralized Clinical Trial Solutions",
+      "provider": "Xtalks",
+      "topics": [
+        "clinical-trials",
+        "research"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-08-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/transforming-chronic-disease-research-through-digital-and-decentralized-clinical-trial-solutions/",
+      "description": "Xtalks webinar: Transforming Chronic Disease Research Through Digital and Decentralized Clinical Trial Solutions",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-reduce-live-study-risk-with-ai-in-eclinical-workflows",
+      "title": "Reduce Live Study Risk With AI in eClinical Workflows",
+      "provider": "Xtalks",
+      "topics": [
+        "artificial-intelligence"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-08-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/reduce-live-study-risk-with-ai-in-eclinical-workflows/",
+      "description": "Xtalks webinar: Reduce Live Study Risk With AI in eClinical Workflows",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-improve-regulatory-compliance-for-pipetting-and-liquid-handling-workflows",
+      "title": "Improve Regulatory Compliance for Pipetting and Liquid Handling Workflows",
+      "provider": "Xtalks",
+      "topics": [
+        "regulatory",
+        "compliance"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-08-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/improve-regulatory-compliance-for-pipetting-and-liquid-handling-workflows/",
+      "description": "Xtalks webinar: Improve Regulatory Compliance for Pipetting and Liquid Handling Workflows",
+      "source": "scraped"
+    },
+    {
+      "id": "xtalks-sleep-as-a-window-into-early-stages-of-alzheimer-s-pathophysiology-implications-for-clinical-development",
+      "title": "Sleep as a Window into Early Stages of Alzheimer's Pathophysiology: Implications for Clinical Development",
+      "provider": "Xtalks",
+      "topics": [
+        "development"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-08-02",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/sleep-as-a-window-into-early-stages-of-alzheimers-pathophysiology-implications-for-clinical-development/",
+      "description": "Xtalks webinar: Sleep as a Window into Early Stages of Alzheimer's Pathophysiology: Implications for Clinical Development",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-07-26T05:35:26.806596",
-  "total_count": 207
+  "last_updated": "2026-08-02T05:24:11.330964",
+  "total_count": 209
 }
