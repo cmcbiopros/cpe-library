@@ -75,43 +75,6 @@
       "source": "scraped"
     },
     {
-      "id": "labroots-modern-coagulation-laboratory-operations-building-superior-quality",
-      "title": "Modern coagulation laboratory operations: building superior quality",
-      "provider": "Labroots",
-      "topics": [
-        "laboratory"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-03",
-      "webinar_date": "2025-08-25",
-      "live_date": "on-demand",
-      "url": "https://www.labroots.com/webinar/modern-coagulation-laboratory-operations-building-superior-quality",
-      "description": "Labroots event: Modern coagulation laboratory operations: building superior quality",
-      "source": "scraped"
-    },
-    {
-      "id": "ispe-applying-lca-in-pharma-certified-methods-and-insights-from-a-capsule-case-study",
-      "title": "Applying LCA in Pharma: Certified Methods and Insights from a Capsule Case Study",
-      "provider": "ISPE",
-      "topics": [
-        "manufacturing",
-        "quality-assurance"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-03",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/applying-lca-pharma-certified-methods-and-insights-capsule-case-study",
-      "description": "ISPE upcoming webinar: Applying LCA in Pharma: Certified Methods and Insights from a Capsule Case Study",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-advanced-in-vivo-efficacy-models-for-preclinical-success",
       "title": "Advanced In Vivo Efficacy Models for Preclinical Success",
       "provider": "Xtalks",
@@ -3842,8 +3805,27 @@
       "url": "https://xtalks.com/webinars/sleep-as-a-window-into-early-stages-of-alzheimers-pathophysiology-implications-for-clinical-development/",
       "description": "Xtalks webinar: Sleep as a Window into Early Stages of Alzheimer's Pathophysiology: Implications for Clinical Development",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-unlocking-high-quality-ngs-data-from-challenging-clinical-samples",
+      "title": "Unlocking High-Quality NGS Data from Challenging Clinical Samples",
+      "provider": "Xtalks",
+      "topics": [
+        "quality-assurance",
+        "data-management"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-08-09",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/unlocking-high-quality-ngs-data-from-challenging-clinical-samples/",
+      "description": "Xtalks webinar: Unlocking High-Quality NGS Data from Challenging Clinical Samples",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-08-02T05:24:11.330964",
-  "total_count": 209
+  "last_updated": "2026-08-09T03:29:28.620051",
+  "total_count": 208
 }
