@@ -75,62 +75,6 @@
       "source": "scraped"
     },
     {
-      "id": "xtalks-reshoring-biologics-development-and-manufacturing-for-a-streamlined-path-to-ind",
-      "title": "Reshoring Biologics Development and Manufacturing for a Streamlined Path to IND",
-      "provider": "Xtalks",
-      "topics": [
-        "manufacturing",
-        "development"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/us-based-biologics-manufacturing-strategy-scalability-and-tech-transfer/",
-      "description": "Xtalks webinar: Reshoring Biologics Development and Manufacturing for a Streamlined Path to IND",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-clinical-trial-application-success-cmc-and-regulatory-insights-from-the-us-to-europe",
-      "title": "Clinical Trial Application Success: CMC and Regulatory Insights from the US to Europe",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "regulatory"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/clinical-trial-application-success-cmc-and-regulatory-insights-from-the-us-to-europe/",
-      "description": "Xtalks webinar: Clinical Trial Application Success: CMC and Regulatory Insights from the US to Europe",
-      "source": "scraped"
-    },
-    {
-      "id": "ispe-unlocking-innovation-embracing-validation-4-0-for-a-digital-pharma-future",
-      "title": "Unlocking Innovation: Embracing Validation 4.0 for a Digital Pharma Future",
-      "provider": "ISPE",
-      "topics": [
-        "validation"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-17",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://ispe.org/webinars/videos/unlocking-innovation-embracing-validation-40-digital-pharma-future",
-      "description": "ISPE past webinar: Unlocking Innovation: Embracing Validation 4.0 for a Digital Pharma Future",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-broadcast-1",
       "title": "AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 1)",
       "provider": "Xtalks",
@@ -3363,26 +3307,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-scalability-in-commissioning-qualification-and-validation-cqv",
-      "title": "Scalability in Commissioning, Qualification, and Validation (CQV)",
-      "provider": "ISPE",
-      "topics": [
-        "validation",
-        "validation",
-        "validation"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-07-12",
-      "webinar_date": "2026-08-18",
-      "live_date": "2026-08-18",
-      "url": "https://ispe.org/webinars/scalability-commissioning-qualification-and-validation-cqv",
-      "description": "ISPE upcoming webinar: Scalability in Commissioning, Qualification, and Validation (CQV)",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-digital-display-labels-in-clinical-trials-from-concept-to-practice",
       "title": "Digital Display Labels in Clinical Trials — From Concept to Practice",
       "provider": "ISPE",
@@ -3730,8 +3654,26 @@
       "url": "https://xtalks.com/webinars/challenges-and-opportunities-in-real-time-clinical-trials/",
       "description": "Xtalks webinar: Challenges and Opportunities in Real-Time Clinical Trials",
       "source": "scraped"
+    },
+    {
+      "id": "xtalks-running-paediatric-gene-therapy-studies-operations-and-oversight-in-practice",
+      "title": "Running Paediatric Gene Therapy Studies: Operations and Oversight in Practice",
+      "provider": "Xtalks",
+      "topics": [
+        "gene-therapy"
+      ],
+      "format": "on-demand",
+      "duration_min": "unknown",
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-08-23",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://xtalks.com/webinars/running-paediatric-gene-therapy-studies-operations-and-oversight-in-practice/",
+      "description": "Xtalks webinar: Running Paediatric Gene Therapy Studies: Operations and Oversight in Practice",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-08-16T02:55:38.178823",
-  "total_count": 203
+  "last_updated": "2026-08-23T02:57:57.532109",
+  "total_count": 200
 }
