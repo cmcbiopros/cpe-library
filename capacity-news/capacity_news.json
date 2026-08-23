@@ -1,5 +1,526 @@
 [
   {
+    "id": "fierce-pharma-2026-08-21-lundbeck-continues-neuroscience-evolution-as-ceo-keeps-company-punching-above-its-weight",
+    "published_at": "2026-08-21",
+    "outlet": "Fierce Pharma",
+    "title": "Lundbeck continues neuroscience evolution as CEO keeps company ‘punching above its weight’",
+    "url": "https://www.fiercepharma.com/pharma/lundbeck-continues-neuroscience-evolution-ceo-aims-keep-company-punching-above-its-weight",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "construction"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-21-what-did-we-learn-from-big-pharmas-q2-results",
+    "published_at": "2026-08-21",
+    "outlet": "Fierce Pharma",
+    "title": "What did we learn from Big Pharma’s Q2 results?",
+    "url": "https://www.fiercepharma.com/pharma/what-did-we-learn-big-pharmas-q2-results",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-21-fierce-pharma-asia-china-s-iit-scrutiny-daiichi-sankyo-az-ph-3-win-leo-tanabe-s-dermatology-dea",
+    "published_at": "2026-08-21",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—China's IIT scrutiny; Daiichi Sankyo, AZ ph. 3 win; Leo, Tanabe's dermatology deal",
+    "url": "https://www.fiercepharma.com/pharma/fierce-pharma-asia-chinas-iit-unravels-daiichi-sankyo-az-ph3-win-leo-tanabe-derm-deal",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-regeneron-podcast-turns-science-learnings-into-immersive-experience",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "Regeneron podcast turns science learnings into immersive experience",
+    "url": "https://www.fiercepharma.com/marketing/regeneron-breathes-out-calming-visual-tour-its-science-new-podcast-series",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-roche-earmarks-750m-to-double-the-size-of-its-oregon-manufacturing-facility",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "Roche earmarks $750M to double the size of its Oregon manufacturing facility",
+    "url": "https://www.fiercepharma.com/manufacturing/roche-earmarks-750m-double-size-its-manufacturing-facility-oregon",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $2 billion; capex: $750 million; capex: $125 million; capex: $880 million; capex: $700 million; capex: $2 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "Eight months after more than doubling down on its construction of a $2 billion drug manufacturing facility in Holly Springs, North Carolina, Roche is making a similar move on the other side of the United States.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$750 million",
+        "value_norm": 750000000,
+        "unit": "USD",
+        "evidence_snippet": "At the campus of its Genentech unit in Hillsboro, Oregon, Roche will invest $750 million to double the size of its existing production facility.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$125 million",
+        "value_norm": 125000000,
+        "unit": "USD",
+        "evidence_snippet": "and gives us the flexibility to support a growing pipeline.” In 2015, Roche revealed a plan to pour $125 million into an expansion of the Hillsboro facility, at the time pegged to add up to 100 jobs at the site.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$880 million",
+        "value_norm": 880000000,
+        "unit": "USD",
+        "evidence_snippet": "The outlay was part of a 2013 plan to spend $880 million to bolster Roche’s ability to produce biologic drugs.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$700 million",
+        "value_norm": 700000000,
+        "unit": "USD",
+        "evidence_snippet": "Fast forward to May of 2025, when Roche announced plans to build a $700 million manufacturing facility in Holly Springs, designed to execute fill-finish for next-generation products for metabolic conditions such as obesity.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "Then, in January of this year, the company upped its ante at the site, saying it would spend a total of $2 billion in the buildup of the campus.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-xspray-s-dasynoc-approval-bid-foiled-again-by-fda-s-manufacturer-concerns",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "Xspray's Dasynoc approval bid foiled again by FDA's manufacturer concerns",
+    "url": "https://www.fiercepharma.com/pharma/xsprays-dasynoc-approval-bid-foiled-again-fdas-contract-manufacturer-concerns",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-aurinia-settles-with-teva-helping-stave-off-potential-lupkynis-generic-until-late-2036",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "Aurinia settles with Teva, helping stave off potential Lupkynis generic until late 2036",
+    "url": "https://www.fiercepharma.com/pharma/aurinia-settles-teva-securing-market-exclusivity-lupkynis-until-late-2036",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-b-braun-recalls-iv-solution-from-us-canada-hospitals-on-particle-contamination-concerns",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "B. Braun recalls IV solution from US, Canada hospitals on particle contamination concerns",
+    "url": "https://www.fiercepharma.com/pharma/b-braun-recalls-iv-solution-us-canada-hospitals-particle-contamination-concerns",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-lillys-long-acting-insulin-wins-nice-blessing-ahead-of-potential-uk-approval",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "Lilly’s long-acting insulin wins NICE blessing ahead of potential UK approval",
+    "url": "https://www.fiercepharma.com/pharma/lillys-onswik-set-broad-uk-coverage-after-pricing-authority-gives-ok",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: 2 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "2 billion",
+        "value_norm": 2000000000,
+        "unit": "USD",
+        "evidence_snippet": "By the end of 2025, corporations had pulled 2 billion pounds ($2.7 billion) in planned investments in the country.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-pursuing-patient-options-novo-kicks-off-trial-testing-smaller-doses-of-wegovy-pill",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "Pursuing patient options, Novo kicks off trial testing smaller doses of Wegovy pill",
+    "url": "https://www.fiercepharma.com/pharma/novo-nordisk-kicks-trial-testing-smaller-doses-wegovy-pill",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-lucid-group-names-leading-publicis-health-exec-as-new-ceo",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "Lucid Group names leading Publicis Health exec as new CEO",
+    "url": "https://www.fiercepharma.com/marketing/lucid-group-names-leading-publicis-health-group-exec-new-ceo",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-20-boehringer-ingelheim-again-rises-up-rare-disease-reputation-rankings",
+    "published_at": "2026-08-20",
+    "outlet": "Fierce Pharma",
+    "title": "Boehringer Ingelheim again rises up rare disease reputation rankings",
+    "url": "https://www.fiercepharma.com/marketing/boehringer-ingelheim-again-rises-rare-disease-reputation-rankings",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-19-ultragenyx-after-fda-speed-bump-lands-1st-gene-therapy-nod-with-green-light-in-glycogen-storage",
+    "published_at": "2026-08-19",
+    "outlet": "Fierce Pharma",
+    "title": "Ultragenyx, after FDA speed bump, lands 1st gene therapy nod with green light in glycogen storage disease",
+    "url": "https://www.fiercepharma.com/pharma/ultragenyx-after-fda-speed-bump-lands-1st-gene-therapy-nod-green-light-glycogen-storage",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-19-regeneron-s-pasatru-scores-fda-approval-in-ultra-rare-bone-lesions-disorder",
+    "published_at": "2026-08-19",
+    "outlet": "Fierce Pharma",
+    "title": "Regeneron's Pasatru scores FDA approval in ultra-rare bone lesions disorder",
+    "url": "https://www.fiercepharma.com/pharma/regeneron-approval-fop",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-19-sk-strikes-settlement-with-msn-over-future-xcopri-generic-reports",
+    "published_at": "2026-08-19",
+    "outlet": "Fierce Pharma",
+    "title": "SK strikes settlement with MSN over future Xcopri generic: reports",
+    "url": "https://www.fiercepharma.com/pharma/sk-strikes-patent-infringement-settlement-msn-over-future-blockbuster-xcopri",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-19-contractor-sk-pharmteco-heralds-completion-of-2-api-plants-in-ireland",
+    "published_at": "2026-08-19",
+    "outlet": "Fierce Pharma",
+    "title": "Contractor SK Pharmteco heralds completion of 2 API plants in Ireland",
+    "url": "https://www.fiercepharma.com/pharma/contractor-sk-pharmteco-heralds-completion-two-api-plants-ireland",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "outsourcing"
+    ],
+    "key_facts_text": "capacity_volume: 30 L; bioreactor_volume: 8,000-liter; capex: $35 million; capacity_volume: 100-liter; facility_footprint: 627 square feet",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": true,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "30 L",
+        "value_norm": 30,
+        "unit": "L",
+        "evidence_snippet": "The new building comes equipped with glass reactor capacity up to 30 L, plus both rigid and flexible isolators and high-pressure chromatography, tray drying and freeze-drying capabilities.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "bioreactor_volume",
+        "value_raw": "8,000-liter",
+        "value_norm": 8000,
+        "unit": "L",
+        "evidence_snippet": "As for the “multi-purpose” small-molecule API facility, SK notes that the new digs add around 26.5 m 3 of reactor capacity, including through the addition of three 8,000-liter glass-lined batch bioreactors.",
+        "context": "bioreactor"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$35 million",
+        "value_norm": 35000000,
+        "unit": "USD",
+        "evidence_snippet": "Back in June of 2022, SK Pharmteco said it was earmarking $35 million for the initial phase of its Swords campus upgrade.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "100-liter",
+        "value_norm": 100,
+        "unit": "L",
+        "evidence_snippet": "The company will specifically add 627 square feet of production space at its plant in Mississauga, Canada, which is being designed to accommodate walk-in fume hoods and 100-liter glass reactors.",
+        "context": "capacity"
+      },
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "627 square feet",
+        "value_norm": 627,
+        "unit": "square feet",
+        "evidence_snippet": "The company will specifically add 627 square feet of production space at its plant in Mississauga, Canada, which is being designed to accommodate walk-in fume hoods and 100-liter glass reactors.",
+        "context": "footprint"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-08-19-aurobindo-unit-china-api-maker-dinged-in-latest-round-of-fda-warning-letters",
+    "published_at": "2026-08-19",
+    "outlet": "Fierce Pharma",
+    "title": "Aurobindo unit, China API maker dinged in latest round of FDA warning letters",
+    "url": "https://www.fiercepharma.com/pharma/aurobindo-unit-china-api-maker-dinged-latest-round-fda-warning-letters",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-19-trump-taps-white-house-aide-heidi-overton-as-nominee-for-next-fda-commissioner",
+    "published_at": "2026-08-19",
+    "outlet": "Fierce Pharma",
+    "title": "Trump taps White House aide Heidi Overton as nominee for next FDA commissioner",
+    "url": "https://www.fiercepharma.com/biotech/trump-taps-white-house-aide-overton-next-fda-commissioner",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-19-genetix-kicks-off-sickle-cell-disease-awareness-campaign-with-nfl-alumni-association",
+    "published_at": "2026-08-19",
+    "outlet": "Fierce Pharma",
+    "title": "Genetix kicks off sickle cell disease awareness campaign with NFL Alumni Association",
+    "url": "https://www.fiercepharma.com/campaigns/genetix-kicks-sickle-cell-disease-awareness-campaign-national-football-league-alumni",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-19-teva-scores-rare-partial-win-in-cms-price-negotiation-appeal",
+    "published_at": "2026-08-19",
+    "outlet": "Fierce Pharma",
+    "title": "Teva scores rare partial win in CMS price negotiation appeal",
+    "url": "https://www.fiercepharma.com/pharma/teva-scores-rare-partial-court-win-vs-cms-price-negotiations",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-18-revance-hires-janelle-wichmann-as-chief-marketing-officer-of-skincare-unit",
+    "published_at": "2026-08-18",
+    "outlet": "Fierce Pharma",
+    "title": "Revance hires Janelle Wichmann as chief marketing officer of skincare unit",
+    "url": "https://www.fiercepharma.com/marketing/revance-hires-janelle-wichmann-chief-marketing-officer-its-skincare-unit",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-18-csl-shares-up-17-as-immunoglobulin-boost-points-to-signs-of-recovery",
+    "published_at": "2026-08-18",
+    "outlet": "Fierce Pharma",
+    "title": "CSL shares up 17% as immunoglobulin boost points to signs of recovery",
+    "url": "https://www.fiercepharma.com/pharma/csl-shares-15-it-points-signs-recovery",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-18-biokin-bispecific-adc-iza-bren-hits-goal-in-lung-cancer-trial-boosting-case-for-bms-global-test",
+    "published_at": "2026-08-18",
+    "outlet": "Fierce Pharma",
+    "title": "Biokin bispecific ADC iza-bren hits goal in lung cancer trial, boosting case for BMS’ global test",
+    "url": "https://www.fiercepharma.com/pharma/biokin-bispecific-adc-iza-bren-hits-goal-lung-cancer-trial-boosting-case-bms-global-test",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-08-14-it-s-bms-vs-celgene-investors-once-more-after-us-appeals-court-revives-lawsuit",
     "published_at": "2026-08-14",
     "outlet": "Fierce Pharma",
