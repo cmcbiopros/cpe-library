@@ -75,44 +75,6 @@
       "source": "scraped"
     },
     {
-      "id": "xtalks-ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-broadcast-1",
-      "title": "AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 1)",
-      "provider": "Xtalks",
-      "topics": [
-        "regulatory",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-24",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-b1/",
-      "description": "Xtalks webinar: AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 1)",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-broadcast-2",
-      "title": "AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 2)",
-      "provider": "Xtalks",
-      "topics": [
-        "regulatory",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-24",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/ai-in-regulatory-medical-writing-balancing-innovation-with-human-expertise-b2/",
-      "description": "Xtalks webinar: AI in Regulatory Medical Writing: Balancing Innovation with Human Expertise (Broadcast 2)",
-      "source": "scraped"
-    },
-    {
       "id": "labroots-webinar-reducing-errors-and-enhancing-compliance-a-practical-look-at-digital-workflow-in-blood-gas-testing",
       "title": "Webinar: Reducing errors and enhancing compliance: a practical look at digital workflow in blood gas testing",
       "provider": "Labroots",
@@ -3307,25 +3269,6 @@
       "source": "scraped"
     },
     {
-      "id": "ispe-digital-display-labels-in-clinical-trials-from-concept-to-practice",
-      "title": "Digital Display Labels in Clinical Trials — From Concept to Practice",
-      "provider": "ISPE",
-      "topics": [
-        "clinical-trials",
-        "clinical-trials"
-      ],
-      "format": "live",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2026-07-12",
-      "webinar_date": "2026-08-25",
-      "live_date": "2026-08-25",
-      "url": "https://ispe.org/webinars/digital-display-labels-clinical-trials-concept-practice",
-      "description": "ISPE upcoming webinar: Digital Display Labels in Clinical Trials — From Concept to Practice",
-      "source": "scraped"
-    },
-    {
       "id": "ispe-mastering-visual-inspection-in-high-mix-low-volume-pharma-production",
       "title": "Mastering Visual Inspection in High-Mix, Low-Volume Pharma Production",
       "provider": "ISPE",
@@ -3674,6 +3617,6 @@
       "source": "scraped"
     }
   ],
-  "last_updated": "2026-08-23T02:57:57.532109",
-  "total_count": 200
+  "last_updated": "2026-08-30T07:46:07.886353",
+  "total_count": 197
 }
