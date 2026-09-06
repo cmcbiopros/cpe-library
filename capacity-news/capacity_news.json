@@ -1,5 +1,515 @@
 [
   {
+    "id": "fierce-pharma-2026-09-04-ionis-breakthrough-alexander-disease-approval-establishes-pillar-of-rare-disease-pipeline",
+    "published_at": "2026-09-04",
+    "outlet": "Fierce Pharma",
+    "title": "Ionis’ ‘breakthrough’ Alexander disease approval establishes pillar of rare disease pipeline",
+    "url": "https://www.fiercepharma.com/pharma/ionis-breakthrough-alexander-disease-approval-establishes-pillar-rare-disease-pipeline",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-04-daiichi-unit-american-regent-recalls-3-epinephrine-batches-on-particulate-leakage-concerns",
+    "published_at": "2026-09-04",
+    "outlet": "Fierce Pharma",
+    "title": "Daiichi unit American Regent recalls 3 epinephrine batches on particulate, leakage concerns",
+    "url": "https://www.fiercepharma.com/pharma/daiichi-unit-american-regent-recalls-3-epinephrine-batches-particulate-leakage-concerns",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-04-the-people-who-stayed-with-the-problem",
+    "published_at": "2026-09-04",
+    "outlet": "Fierce Pharma",
+    "title": "The people who stayed with the problem",
+    "url": "https://www.fiercepharma.com/pharma/people-who-stayed-problem",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-04-ucbs-bimzelx-comes-from-out-of-the-blue-to-claim-augusts-top-pharma-ad-spending-spot",
+    "published_at": "2026-09-04",
+    "outlet": "Fierce Pharma",
+    "title": "UCB’s Bimzelx comes from out of the blue to claim August’s top pharma ad spending spot",
+    "url": "https://www.fiercepharma.com/marketing/ucbs-bimzelx-comes-out-blue-claim-augusts-top-pharma-ad-spending-spot",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $31.5 million; capex: $30.3 million; capex: $25.6 million; capex: $10.1 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$31.5 million",
+        "value_norm": 31500000,
+        "unit": "USD",
+        "evidence_snippet": "This is the first time UCB’s med has ever taken the lead with a meaty $31.5 million in spend, up from the $5.5 million the company spent in July.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$30.3 million",
+        "value_norm": 30300000,
+        "unit": "USD",
+        "evidence_snippet": "This pushed AbbVie’s rival immunology therapy Skyrizi into second place, though spend was only fractionally lower at $30.3 million.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$25.6 million",
+        "value_norm": 25600000,
+        "unit": "USD",
+        "evidence_snippet": "The spending difference between the two was marginal, with Tremfya seeing $25.6 million channeled into its commercials last month, and Rinvoq’s spend just $300,000 lower.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$10.1 million",
+        "value_norm": 10100000,
+        "unit": "USD",
+        "evidence_snippet": "AbbVie’s neurology drug took the final tenth spot, up four places from July with a spend of $10.1 million.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-04-fierce-pharma-asia-roche-gsk-novartis-billion-dollar-deals-more-mfn-sign-ups-akesos-os-win",
+    "published_at": "2026-09-04",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Roche, GSK, Novartis billion-dollar deals; More MFN sign-ups; Akeso’s OS win",
+    "url": "https://www.fiercepharma.com/pharma/roche-gsk-novartis-billion-dollar-deals-more-mfn-sign-ups-akeso-os-win",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-03-a-year-on-from-big-pharmas-pull-back-from-the-uk-has-anything-changed",
+    "published_at": "2026-09-03",
+    "outlet": "Fierce Pharma",
+    "title": "A year on from Big Pharma’s pull-back from the UK, has anything changed?",
+    "url": "https://www.fiercepharma.com/biotech/year-big-pharmas-pull-back-uk-has-anything-changed",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $271 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$271 million",
+        "value_norm": 271000000,
+        "unit": "USD",
+        "evidence_snippet": "But by the end of April, the company announced that a planned 200-million-pound ($271 million) construction project in the company’s hometown of Cambridge, England, would be restarted .",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-03-fresenius-unit-dinged-in-fda-warning-letter-flagging-complaint-trend-from-customers",
+    "published_at": "2026-09-03",
+    "outlet": "Fierce Pharma",
+    "title": "Fresenius unit dinged in FDA warning letter flagging 'complaint trend' from customers",
+    "url": "https://www.fiercepharma.com/pharma/fresenius-unit-dinged-fda-warning-letter-flagging-complaint-trend-customers",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-03-novartis-puts-ms-advocacy-on-the-podium-through-social-media-partnership-with-british-olympian",
+    "published_at": "2026-09-03",
+    "outlet": "Fierce Pharma",
+    "title": "Novartis puts MS advocacy on the podium through social media partnership with British Olympian",
+    "url": "https://www.fiercepharma.com/marketing/novartis-puts-ms-advocacy-podium-through-social-media-partnership-british-olympian",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-03-fda-files-reveal-lingering-concerns-contrasting-views-behind-replimune-melanoma-nod",
+    "published_at": "2026-09-03",
+    "outlet": "Fierce Pharma",
+    "title": "FDA files reveal lingering concerns, contrasting views behind Replimune melanoma nod",
+    "url": "https://www.fiercepharma.com/pharma/fda-docs-reveal-lingering-concerns-intervention-behind-replimunes-long-sought-melanoma-nod",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-03-cmi-boosts-medical-affairs-capabilities-with-new-specialty-communications-unit",
+    "published_at": "2026-09-03",
+    "outlet": "Fierce Pharma",
+    "title": "CMI boosts medical affairs capabilities with new specialty communications unit",
+    "url": "https://www.fiercepharma.com/marketing/cmi-boosts-medical-affairs-capabilities-new-specialty-communications-unit",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-03-akeso-summits-ivonescimab-extends-lives-in-keytruda-head-to-head-trial-what-now",
+    "published_at": "2026-09-03",
+    "outlet": "Fierce Pharma",
+    "title": "Akeso, Summit’s ivonescimab extends lives in Keytruda head-to-head trial. What now?",
+    "url": "https://www.fiercepharma.com/pharma/akeso-summit-ivonescimab-extends-lives-keytruda-head-head-trial-what-now",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-03-esc-amgen-cmo-flags-repatha-inflection-amid-new-data-on-mortality-benefit",
+    "published_at": "2026-09-03",
+    "outlet": "Fierce Pharma",
+    "title": "ESC: Amgen CMO flags Repatha 'inflection' amid new data on mortality benefit",
+    "url": "https://www.fiercepharma.com/pharma/esc-amgen-cmo-flags-repatha-inflection-mortality-data-headline-cardiology-conference-outing",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-02-arpa-h-puts-up-125m-to-bankroll-personalized-rna-based-drug-production",
+    "published_at": "2026-09-02",
+    "outlet": "Fierce Pharma",
+    "title": "ARPA-H puts up $125M to bankroll personalized RNA-based drug production",
+    "url": "https://www.fiercepharma.com/pharma/arpa-h-puts-125m-bankroll-personalized-rna-based-drug-production",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "new_facility"
+    ],
+    "key_facts_text": "capex: $125 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$125 million",
+        "value_norm": 125000000,
+        "unit": "USD",
+        "evidence_snippet": "The Advanced Research Projects Agency for Health (ARPA-H) has narrowed down to five teams—a mix of biotechs and academic institutions—that will now receive up to $125 million in aggregate to help automate the production process for potential on-demand, personalized RNA-based medicines.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-02-novartis-telegraphs-130-job-cuts-amid-biologics-rethink-in-switzerland",
+    "published_at": "2026-09-02",
+    "outlet": "Fierce Pharma",
+    "title": "Novartis telegraphs 130 job cuts amid biologics rethink in Switzerland",
+    "url": "https://www.fiercepharma.com/pharma/novartis-telegraphs-130-job-cuts-amid-biologics-rethink-switzerland",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-02-cellares-downsizes-new-jersey-operations-after-losing-bms-cell-therapy-contract",
+    "published_at": "2026-09-02",
+    "outlet": "Fierce Pharma",
+    "title": "Cellares downsizes New Jersey operations after losing BMS cell therapy contract",
+    "url": "https://www.fiercepharma.com/pharma/cellares-restructuring-rolls-new-jersey-amid-cell-therapy-client-loss",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "construction"
+    ],
+    "key_facts_text": "capex: $380 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$380 million",
+        "value_norm": 380000000,
+        "unit": "USD",
+        "evidence_snippet": "Meanwhile, Cellares hasn’t said much on the partner who walked away, although multiple sources have since reported that it is Bristol Myers Squibb, which provided early validation for Cellares and its cell therapy manufacturing approach when it struck up a partnership potentially worth $380 million back in 2024.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-02-trump-glp-1-update-teases-blockbuster-annual-sales-for-lilly-from-medicare-program-analyst",
+    "published_at": "2026-09-02",
+    "outlet": "Fierce Pharma",
+    "title": "Trump GLP-1 update teases blockbuster annual sales for Lilly from Medicare program: analyst",
+    "url": "https://www.fiercepharma.com/pharma/trump-glp-1-update-suggests-blockbuster-annual-sales-lilly-medicare-program-analyst",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-02-galderma-novartis-dominated-ad-space-last-nfl-season-with-most-effective-ads-report",
+    "published_at": "2026-09-02",
+    "outlet": "Fierce Pharma",
+    "title": "Galderma, Novartis dominated ad space last NFL season with most effective ads: report",
+    "url": "https://www.fiercepharma.com/marketing/galderma-novartis-dominated-ad-space-during-last-nfl-season-most-effective-ads-report",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-02-rising-stars-genentechs-tiffany-william-brings-a-fail-fast-learn-fast-marketing-mentality",
+    "published_at": "2026-09-02",
+    "outlet": "Fierce Pharma",
+    "title": "Rising Stars: Genentech’s Tiffany William brings a 'fail fast, learn fast' marketing mentality",
+    "url": "https://www.fiercepharma.com/marketing/rising-stars-gaming-pharma-genentechs-tiffany-william-brings-fail-fast-learn-fast",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-01-esc-alnylam-s-next-gen-silencer-sees-silver-linings-after-fallout-of-az-ionis-trial-in-attr-cm",
+    "published_at": "2026-09-01",
+    "outlet": "Fierce Pharma",
+    "title": "ESC: Alnylam's next-gen silencer sees silver linings after fallout of AZ, Ionis trial in ATTR-CM",
+    "url": "https://www.fiercepharma.com/biotech/esc-alnylams-next-gen-silencer-sees-silver-linings-after-fallout-az-ionis-trial-flop-attr",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-01-bausch-lomb-survey-reveals-low-dry-eye-awareness-for-perimenopausal-postmenopausal-women",
+    "published_at": "2026-09-01",
+    "outlet": "Fierce Pharma",
+    "title": "Bausch + Lomb survey reveals low dry eye awareness for perimenopausal, postmenopausal women",
+    "url": "https://www.fiercepharma.com/marketing/bausch-lomb-survey-reveals-low-dry-eye-awareness-symptom-perimenopausal-postmenopausal",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-01-novartis-claims-ms-win-as-rhapsido-clears-phase-3-with-no-liver-safety-signal",
+    "published_at": "2026-09-01",
+    "outlet": "Fierce Pharma",
+    "title": "Novartis claims MS win as Rhapsido clears phase 3 with ‘no liver safety signal’",
+    "url": "https://www.fiercepharma.com/pharma/novartis-claims-ms-win-rhapsido-remibrutinib-clears-phase-3-no-liver-safety-signal",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-31-emergent-re-ups-narcan-education-push-across-us-canada-on-overdose-awareness-day",
+    "published_at": "2026-08-31",
+    "outlet": "Fierce Pharma",
+    "title": "Emergent re-ups Narcan education push across US, Canada on overdose awareness day",
+    "url": "https://www.fiercepharma.com/marketing/emergent-rolls-out-expanded-narcan-education-push-across-us-canada-international-overdose",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-08-31-white-house-unveils-next-round-of-mfn-pricing-deals-with-9-midsized-drugmakers",
+    "published_at": "2026-08-31",
+    "outlet": "Fierce Pharma",
+    "title": "White House unveils next round of MFN pricing deals with 9 midsized drugmakers",
+    "url": "https://www.fiercepharma.com/pharma/white-house-unveils-next-round-mfn-pricing-deals-9-midsized-drugmakers",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "capex: $19.6 billion; capex: $1.5 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$19.6 billion",
+        "value_norm": 19600000000,
+        "unit": "USD",
+        "evidence_snippet": "operations, too, boasting a collective investment pledge of at least $19.6 billion in American production in the near term, according to the fact sheet.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.5 billion",
+        "value_norm": 1500000000,
+        "unit": "USD",
+        "evidence_snippet": "CSL, for its part, tied the agreement with the government to a recently disclosed plan for a $1.5 billion manufacturing plant expansion near Chicago.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
     "id": "fierce-pharma-2026-08-29-esc-az-ionis-wainua-post-mortem-throws-water-on-silencer-plus-stabilizer-approach-in-attr-cm",
     "published_at": "2026-08-29",
     "outlet": "Fierce Pharma",
