@@ -75,43 +75,6 @@
       "source": "scraped"
     },
     {
-      "id": "labroots-webinar-reducing-errors-and-enhancing-compliance-a-practical-look-at-digital-workflow-in-blood-gas-testing",
-      "title": "Webinar: Reducing errors and enhancing compliance: a practical look at digital workflow in blood gas testing",
-      "provider": "Labroots",
-      "topics": [
-        "regulatory"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-31",
-      "webinar_date": "2025-09-09",
-      "live_date": "on-demand",
-      "url": "https://www.labroots.com/webinar/webinar-reducing-errors-enhancing-compliance-practical-look-digital-workflow-blood-gas-testing",
-      "description": "Labroots event: Webinar: Reducing errors and enhancing compliance: a practical look at digital workflow in blood gas testing",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-adcs-in-oncology-trials-practical-strategies-for-clinical-development-success",
-      "title": "ADCs in Oncology Trials: Practical Strategies for Clinical Development Success",
-      "provider": "Xtalks",
-      "topics": [
-        "development",
-        "oncology"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-08-31",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/adc-in-oncology-trials-practical-strategies-for-clinical-development-success/",
-      "description": "Xtalks webinar: ADCs in Oncology Trials: Practical Strategies for Clinical Development Success",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-advancing-the-next-parkinsons-disease-breakthrough-keys-to-successful-clinical-trials",
       "title": "Advancing the Next Parkinson’s Disease Breakthrough: Keys to Successful Clinical Trials",
       "provider": "Xtalks",
@@ -918,7 +881,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-11-09",
-      "webinar_date": "2026-01-04",
+      "webinar_date": "2026-09-02",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/simple-advance-protein-research",
       "description": "Labroots event: The Simple Way to Protein Research",
@@ -3335,7 +3298,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-19",
-      "webinar_date": "2026-01-04",
+      "webinar_date": "2026-09-02",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/preparing-for-a-laboratory-relocation-what-you-need-to-know-before-move-day",
       "description": "Labroots event: Preparing for a Laboratory Relocation: What You Need to Know Before...",
@@ -3391,7 +3354,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-26",
-      "webinar_date": "2026-01-04",
+      "webinar_date": "2026-09-08",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/health-sciences-and-medical-research",
       "description": "Labroots event: Health Sciences & Medical Research",
@@ -3409,7 +3372,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-26",
-      "webinar_date": "2026-01-04",
+      "webinar_date": "2026-01-10",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/diagnostics-and-laboratory-medicine",
       "description": "Labroots event: Diagnostics & Laboratory Medicine",
@@ -3617,6 +3580,6 @@
       "source": "scraped"
     }
   ],
-  "last_updated": "2026-08-30T07:46:07.886353",
-  "total_count": 197
+  "last_updated": "2026-09-06T06:46:17.701690",
+  "total_count": 195
 }
