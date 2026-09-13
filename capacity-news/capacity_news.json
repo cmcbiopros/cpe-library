@@ -1,5 +1,548 @@
 [
   {
+    "id": "fierce-pharma-2026-09-12-merck-gileads-failed-trodelvy-lung-cancer-trial-shows-better-china-results",
+    "published_at": "2026-09-12",
+    "outlet": "Fierce Pharma",
+    "title": "Merck, Gilead’s failed Trodelvy lung cancer trial shows better China results",
+    "url": "https://www.fiercepharma.com/pharma/merck-gileads-failed-trodelvy-trial-first-line-lung-cancer-shows-better-china-results",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-12-astrazenecas-etcamah-flunks-first-line-breast-cancer-trial-adding-to-oral-serds-failure-record",
+    "published_at": "2026-09-12",
+    "outlet": "Fierce Pharma",
+    "title": "AstraZeneca’s Etcamah flunks first-line breast cancer trial, adding to oral SERDs’ failure record",
+    "url": "https://www.fiercepharma.com/pharma/astrazeneca-etcamah-flunks-first-line-breast-cancer-trial-adding-oral-serds-failure-record",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-11-after-fda-nod-for-novel-cabometyx-formulation-analysts-predict-limited-threat-to-exelixis",
+    "published_at": "2026-09-11",
+    "outlet": "Fierce Pharma",
+    "title": "After FDA nod for novel Cabometyx formulation, analysts predict limited threat to Exelixis",
+    "url": "https://www.fiercepharma.com/pharma/after-fda-nod-novel-cabometyx-formulation-analyst-predicts-limited-threat-exelixis",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-11-fierce-pharma-asia-takedas-r-d-leadership-change-daiichis-1-3b-court-win-new-samsung-bio-contra",
+    "published_at": "2026-09-11",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Takeda’s R&D leadership change; Daiichi’s $1.3B court win; New Samsung Bio contract",
+    "url": "https://www.fiercepharma.com/pharma/takeda-rd-leadership-change-daiichi-13b-court-win-new-samsung-bio-contract",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $262M",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$262M",
+        "value_norm": 262000000,
+        "unit": "USD",
+        "evidence_snippet": "Samsung Bio, waiting to break into peptides, nets $262M manufacturing deal with unnamed EU pharma Samsung Biologics has signed a new biologics contract, worth $262 million, with an unnamed European pharma company.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-11-cdmo-argonaut-sheds-life-sciences-diagnostics-division-for-undisclosed-sum",
+    "published_at": "2026-09-11",
+    "outlet": "Fierce Pharma",
+    "title": "CDMO Argonaut sheds life sciences, diagnostics division for undisclosed sum",
+    "url": "https://www.fiercepharma.com/pharma/cdmo-argonaut-sheds-life-sciences-diagnostics-division-undisclosed-sum",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "facility_footprint: 110,000-square-feet; capex: $45 million",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": true,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "facility_footprint",
+        "value_raw": "110,000-square-feet",
+        "value_norm": 110000,
+        "unit": "square-feet",
+        "evidence_snippet": "In 2024, Argonaut completed a $45 million financing round, using the funds to complete the expansion of its fill/finish line that is part of the company’s nearly 110,000-square-feet of space spread out between five buildings in Carlsbad, located north of San Diego.",
+        "context": "footprint"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$45 million",
+        "value_norm": 45000000,
+        "unit": "USD",
+        "evidence_snippet": "In 2024, Argonaut completed a $45 million financing round, using the funds to complete the expansion of its fill/finish line that is part of the company’s nearly 110,000-square-feet of space spread out between five buildings in Carlsbad, located north of San Diego.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-11-in-first-interview-as-fda-oncology-chief-angelo-de-claro-vows-to-continue-the-innovation-behind",
+    "published_at": "2026-09-11",
+    "outlet": "Fierce Pharma",
+    "title": "In first interview as FDA oncology chief, Angelo de Claro vows to ‘continue the innovation’ behind OCE legacy",
+    "url": "https://www.fiercepharma.com/pharma/first-interview-fda-oncology-chief-angelo-de-claro-vows-continue-innovation-behind-oce",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-10-swiss-cdmos-making-moves-lonza-bets-on-new-us-facility-cordenpharma-scales-injectables-with-eur",
+    "published_at": "2026-09-10",
+    "outlet": "Fierce Pharma",
+    "title": "Swiss CDMOs making moves: Lonza bets on new US facility, CordenPharma scales injectables with €80M",
+    "url": "https://www.fiercepharma.com/pharma/lonza-bets-complex-therapies-new-us-facility-corden-scales-injectable-capacity-500-million",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "new_facility",
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: 80 million; capex: 13 million; capex: $1 billion",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "80 million",
+        "value_norm": 80000000,
+        "unit": "USD",
+        "evidence_snippet": "This week, the CDMO unveiled an 80 million euro ($96 million) expansion plan for its injectable drug business.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "13 million",
+        "value_norm": 13000000,
+        "unit": "USD",
+        "evidence_snippet": "The project includes added capacity to the original Caponago facilities, including two new fill and finish isolator lines, as well as the purchase of an adjacent 11,000-square-meter commercial building for 13 million euros ($15.1 million), plus a purchase of adjacent land.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1 billion",
+        "value_norm": 1000000000,
+        "unit": "USD",
+        "evidence_snippet": "The company is calling the project a “proactive approach to addressing the global healthcare industry's increasing need for specialized injectable manufacturing.\" The plans to bolster capacity follow CordenPharma's larger mission, first unveiled in 2024 , to invest nearly $1 billion in growing its GLP-1 manufacturing business over three years.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-10-abbvie-lines-up-qulipta-expansion-with-phase-3-win-in-untapped-menstrual-migraine-indication",
+    "published_at": "2026-09-10",
+    "outlet": "Fierce Pharma",
+    "title": "AbbVie lines up Qulipta expansion with phase 3 win in untapped menstrual migraine indication",
+    "url": "https://www.fiercepharma.com/pharma/abbvie-lines-qulipta-expansion-phase-3-win-untapped-menstrual-migraine-indication",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-10-novartis-shareholder-calls-for-board-overhaul-following-costly-deal-setbacks-reuters",
+    "published_at": "2026-09-10",
+    "outlet": "Fierce Pharma",
+    "title": "Novartis shareholder calls for board overhaul following costly deal setbacks: Reuters",
+    "url": "https://www.fiercepharma.com/pharma/novartis-shareholder-calls-board-overhaul-following-costly-deal-setbacks-reuters",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $12 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$12 billion",
+        "value_norm": 12000000000,
+        "unit": "USD",
+        "evidence_snippet": "“One of them should be on improving the team that's doing these deals ⁠because clearly they have been uninspiring at best.\" Anxieties among Novartis investors spiked this week after the company’s del-desiran, the centerpiece of its $12 billion acquisition of Avidity Biosciences, failed in the rare muscle-wasting disease myotonic dystrophy type 1 (DM1).",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-10-in-draft-guidance-nice-rebuffs-gilead-s-twice-a-year-prep-med-for-national-coverage",
+    "published_at": "2026-09-10",
+    "outlet": "Fierce Pharma",
+    "title": "In draft guidance, NICE rebuffs Gilead's twice-a-year PrEP med for national coverage",
+    "url": "https://www.fiercepharma.com/pharma/draft-guidance-uk-cost-arbiter-nice-rebuffs-gileads-twice-year-prep-med-national-coverage",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-10-precision-medicine-has-a-commercialization-problem",
+    "published_at": "2026-09-10",
+    "outlet": "Fierce Pharma",
+    "title": "Precision Medicine Has a Commercialization Problem",
+    "url": "https://www.fiercepharma.com/sponsored/precision-medicine-has-commercialization-problem",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-10-sanofi-hits-the-pickleball-court-in-education-push-for-covid-vax-nuvaxovid",
+    "published_at": "2026-09-10",
+    "outlet": "Fierce Pharma",
+    "title": "Sanofi hits the pickleball court in education push for COVID vax Nuvaxovid",
+    "url": "https://www.fiercepharma.com/marketing/sanofi-bounces-usa-pickleball-partnership-promote-nuvaxovid-covid-vaccine-older-adults",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-10-samsung-bio-waiting-to-break-into-peptides-nets-262m-manufacturing-deal-with-unnamed-eu-pharma",
+    "published_at": "2026-09-10",
+    "outlet": "Fierce Pharma",
+    "title": "Samsung Bio, waiting to break into peptides, nets $262M manufacturing deal with unnamed EU pharma",
+    "url": "https://www.fiercepharma.com/manufacturing/samsung-bio-waiting-break-peptides-nets-262m-manufacturing-deal-unnamed-eu-pharma",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "capex: $280 million; capex: $1.8 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$280 million",
+        "value_norm": 280000000,
+        "unit": "USD",
+        "evidence_snippet": "Meanwhile, the $280 million purchase of a GSK facility in Rockville, Maryland, in March recently set up the company with 60 kL of capacity at its first U.S.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$1.8 billion",
+        "value_norm": 1800000000,
+        "unit": "USD",
+        "evidence_snippet": "Looking ahead, the company has also secured territory for another biomanufacturing campus in Korea; plus, Samsung Biologics in July made a play for the burgeoning GLP-1 market when it agreed to put up $1.8 billion to acquire Swiss CDMO PolyPeptide.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-09-fda-clears-bayers-hyrnuo-in-first-line-lung-cancer-amping-up-hernexeos-rivalry",
+    "published_at": "2026-09-09",
+    "outlet": "Fierce Pharma",
+    "title": "FDA clears Bayer’s Hyrnuo in first-line lung cancer, amping up Hernexeos rivalry",
+    "url": "https://www.fiercepharma.com/pharma/fda-bumps-bayers-hyrnuo-first-line-treatment-her2-mutated-lung-cancer",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-09-actor-kevin-costner-does-the-math-in-caris-detect-early-cancer-detection-push",
+    "published_at": "2026-09-09",
+    "outlet": "Fierce Pharma",
+    "title": "Actor Kevin Costner does the math in Caris Detect early cancer detection push",
+    "url": "https://www.fiercepharma.com/marketing/actor-kevin-costner-does-math-caris-detect-early-cancer-detection-push",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-09-merck-trims-another-54-jobs-in-new-jersey-amid-multiyear-cost-cutting-initiative",
+    "published_at": "2026-09-09",
+    "outlet": "Fierce Pharma",
+    "title": "Merck trims another 54 jobs in New Jersey amid multiyear cost-cutting initiative",
+    "url": "https://www.fiercepharma.com/pharma/merck-cuts-another-54-new-jersey-meet-2027-cost-cutting-deadline",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $3 billion",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$3 billion",
+        "value_norm": 3000000000,
+        "unit": "USD",
+        "evidence_snippet": "“We remain committed to New Jersey, as we continue to employ more than 8,000 people in the state,” the company told Fierce, pointing to nearly $3 billion it has invested in its New Jersey operations between 2018 and 2025.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-09-biomarin-pads-case-for-voxzogo-expansion-as-achondroplasia-competition-field-shifts",
+    "published_at": "2026-09-09",
+    "outlet": "Fierce Pharma",
+    "title": "BioMarin pads case for Voxzogo expansion as achondroplasia competition field shifts",
+    "url": "https://www.fiercepharma.com/pharma/biomarin-pads-case-voxzogo-expansion-achondroplasia-competition-field-shifts",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-09-fda-solidifies-cder-cber-leadership-posts-as-commissioner-confirmation-awaits",
+    "published_at": "2026-09-09",
+    "outlet": "Fierce Pharma",
+    "title": "FDA solidifies CDER, CBER leadership posts as commissioner confirmation awaits",
+    "url": "https://www.fiercepharma.com/pharma/fda-solidifies-cder-cber-leadership-posts-commissioner-confirmation-awaits",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-09-drug-pricing-policy-earthquake-forcing-rethink-of-global-commercialization-plans-survey",
+    "published_at": "2026-09-09",
+    "outlet": "Fierce Pharma",
+    "title": "Drug pricing policy ‘earthquake’ forcing rethink of global commercialization plans: survey",
+    "url": "https://www.fiercepharma.com/marketing/drug-pricing-policy-earthquake-forcing-rethink-global-commercialization-plans-survey",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-08-sandoz-sets-sights-on-100-biosimilars-in-new-2040-strategy-with-300m-facility-build",
+    "published_at": "2026-09-08",
+    "outlet": "Fierce Pharma",
+    "title": "Sandoz sets sights on 100 biosimilars in new 2040 strategy, with $300M facility build",
+    "url": "https://www.fiercepharma.com/pharma/sandoz-aims-biosimilar-dominance-under-new-strategy-300m-facility-sweetener-slovenia",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "expansion"
+    ],
+    "key_facts_text": "capex: $1 billion; capex: $300 million; capacity_volume: 8,000 liters",
+    "flags": [
+      "SMALL_MOLECULE_MENTION"
+    ],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$1 billion",
+        "value_norm": 1000000000,
+        "unit": "USD",
+        "evidence_snippet": "In particular, the company argued that it’s already “ahead of the curve” thanks to some $1 billion invested to build out what it describes as a leading biosimilar hub in Europe.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capex",
+        "value_raw": "$300 million",
+        "value_norm": 300000000,
+        "unit": "USD",
+        "evidence_snippet": "That game plan revolves around sites in France, the U.K., Germany and Slovenia, where Sandoz also unveiled on Tuesday a $300 million investment to build a new drug substance facility in Ljubljana.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "8,000 liters",
+        "value_norm": 8000,
+        "unit": "L",
+        "evidence_snippet": "The project is expected to add 8,000 liters of biologics capacity to support Sandoz’s biosimilar supply network, with plans for the facility to come online in 2029.",
+        "context": "capacity"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-08-eight-trends-reshaping-patient-centric-drug-development",
+    "published_at": "2026-09-08",
+    "outlet": "Fierce Pharma",
+    "title": "Eight Trends Reshaping Patient-Centric Drug Development",
+    "url": "https://www.fiercepharma.com/partner-content/eight-trends-reshaping-patient-centric-drug-development",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-08-amgens-dll3-targeted-imdelltra-scores-overall-survival-win-in-first-line-small-cell-lung-cancer",
+    "published_at": "2026-09-08",
+    "outlet": "Fierce Pharma",
+    "title": "Amgen’s DLL3-targeted Imdelltra scores overall survival win in first-line small cell lung cancer",
+    "url": "https://www.fiercepharma.com/pharma/amgen-dll3-targeted-imdelltra-scores-overall-survival-win-first-line-small-cell-lung-cancer",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-08-novo-nordisks-wegovy-helps-free-40-of-kids-from-obesity-in-phase-3-trial",
+    "published_at": "2026-09-08",
+    "outlet": "Fierce Pharma",
+    "title": "Novo Nordisk’s Wegovy helps free 40% of kids from obesity in phase 3 trial",
+    "url": "https://www.fiercepharma.com/pharma/novo-nordisks-wegovy-helps-free-40-kids-obesity-phase-3-trial",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-08-fda-approves-astrazenecas-etcamah-opening-ctdna-guided-treatment-paradigm-in-breast-cancer",
+    "published_at": "2026-09-08",
+    "outlet": "Fierce Pharma",
+    "title": "FDA approves AstraZeneca’s Etcamah, opening ctDNA-guided treatment paradigm in breast cancer",
+    "url": "https://www.fiercepharma.com/pharma/fda-approves-astrazeneca-etcamah-opening-ctdna-guided-treatment-shift-breast-cancer",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
     "id": "fierce-pharma-2026-09-04-ionis-breakthrough-alexander-disease-approval-establishes-pillar-of-rare-disease-pipeline",
     "published_at": "2026-09-04",
     "outlet": "Fierce Pharma",
