@@ -68,107 +68,10 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2025-07-02",
-      "webinar_date": "2026-11-11",
-      "live_date": "2026-11-11",
+      "webinar_date": "2026-11-10",
+      "live_date": "2026-11-10",
       "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-virtual-event-series-2026",
       "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2026",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-innovations-in-alzheimers-disease-clinical-trials-digital-endpoints",
-      "title": "Innovations in Alzheimer’s Disease Clinical Trials: Digital Endpoints",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-14",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/innovations-in-alzheimers-disease-clinical-trials-digital-endpoints/",
-      "description": "Xtalks webinar: Innovations in Alzheimer’s Disease Clinical Trials: Digital Endpoints",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-overcoming-ipf-and-other-rare-respiratory-disease-clinical-trial-challenges",
-      "title": "Overcoming IPF and Other Rare Respiratory Disease Clinical Trial Challenges",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-14",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/overcoming-ipf-and-other-rare-respiratory-disease-clinical-trial-challenges/",
-      "description": "Xtalks webinar: Overcoming IPF and Other Rare Respiratory Disease Clinical Trial Challenges",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-advancing-gene-therapy-development-with-monoclonal-hek293-cell-isolation-for-regulatory-compliance-broadcast-1",
-      "title": "Advancing Gene Therapy Development with Monoclonal HEK293 Cell Isolation for Regulatory Compliance (Broadcast 1)",
-      "provider": "Xtalks",
-      "topics": [
-        "gene-therapy",
-        "regulatory",
-        "compliance",
-        "development"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-14",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/advancing-gene-therapy-development-with-monoclonal-hek293-cell-isolation-for-regulatory-compliance-b1/",
-      "description": "Xtalks webinar: Advancing Gene Therapy Development with Monoclonal HEK293 Cell Isolation for Regulatory Compliance (Broadcast 1)",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-advancing-gene-therapy-development-with-monoclonal-hek293-cell-isolation-for-regulatory-compliance-broadcast-2",
-      "title": "Advancing Gene Therapy Development with Monoclonal HEK293 Cell Isolation for Regulatory Compliance (Broadcast 2)",
-      "provider": "Xtalks",
-      "topics": [
-        "gene-therapy",
-        "regulatory",
-        "compliance",
-        "development"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-14",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/advancing-gene-therapy-development-with-monoclonal-hek293-cell-isolation-for-regulatory-compliance-b2/",
-      "description": "Xtalks webinar: Advancing Gene Therapy Development with Monoclonal HEK293 Cell Isolation for Regulatory Compliance (Broadcast 2)",
-      "source": "scraped"
-    },
-    {
-      "id": "technology-networks-webinarmanipulating-human-cell-genetics-for-cellular-therapieson-demandin-this-webinar-dr-theo-roth-will-discuss-how-crispr-all-can-be-used-to-push-human-genetics-beyond-their-evolved-functionality-enabling-researchers-to-engineer-synthetic-cell-states-with-therapeutic-potential",
-      "title": "WebinarManipulating Human Cell Genetics for Cellular TherapiesOn-DemandIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
-      "provider": "Technology Networks",
-      "topics": [
-        "cell-therapy",
-        "gene-therapy",
-        "biotech"
-      ],
-      "format": "on-demand",
-      "duration_min": 60,
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-14",
-      "url": "https://www.technologynetworks.com/tn/webinars/manipulating-human-cell-genetics-for-cellular-therapies-401241",
-      "description": "Technology Networks webinar: WebinarManipulating Human Cell Genetics for Cellular TherapiesOn-DemandIn this webinar, Dr. Theo Roth will discuss how CRISPR-All can be used to push human genetics beyond their evolved functionality, enabling researchers to engineer synthetic cell states with therapeutic potential.",
-      "live_date": "on-demand",
       "source": "scraped"
     },
     {
@@ -3169,8 +3072,8 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-12",
-      "webinar_date": "2026-10-01",
-      "live_date": "2026-10-01",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
       "url": "https://ispe.org/webinars/mastering-visual-inspection-high-mix-low-volume-pharma-production",
       "description": "ISPE upcoming webinar: Mastering Visual Inspection in High-Mix, Low-Volume Pharma Production",
       "source": "scraped"
@@ -3279,7 +3182,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-26",
-      "webinar_date": "2026-01-15",
+      "webinar_date": "2026-09-29",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/health-sciences-and-medical-research",
       "description": "Labroots event: Health Sciences & Medical Research",
@@ -3297,7 +3200,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-26",
-      "webinar_date": "2026-01-15",
+      "webinar_date": "2026-09-30",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/diagnostics-and-laboratory-medicine",
       "description": "Labroots event: Diagnostics & Laboratory Medicine",
@@ -3522,8 +3425,176 @@
       "url": "https://www.labroots.com/virtual-event/bridging-vector-design-critical-materials-and-gmp-manufacturing",
       "description": "Labroots event: Bridging Vector Design, Critical Materials, and GMP Manufacturing",
       "source": "scraped"
+    },
+    {
+      "id": "ispe-beyond-digitization-from-connected-workflows-to-ai-ready-instruments",
+      "title": "Beyond Digitization: From Connected Workflows to AI-Ready Instruments",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://event.on24.com/wcc/r/5436733/EDF87E2EEDC0DAEC3318EF70D1DEBA54?utm_source=ISPE",
+      "description": "ISPE upcoming webinar: Beyond Digitization: From Connected Workflows to AI-Ready Instruments",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-thinking-outside-the-walls-turning-land-and-water-environmental-risk-to-campus-resiliency",
+      "title": "Thinking Outside the Walls: Turning Land and Water Environmental Risk to Campus Resiliency",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/thinking-outside-walls-turning-land-and-water-environmental-risk-campus-resiliency",
+      "description": "ISPE upcoming webinar: Thinking Outside the Walls: Turning Land and Water Environmental Risk to Campus Resiliency",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-versatile-downstream-solutions-for-gmp-manufacturing",
+      "title": "Versatile downstream solutions for GMP manufacturing",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "manufacturing"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://event.on24.com/wcc/r/5458180/C491419C52B6AF118D8B7B0DF20BF764",
+      "description": "ISPE upcoming webinar: Versatile downstream solutions for GMP manufacturing",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-validating-ai-systems-a-practical-introduction-for-gxp-organizations",
+      "title": "Validating AI Systems: A Practical Introduction for GxP Organizations",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/validating-ai-systems-practical-introduction-gxp-organizations",
+      "description": "ISPE upcoming webinar: Validating AI Systems: A Practical Introduction for GxP Organizations",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-decentralized-manufacturing-reshaping-the-future-of-production",
+      "title": "Decentralized Manufacturing: Reshaping the Future of Production",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://event.on24.com/wcc/r/5416820/950D7EF9FD18C6D16C439EBB56978883?utm_source=ISPE",
+      "description": "ISPE upcoming webinar: Decentralized Manufacturing: Reshaping the Future of Production",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-the-agentic-gap-in-pharma",
+      "title": "The Agentic Gap in Pharma",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://webinars.on24.com/wileyevents/AgenticAIGap",
+      "description": "ISPE upcoming webinar: The Agentic Gap in Pharma",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-scaling-success-integrated-gmp-operations-for-life-sciences-facilities",
+      "title": "Scaling Success: Integrated GMP Operations for Life Sciences Facilities",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/scaling-success-integrated-gmp-operations-life-sciences-facilities",
+      "description": "ISPE upcoming webinar: Scaling Success: Integrated GMP Operations for Life Sciences Facilities",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-the-benefits-of-a-connected-digital-ecosystem-in-pharma",
+      "title": "The Benefits of a Connected Digital Ecosystem in Pharma",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "quality-assurance"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/benefits-connected-digital-ecosystem-pharma",
+      "description": "ISPE upcoming webinar: The Benefits of a Connected Digital Ecosystem in Pharma",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-practical-guidance-on-confidence-interval-evaluation-in-analytical-validation",
+      "title": "Practical Guidance on Confidence Interval Evaluation in Analytical Validation",
+      "provider": "ISPE",
+      "topics": [
+        "validation"
+      ],
+      "format": "live",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-20",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/practical-guidance-confidence-interval-evaluation-analytical-validation",
+      "description": "ISPE upcoming webinar: Practical Guidance on Confidence Interval Evaluation in Analytical Validation",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-09-13T07:05:27.577206",
-  "total_count": 192
+  "last_updated": "2026-09-20T07:22:02.624870",
+  "total_count": 196
 }
