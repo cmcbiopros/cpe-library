@@ -75,98 +75,6 @@
       "source": "scraped"
     },
     {
-      "id": "xtalks-advanced-therapy-safety-management-proactive-strategies-for-real-world-risk-detection",
-      "title": "Advanced Therapy Safety Management: Proactive Strategies for Real-World Risk Detection",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-21",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/advanced-therapy-safety-management-proactive-strategies-for-real-world-risk-detection/",
-      "description": "Xtalks webinar: Advanced Therapy Safety Management: Proactive Strategies for Real-World Risk Detection",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-how-digital-cleaning-validation-improves-oee-and-reduces-costs",
-      "title": "How Digital Cleaning Validation Improves OEE and Reduces Costs",
-      "provider": "Xtalks",
-      "topics": [],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-21",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/how-digital-cleaning-validation-improves-oee-and-reduces-costs/",
-      "description": "Xtalks webinar: How Digital Cleaning Validation Improves OEE and Reduces Costs",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-clinical-research-in-latam-from-a-standalone-site-to-a-regional-network",
-      "title": "Clinical Research in LATAM: From a Standalone Site to a Regional Network",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-research",
-        "research"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-21",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/clinical-research-in-latam-from-a-standalone-site-to-a-regional-network/",
-      "description": "Xtalks webinar: Clinical Research in LATAM: From a Standalone Site to a Regional Network",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-improving-clinical-response-signaling-in-rare-disease-studies-with-targeted-endpoint-data-quality-programs",
-      "title": "Improving Clinical Response Signaling in Rare Disease Studies with Targeted Endpoint Data Quality Programs",
-      "provider": "Xtalks",
-      "topics": [
-        "quality-assurance",
-        "rare-disease",
-        "data-management"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-21",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/improving-clinical-response-signaling-in-rare-disease-studies-with-targeted-endpoint-data-quality-programs/",
-      "description": "Xtalks webinar: Improving Clinical Response Signaling in Rare Disease Studies with Targeted Endpoint Data Quality Programs",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-patient-identification-for-clinical-trials-through-ai-and-real-world-data",
-      "title": "Patient Identification for Clinical Trials Through AI and Real-World Data",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "patient-care",
-        "data-management",
-        "artificial-intelligence"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-21",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/patient-identification-for-clinical-trials-through-ai-and-real-world-data/",
-      "description": "Xtalks webinar: Patient Identification for Clinical Trials Through AI and Real-World Data",
-      "source": "scraped"
-    },
-    {
       "id": "xtalks-advancing-obesity-clinical-development-emerging-strategies-for-next-gen-trials",
       "title": "Advancing Obesity Clinical Development: Emerging Strategies for Next‑Gen Trials",
       "provider": "Xtalks",
@@ -3126,7 +3034,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-19",
-      "webinar_date": "2026-01-15",
+      "webinar_date": "2026-09-29",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/preparing-for-a-laboratory-relocation-what-you-need-to-know-before-move-day",
       "description": "Labroots event: Preparing for a Laboratory Relocation: What You Need to Know Before...",
@@ -3593,8 +3501,84 @@
       "url": "https://ispe.org/webinars/practical-guidance-confidence-interval-evaluation-analytical-validation",
       "description": "ISPE upcoming webinar: Practical Guidance on Confidence Interval Evaluation in Analytical Validation",
       "source": "scraped"
+    },
+    {
+      "id": "ispe-regulatory-insights-navigating-fda-s-advanced-manufacturing-engagement-landscape-programs-and-practical-insights",
+      "title": "Regulatory Insights: Navigating FDA's Advanced Manufacturing Engagement Landscape: Programs and Practical Insights",
+      "provider": "ISPE",
+      "topics": [
+        "manufacturing",
+        "regulatory"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-27",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/videos/regulatory-insights-navigating-fdas-advanced-manufacturing-engagement-landscape-programs-and",
+      "description": "ISPE past webinar: Regulatory Insights: Navigating FDA's Advanced Manufacturing Engagement Landscape: Programs and Practical Insights",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-digital-display-labels-in-clinical-trials-from-concept-to-practice",
+      "title": "Digital Display Labels in Clinical Trials — From Concept to Practice",
+      "provider": "ISPE",
+      "topics": [
+        "clinical-trials",
+        "clinical-trials"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-27",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/videos/digital-display-labels-clinical-trials-concept-practice",
+      "description": "ISPE past webinar: Digital Display Labels in Clinical Trials — From Concept to Practice",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-scalability-in-commissioning-qualification-and-validation-cqv",
+      "title": "Scalability in Commissioning, Qualification, and Validation (CQV)",
+      "provider": "ISPE",
+      "topics": [
+        "validation",
+        "validation",
+        "validation"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-27",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/videos/scalability-commissioning-qualification-and-validation-cqv",
+      "description": "ISPE past webinar: Scalability in Commissioning, Qualification, and Validation (CQV)",
+      "source": "scraped"
+    },
+    {
+      "id": "ispe-back-to-basics-gamp-r-5-second-edition-and-the-fundamentals-of-computerized-system-validation",
+      "title": "Back to Basics: GAMP® 5 Second Edition and the Fundamentals of Computerized System Validation",
+      "provider": "ISPE",
+      "topics": [
+        "validation"
+      ],
+      "format": "on-demand",
+      "duration_min": 60,
+      "certificate_available": false,
+      "certificate_process": "No certificate information available",
+      "date_added": "2026-09-27",
+      "webinar_date": "Unknown",
+      "live_date": "on-demand",
+      "url": "https://ispe.org/webinars/videos/back-basics-gampr-5-second-edition-and-fundamentals-computerized-system-validation",
+      "description": "ISPE past webinar: Back to Basics: GAMP® 5 Second Edition and the Fundamentals of Computerized System Validation",
+      "source": "scraped"
     }
   ],
-  "last_updated": "2026-09-20T07:22:02.624870",
-  "total_count": 196
+  "last_updated": "2026-09-27T07:28:49.731986",
+  "total_count": 195
 }
