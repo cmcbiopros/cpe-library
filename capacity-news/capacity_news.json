@@ -1,5 +1,473 @@
 [
   {
+    "id": "fierce-pharma-2026-09-25-mirum-bags-fda-approval-for-ultra-rare-bone-lesion-disorder-heating-up-rivalry-with-regeneron",
+    "published_at": "2026-09-25",
+    "outlet": "Fierce Pharma",
+    "title": "Mirum bags FDA approval for ultra-rare bone lesion disorder, heating up rivalry with Regeneron",
+    "url": "https://www.fiercepharma.com/pharma/mirum-bags-fda-approval-ultra-rare-bone-lesion-disorder-heating-rivalry-regeneronns-pasatru",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-25-merck-eisais-welireg-lenvima-combo-lands-fda-nod-to-jump-the-kidney-cancer-queue",
+    "published_at": "2026-09-25",
+    "outlet": "Fierce Pharma",
+    "title": "Merck, Eisai’s Welireg-Lenvima combo lands FDA nod to jump the kidney cancer queue",
+    "url": "https://www.fiercepharma.com/pharma/merck-eisai-welireg-lenvima-combo-lands-fda-nod-jump-kidney-cancer-queue",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-25-lundbeck-to-move-us-digs-to-boston-as-it-eyes-bigger-innovation-frontiers",
+    "published_at": "2026-09-25",
+    "outlet": "Fierce Pharma",
+    "title": "Lundbeck to move US digs to Boston as it eyes bigger innovation frontiers",
+    "url": "https://www.fiercepharma.com/pharma/lundbeck-move-us-digs-boston-it-eyes-bigger-innovation-frontiers",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-25-fierce-pharma-week-a-look-at-the-biggest-trends-campaigns-and-conversations",
+    "published_at": "2026-09-25",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Week: A look at the biggest trends, campaigns and conversations",
+    "url": "https://www.fiercepharma.com/pharma/fierce-pharma-week-look-biggest-trends-campaigns-and-conversations",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-25-fierce-pharma-asia-lillys-3-35b-innocare-deal-koreas-breakthrough-chinas-5-year-biotech-plan",
+    "published_at": "2026-09-25",
+    "outlet": "Fierce Pharma",
+    "title": "Fierce Pharma Asia—Lilly’s $3.35B InnoCare deal; Korea’s breakthrough; China’s 5-year biotech plan",
+    "url": "https://www.fiercepharma.com/pharma/lilly-335b-innocare-deal-korea-breakthrough-china-5-year-biotech-plan",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-25-eli-lilly-blasted-for-promotional-and-emotive-language-in-glp-1-press-release",
+    "published_at": "2026-09-25",
+    "outlet": "Fierce Pharma",
+    "title": "Eli Lilly blasted for ‘promotional and emotive’ language in GLP-1 press release",
+    "url": "https://www.fiercepharma.com/marketing/eli-lilly-blasted-promotional-and-emotive-language-glp-1-press-release",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [
+      "SMALL_MOLECULE_ONLY"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-25-lilly-brings-more-heat-to-novo-with-fda-nod-for-once-weekly-insulin-onswik",
+    "published_at": "2026-09-25",
+    "outlet": "Fierce Pharma",
+    "title": "Lilly brings more heat to Novo with FDA nod for once-weekly insulin Onswik",
+    "url": "https://www.fiercepharma.com/pharma/lilly-brings-more-heat-novo-fda-nod-once-weekly-insulin-onswik",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-24-former-real-housewives-star-jenn-fessler-and-cinehealths-tracey-yaw-break-down-authentic-health",
+    "published_at": "2026-09-24",
+    "outlet": "Fierce Pharma",
+    "title": "Former 'Real Housewives' star Jenn Fessler and CineHealth’s Tracey Yaw break down authentic healthcare storytelling",
+    "url": "https://www.fiercepharma.com/marketing/bravos-jenn-fessler-and-cinehealths-tracey-yaw-break-down-authentic-healthcare",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-24-trump-s-fda-pick-heidi-overton-calls-vaccines-mifepristone-safe-and-effective-in-confirmation-h",
+    "published_at": "2026-09-24",
+    "outlet": "Fierce Pharma",
+    "title": "Trump's FDA pick Heidi Overton calls vaccines, mifepristone safe and effective in confirmation hearing",
+    "url": "https://www.fiercepharma.com/biotech/fda-nominee-overton-calls-vaccines-mifepristone-safe-and-effective-confirmation-hearing",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [
+      "shutdown"
+    ],
+    "key_facts_text": "",
+    "flags": [
+      "NO_NUMERIC_FACTS"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-24-boehringer-ingelheim-offloads-shanghai-cdmo-to-local-antibody-developer",
+    "published_at": "2026-09-24",
+    "outlet": "Fierce Pharma",
+    "title": "Boehringer Ingelheim offloads Shanghai CDMO to local antibody developer",
+    "url": "https://www.fiercepharma.com/pharma/boehringer-ingelheim-offloads-shanghai-cdmo-local-antibody-developer",
+    "status": "PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing",
+      "shutdown"
+    ],
+    "key_facts_text": "capex: $66 million; capacity_volume: 6,000 liters",
+    "flags": [],
+    "has_bioreactor_L": true,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$66 million",
+        "value_norm": 66000000,
+        "unit": "USD",
+        "evidence_snippet": "The business has a registered capital of $66 million, which represents the amount of investment that shareholders have put into the company.",
+        "context": "investment"
+      },
+      {
+        "fact_type": "capacity_volume",
+        "value_raw": "6,000 liters",
+        "value_norm": 6000,
+        "unit": "L",
+        "evidence_snippet": "In its disclosure, Raas noted that the local unit possesses a contract manufacturing facility with commercial production capacity of 6,000 liters.",
+        "context": "capacity"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-24-gsk-slammed-for-grossly-misleading-and-totally-unacceptable-behavior",
+    "published_at": "2026-09-24",
+    "outlet": "Fierce Pharma",
+    "title": "GSK slammed for ‘grossly misleading’ and ‘totally unacceptable’ behavior",
+    "url": "https://www.fiercepharma.com/marketing/gsk-slammed-grossly-misleading-and-totally-unacceptable-behavior",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-24-elevar-wins-fda-nod-for-bile-duct-cancer-drug-lyrfigtu-a-first-for-a-korean-firm",
+    "published_at": "2026-09-24",
+    "outlet": "Fierce Pharma",
+    "title": "Elevar wins FDA nod for bile duct cancer drug Lyrfigtu, a first for a Korean firm",
+    "url": "https://www.fiercepharma.com/pharma/elevar-wins-fda-nod-bile-duct-cancer-drug-lyrfigtu-first-korean-company",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-24-otsuka-jv-recalls-one-lot-of-sodium-chloride-over-labeling-issue",
+    "published_at": "2026-09-24",
+    "outlet": "Fierce Pharma",
+    "title": "Otsuka JV recalls one lot of sodium chloride over labeling issue",
+    "url": "https://www.fiercepharma.com/manufacturing/otsuka-jv-recalls-one-lot-sodium-chloride-over-labeling-issue",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-24-glaukos-courts-nba-champion-stephen-curry-for-new-keratoconus-awareness-campaign",
+    "published_at": "2026-09-24",
+    "outlet": "Fierce Pharma",
+    "title": "Glaukos courts NBA champion Stephen Curry for new keratoconus awareness campaign",
+    "url": "https://www.fiercepharma.com/marketing/glaukos-courts-nba-champion-stephen-curry-new-keratoconus-awareness-campaign",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-24-biogen-springs-social-media-kidney-health-campaign-with-olympic-gymnast-suni-lee",
+    "published_at": "2026-09-24",
+    "outlet": "Fierce Pharma",
+    "title": "Biogen springs social media kidney health campaign with Olympic gymnast Suni Lee",
+    "url": "https://www.fiercepharma.com/marketing/biogen-springs-social-media-kidney-health-campaign-olympic-gymnast-suni-lee",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-23-novo-ceo-sees-advantages-in-souping-up-nyse-listing-report",
+    "published_at": "2026-09-23",
+    "outlet": "Fierce Pharma",
+    "title": "Novo CEO sees advantages in souping up NYSE listing: report",
+    "url": "https://www.fiercepharma.com/pharma/doustdar-says-novo-open-upgrading-its-nyse-listing",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-23-eli-lilly-ceo-touts-70-share-as-medicare-glp-1-program-reaches-700k-seniors",
+    "published_at": "2026-09-23",
+    "outlet": "Fierce Pharma",
+    "title": "Eli Lilly CEO touts 70% share as Medicare GLP-1 program reaches 700K seniors",
+    "url": "https://www.fiercepharma.com/pharma/eli-lilly-ceo-touts-70-share-medicare-glp-1-program-reaches-700k-seniors",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $6.5 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$6.5 billion",
+        "value_norm": 6500000000,
+        "unit": "USD",
+        "evidence_snippet": "Ricks made the comments as Lilly broke ground on a new, $6.5 billion active pharmaceutical ingredient manufacturing site in Houston to produce Foundayo and other medicines.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-23-cellares-pens-2nd-automation-test-with-asia-based-cell-therapy-partner-in-2-weeks",
+    "published_at": "2026-09-23",
+    "outlet": "Fierce Pharma",
+    "title": "Cellares pens 2nd automation test with Asia-based cell therapy partner in 2 weeks",
+    "url": "https://www.fiercepharma.com/manufacturing/cellares-pens-2nd-automation-test-asia-based-cell-therapy-outfit-2-weeks",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "Biologics/manufacturing signal",
+    "flags": [
+      "NO_NUMERIC_FACTS",
+      "BIO_MANUFACTURING_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-23-astrazeneca-recommits-to-youth-health-to-dial-funding-past-100m",
+    "published_at": "2026-09-23",
+    "outlet": "Fierce Pharma",
+    "title": "AstraZeneca recommits to youth health to dial funding past $100M",
+    "url": "https://www.fiercepharma.com/marketing/astrazeneca-recommits-youth-health-dial-funding-past-100m",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $100 million",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$100 million",
+        "value_norm": 100000000,
+        "unit": "USD",
+        "evidence_snippet": "AstraZeneca has re-upped its UNICEF-partnered Young Health Programme (YHP), committing to a new five-year phase that will move total investment in the initiative above $100 million.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
+    "id": "fierce-pharma-2026-09-22-bristol-myers-cuts-another-265-jobs-tied-to-new-jersey-headquarters",
+    "published_at": "2026-09-22",
+    "outlet": "Fierce Pharma",
+    "title": "Bristol Myers cuts another 265 jobs tied to New Jersey headquarters",
+    "url": "https://www.fiercepharma.com/pharma/bristol-myers-cuts-another-265-jobs-tied-new-jersey-headquarters",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-22-the-growth-driver-of-our-organization-genentech-cmo-zoe-lazarre-on-experimental-marketing-ai-an",
+    "published_at": "2026-09-22",
+    "outlet": "Fierce Pharma",
+    "title": "'The growth driver of our organization'; Genentech CMO Zoë Lazarre on experimental marketing, AI and the ‘last mile gap’",
+    "url": "https://www.fiercepharma.com/marketing/growth-driver-our-organization-genentech-cmo-zoe-lazarre-experimental-marketing-ai-and",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [
+      "outsourcing"
+    ],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-22-par-health-recalls-iv-sedative-in-us-flagging-presence-of-cellulose-stopper-material",
+    "published_at": "2026-09-22",
+    "outlet": "Fierce Pharma",
+    "title": "Par Health recalls IV sedative in US, flagging presence of cellulose, stopper material",
+    "url": "https://www.fiercepharma.com/manufacturing/par-health-recalls-iv-sedative-due-presence-cellulose-stopper-material",
+    "status": "NOT_PERTINENT",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "",
+    "flags": [],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": false,
+    "facts": []
+  },
+  {
+    "id": "fierce-pharma-2026-09-22-europe-does-not-value-what-you-do-9-pharmas-make-urgent-call-for-bloc-to-beef-up-innovation-mus",
+    "published_at": "2026-09-22",
+    "outlet": "Fierce Pharma",
+    "title": "'Europe does not value what you do': 9 pharmas make urgent call for bloc to beef up innovation muscle",
+    "url": "https://www.fiercepharma.com/pharma/europe-does-not-value-what-you-do-9-eu-pharmas-make-urgent-call-bloc-beef-innovation-muscle",
+    "status": "NEEDS_REVIEW",
+    "company_primary": "",
+    "event_types": [],
+    "key_facts_text": "capex: $600 billion",
+    "flags": [
+      "WEAK_BIOLOGICS_SIGNAL"
+    ],
+    "has_bioreactor_L": false,
+    "has_footprint": false,
+    "has_fillfinish_output": false,
+    "has_capex": true,
+    "facts": [
+      {
+        "fact_type": "capex",
+        "value_raw": "$600 billion",
+        "value_norm": 600000000000,
+        "unit": "USD",
+        "evidence_snippet": "have ginned up more than $600 billion in pharmaceutical investments over the past two years, European governments must now “create conditions that attract investment in next-generation medicines before it’s too late,” continues the letter, which was backed by AstraZeneca, Boehringer Ingelheim, Chiesi, Ipsen, GSK, Novo Nordisk, Novartis, Roche and Sanofi.",
+        "context": "investment"
+      }
+    ]
+  },
+  {
     "id": "fierce-pharma-2026-09-21-clinical-trials-reach-a-new-automation-inflection-point",
     "published_at": "2026-09-21",
     "outlet": "Fierce Pharma",
