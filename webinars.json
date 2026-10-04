@@ -21,24 +21,6 @@
       "source": "manual"
     },
     {
-      "id": "labroots-cancer-research-oncology-virtual-event-series-2026",
-      "title": "Cancer Research & Oncology Virtual Event Series 2026",
-      "provider": "Labroots",
-      "topics": [
-        "research"
-      ],
-      "format": "live",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-07-02",
-      "webinar_date": "2026-09-30",
-      "live_date": "2026-09-30",
-      "url": "https://www.labroots.com/virtual-event/cancer-research-oncology-virtual-event-series-2026",
-      "description": "Labroots event: Cancer Research & Oncology Virtual Event Series 2026",
-      "source": "scraped"
-    },
-    {
       "id": "labroots-cell-gene-therapy-virtual-event-series-2026",
       "title": "Cell & Gene Therapy Virtual Event Series 2026",
       "provider": "Labroots",
@@ -72,79 +54,6 @@
       "live_date": "2026-11-10",
       "url": "https://www.labroots.com/virtual-event/clinical-diagnostics-research-virtual-event-series-2026",
       "description": "Labroots event: Clinical Diagnostics & Research Virtual Event Series 2026",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-advancing-obesity-clinical-development-emerging-strategies-for-next-gen-trials",
-      "title": "Advancing Obesity Clinical Development: Emerging Strategies for Next‑Gen Trials",
-      "provider": "Xtalks",
-      "topics": [
-        "development"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-28",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/advancing-obesity-clinical-development-emerging-strategies-for-next-gen-trials/",
-      "description": "Xtalks webinar: Advancing Obesity Clinical Development: Emerging Strategies for Next‑Gen Trials",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-clinical-data-analysis-with-agents-reliable-automation-with-human-oversight",
-      "title": "Clinical Data Analysis with Agents: Reliable Automation with Human Oversight",
-      "provider": "Xtalks",
-      "topics": [
-        "data-management"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-28",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/clinical-data-analysis-with-agents-reliable-automation-with-human-oversight/",
-      "description": "Xtalks webinar: Clinical Data Analysis with Agents: Reliable Automation with Human Oversight",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-enhancing-clinical-trials-in-obesity-by-integrating-clinical-outcome-assessments-and-digital-health-technologies",
-      "title": "Enhancing Clinical Trials in Obesity by Integrating Clinical Outcome Assessments and Digital Health Technologies",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials",
-        "digital-health"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-28",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/enhancing-clinical-trials-in-obesity-by-integrating-clinical-outcome-assessment-and-digital-health-technologies/",
-      "description": "Xtalks webinar: Enhancing Clinical Trials in Obesity by Integrating Clinical Outcome Assessments and Digital Health Technologies",
-      "source": "scraped"
-    },
-    {
-      "id": "xtalks-byod-or-bust-are-clinical-trials-ready-for-the-device-revolution",
-      "title": "BYOD or Bust: Are Clinical Trials Ready for the Device Revolution?",
-      "provider": "Xtalks",
-      "topics": [
-        "clinical-trials"
-      ],
-      "format": "on-demand",
-      "duration_min": "unknown",
-      "certificate_available": false,
-      "certificate_process": "No certificate information available",
-      "date_added": "2025-09-28",
-      "webinar_date": "Unknown",
-      "live_date": "on-demand",
-      "url": "https://xtalks.com/webinars/byod-or-bust-are-clinical-trials-ready-for-the-device-revolution/",
-      "description": "Xtalks webinar: BYOD or Bust: Are Clinical Trials Ready for the Device Revolution?",
       "source": "scraped"
     },
     {
@@ -3034,7 +2943,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-19",
-      "webinar_date": "2026-09-29",
+      "webinar_date": "2026-09-30",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-event/preparing-for-a-laboratory-relocation-what-you-need-to-know-before-move-day",
       "description": "Labroots event: Preparing for a Laboratory Relocation: What You Need to Know Before...",
@@ -3090,7 +2999,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-26",
-      "webinar_date": "2026-09-29",
+      "webinar_date": "2026-10-12",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/health-sciences-and-medical-research",
       "description": "Labroots event: Health Sciences & Medical Research",
@@ -3108,7 +3017,7 @@
       "certificate_available": false,
       "certificate_process": "No certificate information available",
       "date_added": "2026-07-26",
-      "webinar_date": "2026-09-30",
+      "webinar_date": "2026-10-13",
       "live_date": "on-demand",
       "url": "https://www.labroots.com/virtual-events/diagnostics-and-laboratory-medicine",
       "description": "Labroots event: Diagnostics & Laboratory Medicine",
@@ -3579,6 +3488,6 @@
       "source": "scraped"
     }
   ],
-  "last_updated": "2026-09-27T07:28:49.731986",
-  "total_count": 195
+  "last_updated": "2026-10-04T07:40:55.284977",
+  "total_count": 190
 }
